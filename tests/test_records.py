@@ -16,6 +16,13 @@ class StructuredRecordPipelineTests(unittest.TestCase):
         self.assertEqual(record.front_matter["statement"], "Use the test fixture")
         self.assertEqual(record.body.strip(), "# Fixture item\n\nFixture body.")
 
+    def test_rejects_filename_and_record_id_mismatch(self):
+        with self.assertRaisesRegex(
+            ValueError,
+            r"QOL-901.*QOL-999",
+        ):
+            load_record(FIXTURES / "items" / "QOL-901.md")
+
 
 if __name__ == "__main__":
     unittest.main()
