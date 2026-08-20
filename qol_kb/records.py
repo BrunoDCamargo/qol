@@ -1,8 +1,17 @@
+import json
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
+from jsonschema import Draft202012Validator
 import yaml
+
+
+SCHEMA_DIR = Path(__file__).resolve().parents[1] / "schemas"
+SCHEMA_FILES = {
+    "item": "qol-item.schema.json",
+    "reference": "reference.schema.json",
+}
 
 
 @dataclass(frozen=True)
@@ -12,8 +21,34 @@ class Record:
     body: str
 
 
+def _record_type_for_path(record_path: Path) -> str:
+    if record_path.stem.startswith("QOL-"):
+        return "item"
+    if record_path.stem.startswith("REF-"):
+        return "reference"
+    raise ValueError(f"{record_path.name} is not a supported canonical record filename")
+
+
+def _validate_front_matter(
+    record_path: Path,
+    record_type: str,
+    front_matter: dict[str, Any],
+) -> None:
+    schema_path = SCHEMA_DIR / SCHEMA_FILES[record_type]
+    schema = json.loads(schema_path.read_text(encoding="utf-8"))
+    validator = Draft202012Validator(schema)
+    errors = sorted(
+        validator.iter_errors(front_matter),
+        key=lambda error: (str(list(error.absolute_path)), error.message),
+    )
+    if errors:
+        details = "; ".join(error.message for error in errors)
+        raise ValueError(f"{record_path}: {details}")
+
+
 def load_record(path: str | Path) -> Record:
     record_path = Path(path)
+    record_type = _record_type_for_path(record_path)
     lines = record_path.read_text(encoding="utf-8").splitlines(keepends=True)
 
     if not lines or lines[0].strip() != "---":
@@ -30,14 +65,9 @@ def load_record(path: str | Path) -> Record:
     if not isinstance(front_matter, dict):
         raise ValueError(f"{record_path} front matter must be a mapping")
 
-    record_id = front_matter.get("id", "")
-    if record_id.startswith("QOL-"):
-        record_type = "item"
-    elif record_id.startswith("REF-"):
-        record_type = "reference"
-    else:
-        raise ValueError(f"{record_path} has an unsupported record id: {record_id!r}")
+    _validate_front_matter(record_path, record_type, front_matter)
 
+    record_id = front_matter["id"]
     if record_path.stem != record_id:
         raise ValueError(f"{record_path.name} does not match record id {record_id}")
 
