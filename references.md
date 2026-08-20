@@ -706,3 +706,117 @@ Park I, Cui Y, Kawana F, et al. Subjective and objective quality of sleep with r
 - PMID: 41062732
 - URL: https://pubmed.ncbi.nlm.nih.gov/41062732/
 - Supports: Thermal comfort and cooling/dehumidification conditions affected some subjective and objective sleep measures in a very small crossover study; no single bedroom temperature can be inferred as universally optimal.
+
+## REF-073
+
+World Health Organization. *Carbohydrate intake for adults and children: WHO guideline*. 2023.
+
+- Source type: official guideline
+- URL: https://www.who.int/publications/i/item/9789240073593
+- Supports: Carbohydrate intake should come primarily from whole grains, vegetables, fruits, and pulses; adults should consume at least 25 g/day of naturally occurring dietary fibre, with age-appropriate guidance for children.
+
+## REF-074
+
+World Health Organization. *Guideline: Sugars intake for adults and children*. 2015.
+
+- Source type: official guideline
+- ISBN: 9789241549028
+- URL: https://www.who.int/publications/i/item/9789241549028
+- Supports: WHO recommends reducing free sugars to less than 10% of total energy intake and suggests a further reduction below 5% for additional health benefits.
+
+## REF-075
+
+World Health Organization. *Guideline: Sodium intake for adults and children*. 2012.
+
+- Source type: official guideline
+- ISBN: 9789241504836
+- URL: https://www.who.int/publications/i/item/9789241504836
+- Supports: WHO recommends reducing sodium intake to less than 2 g/day in adults, with lower age-adjusted maximum levels for children, to reduce blood pressure and cardiovascular risk.
+
+## REF-076
+
+World Health Organization. *Saturated fatty acid and trans-fatty acid intake for adults and children: WHO guideline*. 2023.
+
+- Source type: official guideline
+- URL: https://www.who.int/publications/i/item/9789240073630
+- Supports: Saturated and trans-fatty acid intake should be limited and replaced primarily with polyunsaturated or monounsaturated fats from plant sources, or carbohydrate from foods containing naturally occurring dietary fibre.
+
+## REF-077
+
+World Health Organization. *Use of lower-sodium salt substitutes: WHO guideline*. 2025.
+
+- Source type: official guideline
+- URL: https://www.who.int/publications/i/item/9789240105591
+- Supports: For adults who consume discretionary table salt, replacing regular salt with a lower-sodium substitute containing potassium can reduce sodium exposure; the recommendation excludes people with kidney impairment or other conditions that impair potassium excretion and is not a universal recommendation for pregnancy or children.
+
+## REF-078
+
+U.S. Preventive Services Task Force. Weight Loss to Prevent Obesity-Related Morbidity and Mortality in Adults: Behavioral Interventions. 2018.
+
+- Source type: official evidence-based recommendation
+- URL: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions
+- Supports: Adults with obesity should be offered or referred to intensive, multicomponent behavioral interventions; benefits include clinically meaningful weight loss and reduced incident diabetes in relevant populations.
+
+## REF-079
+
+National Institute for Health and Care Excellence. Urinary incontinence and pelvic organ prolapse in women: management (NG123), recommendations.
+
+- Source type: official clinical guideline
+- URL: https://www.nice.org.uk/guidance/ng123/chapter/recommendations
+- Supports: Supervised pelvic floor muscle training for at least 3 months is first-line treatment for stress or mixed urinary incontinence, while bladder training for at least 6 weeks is first-line treatment for urgency or mixed urinary incontinence.
+
+## REF-080
+
+National Institute for Health and Care Excellence. Menopause: identification and management (NG23), recommendations. Updated 2026.
+
+- Source type: official clinical guideline
+- URL: https://www.nice.org.uk/guidance/ng23/chapter/recommendations
+- Supports: Menopause-associated vasomotor, genitourinary, mood, sleep, sexual, and other symptoms can justify symptom-specific management, with treatment choices based on symptoms, preferences, contraindications, and individual risk.
+
+## REF-081
+
+National Institute for Health and Care Excellence. Heavy menstrual bleeding: assessment and management (NG88), recommendations.
+
+- Source type: official clinical guideline
+- URL: https://www.nice.org.uk/guidance/ng88/chapter/recommendations
+- Supports: Heavy menstrual bleeding should be assessed and managed according to its impact on quality of life, symptoms, preferences, and underlying pathology rather than blood-loss volume alone.
+
+## REF-082
+
+National Institute for Health and Care Excellence. Endometriosis: diagnosis and management (NG73), recommendations.
+
+- Source type: official clinical guideline
+- URL: https://www.nice.org.uk/guidance/ng73/chapter/recommendations
+- Supports: Chronic pelvic pain, period-related pain that affects daily activities and quality of life, deep pain during or after sex, and cyclical gastrointestinal or urinary symptoms can justify evaluation for possible endometriosis.
+
+## REF-083
+
+National Institute for Health and Care Excellence. Osteoarthritis in over 16s: diagnosis and management (NG226), recommendations. 2022.
+
+- Source type: official clinical guideline
+- URL: https://www.nice.org.uk/guidance/ng226/chapter/recommendations
+- Supports: Therapeutic exercise is a core treatment for osteoarthritis; exercise should be tailored to needs and can improve pain, physical function, and quality of life with adherence.
+
+## REF-084
+
+National Eye Institute. Cataract Surgery.
+
+- Source type: official health guidance
+- URL: https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/cataracts/cataract-surgery
+- Supports: Cataract surgery can be considered when cataract-related vision loss interferes with everyday activities such as reading, driving, or other valued tasks; timing should be based on functional impact and clinical context.
+
+## REF-085
+
+Centers for Disease Control and Prevention, National Institute for Occupational Safety and Health. Understand Noise Exposure.
+
+- Source type: official occupational-health guidance
+- URL: https://www.cdc.gov/niosh/noise/prevent/understand.html
+- Supports: Repeated hazardous occupational noise exposure can cause permanent hearing loss; exposure should be controlled at the source when possible and hearing protection should be used when indicated as part of a hearing-loss prevention program.
+
+## REF-086
+
+World Health Organization. *Physical activity and sedentary behaviour: a brief to support older people*. 2023.
+
+- Source type: official guideline brief
+- URL: https://www.who.int/publications/i/item/9789240064096
+- Supports: Older adults should include varied multicomponent physical activity that emphasizes functional balance and strength on 3 or more days per week to enhance functional capacity and help prevent falls, adapted to abilities and health status.

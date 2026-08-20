@@ -20,6 +20,13 @@ See the [canonical catalog](../catalog.md) and [reference registry](../reference
 | [QOL-067](../catalog.md) | Avoid indiscriminate vitamin-D screening in asymptomatic adults without indication | High | General | [REF-034](../references.md#ref-034) |
 | [QOL-068](../catalog.md) | Use supplements for a defined need, deficiency, or evidence-based indication | High | Conditional | [REF-035](../references.md#ref-035) |
 | [QOL-095](../catalog.md) | Investigate chronic GI symptoms that meaningfully affect QoL | High | Conditional | [REF-048](../references.md#ref-048), [REF-050](../references.md#ref-050) |
+| [QOL-101](../catalog.md) | Prefer whole grains, vegetables, fruits, and pulses as primary carbohydrate sources | High | General | [REF-073](../references.md#ref-073) |
+| [QOL-102](../catalog.md) | Maintain adequate dietary fibre intake from foods | High | General | [REF-073](../references.md#ref-073) |
+| [QOL-103](../catalog.md) | Limit free-sugars intake | High | General | [REF-074](../references.md#ref-074) |
+| [QOL-104](../catalog.md) | Reduce excessive sodium intake | High | General | [REF-075](../references.md#ref-075) |
+| [QOL-105](../catalog.md) | Replace saturated and trans fats with unsaturated fats or naturally fibre-rich carbohydrate sources | High | General | [REF-076](../references.md#ref-076) |
+| [QOL-106](../catalog.md) | Consider lower-sodium salt substitutes containing potassium when appropriate | Moderate | Conditional | [REF-077](../references.md#ref-077) |
+| [QOL-107](../catalog.md) | Use intensive multicomponent behavioral weight-loss interventions for obesity when indicated | High | Conditional | [REF-078](../references.md#ref-078) |
 
 ## QOL-052 — Reduce reliance on ultraprocessed foods
 
@@ -194,6 +201,54 @@ These recommendations do not argue against treating a documented deficiency or u
 - [REF-033](../references.md#ref-033)
 - [REF-034](../references.md#ref-034)
 - [REF-035](../references.md#ref-035)
+
+## QOL-101 through QOL-106 — Treat diet quality as more than food processing
+
+**Categories:** nutrition, gastrointestinal, weight, oral-health, preventive-health  
+**Evidence:** High for QOL-101 through QOL-105; Moderate for QOL-106  
+**Applicability:** General except QOL-106
+
+### Idea
+
+Diet quality includes food sources, fibre, free sugars, sodium, and fat type in addition to degree of processing.
+
+### Evidence
+
+WHO guidelines support whole grains, vegetables, fruits, and pulses as primary carbohydrate sources, at least 25 g/day of naturally occurring fibre for adults, lower free-sugar and sodium intake, and replacement of saturated/trans fats with unsaturated fats or naturally fibre-rich carbohydrate sources. WHO also conditionally recommends lower-sodium potassium-containing salt substitutes for appropriate adults who use discretionary salt.
+
+### Limitations and caveats
+
+The salt-substitute recommendation is not universal. Kidney impairment and other conditions affecting potassium excretion can make potassium-containing substitutes inappropriate, and the WHO recommendation does not apply universally to pregnancy or children.
+
+### References
+
+- [REF-073](../references.md#ref-073)
+- [REF-074](../references.md#ref-074)
+- [REF-075](../references.md#ref-075)
+- [REF-076](../references.md#ref-076)
+- [REF-077](../references.md#ref-077)
+
+## QOL-107 — Use structured obesity treatment when indicated
+
+**Categories:** weight, nutrition, physical-activity, behavior-change, preventive-health  
+**Evidence:** High  
+**Applicability:** Conditional
+
+### Idea
+
+When obesity is clinically relevant, use a structured multicomponent intervention rather than relying on a single isolated diet or exercise instruction.
+
+### Evidence
+
+USPSTF recommends offering or referring adults with obesity to intensive, multicomponent behavioral interventions.
+
+### Limitations and caveats
+
+This item does not define one universal target weight or exclude medications, surgery, or other evidence-based treatment when indicated.
+
+### References
+
+- [REF-078](../references.md#ref-078)
 
 ## Cross-link: QOL-095 — Chronic gastrointestinal symptoms
 

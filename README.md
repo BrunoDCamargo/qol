@@ -84,20 +84,21 @@ Do not write the second statement as though each service had independently demon
 - [`references.md`](references.md): reusable evidence registry.
 - [`topics/sleep.md`](topics/sleep.md): sleep, circadian factors, bedroom conditions, and sleep disorders.
 - [`topics/physical-activity.md`](topics/physical-activity.md): aerobic activity, strength, sedentary behavior, active commuting, and musculoskeletal factors.
-- [`topics/nutrition-weight.md`](topics/nutrition-weight.md): food environment, hydration, caffeine, alcohol, and nutrition-related factors.
+- [`topics/nutrition-weight.md`](topics/nutrition-weight.md): food environment, dietary quality, hydration, caffeine, alcohol, weight, and nutrition-related factors.
 - [`topics/mental-health.md`](topics/mental-health.md): anxiety, rumination, depression, recovery, relationships, and related psychological mechanisms.
 - [`topics/attention-digital.md`](topics/attention-digital.md): smartphone access, notifications, interruptions, multitasking, and digital eye strain.
 - [`topics/work-time.md`](topics/work-time.md): buying time, outsourcing, work design, commuting, recovery, and financial time scarcity.
 - [`topics/environment.md`](topics/environment.md): light, noise, thermal comfort, indoor air, cooking ventilation, and recurring physical frictions.
 - [`topics/social-relationships.md`](topics/social-relationships.md): recurring social contact, loneliness, shared experiences, relationship well-being, and prosocial spending.
 - [`topics/health-checks.md`](topics/health-checks.md): conditional health problems and evaluations that may substantially affect quality of life.
+- [`topics/reproductive-health.md`](topics/reproductive-health.md): pelvic health, urinary incontinence, menopause, heavy menstrual bleeding, endometriosis, and related reproductive-health factors.
 - [`docs/superpowers/specs/2026-08-20-qol-knowledge-base-design.md`](docs/superpowers/specs/2026-08-20-qol-knowledge-base-design.md): design principles and long-term structural rules.
 - [`docs/superpowers/plans/2026-08-20-qol-knowledge-base-implementation.md`](docs/superpowers/plans/2026-08-20-qol-knowledge-base-implementation.md): implementation and maintenance workflow.
 
 ## How to add an item
 
 1. Read the existing catalog to confirm that the concept is not already represented.
-2. Assign the next unused permanent ID. After the seed catalog, the next ID is `QOL-101`.
+2. Assign the next unused permanent ID. After the current expansion, the next ID is `QOL-119`.
 3. State the item narrowly enough that its evidence can be evaluated.
 4. Assign all useful category tags. There is no primary-category requirement.
 5. Assign evidence strength and applicability conservatively.
@@ -105,7 +106,7 @@ Do not write the second statement as though each service had independently demon
 7. Add the item to any topic views where it improves discovery.
 8. Keep evidence statements narrower than or equal to what the sources actually support.
 
-Adding `QOL-101` must not require renumbering `QOL-001` through `QOL-100`.
+Adding `QOL-119` must not require renumbering `QOL-001` through `QOL-118`.
 
 ## How to add a category
 

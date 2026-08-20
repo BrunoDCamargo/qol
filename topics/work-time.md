@@ -32,6 +32,7 @@ See the [canonical catalog](../catalog.md) and [reference registry](../reference
 | [QOL-089](../catalog.md) | Use activity self-monitoring when it helps sustain movement | Moderate | Conditional | [REF-045](../references.md#ref-045) |
 | [QOL-090](../catalog.md) | Use microbreaks to manage fatigue during long cognitive work | Moderate | Conditional | [REF-046](../references.md#ref-046) |
 | [QOL-100](../catalog.md) | Audit recurring commitments and remove those no longer worth their cost | Inference | Conditional | [REF-012](../references.md#ref-012), [REF-043](../references.md#ref-043) |
+| [QOL-117](../catalog.md) | Reduce sustained work weeks of 55 hours or more when work design can be changed | Moderate | Conditional | [REF-042](../references.md#ref-042) |
 
 ## QOL-021 — Spend money to buy back unwanted time when worthwhile
 
@@ -142,19 +143,15 @@ Housing, social ties, neighborhood quality, job stability, and money may outweig
 - [REF-012](../references.md#ref-012)
 - [REF-013](../references.md#ref-013)
 
-## QOL-080 — Measure actual weekly work hours when workload is uncertain
+## QOL-080 / QOL-117 — Measure long working hours, then reduce sustained exposure when feasible
 
-**Categories:** work-design, time, preventive-health  
-**Evidence:** Inference  
+**Categories:** work-design, time, occupational-health, preventive-health  
+**Evidence:** Inference for measurement; Moderate for reducing sustained very-long-hour exposure  
 **Applicability:** Conditional
 
 ### Idea
 
-Measure work exposure before deciding whether workload is excessive.
-
-### Why it may affect quality of life
-
-Perceived workload can differ from actual hours, and recurring long work weeks can crowd out sleep, recovery, exercise, and relationships.
+Measure actual work exposure before deciding whether workload is excessive. When work weeks repeatedly reach 55 hours or more and the work design can be changed, reducing that sustained exposure is a reasonable risk-reduction target.
 
 ### Evidence
 
@@ -162,11 +159,11 @@ WHO/ILO population-level evidence identifies working 55 or more hours per week a
 
 ### Practical applications
 
-Track actual work hours for several representative weeks, including work performed outside formal hours.
+Track actual work hours for several representative weeks, including work performed outside formal hours. If prolonged very-long-hour exposure is persistent, address workload, staffing, deadlines, boundaries, or schedule design where possible.
 
 ### Limitations and caveats
 
-The 55-hour figure is a population-level exposure category, not a sharp individual biological threshold. Work quality, control, schedule, and recovery also matter.
+The 55-hour figure is a population-level exposure category, not a sharp individual biological threshold. The evidence is not a randomized trial showing that one specific reduction in weekly hours produces a guaranteed individual benefit.
 
 ### References
 

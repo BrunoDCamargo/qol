@@ -21,6 +21,9 @@ See the [canonical catalog](../catalog.md) and [reference registry](../reference
 | [QOL-089](../catalog.md) | Use activity self-monitoring when it helps sustain movement | Moderate | Conditional | [REF-045](../references.md#ref-045) |
 | [QOL-090](../catalog.md) | Use microbreaks to manage fatigue during long cognitive work | Moderate | Conditional | [REF-046](../references.md#ref-046) |
 | [QOL-091](../catalog.md) | Use active commuting when safe and practical | High | Conditional | [REF-015](../references.md#ref-015), [REF-016](../references.md#ref-016) |
+| [QOL-108](../catalog.md) | Use supervised pelvic floor muscle training for stress or mixed urinary incontinence | High | Conditional | [REF-079](../references.md#ref-079) |
+| [QOL-113](../catalog.md) | Use therapeutic exercise in osteoarthritis management | High | Conditional | [REF-083](../references.md#ref-083) |
+| [QOL-118](../catalog.md) | Include multicomponent balance and strength activity in older age | High | Conditional | [REF-086](../references.md#ref-086) |
 
 ## QOL-033 / QOL-035 — Start below the target if necessary
 
@@ -186,3 +189,59 @@ Tracking can become burdensome for some people. Microbreaks should not be sold a
 
 - [REF-045](../references.md#ref-045)
 - [REF-046](../references.md#ref-046)
+
+## QOL-108 — Pelvic floor muscle training is a specific therapeutic exercise
+
+**Categories:** pelvic-health, physical-activity, preventive-health  
+**Evidence:** High  
+**Applicability:** Conditional
+
+NICE recommends supervised pelvic floor muscle training for at least 3 months as first-line treatment for stress or mixed urinary incontinence. See [reproductive-health.md](reproductive-health.md) for the pelvic-health context.
+
+### References
+
+- [REF-079](../references.md#ref-079)
+
+## QOL-113 — Use therapeutic exercise in osteoarthritis management
+
+**Categories:** pain, physical-activity, preventive-health  
+**Evidence:** High  
+**Applicability:** Conditional
+
+### Idea
+
+Exercise is a core treatment for osteoarthritis rather than an optional add-on after all other measures fail.
+
+### Evidence
+
+NICE recommends tailored therapeutic exercise for people with osteoarthritis and notes that adherence can improve pain, physical function, and quality of life.
+
+### Limitations and caveats
+
+Exercise type and dose should reflect the affected joint, symptoms, function, comorbidities, and capacity.
+
+### References
+
+- [REF-083](../references.md#ref-083)
+
+## QOL-118 — Include balance and strength work in older age
+
+**Categories:** aging, physical-activity, strength, preventive-health  
+**Evidence:** High  
+**Applicability:** Conditional
+
+### Idea
+
+Older adults benefit from retaining aerobic and strength activity while adding multicomponent work that emphasizes functional balance.
+
+### Evidence
+
+WHO recommends varied multicomponent physical activity emphasizing balance and strength on 3 or more days per week for older adults to enhance functional capacity and help prevent falls.
+
+### Limitations and caveats
+
+Activity should be adapted to ability and health status. The recommendation does not require one particular exercise program.
+
+### References
+
+- [REF-086](../references.md#ref-086)

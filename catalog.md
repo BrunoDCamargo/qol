@@ -106,7 +106,25 @@ The catalog is an extensible map, not a permanent ranking. IDs are stable. Categ
 | QOL-098 | Repair or replace recurring physical irritants in the environment | friction-reduction, environment, time | Inference | Conditional | [REF-012](references.md#ref-012) |
 | QOL-099 | Duplicate inexpensive frequently transported items when it removes repeated friction | friction-reduction, time | Inference | Conditional | [REF-012](references.md#ref-012) |
 | QOL-100 | Audit recurring commitments and remove those no longer worth their cost | time, friction-reduction, mental-health | Inference | Conditional | [REF-012](references.md#ref-012), [REF-043](references.md#ref-043) |
+| QOL-101 | Prefer whole grains, vegetables, fruits, and pulses as primary carbohydrate sources | nutrition, preventive-health | High | General | [REF-073](references.md#ref-073) |
+| QOL-102 | Maintain adequate dietary fibre intake from foods | nutrition, gastrointestinal, preventive-health | High | General | [REF-073](references.md#ref-073) |
+| QOL-103 | Limit free-sugars intake | nutrition, weight, oral-health, preventive-health | High | General | [REF-074](references.md#ref-074) |
+| QOL-104 | Reduce excessive sodium intake | nutrition, preventive-health | High | General | [REF-075](references.md#ref-075) |
+| QOL-105 | Replace saturated and trans fats with unsaturated fats or naturally fibre-rich carbohydrate sources | nutrition, preventive-health | High | General | [REF-076](references.md#ref-076) |
+| QOL-106 | Consider lower-sodium salt substitutes containing potassium when appropriate | nutrition, preventive-health | Moderate | Conditional | [REF-077](references.md#ref-077) |
+| QOL-107 | Use intensive multicomponent behavioral weight-loss interventions for obesity when indicated | weight, nutrition, physical-activity, behavior-change, preventive-health | High | Conditional | [REF-078](references.md#ref-078) |
+| QOL-108 | Use supervised pelvic floor muscle training for stress or mixed urinary incontinence | pelvic-health, physical-activity, preventive-health | High | Conditional | [REF-079](references.md#ref-079) |
+| QOL-109 | Use bladder training for urgency or mixed urinary incontinence | pelvic-health, behavior-change, preventive-health | High | Conditional | [REF-079](references.md#ref-079) |
+| QOL-110 | Treat menopause-associated symptoms when they impair well-being or function | reproductive-health, sleep, mental-health, sexual-health | High | Conditional | [REF-080](references.md#ref-080) |
+| QOL-111 | Treat heavy menstrual bleeding according to its quality-of-life impact | reproductive-health, preventive-health | High | Conditional | [REF-081](references.md#ref-081) |
+| QOL-112 | Investigate possible endometriosis when cyclical pain or related symptoms impair daily life | reproductive-health, pain, sexual-health, gastrointestinal | High | Conditional | [REF-082](references.md#ref-082) |
+| QOL-113 | Use therapeutic exercise in osteoarthritis management | pain, physical-activity, preventive-health | High | Conditional | [REF-083](references.md#ref-083) |
+| QOL-114 | Consider cataract surgery when cataract-related vision loss interferes with everyday activities | vision, preventive-health, aging | High | Conditional | [REF-084](references.md#ref-084) |
+| QOL-115 | Use hearing rehabilitation when meaningful hearing loss is identified | hearing, social, preventive-health | High | Conditional | [REF-025](references.md#ref-025) |
+| QOL-116 | Reduce hazardous occupational noise exposure and use hearing protection when indicated | hearing, environment, occupational-health, preventive-health | High | Conditional | [REF-085](references.md#ref-085) |
+| QOL-117 | Reduce sustained work weeks of 55 hours or more when work design can be changed | work-design, time, occupational-health, preventive-health | Moderate | Conditional | [REF-042](references.md#ref-042) |
+| QOL-118 | Include multicomponent balance and strength activity in older age | aging, physical-activity, strength, preventive-health | High | Conditional | [REF-086](references.md#ref-086) |
 
 ## Growth notes
 
-The first 100 entries are a seed set. The next new concept should receive `QOL-101`; existing IDs must not be renumbered to preserve traceability. New category tags may be introduced at any time. Topic pages in `topics/` are discovery views and may show the same canonical item in several places.
+The first 100 entries are a seed set. The next unused ID after this expansion is `QOL-119`; existing IDs must not be renumbered to preserve traceability. New category tags may be introduced at any time. Topic pages in `topics/` are discovery views and may show the same canonical item in several places.

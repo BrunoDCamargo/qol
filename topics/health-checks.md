@@ -30,6 +30,16 @@ This page maps conditions that can have a large quality-of-life effect **when th
 | [QOL-095](../catalog.md) | Investigate chronic GI symptoms that meaningfully affect QoL | High | Conditional | [REF-048](../references.md#ref-048), [REF-050](../references.md#ref-050) |
 | [QOL-096](../catalog.md) | Treat eczema/pruritus when it disrupts comfort or sleep | Moderate | Conditional | [REF-070](../references.md#ref-070) |
 | [QOL-097](../catalog.md) | Review medications when symptoms plausibly track medication initiation or dose changes | High | Conditional | [REF-049](../references.md#ref-049) |
+| [QOL-108](../catalog.md) | Use supervised pelvic floor muscle training for stress or mixed urinary incontinence | High | Conditional | [REF-079](../references.md#ref-079) |
+| [QOL-109](../catalog.md) | Use bladder training for urgency or mixed urinary incontinence | High | Conditional | [REF-079](../references.md#ref-079) |
+| [QOL-110](../catalog.md) | Treat menopause-associated symptoms when they impair well-being or function | High | Conditional | [REF-080](../references.md#ref-080) |
+| [QOL-111](../catalog.md) | Treat heavy menstrual bleeding according to its quality-of-life impact | High | Conditional | [REF-081](../references.md#ref-081) |
+| [QOL-112](../catalog.md) | Investigate possible endometriosis when cyclical pain or related symptoms impair daily life | High | Conditional | [REF-082](../references.md#ref-082) |
+| [QOL-113](../catalog.md) | Use therapeutic exercise in osteoarthritis management | High | Conditional | [REF-083](../references.md#ref-083) |
+| [QOL-114](../catalog.md) | Consider cataract surgery when cataract-related vision loss interferes with everyday activities | High | Conditional | [REF-084](../references.md#ref-084) |
+| [QOL-115](../catalog.md) | Use hearing rehabilitation when meaningful hearing loss is identified | High | Conditional | [REF-025](../references.md#ref-025) |
+| [QOL-116](../catalog.md) | Reduce hazardous occupational noise exposure and use hearing protection when indicated | High | Conditional | [REF-085](../references.md#ref-085) |
+| [QOL-118](../catalog.md) | Include multicomponent balance and strength activity in older age | High | Conditional | [REF-086](../references.md#ref-086) |
 
 ## QOL-049 — Correct meaningful refractive error and reassess vision when symptomatic
 
@@ -277,3 +287,59 @@ Do not stop prescribed medicines abruptly on the basis of this item. Symptoms ca
 ### References
 
 - [REF-049](../references.md#ref-049)
+
+## QOL-108 through QOL-112 — Reproductive and pelvic symptoms can be major QoL drivers
+
+Urinary incontinence, menopause-associated symptoms, heavy menstrual bleeding, and possible endometriosis have condition-specific evaluation and treatment guidance. See [reproductive-health.md](reproductive-health.md) for details.
+
+### References
+
+- [REF-079](../references.md#ref-079)
+- [REF-080](../references.md#ref-080)
+- [REF-081](../references.md#ref-081)
+- [REF-082](../references.md#ref-082)
+
+## QOL-113 — Use therapeutic exercise in osteoarthritis management
+
+NICE treats therapeutic exercise as a core treatment for osteoarthritis, tailored to needs and capacity. See [physical-activity.md](physical-activity.md).
+
+### References
+
+- [REF-083](../references.md#ref-083)
+
+## QOL-114 — Treat cataract according to functional impact
+
+**Categories:** vision, preventive-health, aging  
+**Evidence:** High  
+**Applicability:** Conditional
+
+Cataract surgery can be considered when cataract-related vision loss interferes with reading, driving, or other everyday activities. The decision depends on functional impact and clinical context rather than the mere presence of a cataract.
+
+### References
+
+- [REF-084](../references.md#ref-084)
+
+## QOL-115 / QOL-116 — Rehabilitate hearing loss and prevent avoidable noise injury
+
+**Categories:** hearing, social, environment, occupational-health, preventive-health  
+**Evidence:** High  
+**Applicability:** Conditional
+
+Meaningful hearing loss can justify rehabilitation to reduce communication and participation barriers. Hazardous occupational noise exposure warrants source control where possible and hearing protection when indicated.
+
+### Limitations and caveats
+
+Hearing protection is one layer of a prevention program and should not replace feasible engineering or administrative noise controls.
+
+### References
+
+- [REF-025](../references.md#ref-025)
+- [REF-085](../references.md#ref-085)
+
+## QOL-118 — Preserve balance and strength in older age
+
+WHO recommends multicomponent activity emphasizing balance and strength in older adults to support functional capacity and help prevent falls. See [physical-activity.md](physical-activity.md).
+
+### References
+
+- [REF-086](../references.md#ref-086)
