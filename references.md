@@ -2,7 +2,7 @@
 
 Each `REF-*` record is reusable. Prefer the primary paper, official guideline, regulator, government publication, or first-party scientific source. Secondary sources may be used when they are the most appropriate synthesis or when adequate primary evidence is unavailable; they must be labeled as secondary.
 
-Each record contains a citation, source type, study/guideline design when relevant, DOI and PMID when available, a primary URL, and a narrow `Supports:` statement. The `Supports:` line defines the claim boundary for use elsewhere in this repository.
+Each record contains bibliographic metadata, a primary URL, and a narrow `Supports:` statement. The `Supports:` line defines the claim boundary for use elsewhere in this repository.
 
 ## REF-001
 
@@ -196,7 +196,7 @@ Graves LEF, et al. Evaluation of sit-stand workstations in an office setting: a 
 
 ## REF-020
 
-Bingölbali Ö, Taşkaya C, Alkan H, Altındağ Ö. The effectiveness of deep tissue massage on pain, trigger point, disability, range of motion and quality of life in individuals with myofascial pain syndrome. *Journal of Back and Musculoskeletal Rehabilitation*. 2024;41(1):11-17.
+Bingölbali Ö, Taşkaya C, Alkan H, Altındağ Ö. The effectiveness of deep tissue massage on pain, trigger point, disability, range of motion and quality of life in individuals with myofascial pain syndrome. *Somatosensory & Motor Research*. 2024;41(1):11-17.
 
 - Source type: primary research
 - Design: randomized controlled trial, n=80
@@ -412,7 +412,7 @@ Pega F, Náfrádi B, Momen NC, et al. Global, regional, and national burdens of 
 
 ## REF-043
 
-Reis D, et al. Mindfulness and cognitive-behavioral strategies for psychological detachment from work: randomized intervention evidence. *Journal of Occupational Health Psychology*. 2024;29(4):258-279.
+Reis D, Hart A, Krautter K, Prestele E, Lehr D, Friese M. Mindfulness and cognitive-behavioral strategies for psychological detachment: Comparing effectiveness and mechanisms of change. *Journal of Occupational Health Psychology*. 2024;29(4):258-279.
 
 - Source type: primary research
 - Design: randomized controlled intervention, n=393
@@ -423,7 +423,7 @@ Reis D, et al. Mindfulness and cognitive-behavioral strategies for psychological
 
 ## REF-044
 
-Persson Asplund R, et al. Learning how to recover from stress: effects of a recovery training program in workers. *Internet Interventions*. 2023;34:100681.
+Persson Asplund R, et al. Learning how to recover from stress: Results from an internet-based randomized controlled pilot trial. *Internet Interventions*. 2023;34:100681.
 
 - Source type: primary research
 - Design: pilot randomized controlled trial, n=69
@@ -434,7 +434,7 @@ Persson Asplund R, et al. Learning how to recover from stress: effects of a reco
 
 ## REF-045
 
-Schroé H, et al. Which behaviour change techniques are effective to promote physical activity and reduce sedentary behaviour in adults: a factorial randomized trial. *International Journal of Behavioral Nutrition and Physical Activity*. 2020;17(1):127.
+Schroé H, et al. Which behaviour change techniques are effective to promote physical activity and reduce sedentary behaviour in adults: a factorial randomized trial of an e- and m-health intervention. *International Journal of Behavioral Nutrition and Physical Activity*. 2020;17(1):127.
 
 - Source type: primary research
 - Design: factorial randomized trial, n=473
@@ -520,7 +520,7 @@ Herbig B, et al. Effects of short-term exposure to carbon dioxide and volatile o
 
 ## REF-054
 
-Zhang Y, et al. Restorative effects of vegetated office space on workers: a crossover study. *Work*. 2025;81(3):3070-3082.
+Zhang G, Li T, Cui Y, Ren TH. The restorative effects of working individually in a vegetated office space: A crossover controlled experimental study in real-life workplace setting. *Work*. 2025;81(3):3070-3082.
 
 - Source type: primary research
 - Design: crossover workplace-environment experiment, n=40
