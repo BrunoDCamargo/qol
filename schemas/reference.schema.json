@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/qol/schemas/reference.schema.json",
+  "title": "Reference canonical record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "title",
+    "status",
+    "authors",
+    "year",
+    "source",
+    "source_type",
+    "urls",
+    "supports"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^REF-[0-9]{3,}$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string"
+    },
+    "authors": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1}
+    },
+    "year": {
+      "type": ["integer", "null"]
+    },
+    "source": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_type": {
+      "type": "string",
+      "minLength": 1
+    },
+    "design": {
+      "type": ["string", "null"]
+    },
+    "doi": {
+      "type": ["string", "null"]
+    },
+    "pmid": {
+      "type": ["string", "null"]
+    },
+    "urls": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "supports": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "minItems": 1
+    },
+    "deprecation_reason": {
+      "type": ["string", "null"]
+    },
+    "replaced_by": {
+      "type": ["string", "null"],
+      "pattern": "^REF-[0-9]{3,}$"
+    }
+  }
+}
