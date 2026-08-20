@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/qol/schemas/qol-item.schema.json",
+  "title": "QoL Item canonical record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "statement",
+    "kind",
+    "status",
+    "categories",
+    "applicability",
+    "support_mode",
+    "evidence_reviewed_at",
+    "evidence_claims",
+    "relationships"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^QOL-[0-9]{3,}$"
+    },
+    "statement": {
+      "type": "string",
+      "minLength": 1
+    },
+    "kind": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "categories": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true
+    },
+    "applicability": {
+      "type": "string"
+    },
+    "condition": {
+      "type": ["string", "null"]
+    },
+    "support_mode": {
+      "type": "string"
+    },
+    "evidence_reviewed_at": {
+      "type": ["string", "null"],
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "evidence_claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["statement", "role", "strength", "references"],
+        "properties": {
+          "statement": {"type": "string", "minLength": 1},
+          "role": {"type": "string"},
+          "strength": {"type": "string"},
+          "references": {
+            "type": "array",
+            "items": {"type": "string", "pattern": "^REF-[0-9]{3,}$"},
+            "minItems": 1,
+            "uniqueItems": true
+          }
+        }
+      }
+    },
+    "relationships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["type", "target"],
+        "properties": {
+          "type": {"type": "string"},
+          "target": {"type": "string", "pattern": "^QOL-[0-9]{3,}$"}
+        }
+      }
+    },
+    "deprecation_reason": {
+      "type": ["string", "null"]
+    },
+    "replaced_by": {
+      "type": "array",
+      "items": {"type": "string", "pattern": "^QOL-[0-9]{3,}$"},
+      "uniqueItems": true
+    }
+  }
+}
