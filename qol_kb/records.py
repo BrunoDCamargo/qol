@@ -38,5 +38,8 @@ def load_record(path: str | Path) -> Record:
     else:
         raise ValueError(f"{record_path} has an unsupported record id: {record_id!r}")
 
+    if record_path.stem != record_id:
+        raise ValueError(f"{record_path.name} does not match record id {record_id}")
+
     body = "".join(lines[closing_index + 1 :])
     return Record(record_type=record_type, front_matter=front_matter, body=body)
