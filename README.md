@@ -91,7 +91,6 @@ Do not write the second statement as though each service had independently demon
 - [`topics/environment.md`](topics/environment.md): light, noise, thermal comfort, indoor air, cooking ventilation, and recurring physical frictions.
 - [`topics/social-relationships.md`](topics/social-relationships.md): recurring social contact, loneliness, shared experiences, relationship well-being, and prosocial spending.
 - [`topics/health-checks.md`](topics/health-checks.md): conditional health problems and evaluations that may substantially affect quality of life.
-- [`docs/superpowers/specs/2026-08-20-qol-knowledge-base-design.md`](docs/superpowers/specs/2026-08-20-qol-knowledge-base-design.md): design rules for the knowledge base.
 
 ## How to add an item
 
