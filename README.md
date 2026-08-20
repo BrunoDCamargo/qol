@@ -39,7 +39,7 @@ For example:
 
 ```text
 QOL-034 — Walk outdoors
-Categories: physical-activity, environment, mental-health, sleep
+Categories: physical-activity, environment, mental-health, circadian
 ```
 
 `QOL-034` remains the same item if categories are added, removed, renamed, or reorganized later. Topic pages are thematic views, not ownership boundaries.
