@@ -23,6 +23,10 @@ class StructuredRecordPipelineTests(unittest.TestCase):
         ):
             load_record(FIXTURES / "items" / "QOL-901.md")
 
+    def test_rejects_unknown_front_matter_fields(self):
+        with self.assertRaisesRegex(ValueError, r"unexpected_field"):
+            load_record(FIXTURES / "items" / "QOL-902.md")
+
 
 if __name__ == "__main__":
     unittest.main()
