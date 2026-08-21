@@ -12,6 +12,11 @@ SCHEMA_FILES = {
     "item": "qol-item.schema.json",
     "reference": "reference.schema.json",
 }
+EVIDENCE_STRENGTH_ORDER = {
+    "Low": 0,
+    "Moderate": 1,
+    "High": 2,
+}
 
 
 @dataclass(frozen=True)
@@ -19,6 +24,7 @@ class Record:
     record_type: str
     front_matter: dict[str, Any]
     body: str
+    evidence_strength: str | None = None
 
 
 def _record_type_for_path(record_path: Path) -> str:
@@ -61,6 +67,51 @@ def _validate_front_matter(
         raise ValueError(f"{record_path}: {'; '.join(details)}")
 
 
+def _support_claims(front_matter: dict[str, Any]) -> list[dict[str, Any]]:
+    return [
+        claim
+        for claim in front_matter["evidence_claims"]
+        if claim["role"] == "Support"
+    ]
+
+
+def _derived_evidence_strength(front_matter: dict[str, Any]) -> str | None:
+    support_claims = _support_claims(front_matter)
+    if not support_claims:
+        return None
+    return min(
+        (claim["strength"] for claim in support_claims),
+        key=EVIDENCE_STRENGTH_ORDER.__getitem__,
+    )
+
+
+def _validate_item_semantics(record_path: Path, front_matter: dict[str, Any]) -> None:
+    if front_matter["applicability"] == "Conditional":
+        condition = front_matter.get("condition")
+        if not isinstance(condition, str) or not condition.strip():
+            raise ValueError(f"{record_path}: condition is required for Conditional items")
+
+    if front_matter["status"] == "Active" and not _support_claims(front_matter):
+        raise ValueError(f"{record_path}: Active items require at least one Support Claim")
+
+    if front_matter["status"] == "Deprecated":
+        reason = front_matter.get("deprecation_reason")
+        if not isinstance(reason, str) or not reason.strip():
+            raise ValueError(f"{record_path}: deprecation_reason is required for Deprecated items")
+
+
+def _validate_reference_semantics(
+    record_path: Path,
+    front_matter: dict[str, Any],
+) -> None:
+    if front_matter["status"] == "Deprecated":
+        reason = front_matter.get("deprecation_reason")
+        if not isinstance(reason, str) or not reason.strip():
+            raise ValueError(
+                f"{record_path}: deprecation_reason is required for Deprecated references"
+            )
+
+
 def load_record(path: str | Path) -> Record:
     record_path = Path(path)
     record_type = _record_type_for_path(record_path)
@@ -86,5 +137,64 @@ def load_record(path: str | Path) -> Record:
     if record_path.stem != record_id:
         raise ValueError(f"{record_path.name} does not match record id {record_id}")
 
+    if record_type == "item":
+        _validate_item_semantics(record_path, front_matter)
+        evidence_strength = _derived_evidence_strength(front_matter)
+    else:
+        _validate_reference_semantics(record_path, front_matter)
+        evidence_strength = None
+
     body = "".join(lines[closing_index + 1 :])
-    return Record(record_type=record_type, front_matter=front_matter, body=body)
+    return Record(
+        record_type=record_type,
+        front_matter=front_matter,
+        body=body,
+        evidence_strength=evidence_strength,
+    )
+
+
+def validate_repository(root: str | Path) -> None:
+    root_path = Path(root)
+    records_by_id: dict[str, Record] = {}
+
+    for folder in ("references", "items"):
+        directory = root_path / folder
+        if not directory.exists():
+            continue
+        for path in sorted(directory.glob("*.md")):
+            record = load_record(path)
+            record_id = record.front_matter["id"]
+            if record_id in records_by_id:
+                raise ValueError(f"duplicate canonical record id: {record_id}")
+            records_by_id[record_id] = record
+
+    for record_id, record in records_by_id.items():
+        if record.record_type != "item":
+            continue
+
+        for claim in record.front_matter["evidence_claims"]:
+            for reference_id in claim["references"]:
+                reference = records_by_id.get(reference_id)
+                if reference is None or reference.record_type != "reference":
+                    raise ValueError(
+                        f"{record_id}: evidence claim reference does not resolve: {reference_id}"
+                    )
+                if (
+                    record.front_matter["status"] == "Active"
+                    and reference.front_matter["status"] == "Deprecated"
+                ):
+                    raise ValueError(
+                        f"{record_id}: active item cannot use Deprecated reference {reference_id}"
+                    )
+
+        for relationship in record.front_matter["relationships"]:
+            target_id = relationship["target"]
+            if target_id == record_id:
+                raise ValueError(
+                    f"{record_id}: relationship target must be a distinct item: {target_id}"
+                )
+            target = records_by_id.get(target_id)
+            if target is None or target.record_type != "item":
+                raise ValueError(
+                    f"{record_id}: relationship target does not resolve: {target_id}"
+                )
