@@ -88,6 +88,68 @@ class CategoryRegistryTests(unittest.TestCase):
                 with self.assertRaisesRegex(ValueError, message):
                     load_category_registry(path)
 
+    def test_deprecated_category_allows_no_replacement_or_active_replacement(self):
+        registry_variants = (
+            "categories:\n  old-name:\n    definition: Historical tag.\n    status: Deprecated\n",
+            "categories:\n"
+            "  current-name:\n"
+            "    definition: Current tag.\n"
+            "    status: Active\n"
+            "  old-name:\n"
+            "    definition: Historical tag.\n"
+            "    status: Deprecated\n"
+            "    replaced_by: current-name\n",
+        )
+        for yaml_text in registry_variants:
+            with self.subTest(yaml_text=yaml_text), tempfile.TemporaryDirectory() as tmp:
+                categories = load_category_registry(
+                    self._write_registry(Path(tmp), yaml_text)
+                )
+                self.assertEqual(categories["old-name"].status, "Deprecated")
+
+    def test_active_category_rejects_replacement(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = self._write_registry(
+                Path(tmp),
+                "categories:\n"
+                "  current-name:\n"
+                "    definition: Current tag.\n"
+                "    status: Active\n"
+                "    replaced_by: other-name\n"
+                "  other-name:\n"
+                "    definition: Other tag.\n"
+                "    status: Active\n",
+            )
+            with self.assertRaisesRegex(ValueError, r"current-name.*replaced_by"):
+                load_category_registry(path)
+
+    def test_deprecated_category_replacement_must_be_distinct_known_and_active(self):
+        invalid_targets = (
+            ("self", "old-name", "", r"old-name.*distinct"),
+            ("unknown", "missing-name", "", r"missing-name.*resolve"),
+            (
+                "deprecated",
+                "older-name",
+                "  older-name:\n"
+                "    definition: Older historical tag.\n"
+                "    status: Deprecated\n",
+                r"older-name.*Active|Active.*older-name",
+            ),
+        )
+        for label, target, extra_entry, message in invalid_targets:
+            with self.subTest(label=label), tempfile.TemporaryDirectory() as tmp:
+                path = self._write_registry(
+                    Path(tmp),
+                    "categories:\n"
+                    f"{extra_entry}"
+                    "  old-name:\n"
+                    "    definition: Historical tag.\n"
+                    "    status: Deprecated\n"
+                    f"    replaced_by: {target}\n",
+                )
+                with self.assertRaisesRegex(ValueError, message):
+                    load_category_registry(path)
+
 
 if __name__ == "__main__":
     unittest.main()

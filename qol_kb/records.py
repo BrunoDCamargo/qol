@@ -148,6 +148,29 @@ def load_category_registry(path: str | Path) -> dict[str, Category]:
             status=data["status"],
             replaced_by=data.get("replaced_by"),
         )
+    for name, category in categories.items():
+        replacement_name = category.replaced_by
+        if category.status == "Active" and replacement_name is not None:
+            raise ValueError(
+                f"{registry_path}: Active category {name} cannot declare replaced_by"
+            )
+        if replacement_name is None:
+            continue
+        if replacement_name == name:
+            raise ValueError(
+                f"{registry_path}: category {name} replacement must be distinct"
+            )
+        replacement = categories.get(replacement_name)
+        if replacement is None:
+            raise ValueError(
+                f"{registry_path}: category {name} replacement {replacement_name} "
+                "does not resolve"
+            )
+        if replacement.status != "Active":
+            raise ValueError(
+                f"{registry_path}: category {name} replacement must be Active: "
+                f"{replacement_name}"
+            )
     return categories
 
 
