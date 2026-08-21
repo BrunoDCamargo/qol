@@ -22,11 +22,23 @@ class Record:
 
 
 def _record_type_for_path(record_path: Path) -> str:
+    if record_path.suffix != ".md":
+        raise ValueError(f"{record_path.name} must use the .md extension")
     if record_path.stem.startswith("QOL-"):
         return "item"
     if record_path.stem.startswith("REF-"):
         return "reference"
     raise ValueError(f"{record_path.name} is not a supported canonical record filename")
+
+
+def _validation_error_path(error: Any) -> str:
+    path = ""
+    for part in error.absolute_path:
+        if isinstance(part, int):
+            path += f"[{part}]"
+        else:
+            path += f".{part}" if path else str(part)
+    return path
 
 
 def _validate_front_matter(
@@ -42,8 +54,11 @@ def _validate_front_matter(
         key=lambda error: (str(list(error.absolute_path)), error.message),
     )
     if errors:
-        details = "; ".join(error.message for error in errors)
-        raise ValueError(f"{record_path}: {details}")
+        details = []
+        for error in errors:
+            path = _validation_error_path(error)
+            details.append(f"{path}: {error.message}" if path else error.message)
+        raise ValueError(f"{record_path}: {'; '.join(details)}")
 
 
 def load_record(path: str | Path) -> Record:
