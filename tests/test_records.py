@@ -49,6 +49,14 @@ class StructuredRecordPipelineTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, r"unexpected_field"):
             load_record(FIXTURES / "references" / "REF-901.md")
 
+    def test_rejects_non_markdown_record_files(self):
+        with self.assertRaisesRegex(ValueError, r"QOL-904\.txt.*\.md"):
+            load_record(FIXTURES / "items" / "QOL-904.txt")
+
+    def test_nested_validation_errors_include_the_field_path(self):
+        with self.assertRaisesRegex(ValueError, r"evidence_claims\[0\]\.role"):
+            load_record(FIXTURES / "items" / "QOL-905.md")
+
     def test_version_controlled_schemas_define_closed_core_records(self):
         schema_paths = (
             SCHEMAS / "qol-item.schema.json",
