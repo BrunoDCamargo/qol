@@ -431,13 +431,13 @@ for name, category in categories.items():
 
 Run: `python -m unittest tests.test_category_registry -v`
 
-Expected: 7 tests pass.
+Expected: 9 tests pass, including the two Task 1 malformed-key regressions.
 
 - [ ] **Step 5: Run the complete suite**
 
 Run: `python -m unittest discover -s tests -v`
 
-Expected: 37 tests pass.
+Expected: 39 tests pass.
 
 - [ ] **Step 6: Commit Task 2**
 
@@ -639,7 +639,7 @@ Category changes never require a folder move, file migration, or QoL Item ID cha
 
 Run: `python -m unittest discover -s tests -v`
 
-Expected: 41 tests pass.
+Expected: 43 tests pass.
 
 Run: `git diff --check`
 
@@ -657,7 +657,7 @@ git commit -m "feat: enforce canonical item categories"
 ## Final verification
 
 - [ ] Run the focused category suite: `python -m unittest tests.test_category_registry tests.test_domain_invariants -v`.
-- [ ] Run the complete suite: `python -m unittest discover -s tests -v` and confirm 41 tests pass.
+- [ ] Run the complete suite: `python -m unittest discover -s tests -v` and confirm 43 tests pass.
 - [ ] Run `git diff --check 31f412f..HEAD` and confirm no output.
 - [ ] Review `31f412f..HEAD` independently against both Standards and GitHub issue #3.
 - [ ] Leave issue #3, branch publication, PR creation, and merging unchanged unless explicitly authorized.
