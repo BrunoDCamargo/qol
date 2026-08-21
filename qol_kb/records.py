@@ -262,6 +262,7 @@ def load_record(path: str | Path) -> Record:
 
 def validate_repository(root: str | Path) -> None:
     root_path = Path(root)
+    categories = load_category_registry(root_path / "categories.yaml")
     records_by_id: dict[str, Record] = {}
 
     for folder in ("references", "items"):
@@ -278,6 +279,19 @@ def validate_repository(root: str | Path) -> None:
     for record_id, record in records_by_id.items():
         if record.record_type != "item":
             continue
+
+        if record.front_matter["status"] == "Active":
+            for category_name in record.front_matter["categories"]:
+                category = categories.get(category_name)
+                if category is None:
+                    raise ValueError(
+                        f"{record_id}: unknown category does not resolve: {category_name}"
+                    )
+                if category.status != "Active":
+                    raise ValueError(
+                        f"{record_id}: Active item cannot use Deprecated category "
+                        f"{category_name}"
+                    )
 
         for claim in record.front_matter["evidence_claims"]:
             for reference_id in claim["references"]:
