@@ -219,6 +219,22 @@ class QoLDomainInvariantTests(unittest.TestCase):
                     )
                     self.assertEqual(load_record(path).front_matter["replaced_by"], replaced_by)
 
+    def test_replacement_ids_must_resolve_to_items(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self._write_record(
+                root,
+                "items",
+                self._item(
+                    status="Deprecated",
+                    evidence_claims=[],
+                    deprecation_reason="Superseded fixture.",
+                    replaced_by=["QOL-999"],
+                ),
+            )
+            with self.assertRaisesRegex(ValueError, r"QOL-999"):
+                self._validate_repository(root)
+
     def test_item_rejects_unknown_relationship_type(self):
         with tempfile.TemporaryDirectory() as tmp:
             relationships = [{"type": "requires", "target": "QOL-951"}]
