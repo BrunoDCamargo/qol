@@ -33,7 +33,7 @@ IDs must not be renumbered when the catalog grows or priorities change. If an it
 
 ### Categories are flexible tags
 
-Categories are metadata, not exclusive containers. An item may have several categories, and contributors may introduce new categories without reorganizing or renumbering the catalog.
+Categories are metadata, not exclusive containers. An item may have several categories. Register a new lower-case kebab-case category in `categories.yaml` before applying it to an Active QoL Item. Each registry entry requires a short definition and lifecycle status. Adding, renaming, or reorganizing categories does not change a QoL Item ID.
 
 For example:
 
@@ -110,11 +110,12 @@ Adding `QOL-119` must not require renumbering `QOL-001` through `QOL-118`.
 
 ## How to add a category
 
-Create a new lower-case kebab-case category whenever an existing category set no longer describes a useful retrieval dimension.
+1. Check `categories.yaml` for an existing tag that represents the retrieval dimension.
+2. If none exists, add a unique lower-case kebab-case entry with a short definition and `status: Active`.
+3. Apply the registered tag to relevant Active QoL Items.
+4. When replacing a category, retain the old entry as `Deprecated` and optionally point `replaced_by` to its direct Active replacement.
 
-A new category does not require a new folder, file migration, or ID change. Add it to any relevant items. If the category later grows into a substantial body of material, a new `topics/*.md` page may be created as an additional thematic view.
-
-One item may belong to several existing and new categories at the same time.
+Category changes never require a folder move, file migration, or QoL Item ID change. Topic pages remain optional thematic views rather than canonical category definitions.
 
 ## How to add or revise a reference
 

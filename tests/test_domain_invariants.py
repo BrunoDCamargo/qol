@@ -55,12 +55,30 @@ class QoLDomainInvariantTests(unittest.TestCase):
         path.write_text(f"---\n{yaml_text}---\n# Fixture\n", encoding="utf-8")
         return path
 
+    def _write_category_registry(
+        self,
+        root: Path,
+        categories: dict | None = None,
+    ) -> Path:
+        registry_path = root / "categories.yaml"
+        registry_path.write_text(
+            yaml.safe_dump(
+                {"categories": categories or {}},
+                sort_keys=False,
+                allow_unicode=True,
+            ),
+            encoding="utf-8",
+        )
+        return registry_path
+
     def _validate_repository(self, root: Path) -> None:
         validator = getattr(records, "validate_repository", None)
         self.assertIsNotNone(
             validator,
             "repository-level validation is required for cross-record invariants",
         )
+        if not (root / "categories.yaml").exists():
+            self._write_category_registry(root)
         validator(root)
 
     def test_active_item_rejects_unknown_kind(self):
@@ -330,6 +348,86 @@ class QoLDomainInvariantTests(unittest.TestCase):
                 ),
             )
             self._validate_repository(root)
+
+    def test_repository_requires_category_registry(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            with self.assertRaisesRegex(ValueError, r"categories.yaml.*required"):
+                records.validate_repository(Path(tmp))
+
+    def test_active_item_accepts_only_known_active_categories(self):
+        cases = (
+            (
+                "active",
+                {"sleep": {"definition": "Sleep timing.", "status": "Active"}},
+                None,
+            ),
+            ("unknown", {}, r"QOL-950.*unknown category.*sleep"),
+            (
+                "deprecated",
+                {
+                    "sleep": {
+                        "definition": "Historical sleep tag.",
+                        "status": "Deprecated",
+                    }
+                },
+                r"QOL-950.*Deprecated category.*sleep",
+            ),
+        )
+        for label, category_entries, message in cases:
+            with self.subTest(label=label), tempfile.TemporaryDirectory() as tmp:
+                root = Path(tmp)
+                self._write_category_registry(root, category_entries)
+                self._write_record(root, "references", self._reference())
+                self._write_record(root, "items", self._item(categories=["sleep"]))
+                if message is None:
+                    self._validate_repository(root)
+                else:
+                    with self.assertRaisesRegex(ValueError, message):
+                        self._validate_repository(root)
+
+    def test_deprecated_item_may_retain_historical_category(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self._write_category_registry(root)
+            self._write_record(
+                root,
+                "items",
+                self._item(
+                    status="Deprecated",
+                    categories=["historical-category"],
+                    evidence_claims=[],
+                    deprecation_reason="Historical fixture.",
+                    replaced_by=[],
+                ),
+            )
+            self._validate_repository(root)
+
+    def test_category_rename_does_not_change_item_id(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self._write_record(root, "references", self._reference())
+            item_path = self._write_record(
+                root,
+                "items",
+                self._item(categories=["old-name"]),
+            )
+            self._write_category_registry(
+                root,
+                {"old-name": {"definition": "Old tag.", "status": "Active"}},
+            )
+            self._validate_repository(root)
+
+            item_path = self._write_record(
+                root,
+                "items",
+                self._item(categories=["new-name"]),
+            )
+            self._write_category_registry(
+                root,
+                {"new-name": {"definition": "New tag.", "status": "Active"}},
+            )
+            self._validate_repository(root)
+            self.assertEqual(load_record(item_path).front_matter["id"], "QOL-950")
 
 
 if __name__ == "__main__":
