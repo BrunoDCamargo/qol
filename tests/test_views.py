@@ -9,6 +9,12 @@ from qol_kb.records import Category, Record, RepositorySnapshot
 
 
 class DeterministicViewTests(unittest.TestCase):
+    def test_committed_repository_views_have_no_drift(self) -> None:
+        """Deleting or changing committed views must be detected as repository drift."""
+        root = Path(__file__).resolve().parents[1]
+
+        self.assertEqual(views.check_views(root), ())
+
     def _write_category_registry(self, root: Path) -> None:
         (root / "categories.yaml").write_text(
             "categories:\n"
