@@ -35,6 +35,13 @@ class Category:
     replaced_by: str | None = None
 
 
+@dataclass(frozen=True)
+class RepositorySnapshot:
+    categories: tuple[Category, ...]
+    items: tuple[Record, ...]
+    references: tuple[Record, ...]
+
+
 class _UniqueKeyLoader(yaml.SafeLoader):
     pass
 
@@ -260,22 +267,10 @@ def load_record(path: str | Path) -> Record:
     )
 
 
-def validate_repository(root: str | Path) -> None:
-    root_path = Path(root)
-    categories = load_category_registry(root_path / "categories.yaml")
-    records_by_id: dict[str, Record] = {}
-
-    for folder in ("references", "items"):
-        directory = root_path / folder
-        if not directory.exists():
-            continue
-        for path in sorted(directory.glob("*.md")):
-            record = load_record(path)
-            record_id = record.front_matter["id"]
-            if record_id in records_by_id:
-                raise ValueError(f"duplicate canonical record id: {record_id}")
-            records_by_id[record_id] = record
-
+def _validate_repository_records(
+    categories: dict[str, Category],
+    records_by_id: dict[str, Record],
+) -> None:
     for record_id, record in records_by_id.items():
         if record.record_type != "item":
             continue
@@ -326,3 +321,40 @@ def validate_repository(root: str | Path) -> None:
                 raise ValueError(
                     f"{record_id}: relationship target does not resolve: {target_id}"
                 )
+
+
+def _canonical_id_sort_key(record: Record) -> tuple[str, int]:
+    prefix, number = record.front_matter["id"].split("-", maxsplit=1)
+    return prefix, int(number)
+
+
+def load_repository(root: str | Path) -> RepositorySnapshot:
+    root_path = Path(root)
+    categories = load_category_registry(root_path / "categories.yaml")
+    records_by_id: dict[str, Record] = {}
+    for folder in ("references", "items"):
+        directory = root_path / folder
+        if not directory.exists():
+            continue
+        for path in sorted(directory.glob("*.md")):
+            record = load_record(path)
+            record_id = record.front_matter["id"]
+            if record_id in records_by_id:
+                raise ValueError(f"duplicate canonical record id: {record_id}")
+            records_by_id[record_id] = record
+    _validate_repository_records(categories, records_by_id)
+    return RepositorySnapshot(
+        categories=tuple(sorted(categories.values(), key=lambda category: category.name)),
+        items=tuple(sorted(
+            (record for record in records_by_id.values() if record.record_type == "item"),
+            key=_canonical_id_sort_key,
+        )),
+        references=tuple(sorted(
+            (record for record in records_by_id.values() if record.record_type == "reference"),
+            key=_canonical_id_sort_key,
+        )),
+    )
+
+
+def validate_repository(root: str | Path) -> None:
+    load_repository(root)
