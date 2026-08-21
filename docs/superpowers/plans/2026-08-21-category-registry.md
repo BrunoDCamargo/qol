@@ -178,7 +178,7 @@ categories:
     status: Active
 ```
 
-- [ ] **Step 5: Implement duplicate-safe YAML loading and schema validation**
+- [ ] **Step 5: Implement duplicate-safe YAML loading and shared schema validation**
 
 In `qol_kb/records.py`, add `Category` beside `Record`, then add the loader helpers before `load_record()`:
 
@@ -215,15 +215,16 @@ _UniqueKeyLoader.add_constructor(
 )
 
 
-def _validate_category_registry_schema(
-    registry_path: Path,
-    registry_data: dict[str, Any],
+def _validate_schema_data(
+    source_path: Path,
+    schema_filename: str,
+    data: dict[str, Any],
 ) -> None:
-    schema_path = SCHEMA_DIR / "category-registry.schema.json"
+    schema_path = SCHEMA_DIR / schema_filename
     schema = json.loads(schema_path.read_text(encoding="utf-8"))
     validator = Draft202012Validator(schema)
     errors = sorted(
-        validator.iter_errors(registry_data),
+        validator.iter_errors(data),
         key=lambda error: (str(list(error.absolute_path)), error.message),
     )
     if errors:
@@ -233,7 +234,27 @@ def _validate_category_registry_schema(
             details.append(
                 f"{error_path}: {error.message}" if error_path else error.message
             )
-        raise ValueError(f"{registry_path}: {'; '.join(details)}")
+        raise ValueError(f"{source_path}: {'; '.join(details)}")
+```
+
+Replace the body of existing `_validate_front_matter()` with the shared helper so validation logic is not duplicated and existing error messages remain unchanged:
+
+```python
+def _validate_front_matter(
+    record_path: Path,
+    record_type: str,
+    front_matter: dict[str, Any],
+) -> None:
+    _validate_schema_data(
+        record_path,
+        SCHEMA_FILES[record_type],
+        front_matter,
+    )
+```
+
+Then add the category loader:
+
+```python
 
 
 def load_category_registry(path: str | Path) -> dict[str, Category]:
@@ -252,7 +273,11 @@ def load_category_registry(path: str | Path) -> dict[str, Category]:
     if not isinstance(registry_data, dict):
         raise ValueError(f"{registry_path}: category registry must be a mapping")
 
-    _validate_category_registry_schema(registry_path, registry_data)
+    _validate_schema_data(
+        registry_path,
+        "category-registry.schema.json",
+        registry_data,
+    )
     categories: dict[str, Category] = {}
     for name, data in registry_data["categories"].items():
         definition = data["definition"]
