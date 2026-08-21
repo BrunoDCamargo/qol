@@ -1,0 +1,205 @@
+import contextlib
+import io
+from pathlib import Path
+import tempfile
+import unittest
+
+from qol_kb import views
+from qol_kb.records import Category, Record, RepositorySnapshot
+
+
+class DeterministicViewTests(unittest.TestCase):
+    def test_committed_repository_views_have_no_drift(self) -> None:
+        """Deleting or changing committed views must be detected as repository drift."""
+        root = Path(__file__).resolve().parents[1]
+
+        self.assertEqual(views.check_views(root), ())
+
+    def _write_category_registry(self, root: Path) -> None:
+        (root / "categories.yaml").write_text(
+            "categories:\n"
+            "  alpha:\n"
+            "    definition: Alpha category.\n"
+            "    status: Active\n",
+            encoding="utf-8",
+        )
+
+    def test_cli_write_and_check(self):
+        """Removing writes or drift checks would fail this generated-view contract."""
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self._write_category_registry(root)
+
+            self.assertEqual(views.main(["--root", str(root)]), 0)
+            catalog_path = root / "generated" / "catalog.md"
+            references_path = root / "generated" / "references.md"
+            self.assertTrue(catalog_path.is_file())
+            self.assertTrue(references_path.is_file())
+            self.assertEqual(views.main(["--root", str(root), "--check"]), 0)
+
+            catalog_path.write_bytes(b"outdated catalog\n")
+            references_path.unlink()
+            stderr = io.StringIO()
+            with contextlib.redirect_stderr(stderr):
+                self.assertEqual(views.main(["--root", str(root), "--check"]), 1)
+
+            self.assertEqual(
+                stderr.getvalue().splitlines(),
+                ["generated/catalog.md", "generated/references.md"],
+            )
+            self.assertEqual(catalog_path.read_bytes(), b"outdated catalog\n")
+            self.assertFalse(references_path.exists())
+
+    def test_cli_reports_invalid_repository_root(self):
+        """Removing CLI validation-error handling would fail this user-facing error contract."""
+        stderr = io.StringIO()
+        with contextlib.redirect_stderr(stderr):
+            result = views.main(["--root", "missing-root"])
+
+        self.assertEqual(result, 2)
+        self.assertTrue(stderr.getvalue().startswith("error:"))
+
+    def _item(self, record_id: str, *, status: str = "Active") -> Record:
+        return Record(
+            record_type="item",
+            front_matter={
+                "id": record_id,
+                "statement": "Line one|line two\\path\nline three",
+                "kind": "Intervention",
+                "status": status,
+                "categories": ["zeta", "alpha"],
+                "applicability": "General",
+                "support_mode": "Direct",
+                "evidence_claims": [
+                    {"role": "Constraint", "references": ["REF-1000", "REF-999"]},
+                    {"role": "Support", "references": ["REF-999"]},
+                ],
+                "deprecation_reason": "Superseded" if status == "Deprecated" else None,
+                "replaced_by": ["QOL-1000"] if status == "Deprecated" else [],
+            },
+            body="",
+            evidence_strength="Moderate",
+        )
+
+    def _reference(
+        self,
+        record_id: str,
+        *,
+        status: str = "Active",
+        year: int | None = 2025,
+    ) -> Record:
+        return Record(
+            record_type="reference",
+            front_matter={
+                "id": record_id,
+                "title": "A reference title",
+                "status": status,
+                "authors": ["First Author", "Second Author"],
+                "year": year,
+                "source": "Journal",
+                "source_type": "Primary research",
+                "design": None,
+                "doi": None,
+                "pmid": None,
+                "urls": ["https://example.test/second", "https://example.test/first"],
+                "supports": ["Second boundary", "First boundary"],
+                "deprecation_reason": "Superseded" if status == "Deprecated" else None,
+                "replaced_by": "REF-1000" if status == "Deprecated" else None,
+            },
+            body="",
+        )
+
+    def test_catalog_view(self):
+        snapshot = RepositorySnapshot(
+            categories=(
+                Category("zeta", "Zeta|definition", "Deprecated", "alpha"),
+                Category("alpha", "Alpha\\definition\ncontinued", "Active"),
+            ),
+            items=(
+                self._item("QOL-1001", status="Deprecated"),
+                self._item("QOL-1000"),
+                self._item("QOL-999"),
+            ),
+            references=(),
+        )
+
+        rendered = views.render_catalog(snapshot)
+
+        self.assertTrue(rendered.startswith("<!-- Generated by python -m qol_kb.views. Do not edit. -->\n"))
+        self.assertLess(rendered.index("## Active Categories"), rendered.index("## Deprecated Categories"))
+        self.assertLess(rendered.index("## Active QoL Items"), rendered.index("## Deprecated QoL Items"))
+        self.assertLess(rendered.index("QOL-999"), rendered.index("QOL-1000"))
+        active_items = rendered.split("## Active QoL Items", maxsplit=1)[1].split(
+            "## Deprecated QoL Items", maxsplit=1
+        )[0]
+        deprecated_items = rendered.split("## Deprecated QoL Items", maxsplit=1)[1]
+        self.assertNotIn("QOL-1001", active_items)
+        self.assertIn("[QOL-1001](../items/QOL-1001.md)", deprecated_items)
+        self.assertIn("[QOL-999](../items/QOL-999.md)", rendered)
+        self.assertIn("[REF-999](references.md#ref-999)", rendered)
+        self.assertIn("| Moderate |", rendered)
+        self.assertNotIn("Low", rendered)
+        self.assertIn("Line one\\|line two\\\\path line three", rendered)
+        self.assertIn("Zeta\\|definition", rendered)
+        self.assertIn("Alpha\\\\definition continued", rendered)
+        self.assertEqual(rendered, views.render_catalog(snapshot))
+        self.assertTrue(rendered.endswith("\n"))
+        self.assertFalse(rendered.endswith("\n\n"))
+
+    def test_catalog_view_uses_fixed_empty_states(self):
+        rendered = views.render_catalog(RepositorySnapshot((), (), ()))
+
+        self.assertIn("No Active categories.", rendered)
+        self.assertIn("No Deprecated categories.", rendered)
+        self.assertIn("No Active QoL items.", rendered)
+        self.assertIn("No Deprecated QoL items.", rendered)
+
+    def test_reference_view(self):
+        snapshot = RepositorySnapshot(
+            categories=(),
+            items=(),
+            references=(
+                self._reference("REF-1000", status="Deprecated"),
+                self._reference("REF-999"),
+            ),
+        )
+
+        rendered = views.render_references(snapshot)
+
+        self.assertTrue(rendered.startswith("<!-- Generated by python -m qol_kb.views. Do not edit. -->\n"))
+        self.assertLess(rendered.index("## Active References"), rendered.index("## Deprecated References"))
+        self.assertLess(rendered.index("### REF-999"), rendered.index("### REF-1000"))
+        self.assertIn("[Canonical record](../references/REF-999.md)", rendered)
+        self.assertLess(rendered.index("- **Source:**"), rendered.index("- **Source type:**"))
+        self.assertNotIn("- **Design:**", rendered)
+        self.assertNotIn("- **DOI:**", rendered)
+        self.assertNotIn("- **PMID:**", rendered)
+        self.assertLess(rendered.index("- https://example.test/second"), rendered.index("- https://example.test/first"))
+        self.assertLess(rendered.index("- Second boundary"), rendered.index("- First boundary"))
+        self.assertIn("- **Deprecation reason:** Superseded", rendered)
+        self.assertIn("- **Replaced by:** [REF-1000](#ref-1000)", rendered)
+        self.assertEqual(rendered, views.render_references(snapshot))
+        self.assertTrue(rendered.endswith("\n"))
+        self.assertFalse(rendered.endswith("\n\n"))
+
+    def test_reference_view_uses_fixed_empty_states(self):
+        rendered = views.render_references(RepositorySnapshot((), (), ()))
+
+        self.assertIn("No Active references.", rendered)
+        self.assertIn("No Deprecated references.", rendered)
+
+    def test_reference_view_renders_unknown_year(self):
+        snapshot = RepositorySnapshot(
+            categories=(),
+            items=(),
+            references=(self._reference("REF-999", year=None),),
+        )
+
+        rendered = views.render_references(snapshot)
+
+        self.assertIn("- **Year:** Unknown", rendered)
+        self.assertNotIn("- **Year:** None", rendered)
+
+
+if __name__ == "__main__":
+    unittest.main()

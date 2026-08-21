@@ -33,7 +33,7 @@ IDs must not be renumbered when the catalog grows or priorities change. If an it
 
 ### Categories are flexible tags
 
-Categories are metadata, not exclusive containers. An item may have several categories, and contributors may introduce new categories without reorganizing or renumbering the catalog.
+Categories are metadata, not exclusive containers. An item may have several categories. Register a new lower-case kebab-case category in `categories.yaml` before applying it to an Active QoL Item. Each registry entry requires a short definition and lifecycle status. Adding, renaming, or reorganizing categories does not change a QoL Item ID.
 
 For example:
 
@@ -80,8 +80,13 @@ Do not write the second statement as though each service had independently demon
 
 ## Repository map
 
-- [`catalog.md`](catalog.md): canonical high-level map of QoL items.
-- [`references.md`](references.md): reusable evidence registry.
+- [`catalog.md`](catalog.md): legacy high-level map of QoL items during migration.
+- [`references.md`](references.md): legacy reusable evidence registry during migration.
+- [`generated/catalog.md`](generated/catalog.md): derived preview of the catalog; do not edit it manually.
+- [`generated/references.md`](generated/references.md): derived preview of the references; do not edit it manually.
+- [`categories.yaml`](categories.yaml): canonical structured category registry.
+- [`items/*.md`](items): canonical structured QoL item sources as they are migrated.
+- [`references/*.md`](references): canonical structured reference sources as they are migrated.
 - [`topics/sleep.md`](topics/sleep.md): sleep, circadian factors, bedroom conditions, and sleep disorders.
 - [`topics/physical-activity.md`](topics/physical-activity.md): aerobic activity, strength, sedentary behavior, active commuting, and musculoskeletal factors.
 - [`topics/nutrition-weight.md`](topics/nutrition-weight.md): food environment, dietary quality, hydration, caffeine, alcohol, weight, and nutrition-related factors.
@@ -94,6 +99,15 @@ Do not write the second statement as though each service had independently demon
 - [`topics/reproductive-health.md`](topics/reproductive-health.md): pelvic health, urinary incontinence, menopause, heavy menstrual bleeding, endometriosis, and related reproductive-health factors.
 - [`docs/superpowers/specs/2026-08-20-qol-knowledge-base-design.md`](docs/superpowers/specs/2026-08-20-qol-knowledge-base-design.md): design principles and long-term structural rules.
 - [`docs/superpowers/plans/2026-08-20-qol-knowledge-base-implementation.md`](docs/superpowers/plans/2026-08-20-qol-knowledge-base-implementation.md): implementation and maintenance workflow.
+
+## Generated views
+
+The files under `generated/` are derived previews and must not be edited manually. Regenerate them after changing canonical structured sources, then confirm that the committed previews have no drift:
+
+```powershell
+python -m qol_kb.views
+python -m qol_kb.views --check
+```
 
 ## How to add an item
 
@@ -110,11 +124,12 @@ Adding `QOL-119` must not require renumbering `QOL-001` through `QOL-118`.
 
 ## How to add a category
 
-Create a new lower-case kebab-case category whenever an existing category set no longer describes a useful retrieval dimension.
+1. Check `categories.yaml` for an existing tag that represents the retrieval dimension.
+2. If none exists, add a unique lower-case kebab-case entry with a short definition and `status: Active`.
+3. Apply the registered tag to relevant Active QoL Items.
+4. When replacing a category, retain the old entry as `Deprecated` and optionally point `replaced_by` to its direct Active replacement.
 
-A new category does not require a new folder, file migration, or ID change. Add it to any relevant items. If the category later grows into a substantial body of material, a new `topics/*.md` page may be created as an additional thematic view.
-
-One item may belong to several existing and new categories at the same time.
+Category changes never require a folder move, file migration, or QoL Item ID change. Topic pages remain optional thematic views rather than canonical category definitions.
 
 ## How to add or revise a reference
 

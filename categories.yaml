@@ -1,0 +1,13 @@
+categories:
+  physical-activity:
+    definition: Interventions and exposures involving bodily movement or exercise.
+    status: Active
+  environment:
+    definition: Physical environmental conditions and exposures affecting quality of life.
+    status: Active
+  mental-health:
+    definition: Psychological and emotional well-being, symptoms, and functioning.
+    status: Active
+  circadian:
+    definition: Timing and regularity of sleep, wakefulness, and other circadian exposures.
+    status: Active
