@@ -1,3 +1,7 @@
+import contextlib
+import io
+from pathlib import Path
+import tempfile
 import unittest
 
 from qol_kb import views
@@ -5,6 +9,50 @@ from qol_kb.records import Category, Record, RepositorySnapshot
 
 
 class DeterministicViewTests(unittest.TestCase):
+    def _write_category_registry(self, root: Path) -> None:
+        (root / "categories.yaml").write_text(
+            "categories:\n"
+            "  alpha:\n"
+            "    definition: Alpha category.\n"
+            "    status: Active\n",
+            encoding="utf-8",
+        )
+
+    def test_cli_write_and_check(self):
+        """Removing writes or drift checks would fail this generated-view contract."""
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self._write_category_registry(root)
+
+            self.assertEqual(views.main(["--root", str(root)]), 0)
+            catalog_path = root / "generated" / "catalog.md"
+            references_path = root / "generated" / "references.md"
+            self.assertTrue(catalog_path.is_file())
+            self.assertTrue(references_path.is_file())
+            self.assertEqual(views.main(["--root", str(root), "--check"]), 0)
+
+            catalog_path.write_bytes(b"outdated catalog\n")
+            references_path.unlink()
+            stderr = io.StringIO()
+            with contextlib.redirect_stderr(stderr):
+                self.assertEqual(views.main(["--root", str(root), "--check"]), 1)
+
+            self.assertEqual(
+                stderr.getvalue().splitlines(),
+                ["generated/catalog.md", "generated/references.md"],
+            )
+            self.assertEqual(catalog_path.read_bytes(), b"outdated catalog\n")
+            self.assertFalse(references_path.exists())
+
+    def test_cli_reports_invalid_repository_root(self):
+        """Removing CLI validation-error handling would fail this user-facing error contract."""
+        stderr = io.StringIO()
+        with contextlib.redirect_stderr(stderr):
+            result = views.main(["--root", "missing-root"])
+
+        self.assertEqual(result, 2)
+        self.assertTrue(stderr.getvalue().startswith("error:"))
+
     def _item(self, record_id: str, *, status: str = "Active") -> Record:
         return Record(
             record_type="item",
