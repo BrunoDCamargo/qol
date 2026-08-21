@@ -26,10 +26,12 @@
       "minLength": 1
     },
     "kind": {
-      "type": "string"
+      "type": "string",
+      "enum": ["Intervention", "Assessment", "Guardrail"]
     },
     "status": {
-      "type": "string"
+      "type": "string",
+      "enum": ["Active", "Deprecated"]
     },
     "categories": {
       "type": "array",
@@ -37,13 +39,15 @@
       "uniqueItems": true
     },
     "applicability": {
-      "type": "string"
+      "type": "string",
+      "enum": ["General", "Conditional"]
     },
     "condition": {
       "type": ["string", "null"]
     },
     "support_mode": {
-      "type": "string"
+      "type": "string",
+      "enum": ["Direct", "Inferred"]
     },
     "evidence_reviewed_at": {
       "type": ["string", "null"],
@@ -57,8 +61,14 @@
         "required": ["statement", "role", "strength", "references"],
         "properties": {
           "statement": {"type": "string", "minLength": 1},
-          "role": {"type": "string"},
-          "strength": {"type": "string"},
+          "role": {
+            "type": "string",
+            "enum": ["Support", "Constraint"]
+          },
+          "strength": {
+            "type": "string",
+            "enum": ["High", "Moderate", "Low"]
+          },
           "references": {
             "type": "array",
             "items": {"type": "string", "pattern": "^REF-[0-9]{3,}$"},
@@ -75,7 +85,10 @@
         "additionalProperties": false,
         "required": ["type", "target"],
         "properties": {
-          "type": {"type": "string"},
+          "type": {
+            "type": "string",
+            "enum": ["informs"]
+          },
           "target": {"type": "string", "pattern": "^QOL-[0-9]{3,}$"}
         }
       }
