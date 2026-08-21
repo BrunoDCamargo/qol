@@ -1,0 +1,71 @@
+from pathlib import Path
+import tempfile
+import unittest
+
+from qol_kb.records import load_category_registry
+
+
+REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
+
+
+class CategoryRegistryTests(unittest.TestCase):
+    def _write_registry(self, root: Path, yaml_text: str) -> Path:
+        path = root / "categories.yaml"
+        path.write_text(yaml_text, encoding="utf-8")
+        return path
+
+    def test_seeded_registry_loads_canonical_categories(self):
+        categories = load_category_registry(REPOSITORY_ROOT / "categories.yaml")
+        self.assertEqual(
+            set(categories),
+            {"physical-activity", "environment", "mental-health", "circadian"},
+        )
+        self.assertEqual(categories["physical-activity"].status, "Active")
+        self.assertTrue(categories["physical-activity"].definition.strip())
+
+    def test_registry_rejects_non_kebab_case_names(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = self._write_registry(
+                Path(tmp),
+                "categories:\n  Mental Health:\n    definition: Invalid name.\n    status: Active\n",
+            )
+            with self.assertRaisesRegex(ValueError, r"Mental Health"):
+                load_category_registry(path)
+
+    def test_registry_rejects_duplicate_category_keys(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = self._write_registry(
+                Path(tmp),
+                "categories:\n"
+                "  physical-activity:\n"
+                "    definition: First definition.\n"
+                "    status: Active\n"
+                "  physical-activity:\n"
+                "    definition: Second definition.\n"
+                "    status: Active\n",
+            )
+            with self.assertRaisesRegex(ValueError, r"duplicate.*physical-activity"):
+                load_category_registry(path)
+
+    def test_registry_rejects_blank_definition_and_unknown_status(self):
+        invalid_entries = (
+            (
+                "blank-definition",
+                "categories:\n  sleep:\n    definition: '   '\n    status: Active\n",
+                r"sleep.*definition|definition.*sleep",
+            ),
+            (
+                "unknown-status",
+                "categories:\n  sleep:\n    definition: Sleep timing.\n    status: Retired\n",
+                r"Retired|status",
+            ),
+        )
+        for label, yaml_text, message in invalid_entries:
+            with self.subTest(label=label), tempfile.TemporaryDirectory() as tmp:
+                path = self._write_registry(Path(tmp), yaml_text)
+                with self.assertRaisesRegex(ValueError, message):
+                    load_category_registry(path)
+
+
+if __name__ == "__main__":
+    unittest.main()

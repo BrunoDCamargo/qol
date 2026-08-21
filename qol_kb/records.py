@@ -27,6 +27,38 @@ class Record:
     evidence_strength: str | None = None
 
 
+@dataclass(frozen=True)
+class Category:
+    name: str
+    definition: str
+    status: str
+    replaced_by: str | None = None
+
+
+class _UniqueKeyLoader(yaml.SafeLoader):
+    pass
+
+
+def _construct_unique_mapping(
+    loader: _UniqueKeyLoader,
+    node: yaml.MappingNode,
+    deep: bool = False,
+) -> dict[Any, Any]:
+    mapping: dict[Any, Any] = {}
+    for key_node, value_node in node.value:
+        key = loader.construct_object(key_node, deep=deep)
+        if key in mapping:
+            raise ValueError(f"duplicate YAML key: {key}")
+        mapping[key] = loader.construct_object(value_node, deep=deep)
+    return mapping
+
+
+_UniqueKeyLoader.add_constructor(
+    yaml.resolver.BaseResolver.DEFAULT_MAPPING_TAG,
+    _construct_unique_mapping,
+)
+
+
 def _record_type_for_path(record_path: Path) -> str:
     if record_path.suffix != ".md":
         raise ValueError(f"{record_path.name} must use the .md extension")
@@ -52,19 +84,68 @@ def _validate_front_matter(
     record_type: str,
     front_matter: dict[str, Any],
 ) -> None:
-    schema_path = SCHEMA_DIR / SCHEMA_FILES[record_type]
+    _validate_schema_data(
+        record_path,
+        SCHEMA_FILES[record_type],
+        front_matter,
+    )
+
+
+def _validate_schema_data(
+    source_path: Path,
+    schema_filename: str,
+    data: dict[str, Any],
+) -> None:
+    schema_path = SCHEMA_DIR / schema_filename
     schema = json.loads(schema_path.read_text(encoding="utf-8"))
     validator = Draft202012Validator(schema)
     errors = sorted(
-        validator.iter_errors(front_matter),
+        validator.iter_errors(data),
         key=lambda error: (str(list(error.absolute_path)), error.message),
     )
     if errors:
         details = []
         for error in errors:
-            path = _validation_error_path(error)
-            details.append(f"{path}: {error.message}" if path else error.message)
-        raise ValueError(f"{record_path}: {'; '.join(details)}")
+            error_path = _validation_error_path(error)
+            details.append(
+                f"{error_path}: {error.message}" if error_path else error.message
+            )
+        raise ValueError(f"{source_path}: {'; '.join(details)}")
+
+
+def load_category_registry(path: str | Path) -> dict[str, Category]:
+    registry_path = Path(path)
+    if not registry_path.is_file():
+        raise ValueError(f"{registry_path}: canonical category registry is required")
+
+    try:
+        registry_data = yaml.load(
+            registry_path.read_text(encoding="utf-8"),
+            Loader=_UniqueKeyLoader,
+        )
+    except (ValueError, yaml.YAMLError) as error:
+        raise ValueError(f"{registry_path}: {error}") from error
+
+    if not isinstance(registry_data, dict):
+        raise ValueError(f"{registry_path}: category registry must be a mapping")
+
+    _validate_schema_data(
+        registry_path,
+        "category-registry.schema.json",
+        registry_data,
+    )
+    categories: dict[str, Category] = {}
+    for name, data in registry_data["categories"].items():
+        definition = data["definition"]
+        if not definition.strip():
+            raise ValueError(f"{registry_path}: {name} definition must not be blank")
+        categories[name] = Category(
+            name=name,
+            definition=definition,
+            status=data["status"],
+            replaced_by=data.get("replaced_by"),
+        )
+    return categories
 
 
 def _support_claims(front_matter: dict[str, Any]) -> list[dict[str, Any]]:
