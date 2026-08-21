@@ -187,6 +187,13 @@ def validate_repository(root: str | Path) -> None:
                         f"{record_id}: active item cannot use Deprecated reference {reference_id}"
                     )
 
+        for replacement_id in record.front_matter.get("replaced_by", []):
+            replacement = records_by_id.get(replacement_id)
+            if replacement is None or replacement.record_type != "item":
+                raise ValueError(
+                    f"{record_id}: replacement item does not resolve: {replacement_id}"
+                )
+
         for relationship in record.front_matter["relationships"]:
             target_id = relationship["target"]
             if target_id == record_id:
