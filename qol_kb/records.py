@@ -47,9 +47,12 @@ def _construct_unique_mapping(
     mapping: dict[Any, Any] = {}
     for key_node, value_node in node.value:
         key = loader.construct_object(key_node, deep=deep)
-        if key in mapping:
-            raise ValueError(f"duplicate YAML key: {key}")
-        mapping[key] = loader.construct_object(value_node, deep=deep)
+        try:
+            if key in mapping:
+                raise ValueError(f"duplicate YAML key: {key}")
+            mapping[key] = loader.construct_object(value_node, deep=deep)
+        except TypeError as error:
+            raise ValueError(f"unhashable YAML key: {key}") from error
     return mapping
 
 

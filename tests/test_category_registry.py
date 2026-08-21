@@ -32,6 +32,15 @@ class CategoryRegistryTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, r"Mental Health"):
                 load_category_registry(path)
 
+    def test_registry_rejects_non_string_category_names(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = self._write_registry(
+                Path(tmp),
+                "categories:\n  123:\n    definition: Invalid name.\n    status: Active\n",
+            )
+            with self.assertRaisesRegex(ValueError, r"123|string"):
+                load_category_registry(path)
+
     def test_registry_rejects_duplicate_category_keys(self):
         with tempfile.TemporaryDirectory() as tmp:
             path = self._write_registry(
@@ -45,6 +54,19 @@ class CategoryRegistryTests(unittest.TestCase):
                 "    status: Active\n",
             )
             with self.assertRaisesRegex(ValueError, r"duplicate.*physical-activity"):
+                load_category_registry(path)
+
+    def test_registry_rejects_unhashable_yaml_key_with_registry_path(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = self._write_registry(
+                Path(tmp),
+                "categories:\n"
+                "  ? [invalid, key]\n"
+                "  :\n"
+                "    definition: Invalid key.\n"
+                "    status: Active\n",
+            )
+            with self.assertRaisesRegex(ValueError, r"categories\.yaml.*unhashable"):
                 load_category_registry(path)
 
     def test_registry_rejects_blank_definition_and_unknown_status(self):
