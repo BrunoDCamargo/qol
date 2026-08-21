@@ -83,6 +83,12 @@ class RepositorySnapshotTests(unittest.TestCase):
             self.assertEqual(snapshot.items[0].evidence_strength, "Moderate")
             with self.assertRaises(dataclasses.FrozenInstanceError):
                 snapshot.items = ()
+            with self.assertRaises(TypeError):
+                snapshot.items[0].front_matter["statement"] = "Mutated"
+            with self.assertRaises((AttributeError, TypeError)):
+                snapshot.items[0].front_matter["evidence_claims"][0][
+                    "references"
+                ].append("REF-1001")
             self.assertIsNone(records.validate_repository(root))
 
 

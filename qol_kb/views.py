@@ -105,6 +105,7 @@ def render_catalog(snapshot: RepositorySnapshot) -> str:
 
 def _reference_entry(record: Record) -> list[str]:
     metadata = record.front_matter
+    year = "Unknown" if metadata["year"] is None else metadata["year"]
     lines = [
         f"### {metadata['id']}",
         "",
@@ -112,7 +113,7 @@ def _reference_entry(record: Record) -> list[str]:
         "",
         f"- **Title:** {_markdown_cell(metadata['title'])}",
         f"- **Authors:** {_markdown_cell(', '.join(metadata['authors']))}",
-        f"- **Year:** {_markdown_cell(metadata['year'])}",
+        f"- **Year:** {_markdown_cell(year)}",
         f"- **Source:** {_markdown_cell(metadata['source'])}",
         f"- **Source type:** {_markdown_cell(metadata['source_type'])}",
     ]

@@ -27,7 +27,7 @@ class StructuredRecordPipelineTests(unittest.TestCase):
         self.assertEqual(record.front_matter["title"], "Fixture reference")
         self.assertEqual(
             record.front_matter["supports"],
-            ["The fixture reference can be loaded."],
+            ("The fixture reference can be loaded.",),
         )
 
     def test_rejects_filename_and_record_id_mismatch(self):

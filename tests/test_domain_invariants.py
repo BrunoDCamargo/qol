@@ -235,7 +235,10 @@ class QoLDomainInvariantTests(unittest.TestCase):
                             replaced_by=replaced_by,
                         ),
                     )
-                    self.assertEqual(load_record(path).front_matter["replaced_by"], replaced_by)
+                    self.assertEqual(
+                        load_record(path).front_matter["replaced_by"],
+                        tuple(replaced_by),
+                    )
 
     def test_replacement_ids_must_resolve_to_items(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -301,6 +304,82 @@ class QoLDomainInvariantTests(unittest.TestCase):
             )
             with self.assertRaisesRegex(ValueError, r"deprecation_reason"):
                 load_record(path)
+
+    def test_active_reference_cannot_declare_replacement(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = self._write_record(
+                Path(tmp),
+                "references",
+                self._reference(replaced_by="REF-951"),
+            )
+            with self.assertRaisesRegex(
+                ValueError,
+                r"REF-950\.md.*Active reference.*replaced_by",
+            ):
+                load_record(path)
+
+    def test_deprecated_reference_replacement_must_resolve(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self._write_record(
+                root,
+                "references",
+                self._reference(
+                    status="Deprecated",
+                    deprecation_reason="Superseded reference fixture.",
+                    replaced_by="REF-999",
+                ),
+            )
+            with self.assertRaisesRegex(
+                ValueError,
+                r"REF-950.*replacement.*does not resolve.*REF-999",
+            ):
+                self._validate_repository(root)
+
+    def test_deprecated_reference_replacement_must_be_distinct(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self._write_record(
+                root,
+                "references",
+                self._reference(
+                    status="Deprecated",
+                    deprecation_reason="Superseded reference fixture.",
+                    replaced_by="REF-950",
+                ),
+            )
+            with self.assertRaisesRegex(
+                ValueError,
+                r"REF-950.*replacement.*distinct",
+            ):
+                self._validate_repository(root)
+
+    def test_deprecated_reference_replacement_must_be_active(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self._write_record(
+                root,
+                "references",
+                self._reference(
+                    status="Deprecated",
+                    deprecation_reason="Superseded reference fixture.",
+                    replaced_by="REF-951",
+                ),
+            )
+            self._write_record(
+                root,
+                "references",
+                self._reference(
+                    reference_id="REF-951",
+                    status="Deprecated",
+                    deprecation_reason="Also superseded.",
+                ),
+            )
+            with self.assertRaisesRegex(
+                ValueError,
+                r"REF-950.*replacement.*Active.*REF-951",
+            ):
+                self._validate_repository(root)
 
     def test_evidence_claim_references_must_resolve(self):
         with tempfile.TemporaryDirectory() as tmp:

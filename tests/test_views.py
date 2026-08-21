@@ -81,7 +81,13 @@ class DeterministicViewTests(unittest.TestCase):
             evidence_strength="Moderate",
         )
 
-    def _reference(self, record_id: str, *, status: str = "Active") -> Record:
+    def _reference(
+        self,
+        record_id: str,
+        *,
+        status: str = "Active",
+        year: int | None = 2025,
+    ) -> Record:
         return Record(
             record_type="reference",
             front_matter={
@@ -89,7 +95,7 @@ class DeterministicViewTests(unittest.TestCase):
                 "title": "A reference title",
                 "status": status,
                 "authors": ["First Author", "Second Author"],
-                "year": 2025,
+                "year": year,
                 "source": "Journal",
                 "source_type": "Primary research",
                 "design": None,
@@ -109,7 +115,11 @@ class DeterministicViewTests(unittest.TestCase):
                 Category("zeta", "Zeta|definition", "Deprecated", "alpha"),
                 Category("alpha", "Alpha\\definition\ncontinued", "Active"),
             ),
-            items=(self._item("QOL-1000"), self._item("QOL-999")),
+            items=(
+                self._item("QOL-1001", status="Deprecated"),
+                self._item("QOL-1000"),
+                self._item("QOL-999"),
+            ),
             references=(),
         )
 
@@ -119,6 +129,12 @@ class DeterministicViewTests(unittest.TestCase):
         self.assertLess(rendered.index("## Active Categories"), rendered.index("## Deprecated Categories"))
         self.assertLess(rendered.index("## Active QoL Items"), rendered.index("## Deprecated QoL Items"))
         self.assertLess(rendered.index("QOL-999"), rendered.index("QOL-1000"))
+        active_items = rendered.split("## Active QoL Items", maxsplit=1)[1].split(
+            "## Deprecated QoL Items", maxsplit=1
+        )[0]
+        deprecated_items = rendered.split("## Deprecated QoL Items", maxsplit=1)[1]
+        self.assertNotIn("QOL-1001", active_items)
+        self.assertIn("[QOL-1001](../items/QOL-1001.md)", deprecated_items)
         self.assertIn("[QOL-999](../items/QOL-999.md)", rendered)
         self.assertIn("[REF-999](references.md#ref-999)", rendered)
         self.assertIn("| Moderate |", rendered)
@@ -171,6 +187,18 @@ class DeterministicViewTests(unittest.TestCase):
 
         self.assertIn("No Active references.", rendered)
         self.assertIn("No Deprecated references.", rendered)
+
+    def test_reference_view_renders_unknown_year(self):
+        snapshot = RepositorySnapshot(
+            categories=(),
+            items=(),
+            references=(self._reference("REF-999", year=None),),
+        )
+
+        rendered = views.render_references(snapshot)
+
+        self.assertIn("- **Year:** Unknown", rendered)
+        self.assertNotIn("- **Year:** None", rendered)
 
 
 if __name__ == "__main__":

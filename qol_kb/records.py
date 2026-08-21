@@ -1,7 +1,8 @@
 import json
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any
+from types import MappingProxyType
+from typing import Any, Mapping, TypeAlias
 
 from jsonschema import Draft202012Validator
 import yaml
@@ -18,11 +19,21 @@ EVIDENCE_STRENGTH_ORDER = {
     "High": 2,
 }
 
+ReadOnlyValue: TypeAlias = (
+    str
+    | int
+    | float
+    | bool
+    | None
+    | Mapping[str, "ReadOnlyValue"]
+    | tuple["ReadOnlyValue", ...]
+)
+
 
 @dataclass(frozen=True)
 class Record:
     record_type: str
-    front_matter: dict[str, Any]
+    front_matter: Mapping[str, ReadOnlyValue]
     body: str
     evidence_strength: str | None = None
 
@@ -67,6 +78,21 @@ _UniqueKeyLoader.add_constructor(
     yaml.resolver.BaseResolver.DEFAULT_MAPPING_TAG,
     _construct_unique_mapping,
 )
+
+
+def _freeze_front_matter(
+    front_matter: dict[str, Any],
+) -> Mapping[str, ReadOnlyValue]:
+    def freeze(value: Any) -> ReadOnlyValue:
+        if isinstance(value, dict):
+            return MappingProxyType({key: freeze(item) for key, item in value.items()})
+        if isinstance(value, list):
+            return tuple(freeze(item) for item in value)
+        return value
+
+    return MappingProxyType(
+        {key: freeze(value) for key, value in front_matter.items()}
+    )
 
 
 def _record_type_for_path(record_path: Path) -> str:
@@ -218,6 +244,13 @@ def _validate_reference_semantics(
     record_path: Path,
     front_matter: dict[str, Any],
 ) -> None:
+    if (
+        front_matter["status"] == "Active"
+        and front_matter.get("replaced_by") is not None
+    ):
+        raise ValueError(
+            f"{record_path}: Active reference cannot declare replaced_by"
+        )
     if front_matter["status"] == "Deprecated":
         reason = front_matter.get("deprecation_reason")
         if not isinstance(reason, str) or not reason.strip():
@@ -261,7 +294,7 @@ def load_record(path: str | Path) -> Record:
     body = "".join(lines[closing_index + 1 :])
     return Record(
         record_type=record_type,
-        front_matter=front_matter,
+        front_matter=_freeze_front_matter(front_matter),
         body=body,
         evidence_strength=evidence_strength,
     )
@@ -272,6 +305,26 @@ def _validate_repository_records(
     records_by_id: dict[str, Record],
 ) -> None:
     for record_id, record in records_by_id.items():
+        if record.record_type == "reference":
+            replacement_id = record.front_matter.get("replaced_by")
+            if replacement_id is None:
+                continue
+            if replacement_id == record_id:
+                raise ValueError(
+                    f"{record_id}: reference replacement must be distinct"
+                )
+            replacement = records_by_id.get(replacement_id)
+            if replacement is None or replacement.record_type != "reference":
+                raise ValueError(
+                    f"{record_id}: reference replacement does not resolve: "
+                    f"{replacement_id}"
+                )
+            if replacement.front_matter["status"] != "Active":
+                raise ValueError(
+                    f"{record_id}: reference replacement must be Active: "
+                    f"{replacement_id}"
+                )
+            continue
         if record.record_type != "item":
             continue
 
