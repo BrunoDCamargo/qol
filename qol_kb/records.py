@@ -52,6 +52,7 @@ class RepositorySnapshot:
     categories: tuple[Category, ...]
     items: tuple[Record, ...]
     references: tuple[Record, ...]
+    implementation_options: tuple[Record, ...]
 
 
 class _UniqueKeyLoader(yaml.SafeLoader):
@@ -330,6 +331,24 @@ def _validate_repository_records(
                     f"{replacement_id}"
                 )
             continue
+
+        if record.record_type == "implementation_option":
+            for item_id in record.front_matter["implements"]:
+                item = records_by_id.get(item_id)
+                if item is None or item.record_type != "item":
+                    raise ValueError(
+                        f"{record_id}: implementation target does not resolve: {item_id}"
+                    )
+                if (
+                    record.front_matter["status"] == "Active"
+                    and item.front_matter["status"] != "Active"
+                ):
+                    raise ValueError(
+                        f"{record_id}: Active implementation option cannot target "
+                        f"Deprecated item {item_id}"
+                    )
+            continue
+
         if record.record_type != "item":
             continue
 
@@ -390,7 +409,7 @@ def load_repository(root: str | Path) -> RepositorySnapshot:
     root_path = Path(root)
     categories = load_category_registry(root_path / "categories.yaml")
     records_by_id: dict[str, Record] = {}
-    for folder in ("references", "items"):
+    for folder in ("references", "items", "implementation-options"):
         directory = root_path / folder
         if not directory.exists():
             continue
@@ -409,6 +428,14 @@ def load_repository(root: str | Path) -> RepositorySnapshot:
         )),
         references=tuple(sorted(
             (record for record in records_by_id.values() if record.record_type == "reference"),
+            key=_canonical_id_sort_key,
+        )),
+        implementation_options=tuple(sorted(
+            (
+                record
+                for record in records_by_id.values()
+                if record.record_type == "implementation_option"
+            ),
             key=_canonical_id_sort_key,
         )),
     )
