@@ -4,6 +4,7 @@
 | Category | Definition |
 | --- | --- |
 | attention | Attention, focus, interruption, and cognitive workload affecting daily functioning. |
+| behavior-change | Behavioral strategies, self-monitoring, habit supports, and structured behavior change affecting quality of life. |
 | circadian | Timing and regularity of sleep, wakefulness, and other circadian exposures. |
 | environment | Physical environmental conditions and exposures affecting quality of life. |
 | financial-wellbeing | Financial security, spending trade-offs, affordability, and money-related stress or well-being. |
@@ -115,6 +116,26 @@ No Deprecated categories.
 | [QOL-078](../items/QOL-078.md) | Treat persistent relationship distress when it is a major quality-of-life driver | Intervention | relationships, social, mental-health | Moderate | Conditional | Direct | [REF-059](references.md#ref-059) |
 | [QOL-079](../items/QOL-079.md) | Include sexual health in quality-of-life assessment when relevant | Assessment | sexual-health, relationships, preventive-health | High | Conditional | Direct | [REF-066](references.md#ref-066) |
 | [QOL-080](../items/QOL-080.md) | Measure actual weekly work hours when workload is uncertain | Assessment | work-design, time, preventive-health | High | Conditional | Inferred | [REF-042](references.md#ref-042) |
+| [QOL-081](../items/QOL-081.md) | Improve psychological detachment from work when mental carryover impairs recovery | Intervention | work-design, mental-health, time | Moderate | Conditional | Direct | [REF-043](references.md#ref-043) |
+| [QOL-082](../items/QOL-082.md) | Build deliberate recovery skills after work when recovery is persistently poor | Intervention | work-design, mental-health, time | Low | Conditional | Direct | [REF-044](references.md#ref-044) |
+| [QOL-083](../items/QOL-083.md) | Reduce office noise when concentration demands and noise exposure justify it | Intervention | work-design, environment, attention | Low | Conditional | Inferred | [REF-006](references.md#ref-006) |
+| [QOL-084](../items/QOL-084.md) | Consider modest workplace greening as a low-stakes environmental intervention | Intervention | work-design, environment, mental-health | Low | Conditional | Direct | [REF-054](references.md#ref-054) |
+| [QOL-085](../items/QOL-085.md) | Spend some discretionary money on meaningful shared experiences when valued | Intervention | financial-wellbeing, social, relationships | Moderate | Conditional | Direct | [REF-055](references.md#ref-055) |
+| [QOL-086](../items/QOL-086.md) | Treat prosocial spending as potentially beneficial, not universally effective | Guardrail | financial-wellbeing, social, mental-health | Low | Conditional | Direct | [REF-056](references.md#ref-056) |
+| [QOL-087](../items/QOL-087.md) | Increase financial safety margin when financial insecurity is a meaningful stressor | Intervention | financial-wellbeing, mental-health, preventive-health | Low | Conditional | Inferred | [REF-067](references.md#ref-067) |
+| [QOL-088](../items/QOL-088.md) | Automate recurring financial obligations when automation removes cognitive load | Intervention | financial-wellbeing, friction-reduction, time | Moderate | Conditional | Inferred | [REF-012](references.md#ref-012), [REF-067](references.md#ref-067) |
+| [QOL-089](../items/QOL-089.md) | Use activity self-monitoring when it helps sustain movement | Intervention | physical-activity, technology, behavior-change | Moderate | Conditional | Direct | [REF-045](references.md#ref-045) |
+| [QOL-090](../items/QOL-090.md) | Use microbreaks to manage fatigue during long cognitive work | Intervention | work-design, attention, mental-health | Moderate | Conditional | Direct | [REF-046](references.md#ref-046) |
+| [QOL-091](../items/QOL-091.md) | Use active commuting when it is safe and practical | Intervention | physical-activity, work-design, time, environment | High | Conditional | Inferred | [REF-015](references.md#ref-015), [REF-016](references.md#ref-016) |
+| [QOL-092](../items/QOL-092.md) | Schedule meaningful or rewarding activities when low activation is part of depression or avoidance | Intervention | mental-health, behavior-change | Moderate | Conditional | Direct | [REF-041](references.md#ref-041) |
+| [QOL-093](../items/QOL-093.md) | Treat bothersome tinnitus rather than assuming nothing can help | Intervention | hearing, mental-health, preventive-health | High | Conditional | Direct | [REF-047](references.md#ref-047) |
+| [QOL-094](../items/QOL-094.md) | Evaluate recurrent nocturia when it disrupts sleep | Assessment | sleep, preventive-health | High | Conditional | Direct | [REF-065](references.md#ref-065) |
+| [QOL-095](../items/QOL-095.md) | Investigate chronic gastrointestinal symptoms that meaningfully affect quality of life | Assessment | gastrointestinal, preventive-health, nutrition | High | Conditional | Direct | [REF-048](references.md#ref-048), [REF-050](references.md#ref-050) |
+| [QOL-096](../items/QOL-096.md) | Treat eczema or pruritus when it disrupts comfort or sleep | Intervention | preventive-health, sleep, pain | Moderate | Conditional | Inferred | [REF-070](references.md#ref-070) |
+| [QOL-097](../items/QOL-097.md) | Review medications when symptoms plausibly track medication initiation or dose changes | Assessment | medications, preventive-health | High | Conditional | Direct | [REF-049](references.md#ref-049) |
+| [QOL-098](../items/QOL-098.md) | Repair or replace recurring physical irritants when doing so reliably removes repeated friction | Intervention | friction-reduction, environment, time | Moderate | Conditional | Inferred | [REF-012](references.md#ref-012) |
+| [QOL-099](../items/QOL-099.md) | Duplicate inexpensive frequently transported items when it reliably removes repeated friction | Intervention | friction-reduction, time | Moderate | Conditional | Inferred | [REF-012](references.md#ref-012) |
+| [QOL-100](../items/QOL-100.md) | Audit recurring commitments for whether they still justify their time, money, and recovery cost | Assessment | time, friction-reduction, mental-health | Moderate | Conditional | Inferred | [REF-012](references.md#ref-012), [REF-043](references.md#ref-043) |
 
 ## Deprecated QoL Items
 | ID | Statement | Deprecation reason | Replaced by |
