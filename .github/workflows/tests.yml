@@ -22,5 +22,14 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Verify generated views
+        shell: bash
+        run: |
+          if ! python -m qol_kb.views --check; then
+            python -m qol_kb.views
+            git diff -- generated
+            exit 1
+          fi
+
       - name: Run tests
         run: python -m unittest discover -s tests
