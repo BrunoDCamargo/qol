@@ -23,3 +23,18 @@ categories:
   nutrition:
     definition: Food access, dietary patterns, meal choices, and nutrition-related exposures.
     status: Active
+  sedentary-behavior:
+    definition: Prolonged sitting or reclining and interventions intended to reduce sedentary exposure.
+    status: Active
+  work-design:
+    definition: Work organization, workspace, scheduling, and job-related conditions affecting quality of life.
+    status: Active
+  pain:
+    definition: Pain, musculoskeletal discomfort, and interventions affecting pain-related function.
+    status: Active
+  indoor-air:
+    definition: Indoor air pollutants, ventilation, filtration, and related environmental exposures.
+    status: Active
+  preventive-health:
+    definition: Preventive actions, risk reduction, screening, and health-maintenance interventions.
+    status: Active

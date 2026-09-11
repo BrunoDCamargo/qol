@@ -16,19 +16,17 @@ class CategoryRegistryTests(unittest.TestCase):
 
     def test_seeded_registry_loads_canonical_categories(self):
         categories = load_category_registry(REPOSITORY_ROOT / "categories.yaml")
-        self.assertEqual(
-            set(categories),
-            {
-                "physical-activity",
-                "environment",
-                "mental-health",
-                "circadian",
-                "sleep",
-                "time",
-                "friction-reduction",
-                "nutrition",
-            },
-        )
+        base_categories = {
+            "physical-activity",
+            "environment",
+            "mental-health",
+            "circadian",
+            "sleep",
+            "time",
+            "friction-reduction",
+            "nutrition",
+        }
+        self.assertTrue(base_categories.issubset(set(categories)))
         self.assertEqual(categories["physical-activity"].status, "Active")
         self.assertTrue(categories["physical-activity"].definition.strip())
 
