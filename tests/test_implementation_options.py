@@ -8,6 +8,9 @@ from qol_kb import records
 from qol_kb.records import load_record
 
 
+REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
+
+
 class ImplementationOptionRepositoryTests(unittest.TestCase):
     def _write_record(self, root: Path, folder: str, front_matter: dict) -> Path:
         directory = root / folder
@@ -70,6 +73,31 @@ class ImplementationOptionRepositoryTests(unittest.TestCase):
     def _write_active_target(self, root: Path) -> None:
         self._write_record(root, "references", self._reference())
         self._write_record(root, "items", self._item("QOL-950"))
+
+    def test_seeded_repository_contains_initial_implementation_options(self):
+        snapshot = records.load_repository(REPOSITORY_ROOT)
+        options = {
+            record.front_matter["id"]: (
+                record.front_matter["name"],
+                record.front_matter["acquisition"],
+                record.front_matter["implements"],
+            )
+            for record in snapshot.implementation_options
+        }
+
+        self.assertEqual(
+            options,
+            {
+                "IMP-001": ("Sleep mask", "purchase", ("QOL-010",)),
+                "IMP-002": (
+                    "Earplugs for nighttime noise",
+                    "purchase",
+                    ("QOL-007",),
+                ),
+                "IMP-003": ("Home cleaning service", "service", ("QOL-022",)),
+                "IMP-004": ("Prepared meal service", "service", ("QOL-025",)),
+            },
+        )
 
     def test_repository_snapshot_includes_sorted_implementation_options(self):
         with tempfile.TemporaryDirectory() as tmp:
