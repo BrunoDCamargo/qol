@@ -120,7 +120,7 @@ def _reference_entry(record: Record) -> list[str]:
     for label, field in (("Design", "design"), ("DOI", "doi"), ("PMID", "pmid")):
         if metadata.get(field) is not None:
             lines.append(f"- **{label}:** {_markdown_cell(metadata[field])}")
-    lines.extend(["- **URLs:**", *(f"  - {_markdown_cell(url)}" for url in metadata["urls"]), "- **Supports:"])
+    lines.extend(["- **URLs:**", *(f"  - {_markdown_cell(url)}" for url in metadata["urls"]), "- **Supports:**"])
     lines.extend(f"  - {_markdown_cell(boundary)}" for boundary in metadata["supports"])
     if metadata["status"] == "Deprecated":
         lines.append(f"- **Deprecation reason:** {_markdown_cell(metadata.get('deprecation_reason') or '')}")
