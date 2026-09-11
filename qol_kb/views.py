@@ -190,7 +190,39 @@ def render_implementation_options(snapshot: RepositorySnapshot) -> str:
     return "\n".join(sections) + "\n"
 
 
+def _render_index_pointer(title: str, target: str, canonical_sources: str) -> str:
+    return "\n".join(
+        [
+            _GENERATED_NOTICE,
+            "",
+            f"# {title}",
+            "",
+            f"This compatibility path is generated. Browse the current derived index at [{target}]({target}).",
+            "",
+            f"Canonical metadata is edited only in {canonical_sources}.",
+        ]
+    ) + "\n"
+
+
+def render_catalog_pointer(_: RepositorySnapshot) -> str:
+    return _render_index_pointer(
+        "QoL Catalog",
+        "generated/catalog.md",
+        "`items/` and `categories.yaml`",
+    )
+
+
+def render_references_pointer(_: RepositorySnapshot) -> str:
+    return _render_index_pointer(
+        "Reference Index",
+        "generated/references.md",
+        "`references/`",
+    )
+
+
 OUTPUT_PATHS = {
+    Path("catalog.md"): render_catalog_pointer,
+    Path("references.md"): render_references_pointer,
     Path("generated/catalog.md"): render_catalog,
     Path("generated/references.md"): render_references,
     Path("generated/implementation-options.md"): render_implementation_options,
