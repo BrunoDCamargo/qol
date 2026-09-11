@@ -5,7 +5,7 @@
 
 [Canonical record](../references/REF-001.md)
 
-- **Title:** Recommended Amount of Sleep for a Healthy Adult: A Joint Consensus Recommendation of the American Academy of Sleep Medicine and Sleep Research Society
+- **Title:** Recommended Amount of Sleep for a Healthy Adult: A Joint Consensus Statement of the American Academy of Sleep Medicine and Sleep Research Society
 - **Authors:** Watson NF, Badr MS, Belenky G, et al.
 - **Year:** 2015
 - **Source:** Journal of Clinical Sleep Medicine
