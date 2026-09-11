@@ -6,11 +6,16 @@
 | circadian | Timing and regularity of sleep, wakefulness, and other circadian exposures. |
 | environment | Physical environmental conditions and exposures affecting quality of life. |
 | friction-reduction | Practical changes that reduce recurring effort, inconvenience, or administrative burden. |
+| indoor-air | Indoor air pollutants, ventilation, filtration, and related environmental exposures. |
 | mental-health | Psychological and emotional well-being, symptoms, and functioning. |
 | nutrition | Food access, dietary patterns, meal choices, and nutrition-related exposures. |
+| pain | Pain, musculoskeletal discomfort, and interventions affecting pain-related function. |
 | physical-activity | Interventions and exposures involving bodily movement or exercise. |
+| preventive-health | Preventive actions, risk reduction, screening, and health-maintenance interventions. |
+| sedentary-behavior | Prolonged sitting or reclining and interventions intended to reduce sedentary exposure. |
 | sleep | Sleep duration, quality, continuity, conditions, and sleep-related functioning. |
 | time | Time use, time pressure, and changes that recover or protect discretionary time. |
+| work-design | Work organization, workspace, scheduling, and job-related conditions affecting quality of life. |
 
 ## Deprecated Categories
 No Deprecated categories.
@@ -19,9 +24,19 @@ No Deprecated categories.
 | ID | Statement | Kind | Categories | Evidence Strength | Applicability | Support mode | References |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [QOL-007](../items/QOL-007.md) | Reduce meaningful nighttime environmental noise | Intervention | sleep, environment | High | Conditional | Direct | [REF-006](references.md#ref-006), [REF-052](references.md#ref-052) |
+| [QOL-009](../items/QOL-009.md) | Improve thermal comfort during sleep | Intervention | sleep, environment | Low | Conditional | Inferred | [REF-072](references.md#ref-072) |
 | [QOL-010](../items/QOL-010.md) | Use blackout or a sleep mask when bedroom light is disruptive | Intervention | sleep, environment, circadian | Moderate | Conditional | Inferred | [REF-007](references.md#ref-007) |
+| [QOL-011](../items/QOL-011.md) | Consider weighted blankets only for relevant sleep/anxiety contexts | Intervention | sleep, mental-health | Low | Conditional | Inferred | [REF-058](references.md#ref-058) |
 | [QOL-022](../items/QOL-022.md) | Outsource cleaning when it meaningfully saves unwanted time | Intervention | time, friction-reduction, environment | Moderate | Conditional | Inferred | [REF-012](references.md#ref-012) |
+| [QOL-023](../items/QOL-023.md) | Use grocery delivery when it meaningfully saves unwanted time | Intervention | time, friction-reduction, nutrition | Moderate | Conditional | Inferred | [REF-012](references.md#ref-012) |
+| [QOL-024](../items/QOL-024.md) | Outsource laundry/ironing when it meaningfully saves unwanted time | Intervention | time, friction-reduction | Moderate | Conditional | Inferred | [REF-012](references.md#ref-012) |
 | [QOL-025](../items/QOL-025.md) | Use prepared meals or meal services when they meaningfully save unwanted time | Intervention | time, friction-reduction, nutrition | Moderate | Conditional | Inferred | [REF-012](references.md#ref-012) |
+| [QOL-026](../items/QOL-026.md) | Outsource recurring maintenance when it meaningfully saves unwanted time | Intervention | time, friction-reduction, environment | Moderate | Conditional | Inferred | [REF-012](references.md#ref-012) |
+| [QOL-034](../items/QOL-034.md) | Walk outdoors when feasible | Intervention | physical-activity, environment, mental-health, circadian | Moderate | General | Inferred | [REF-002](references.md#ref-002), [REF-014](references.md#ref-014) |
+| [QOL-040](../items/QOL-040.md) | Consider sit-stand workstations conditionally | Intervention | sedentary-behavior, work-design, physical-activity | Moderate | Conditional | Direct | [REF-019](references.md#ref-019) |
+| [QOL-041](../items/QOL-041.md) | Use massage as a conditional adjunct for relevant musculoskeletal pain | Intervention | pain, physical-activity | Moderate | Conditional | Inferred | [REF-020](references.md#ref-020) |
+| [QOL-046](../items/QOL-046.md) | Use source control/exhaust ventilation while cooking | Intervention | indoor-air, environment, preventive-health | High | Conditional | Direct | [REF-021](references.md#ref-021) |
+| [QOL-047](../items/QOL-047.md) | Use HEPA filtration when particulate exposure or another indication justifies it | Intervention | indoor-air, environment, preventive-health | High | Conditional | Direct | [REF-022](references.md#ref-022) |
 
 ## Deprecated QoL Items
 No Deprecated QoL items.

@@ -7,6 +7,22 @@
 | [IMP-002](../implementation-options/IMP-002.md) | Earplugs for nighttime noise | purchase | [QOL-007](../items/QOL-007.md) |
 | [IMP-003](../implementation-options/IMP-003.md) | Home cleaning service | service | [QOL-022](../items/QOL-022.md) |
 | [IMP-004](../implementation-options/IMP-004.md) | Prepared meal service | service | [QOL-025](../items/QOL-025.md) |
+| [IMP-005](../implementation-options/IMP-005.md) | Grocery delivery service | service | [QOL-023](../items/QOL-023.md) |
+| [IMP-006](../implementation-options/IMP-006.md) | Laundry wash-and-fold service | service | [QOL-024](../items/QOL-024.md) |
+| [IMP-007](../implementation-options/IMP-007.md) | Ironing service | service | [QOL-024](../items/QOL-024.md) |
+| [IMP-008](../implementation-options/IMP-008.md) | Recurring home maintenance service | service | [QOL-026](../items/QOL-026.md) |
+| [IMP-009](../implementation-options/IMP-009.md) | Bedroom fan | purchase | [QOL-009](../items/QOL-009.md) |
+| [IMP-010](../implementation-options/IMP-010.md) | Lightweight or breathable bedding | purchase | [QOL-009](../items/QOL-009.md) |
+| [IMP-011](../implementation-options/IMP-011.md) | Weighted blanket | purchase | [QOL-011](../items/QOL-011.md) |
+| [IMP-012](../implementation-options/IMP-012.md) | Comfortable walking shoes | purchase | [QOL-034](../items/QOL-034.md) |
+| [IMP-013](../implementation-options/IMP-013.md) | Sit-stand desk | purchase | [QOL-040](../items/QOL-040.md) |
+| [IMP-014](../implementation-options/IMP-014.md) | Sit-stand desk converter | purchase | [QOL-040](../items/QOL-040.md) |
+| [IMP-015](../implementation-options/IMP-015.md) | Massage therapy session | service | [QOL-041](../items/QOL-041.md) |
+| [IMP-016](../implementation-options/IMP-016.md) | Externally vented kitchen range hood | purchase | [QOL-046](../items/QOL-046.md) |
+| [IMP-017](../implementation-options/IMP-017.md) | Portable HEPA air purifier | purchase | [QOL-047](../items/QOL-047.md) |
+| [IMP-018](../implementation-options/IMP-018.md) | HEPA-compatible HVAC filtration upgrade | purchase | [QOL-047](../items/QOL-047.md) |
+| [IMP-019](../implementation-options/IMP-019.md) | Meal-kit subscription | subscription | [QOL-025](../items/QOL-025.md) |
+| [IMP-020](../implementation-options/IMP-020.md) | Grocery delivery subscription | subscription | [QOL-023](../items/QOL-023.md) |
 
 ## Deprecated Implementation Options
 No Deprecated Implementation Options.

@@ -33,7 +33,7 @@ class ImplementationOptionSeedExpansionTests(unittest.TestCase):
             "IMP-015": ("Massage therapy session", "service", ("QOL-041",)),
             "IMP-016": ("Externally vented kitchen range hood", "purchase", ("QOL-046",)),
             "IMP-017": ("Portable HEPA air purifier", "purchase", ("QOL-047",)),
-            "IMP-018": ("Higher-efficiency HVAC filter", "purchase", ("QOL-047",)),
+            "IMP-018": ("HEPA-compatible HVAC filtration upgrade", "purchase", ("QOL-047",)),
             "IMP-019": ("Meal-kit subscription", "subscription", ("QOL-025",)),
             "IMP-020": ("Grocery delivery subscription", "subscription", ("QOL-023",)),
         }
