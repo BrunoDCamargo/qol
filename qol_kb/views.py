@@ -120,7 +120,7 @@ def _reference_entry(record: Record) -> list[str]:
     for label, field in (("Design", "design"), ("DOI", "doi"), ("PMID", "pmid")):
         if metadata.get(field) is not None:
             lines.append(f"- **{label}:** {_markdown_cell(metadata[field])}")
-    lines.extend(["- **URLs:**", *(f"  - {_markdown_cell(url)}" for url in metadata["urls"]), "- **Supports:"])
+    lines.extend(["- **URLs:**", *(f"  - {_markdown_cell(url)}" for url in metadata["urls"]), "- **Supports:**"])
     lines.extend(f"  - {_markdown_cell(boundary)}" for boundary in metadata["supports"])
     if metadata["status"] == "Deprecated":
         lines.append(f"- **Deprecation reason:** {_markdown_cell(metadata.get('deprecation_reason') or '')}")
@@ -151,9 +151,49 @@ def render_references(snapshot: RepositorySnapshot) -> str:
     return "\n".join(sections) + "\n"
 
 
+def render_implementation_options(snapshot: RepositorySnapshot) -> str:
+    active_options, deprecated_options = _partition_by_status(snapshot.implementation_options)
+    sections = [_GENERATED_NOTICE, "", "## Active Implementation Options"]
+    sections.extend(_table(
+        ("ID", "Option", "Acquisition", "Implements"),
+        [
+            (
+                f"[{record.front_matter['id']}](../implementation-options/{record.front_matter['id']}.md)",
+                _markdown_cell(record.front_matter["name"]),
+                _markdown_cell(record.front_matter["acquisition"]),
+                ", ".join(
+                    f"[{identity}](../items/{identity}.md)"
+                    for identity in sorted(record.front_matter["implements"], key=_identity_key)
+                ),
+            )
+            for record in active_options
+        ],
+        "No Active Implementation Options.",
+    ))
+    sections.extend(["", "## Deprecated Implementation Options"])
+    sections.extend(_table(
+        ("ID", "Option", "Deprecation reason", "Replaced by"),
+        [
+            (
+                f"[{record.front_matter['id']}](../implementation-options/{record.front_matter['id']}.md)",
+                _markdown_cell(record.front_matter["name"]),
+                _markdown_cell(record.front_matter.get("deprecation_reason") or ""),
+                ", ".join(
+                    f"[{identity}](../implementation-options/{identity}.md)"
+                    for identity in sorted(record.front_matter.get("replaced_by", []), key=_identity_key)
+                ),
+            )
+            for record in deprecated_options
+        ],
+        "No Deprecated Implementation Options.",
+    ))
+    return "\n".join(sections) + "\n"
+
+
 OUTPUT_PATHS = {
     Path("generated/catalog.md"): render_catalog,
     Path("generated/references.md"): render_references,
+    Path("generated/implementation-options.md"): render_implementation_options,
 }
 
 

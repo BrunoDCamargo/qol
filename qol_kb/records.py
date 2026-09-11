@@ -12,6 +12,7 @@ SCHEMA_DIR = Path(__file__).resolve().parents[1] / "schemas"
 SCHEMA_FILES = {
     "item": "qol-item.schema.json",
     "reference": "reference.schema.json",
+    "implementation_option": "implementation-option.schema.json",
 }
 EVIDENCE_STRENGTH_ORDER = {
     "Low": 0,
@@ -51,6 +52,7 @@ class RepositorySnapshot:
     categories: tuple[Category, ...]
     items: tuple[Record, ...]
     references: tuple[Record, ...]
+    implementation_options: tuple[Record, ...] = ()
 
 
 class _UniqueKeyLoader(yaml.SafeLoader):
@@ -102,6 +104,8 @@ def _record_type_for_path(record_path: Path) -> str:
         return "item"
     if record_path.stem.startswith("REF-"):
         return "reference"
+    if record_path.stem.startswith("IMP-"):
+        return "implementation_option"
     raise ValueError(f"{record_path.name} is not a supported canonical record filename")
 
 
@@ -259,6 +263,25 @@ def _validate_reference_semantics(
             )
 
 
+def _validate_implementation_option_semantics(
+    record_path: Path,
+    front_matter: dict[str, Any],
+) -> None:
+    if (
+        front_matter["status"] == "Active"
+        and front_matter.get("replaced_by") is not None
+    ):
+        raise ValueError(
+            f"{record_path}: Active implementation option cannot declare replaced_by"
+        )
+    if front_matter["status"] == "Deprecated":
+        reason = front_matter.get("deprecation_reason")
+        if not isinstance(reason, str) or not reason.strip():
+            raise ValueError(
+                f"{record_path}: deprecation_reason is required for Deprecated implementation options"
+            )
+
+
 def load_record(path: str | Path) -> Record:
     record_path = Path(path)
     record_type = _record_type_for_path(record_path)
@@ -287,8 +310,11 @@ def load_record(path: str | Path) -> Record:
     if record_type == "item":
         _validate_item_semantics(record_path, front_matter)
         evidence_strength = _derived_evidence_strength(front_matter)
-    else:
+    elif record_type == "reference":
         _validate_reference_semantics(record_path, front_matter)
+        evidence_strength = None
+    else:
+        _validate_implementation_option_semantics(record_path, front_matter)
         evidence_strength = None
 
     body = "".join(lines[closing_index + 1 :])
@@ -325,6 +351,40 @@ def _validate_repository_records(
                     f"{replacement_id}"
                 )
             continue
+
+        if record.record_type == "implementation_option":
+            for item_id in record.front_matter["implements"]:
+                item = records_by_id.get(item_id)
+                if item is None or item.record_type != "item":
+                    raise ValueError(
+                        f"{record_id}: implementation target does not resolve: {item_id}"
+                    )
+                if (
+                    record.front_matter["status"] == "Active"
+                    and item.front_matter["status"] != "Active"
+                ):
+                    raise ValueError(
+                        f"{record_id}: Active implementation option cannot target "
+                        f"Deprecated item {item_id}"
+                    )
+            for replacement_id in record.front_matter.get("replaced_by", []):
+                if replacement_id == record_id:
+                    raise ValueError(
+                        f"{record_id}: implementation option replacement must be distinct"
+                    )
+                replacement = records_by_id.get(replacement_id)
+                if replacement is None or replacement.record_type != "implementation_option":
+                    raise ValueError(
+                        f"{record_id}: implementation option replacement does not resolve: "
+                        f"{replacement_id}"
+                    )
+                if replacement.front_matter["status"] != "Active":
+                    raise ValueError(
+                        f"{record_id}: implementation option replacement must be Active: "
+                        f"{replacement_id}"
+                    )
+            continue
+
         if record.record_type != "item":
             continue
 
@@ -385,7 +445,7 @@ def load_repository(root: str | Path) -> RepositorySnapshot:
     root_path = Path(root)
     categories = load_category_registry(root_path / "categories.yaml")
     records_by_id: dict[str, Record] = {}
-    for folder in ("references", "items"):
+    for folder in ("references", "items", "implementation-options"):
         directory = root_path / folder
         if not directory.exists():
             continue
@@ -404,6 +464,14 @@ def load_repository(root: str | Path) -> RepositorySnapshot:
         )),
         references=tuple(sorted(
             (record for record in records_by_id.values() if record.record_type == "reference"),
+            key=_canonical_id_sort_key,
+        )),
+        implementation_options=tuple(sorted(
+            (
+                record
+                for record in records_by_id.values()
+                if record.record_type == "implementation_option"
+            ),
             key=_canonical_id_sort_key,
         )),
     )

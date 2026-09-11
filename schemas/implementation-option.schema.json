@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/qol/schemas/implementation-option.schema.json",
+  "title": "Implementation Option canonical record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "status",
+    "implements",
+    "acquisition"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^IMP-[0-9]{3,}$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "enum": ["Active", "Deprecated"]
+    },
+    "implements": {
+      "type": "array",
+      "items": {"type": "string", "pattern": "^QOL-[0-9]{3,}$"},
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "acquisition": {
+      "type": "string",
+      "enum": ["purchase", "service", "subscription", "free"]
+    },
+    "deprecation_reason": {
+      "type": ["string", "null"]
+    },
+    "replaced_by": {
+      "type": "array",
+      "items": {"type": "string", "pattern": "^IMP-[0-9]{3,}$"},
+      "uniqueItems": true
+    }
+  }
+}
