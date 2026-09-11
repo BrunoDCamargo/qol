@@ -2,19 +2,26 @@
 
 An evidence-oriented knowledge base for factors, interventions, conditions, and practical changes that may affect **quality of life**.
 
-The project organizes research-backed claims into stable, reusable records so they can be searched, compared, updated, and connected without collapsing scientific evidence into generic advice.
+The project organizes research-backed claims into stable, reusable records so they can be searched, compared, updated, and connected without turning scientific evidence into generic advice or product claims.
 
 ## At a glance
 
-Each **QoL item** has:
+Each **QoL Item** has:
 
 - a permanent `QOL-*` identifier;
 - one or more flexible category tags;
-- an evidence-strength label;
+- evidence claims with explicit strength;
 - an applicability label;
+- a support mode that distinguishes direct support from inference;
 - links to reusable `REF-*` evidence records.
 
-The repository began with 100 seed items and is designed to expand without renumbering existing concepts or forcing them into a fixed taxonomy.
+Each **Implementation Option** has:
+
+- a permanent `IMP-*` identifier;
+- one or more `QOL-*` items that it implements;
+- an acquisition mode: `purchase`, `service`, `subscription`, or `free`.
+
+Implementation Options make the knowledge base concrete without claiming that a particular product, brand, supplier, material, or price has evidence that belongs to the broader QoL intervention.
 
 ## How the knowledge model fits together
 
@@ -26,18 +33,26 @@ Primary research / official guidance
           QOL-* items
         ↙       ↓       ↘
  categories  topic views  generated catalog
+                ↓
+          IMP-* options
+                ↓
+ products, services, subscriptions, free implementations
 ```
 
-The model separates three questions that are easy to mix together:
+The model keeps four questions separate:
 
 1. **What does the evidence support?**
 2. **How strong is that evidence?**
 3. **When is the finding applicable?**
+4. **How can the proposition be implemented concretely?**
 
-A practical suggestion may be useful without having been directly tested. Those cases are labeled as inference rather than presented as if the intervention itself had established evidence.
+A practical proposal may apply broader evidence without having been tested as the same intervention. The QoL Item records this with `support_mode: Inferred`. An Implementation Option can then describe a concrete way to act on that proposition while preserving the evidence boundary.
 
-## Browse by topic
+## Browse
 
+- [Generated QoL catalog](generated/catalog.md)
+- [Generated references](generated/references.md)
+- [Implementation Options](generated/implementation-options.md)
 - [Sleep and circadian factors](topics/sleep.md)
 - [Physical activity](topics/physical-activity.md)
 - [Nutrition and weight](topics/nutrition-weight.md)
@@ -53,74 +68,72 @@ A practical suggestion may be useful without having been directly tested. Those 
 
 ### Stable identities
 
-Each canonical item receives a permanent identifier such as `QOL-001`. The identifier represents the concept, not its current rank, category, filename, or evidence rating.
+Each canonical record receives a stable identity. `QOL-*` identifies a proposition, `REF-*` identifies a source, and `IMP-*` identifies a concrete implementation option. A rank, category, filename, or evidence rating does not define the identity.
 
-If an item is merged, split, or deprecated, its old identity remains traceable rather than being reused for a different concept.
+When a canonical record is deprecated, its identity remains traceable rather than being reused for a different concept.
 
 ### Flexible categories
 
-Categories are retrieval metadata, not exclusive containers. A QoL item may belong to several categories.
+Categories are retrieval metadata, not exclusive containers. A QoL Item may belong to several categories.
 
 For example:
 
 ```text
-QOL-034 — Walk outdoors
+QOL-034: Walk outdoors
 Categories: physical-activity, environment, mental-health, circadian
 ```
 
 Changing those tags does not change the identity of `QOL-034`.
 
-### Evidence strength
+### Evidence strength and support mode
 
-The catalog uses four evidence-strength labels:
+Evidence Strength has three values:
 
 - **High**: strong guideline support, multiple high-quality randomized trials, systematic evidence with consistent findings, or a comparably strong evidence base.
 - **Moderate**: at least one useful randomized trial or a consistent body of evidence with meaningful limitations.
 - **Low**: small studies, observational evidence, inconsistent findings, indirect evidence, or substantial uncertainty.
-- **Inference**: the practical proposal follows reasonably from another established finding but has not itself been adequately tested.
 
-Evidence strength describes confidence in a claim. It does not estimate the size of the effect for a particular person.
+Evidence Strength describes confidence in an Evidence Claim. A QoL Item derives its strength from the weakest Support Claim necessary to justify its statement. It does not estimate the size of the effect for a particular person.
+
+Support Mode records whether the evidence supports the QoL Item directly (`Direct`) or whether the item applies broader evidence by inference (`Inferred`). `Inferred` is not an Evidence Strength value.
 
 ### Applicability
 
 The catalog distinguishes:
 
-- **General**: the factor or intervention can reasonably apply to broad populations, subject to normal caveats.
+- **General**: the proposition can reasonably apply to broad populations, subject to normal caveats.
 - **Conditional**: usefulness depends on a specific deficit, symptom, diagnosis, exposure, circumstance, or preference.
 
-### Evidence vs. practical inference
+### Evidence vs. practical implementation
 
-The project keeps a study result separate from a concrete way someone might apply it.
+A time-saving purchase study can support a QoL proposition about buying back unwanted time. A cleaning service can then be an Implementation Option for outsourcing cleaning.
 
-**Evidence:** a randomized crossover experiment found that a time-saving purchase reduced reported time pressure and negative affect relative to a material purchase.
-
-**Practical inference:** hiring a cleaner, ordering groceries, or using prepared meals may apply that principle when those services actually remove unwanted tasks.
-
-The second statement should not be written as though each service had independently demonstrated the same causal effect.
+The service does not gain independent causal evidence merely because it implements an evidence-backed or evidence-informed QoL Item. The same rule applies to sleep masks, earplugs, meal services, devices, subscriptions, and other concrete options.
 
 ## Scope
 
-This repository contains general knowledge and evidence summaries. It is not intended to store personal audit answers, individualized rankings, medical histories, medication histories, employment histories, or conclusions about a specific person.
+This repository contains general knowledge, evidence summaries, and reusable implementation options. It is not intended to store personal audit answers, individualized rankings, medical histories, medication histories, employment histories, purchase histories, or conclusions about a specific person.
 
-It should not present individualized diagnosis or treatment as a conclusion of the knowledge base.
+It should not present individualized diagnosis or treatment as a conclusion of the knowledge base. Implementation Options should describe reusable classes of solutions rather than endorsements of specific vendors unless a separate evidence and evaluation process justifies that level of specificity.
 
 ## Repository map
 
 ```text
-items/               Canonical structured QoL items
-references/          Canonical structured evidence records
-categories.yaml      Category registry
-topics/              Human-readable thematic views
-generated/           Derived catalog and reference views
-schemas/             Structured-data schemas
-qol_kb/              Generation and validation code
-tests/               Regression tests
-CONTEXT.md            Domain model and project context
+items/                   Canonical structured QoL Items
+references/              Canonical structured evidence records
+implementation-options/  Canonical concrete implementation options
+categories.yaml          Category registry
+topics/                  Human-readable thematic views
+generated/               Derived catalog, reference, and implementation views
+schemas/                 Structured-data schemas
+qol_kb/                  Generation and validation code
+tests/                   Regression tests
+CONTEXT.md                Domain glossary
 ```
 
-Legacy migration views remain available in [`catalog.md`](catalog.md) and [`references.md`](references.md).
+### Migration note
 
-The design rationale and implementation records live under [`docs/superpowers/`](docs/superpowers/).
+The repository is still migrating the original monolithic `catalog.md` and `references.md` into per-record canonical files. During this transition, the generated views contain the subset already represented by structured canonical records. The legacy files remain available until the migration and cutover are complete.
 
 ## Generated views
 
@@ -133,18 +146,30 @@ python -m qol_kb.views
 python -m qol_kb.views --check
 ```
 
+CI also rejects committed generated views that drift from their canonical sources.
+
 ## Adding or revising knowledge
 
-### Add a QoL item
+### Add a QoL Item
 
-1. Check that the concept is not already represented.
+1. Check that the proposition is not already represented.
 2. Assign the next unused permanent `QOL-*` ID.
-3. State the item narrowly enough that its evidence can be evaluated.
+3. State the proposition narrowly enough that its evidence can be evaluated.
 4. Apply all useful registered category tags.
-5. Assign evidence strength and applicability conservatively.
-6. Add or reuse the necessary `REF-*` records.
+5. Set applicability and Support Mode conservatively.
+6. Add explicit Support and Constraint Claims as needed and link reusable `REF-*` records.
 7. Add the item to relevant topic views when that improves discovery.
-8. Keep evidence statements no broader than the sources support.
+8. Keep claims no broader than their sources support.
+
+### Add an Implementation Option
+
+1. Start from an existing Active QoL Item. Do not create a free-floating product or service record.
+2. Check that the concrete implementation is not already represented.
+3. Assign the next unused permanent `IMP-*` ID.
+4. Link every QoL Item that the option implements.
+5. Set `acquisition` to `purchase`, `service`, `subscription`, or `free`.
+6. Describe the option as a reusable class, not an unsupported brand recommendation.
+7. State important evidence boundaries in the record body when readers could mistake the QoL evidence for product-level evidence.
 
 ### Add a category
 
@@ -153,7 +178,7 @@ python -m qol_kb.views --check
 3. Apply the registered tag to relevant active items.
 4. When replacing a category, retain the old entry as `Deprecated` and point to a direct replacement when appropriate.
 
-Category changes do not require a new QoL item ID.
+Category changes do not require a new QoL Item ID.
 
 ### Add or revise a reference
 
@@ -166,15 +191,15 @@ Category changes do not require a new QoL item ID.
 
 ## Evidence update policy
 
-Evidence ratings are revisable. New randomized trials, systematic reviews, guidelines, safety findings, or failures to replicate may strengthen or weaken an item.
+Evidence ratings can change when new randomized trials, systematic reviews, guidelines, safety findings, or failures to replicate change confidence in a claim.
 
 When revising an item:
 
-- preserve its stable ID unless the concept itself changes;
+- preserve its stable ID unless the proposition itself changes;
 - prefer current primary or official sources;
 - distinguish measured outcomes from interpretation;
 - record major limitations and applicability conditions;
-- keep practical extrapolations labeled as inference.
+- use `support_mode: Inferred` when a practical proposition applies broader evidence by inference.
 
 ## Disclaimer
 

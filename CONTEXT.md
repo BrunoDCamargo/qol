@@ -58,6 +58,19 @@ Whether the evidence supports the QoL Item proposition directly or the item appl
 **Reference**:
 A reusable `REF-*` identity for a citably distinct source or materially relevant version of a source. Its identity is not its URL.
 
+## Implementation
+
+**Implementation Option**:
+A stable, concrete way to enact one or more QoL Items without carrying independent evidential authority. An `IMP-*` identifier represents the option itself, such as a product class, service arrangement, subscription, or no-cost implementation.
+_Avoid_: product, purchase, tip
+
+**Implements**:
+The relationship from an Implementation Option to the QoL Item propositions it puts into practice. It does not imply that the Implementation Option itself was directly tested.
+
+**Acquisition Mode**:
+How an Implementation Option is obtained: Purchase, Service, Subscription, or Free.
+_Avoid_: item type
+
 ## Classification and views
 
 **Category**:
@@ -82,6 +95,12 @@ A Reference that may be used as current evidential support.
 
 **Deprecated Reference**:
 A preserved `REF-*` identity that should no longer be used as current evidential support. It records why it was deprecated and may identify a replacement Reference.
+
+**Active Implementation Option**:
+An Implementation Option that currently represents a canonical way to enact one or more Active QoL Items.
+
+**Deprecated Implementation Option**:
+A preserved `IMP-*` identity that no longer represents an active canonical implementation. It records why it was deprecated and may point to zero, one, or several replacement Implementation Options.
 
 ## Relationships
 
