@@ -67,6 +67,10 @@ class ImplementationOptionRepositoryTests(unittest.TestCase):
         data.update(overrides)
         return data
 
+    def _write_active_target(self, root: Path) -> None:
+        self._write_record(root, "references", self._reference())
+        self._write_record(root, "items", self._item("QOL-950"))
+
     def test_repository_snapshot_includes_sorted_implementation_options(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
@@ -155,6 +159,7 @@ class ImplementationOptionRepositoryTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             self._write_registry(root)
+            self._write_active_target(root)
             self._write_record(
                 root,
                 "implementation-options",
@@ -170,11 +175,31 @@ class ImplementationOptionRepositoryTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, r"IMP-950.*replacement.*IMP-999"):
                 records.validate_repository(root)
 
+    def test_deprecated_implementation_option_replacement_must_be_distinct(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self._write_registry(root)
+            self._write_active_target(root)
+            self._write_record(
+                root,
+                "implementation-options",
+                self._option(
+                    "IMP-950",
+                    "QOL-950",
+                    status="Deprecated",
+                    deprecation_reason="Superseded fixture.",
+                    replaced_by=["IMP-950"],
+                ),
+            )
+
+            with self.assertRaisesRegex(ValueError, r"IMP-950.*replacement.*distinct"):
+                records.validate_repository(root)
+
     def test_deprecated_implementation_option_replacement_must_be_active(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             self._write_registry(root)
-            self._write_record(root, "items", self._item("QOL-950"))
+            self._write_active_target(root)
             self._write_record(
                 root,
                 "implementation-options",
