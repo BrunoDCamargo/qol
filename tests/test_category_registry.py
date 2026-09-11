@@ -18,7 +18,16 @@ class CategoryRegistryTests(unittest.TestCase):
         categories = load_category_registry(REPOSITORY_ROOT / "categories.yaml")
         self.assertEqual(
             set(categories),
-            {"physical-activity", "environment", "mental-health", "circadian"},
+            {
+                "physical-activity",
+                "environment",
+                "mental-health",
+                "circadian",
+                "sleep",
+                "time",
+                "friction-reduction",
+                "nutrition",
+            },
         )
         self.assertEqual(categories["physical-activity"].status, "Active")
         self.assertTrue(categories["physical-activity"].definition.strip())
