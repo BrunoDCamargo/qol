@@ -33,6 +33,14 @@
     "acquisition": {
       "type": "string",
       "enum": ["purchase", "service", "subscription", "free"]
+    },
+    "deprecation_reason": {
+      "type": ["string", "null"]
+    },
+    "replaced_by": {
+      "type": "array",
+      "items": {"type": "string", "pattern": "^IMP-[0-9]{3,}$"},
+      "uniqueItems": true
     }
   }
 }
