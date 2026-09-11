@@ -579,7 +579,7 @@
 
 [Canonical record](../references/REF-038.md)
 
-- **Title:** Efficacy of topical nasal steroid budesonide on improving sleep and daytime somnolence in perennial allergic rhinitis
+- **Title:** Efficacy of the topical nasal steroid budesonide on improving sleep and daytime somnolence in patients with perennial allergic rhinitis
 - **Authors:** Hughes K, et al.
 - **Year:** 2003
 - **Source:** Allergy
@@ -711,7 +711,7 @@
 
 [Canonical record](../references/REF-046.md)
 
-- **Title:** Give me a break! A systematic review and meta-analysis on the efficacy of micro-breaks for increasing well-being and performance
+- **Title:** "Give me a break!" A systematic review and meta-analysis on the efficacy of micro-breaks for increasing well-being and performance
 - **Authors:** Albulescu P, et al.
 - **Year:** 2022
 - **Source:** PLOS ONE
@@ -868,7 +868,7 @@
 
 [Canonical record](../references/REF-056.md)
 
-- **Title:** Prosocial spending encourages happiness: a replication of the only experiment in the existing literature
+- **Title:** Prosocial spending encourages happiness: A replication of the only experiment reported in Dunn, Aknin, and Norton (2008)
 - **Authors:** Kim J, et al.
 - **Year:** 2022
 - **Source:** PLOS ONE
@@ -885,7 +885,7 @@
 
 [Canonical record](../references/REF-057.md)
 
-- **Title:** Feasibility and Acceptability of a Smartphone-Delivered Mindfulness Intervention for Stress: Pilot Randomized Controlled Trial
+- **Title:** Feasibility and Acceptability of a Smartphone-Delivered Mindfulness Intervention for Stress Reduction in Adult Singaporeans: Pilot Randomized Controlled Trial
 - **Authors:** Sparacio A, et al.
 - **Year:** 2025
 - **Source:** JMIR Mental Health
