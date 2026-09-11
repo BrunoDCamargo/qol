@@ -2,7 +2,7 @@
 
 > This is a thematic view of the canonical QoL catalog. Categories overlap by design. An item may appear in several topic pages; its canonical identity remains its `QOL-*` ID in `catalog.md`.
 
-See the [canonical catalog](../catalog.md) and [reference registry](../references.md).
+See the [generated catalog](../generated/catalog.md) and [generated reference index](../generated/references.md).
 
 This page maps reproductive and pelvic-health factors that may substantially affect daily function or quality of life when symptoms or relevant conditions are present. It is not a diagnostic checklist.
 
