@@ -8,20 +8,25 @@
 | environment | Physical environmental conditions and exposures affecting quality of life. |
 | financial-wellbeing | Financial security, spending trade-offs, affordability, and money-related stress or well-being. |
 | friction-reduction | Practical changes that reduce recurring effort, inconvenience, or administrative burden. |
+| gastrointestinal | Gastrointestinal symptoms, disorders, and management affecting comfort, sleep, or daily function. |
 | hearing | Hearing function, hearing-related symptoms, communication, and rehabilitation needs. |
 | hydration | Fluid intake, dehydration risk, and beverage choices related to adequate hydration. |
 | indoor-air | Indoor air pollutants, ventilation, filtration, and related environmental exposures. |
+| medications | Medication use, safety, effects, and treatment decisions relevant to quality of life. |
 | mental-health | Psychological and emotional well-being, symptoms, and functioning. |
 | nutrition | Food access, dietary patterns, meal choices, and nutrition-related exposures. |
 | oral-health | Oral and dental health, pain, function, and related quality-of-life effects. |
 | pain | Pain, musculoskeletal discomfort, and interventions affecting pain-related function. |
 | physical-activity | Interventions and exposures involving bodily movement or exercise. |
 | preventive-health | Preventive actions, risk reduction, screening, and health-maintenance interventions. |
+| relationships | Close relationships, interpersonal functioning, conflict, and relationship quality affecting well-being. |
 | sedentary-behavior | Prolonged sitting or reclining and interventions intended to reduce sedentary exposure. |
+| sexual-health | Sexual health, sexual well-being, and related quality-of-life assessment or care. |
 | sleep | Sleep duration, quality, continuity, conditions, and sleep-related functioning. |
 | social | Social connection, participation, isolation, and interpersonal contact relevant to well-being. |
 | strength | Muscle-strengthening activity, physical strength, and related functional capacity. |
 | substances | Caffeine, alcohol, nicotine, and other substance exposures relevant to quality of life. |
+| supplements | Dietary supplements, vitamins, minerals, and related supplementation decisions. |
 | technology | Digital devices, software, connectivity, and technology-mediated exposures or behaviors. |
 | time | Time use, time pressure, and changes that recover or protect discretionary time. |
 | vision | Visual function, vision symptoms, and interventions or assessments affecting everyday seeing. |
@@ -90,6 +95,26 @@ No Deprecated categories.
 | [QOL-058](../items/QOL-058.md) | Stop nicotine or tobacco use when applicable | Intervention | substances, preventive-health | High | Conditional | Direct | [REF-028](references.md#ref-028) |
 | [QOL-059](../items/QOL-059.md) | Use evidence-based psychological treatment for clinically significant anxiety | Intervention | mental-health, preventive-health | High | Conditional | Direct | [REF-029](references.md#ref-029) |
 | [QOL-060](../items/QOL-060.md) | Address persistent rumination when it consumes attention or recovery | Intervention | mental-health, attention, work-design | Low | Conditional | Inferred | [REF-029](references.md#ref-029), [REF-043](references.md#ref-043) |
+| [QOL-061](../items/QOL-061.md) | Treat meditation or mindfulness as a conditional tool rather than a universal remedy | Guardrail | mental-health, attention | Low | Conditional | Direct | [REF-029](references.md#ref-029), [REF-057](references.md#ref-057) |
+| [QOL-062](../items/QOL-062.md) | Maintain recurring contact with people one values | Intervention | social, relationships, mental-health | High | General | Inferred | [REF-030](references.md#ref-030) |
+| [QOL-063](../items/QOL-063.md) | Prefer reliable recurring social contact over relying only on occasional large events | Intervention | social, relationships, mental-health | High | General | Inferred | [REF-030](references.md#ref-030) |
+| [QOL-064](../items/QOL-064.md) | Do not assume more social activities alone will resolve loneliness | Guardrail | social, mental-health | Moderate | Conditional | Direct | [REF-031](references.md#ref-031) |
+| [QOL-065](../items/QOL-065.md) | Do not assume prosocial acts are a universal treatment for loneliness | Guardrail | social, mental-health | Moderate | Conditional | Direct | [REF-032](references.md#ref-032) |
+| [QOL-066](../items/QOL-066.md) | Avoid assuming generic multivitamins will transform health or quality of life | Guardrail | nutrition, preventive-health, supplements | High | General | Direct | [REF-033](references.md#ref-033) |
+| [QOL-067](../items/QOL-067.md) | Avoid indiscriminate vitamin-D screening in asymptomatic adults without indication | Guardrail | preventive-health, supplements | High | General | Direct | [REF-034](references.md#ref-034) |
+| [QOL-068](../items/QOL-068.md) | Use supplements for a defined need, deficiency, or evidence-based indication | Intervention | supplements, preventive-health, nutrition, medications | High | Conditional | Direct | [REF-035](references.md#ref-035) |
+| [QOL-069](../items/QOL-069.md) | Keep sleep and wake timing reasonably regular | Intervention | sleep, circadian, preventive-health | Moderate | General | Direct | [REF-036](references.md#ref-036) |
+| [QOL-070](../items/QOL-070.md) | Evaluate restless-legs symptoms when present | Assessment | sleep, preventive-health | High | Conditional | Direct | [REF-037](references.md#ref-037) |
+| [QOL-071](../items/QOL-071.md) | Treat persistent rhinitis or congestion when it affects sleep or daytime function | Intervention | sleep, preventive-health | Moderate | Conditional | Direct | [REF-038](references.md#ref-038) |
+| [QOL-072](../items/QOL-072.md) | Treat recurrent headache or migraine when it meaningfully affects function | Intervention | pain, preventive-health, mental-health | High | Conditional | Direct | [REF-060](references.md#ref-060), [REF-061](references.md#ref-061) |
+| [QOL-073](../items/QOL-073.md) | Evaluate symptomatic bruxism rather than normalizing it | Assessment | oral-health, pain, sleep, preventive-health | High | Conditional | Direct | [REF-039](references.md#ref-039) |
+| [QOL-074](../items/QOL-074.md) | Treat clinically relevant nocturnal reflux | Intervention | gastrointestinal, sleep, preventive-health | High | Conditional | Direct | [REF-062](references.md#ref-062), [REF-063](references.md#ref-063) |
+| [QOL-075](../items/QOL-075.md) | Address digital eye strain when screen work causes symptoms | Intervention | vision, technology, attention, work-design | Moderate | Conditional | Direct | [REF-040](references.md#ref-040) |
+| [QOL-076](../items/QOL-076.md) | Treat recurrent low-back pain rather than normalizing it | Intervention | pain, physical-activity, preventive-health | High | Conditional | Direct | [REF-064](references.md#ref-064) |
+| [QOL-077](../items/QOL-077.md) | Treat persistent loss of interest, pleasure, or depression when present | Intervention | mental-health, preventive-health | Moderate | Conditional | Direct | [REF-041](references.md#ref-041) |
+| [QOL-078](../items/QOL-078.md) | Treat persistent relationship distress when it is a major quality-of-life driver | Intervention | relationships, social, mental-health | Moderate | Conditional | Direct | [REF-059](references.md#ref-059) |
+| [QOL-079](../items/QOL-079.md) | Include sexual health in quality-of-life assessment when relevant | Assessment | sexual-health, relationships, preventive-health | High | Conditional | Direct | [REF-066](references.md#ref-066) |
+| [QOL-080](../items/QOL-080.md) | Measure actual weekly work hours when workload is uncertain | Assessment | work-design, time, preventive-health | High | Conditional | Inferred | [REF-042](references.md#ref-042) |
 
 ## Deprecated QoL Items
 | ID | Statement | Deprecation reason | Replaced by |
