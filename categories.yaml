@@ -89,3 +89,15 @@ categories:
   behavior-change:
     definition: Behavioral strategies, self-monitoring, habit supports, and structured behavior change affecting quality of life.
     status: Active
+  pelvic-health:
+    definition: Pelvic floor function, urinary continence, and related pelvic symptoms or treatments affecting quality of life.
+    status: Active
+  reproductive-health:
+    definition: Menstrual, menopausal, reproductive, and related symptom contexts affecting quality of life.
+    status: Active
+  aging:
+    definition: Age-related function, independence, sensory health, and healthy-aging determinants.
+    status: Active
+  occupational-health:
+    definition: Work-related exposures and occupational risk controls affecting health and quality of life.
+    status: Active
