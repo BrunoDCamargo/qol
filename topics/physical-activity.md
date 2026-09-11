@@ -6,30 +6,27 @@ See the [canonical catalog](../catalog.md) and [reference registry](../reference
 
 ## Map
 
-| ID | Item | Evidence | Applicability | References |
-|---|---|---|---|---|
-| [QOL-033](../catalog.md) | Add regular walking | High | General | [REF-014](../references.md#ref-014), [REF-015](../references.md#ref-015), [REF-016](../references.md#ref-016) |
-| [QOL-034](../catalog.md) | Walk outdoors when feasible | Moderate | General | [REF-002](../references.md#ref-002), [REF-014](../references.md#ref-014) |
-| [QOL-035](../catalog.md) | Treat sub-guideline amounts of physical activity as useful, not worthless | High | General | [REF-014](../references.md#ref-014), [REF-015](../references.md#ref-015) |
-| [QOL-036](../catalog.md) | Perform resistance training at least twice weekly when able | High | General | [REF-015](../references.md#ref-015), [REF-016](../references.md#ref-016) |
-| [QOL-037](../catalog.md) | Break up long periods of sitting | High | General | [REF-015](../references.md#ref-015) |
-| [QOL-038](../catalog.md) | Treat recurrent neck pain rather than normalizing it | Moderate | Conditional | [REF-017](../references.md#ref-017) |
-| [QOL-039](../catalog.md) | Combine ergonomics with movement/exercise rather than relying only on gadgets | Moderate | Conditional | [REF-018](../references.md#ref-018) |
-| [QOL-040](../catalog.md) | Consider sit-stand workstations conditionally | Moderate | Conditional | [REF-019](../references.md#ref-019) |
-| [QOL-041](../catalog.md) | Use massage as a conditional adjunct for relevant musculoskeletal pain | Moderate | Conditional | [REF-020](../references.md#ref-020) |
-| [QOL-076](../catalog.md) | Treat recurrent low-back pain rather than normalizing it | High | Conditional | [REF-064](../references.md#ref-064) |
-| [QOL-089](../catalog.md) | Use activity self-monitoring when it helps sustain movement | Moderate | Conditional | [REF-045](../references.md#ref-045) |
-| [QOL-090](../catalog.md) | Use microbreaks to manage fatigue during long cognitive work | Moderate | Conditional | [REF-046](../references.md#ref-046) |
-| [QOL-091](../catalog.md) | Use active commuting when safe and practical | High | Conditional | [REF-015](../references.md#ref-015), [REF-016](../references.md#ref-016) |
-| [QOL-108](../catalog.md) | Use supervised pelvic floor muscle training for stress or mixed urinary incontinence | High | Conditional | [REF-079](../references.md#ref-079) |
-| [QOL-113](../catalog.md) | Use therapeutic exercise in osteoarthritis management | High | Conditional | [REF-083](../references.md#ref-083) |
-| [QOL-118](../catalog.md) | Include multicomponent balance and strength activity in older age | High | Conditional | [REF-086](../references.md#ref-086) |
+| ID | Statement | Kind | Categories | Evidence Strength | Applicability | Support Mode | Status | References |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [QOL-033](../items/QOL-033.md) | Add regular walking | Intervention | physical-activity, preventive-health, mental-health | High | General | Direct | Active | [REF-014](../references/REF-014.md), [REF-015](../references/REF-015.md), [REF-016](../references/REF-016.md) |
+| [QOL-034](../items/QOL-034.md) | Walk outdoors when feasible | Intervention | physical-activity, environment, mental-health, circadian | Moderate | General | Inferred | Active | [REF-002](../references/REF-002.md), [REF-014](../references/REF-014.md) |
+| [QOL-035](../items/QOL-035.md) | Treat sub-guideline amounts of physical activity as useful, not worthless | Guardrail | physical-activity, preventive-health | High | General | Direct | Active | [REF-014](../references/REF-014.md), [REF-015](../references/REF-015.md) |
+| [QOL-036](../items/QOL-036.md) | Perform resistance training at least twice weekly when able | Intervention | physical-activity, strength, preventive-health | High | General | Direct | Active | [REF-015](../references/REF-015.md), [REF-016](../references/REF-016.md) |
+| [QOL-037](../items/QOL-037.md) | Break up long periods of sitting | Intervention | physical-activity, sedentary-behavior, work-design | High | General | Inferred | Active | [REF-015](../references/REF-015.md) |
+| [QOL-038](../items/QOL-038.md) | Treat recurrent neck pain rather than normalizing it | Intervention | pain, physical-activity, work-design | Moderate | Conditional | Direct | Active | [REF-017](../references/REF-017.md) |
+| [QOL-039](../items/QOL-039.md) | Combine ergonomics with movement or exercise rather than relying only on gadgets | Intervention | pain, work-design, physical-activity | Moderate | Conditional | Direct | Active | [REF-018](../references/REF-018.md) |
+| [QOL-040](../items/QOL-040.md) | Consider sit-stand workstations conditionally | Intervention | sedentary-behavior, work-design, physical-activity | Moderate | Conditional | Direct | Active | [REF-019](../references/REF-019.md) |
+| [QOL-041](../items/QOL-041.md) | Use massage as a conditional adjunct for relevant musculoskeletal pain | Intervention | pain, physical-activity | Moderate | Conditional | Inferred | Active | [REF-020](../references/REF-020.md) |
+| [QOL-076](../items/QOL-076.md) | Treat recurrent low-back pain rather than normalizing it | Intervention | pain, physical-activity, preventive-health | High | Conditional | Direct | Active | [REF-064](../references/REF-064.md) |
+| [QOL-089](../items/QOL-089.md) | Use activity self-monitoring when it helps sustain movement | Intervention | physical-activity, technology, behavior-change | Moderate | Conditional | Direct | Active | [REF-045](../references/REF-045.md) |
+| [QOL-090](../items/QOL-090.md) | Use microbreaks to manage fatigue during long cognitive work | Intervention | work-design, attention, mental-health | Moderate | Conditional | Direct | Active | [REF-046](../references/REF-046.md) |
+| [QOL-091](../items/QOL-091.md) | Use active commuting when it is safe and practical | Intervention | physical-activity, work-design, time, environment | High | Conditional | Inferred | Active | [REF-015](../references/REF-015.md), [REF-016](../references/REF-016.md) |
+| [QOL-108](../items/QOL-108.md) | Use supervised pelvic floor muscle training for stress or mixed urinary incontinence | Intervention | pelvic-health, physical-activity, preventive-health | High | Conditional | Direct | Active | [REF-079](../references/REF-079.md) |
+| [QOL-113](../items/QOL-113.md) | Use therapeutic exercise in osteoarthritis management | Intervention | pain, physical-activity, preventive-health | High | Conditional | Direct | Active | [REF-083](../references/REF-083.md) |
+| [QOL-118](../items/QOL-118.md) | Include multicomponent balance and strength activity in older age | Intervention | aging, physical-activity, strength, preventive-health | High | Conditional | Direct | Active | [REF-086](../references/REF-086.md) |
 
 ## QOL-033 / QOL-035 — Start below the target if necessary
 
-**Categories:** physical-activity, preventive-health, mental-health  
-**Evidence:** High  
-**Applicability:** General
 
 ### Idea
 
@@ -53,15 +50,12 @@ Individual capacity and medical limitations matter. More demanding activity shou
 
 ### References
 
-- [REF-014](../references.md#ref-014)
-- [REF-015](../references.md#ref-015)
-- [REF-016](../references.md#ref-016)
+- [REF-014](../references/REF-014.md)
+- [REF-015](../references/REF-015.md)
+- [REF-016](../references/REF-016.md)
 
 ## QOL-036 — Perform resistance training at least twice weekly when able
 
-**Categories:** physical-activity, strength, preventive-health  
-**Evidence:** High  
-**Applicability:** General
 
 ### Idea
 
@@ -85,14 +79,11 @@ Technique, load progression, pain, prior injury, and medical context matter. The
 
 ### References
 
-- [REF-015](../references.md#ref-015)
-- [REF-016](../references.md#ref-016)
+- [REF-015](../references/REF-015.md)
+- [REF-016](../references/REF-016.md)
 
 ## QOL-038 / QOL-039 — Treat symptomatic office-related neck pain actively
 
-**Categories:** pain, work-design, physical-activity  
-**Evidence:** Moderate  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -116,14 +107,11 @@ The evidence applies to symptomatic workers. Ergonomic products are not automati
 
 ### References
 
-- [REF-017](../references.md#ref-017)
-- [REF-018](../references.md#ref-018)
+- [REF-017](../references/REF-017.md)
+- [REF-018](../references/REF-018.md)
 
 ## QOL-040 — Consider sit-stand workstations conditionally
 
-**Categories:** sedentary-behavior, work-design, physical-activity  
-**Evidence:** Moderate  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -143,13 +131,10 @@ Standing still is not equivalent to moderate physical activity. The intervention
 
 ### References
 
-- [REF-019](../references.md#ref-019)
+- [REF-019](../references/REF-019.md)
 
 ## QOL-076 — Treat recurrent low-back pain rather than normalizing it
 
-**Categories:** pain, physical-activity, preventive-health  
-**Evidence:** High  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -165,13 +150,10 @@ Back pain has many causes. Red flags or neurological symptoms require appropriat
 
 ### References
 
-- [REF-064](../references.md#ref-064)
+- [REF-064](../references/REF-064.md)
 
 ## QOL-089 / QOL-090 — Use behavior supports when the barrier is consistency or fatigue
 
-**Categories:** physical-activity, behavior-change, attention, work-design  
-**Evidence:** Moderate  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -187,26 +169,20 @@ Tracking can become burdensome for some people. Microbreaks should not be sold a
 
 ### References
 
-- [REF-045](../references.md#ref-045)
-- [REF-046](../references.md#ref-046)
+- [REF-045](../references/REF-045.md)
+- [REF-046](../references/REF-046.md)
 
 ## QOL-108 — Pelvic floor muscle training is a specific therapeutic exercise
 
-**Categories:** pelvic-health, physical-activity, preventive-health  
-**Evidence:** High  
-**Applicability:** Conditional
 
 NICE recommends supervised pelvic floor muscle training for at least 3 months as first-line treatment for stress or mixed urinary incontinence. See [reproductive-health.md](reproductive-health.md) for the pelvic-health context.
 
 ### References
 
-- [REF-079](../references.md#ref-079)
+- [REF-079](../references/REF-079.md)
 
 ## QOL-113 — Use therapeutic exercise in osteoarthritis management
 
-**Categories:** pain, physical-activity, preventive-health  
-**Evidence:** High  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -222,13 +198,10 @@ Exercise type and dose should reflect the affected joint, symptoms, function, co
 
 ### References
 
-- [REF-083](../references.md#ref-083)
+- [REF-083](../references/REF-083.md)
 
 ## QOL-118 — Include balance and strength work in older age
 
-**Categories:** aging, physical-activity, strength, preventive-health  
-**Evidence:** High  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -244,4 +217,4 @@ Activity should be adapted to ability and health status. The recommendation does
 
 ### References
 
-- [REF-086](../references.md#ref-086)
+- [REF-086](../references/REF-086.md)

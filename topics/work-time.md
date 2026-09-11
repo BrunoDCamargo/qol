@@ -6,39 +6,36 @@ See the [canonical catalog](../catalog.md) and [reference registry](../reference
 
 ## Map
 
-| ID | Item | Evidence | Applicability | References |
-|---|---|---|---|---|
-| [QOL-021](../catalog.md) | Spend money to buy back unwanted time when worthwhile | Moderate | Conditional | [REF-012](../references.md#ref-012) |
-| [QOL-022](../catalog.md) | Outsource cleaning when it meaningfully saves unwanted time | Inference | Conditional | [REF-012](../references.md#ref-012) |
-| [QOL-023](../catalog.md) | Use grocery delivery when it meaningfully saves unwanted time | Inference | Conditional | [REF-012](../references.md#ref-012) |
-| [QOL-024](../catalog.md) | Outsource laundry/ironing when it meaningfully saves unwanted time | Inference | Conditional | [REF-012](../references.md#ref-012) |
-| [QOL-025](../catalog.md) | Use prepared meals or meal services when they meaningfully save unwanted time | Inference | Conditional | [REF-012](../references.md#ref-012) |
-| [QOL-026](../catalog.md) | Outsource recurring maintenance when it meaningfully saves unwanted time | Inference | Conditional | [REF-012](../references.md#ref-012) |
-| [QOL-027](../catalog.md) | Pay for faster transport selectively when time savings justify it | Inference | Conditional | [REF-012](../references.md#ref-012) |
-| [QOL-028](../catalog.md) | Automate recurring bills and administrative chores | Inference | Conditional | [REF-012](../references.md#ref-012) |
-| [QOL-029](../catalog.md) | Use hybrid work when role and circumstances support it | Moderate | Conditional | [REF-013](../references.md#ref-013) |
-| [QOL-030](../catalog.md) | Quantify the annual time cost of commuting | Inference | Conditional | [REF-012](../references.md#ref-012), [REF-013](../references.md#ref-013) |
-| [QOL-031](../catalog.md) | Consider living closer to recurring destinations when commute dominates life | Inference | Conditional | [REF-012](../references.md#ref-012), [REF-013](../references.md#ref-013) |
-| [QOL-032](../catalog.md) | Protect meeting-free or interruption-free focus blocks | Inference | Conditional | [REF-009](../references.md#ref-009), [REF-010](../references.md#ref-010) |
-| [QOL-080](../catalog.md) | Measure actual weekly work hours when workload is uncertain | Inference | Conditional | [REF-042](../references.md#ref-042) |
-| [QOL-081](../catalog.md) | Improve psychological detachment from work | Moderate | Conditional | [REF-043](../references.md#ref-043) |
-| [QOL-082](../catalog.md) | Build deliberate recovery skills after work | Low | Conditional | [REF-044](../references.md#ref-044) |
-| [QOL-083](../catalog.md) | Reduce office noise when concentration demands and noise exposure justify it | Low | Conditional | [REF-006](../references.md#ref-006) |
-| [QOL-084](../catalog.md) | Consider modest workplace greening/vegetation as a low-stakes environmental intervention | Low | Conditional | [REF-054](../references.md#ref-054) |
-| [QOL-085](../catalog.md) | Spend some discretionary money on meaningful shared experiences when valued | Moderate | Conditional | [REF-055](../references.md#ref-055) |
-| [QOL-086](../catalog.md) | Treat prosocial spending as potentially beneficial, not universally effective | Low | Conditional | [REF-056](../references.md#ref-056) |
-| [QOL-087](../catalog.md) | Increase financial safety margin when financial insecurity drives stress | Low | Conditional | [REF-067](../references.md#ref-067) |
-| [QOL-088](../catalog.md) | Automate recurring financial obligations where automation removes cognitive load | Inference | Conditional | [REF-012](../references.md#ref-012), [REF-067](../references.md#ref-067) |
-| [QOL-089](../catalog.md) | Use activity self-monitoring when it helps sustain movement | Moderate | Conditional | [REF-045](../references.md#ref-045) |
-| [QOL-090](../catalog.md) | Use microbreaks to manage fatigue during long cognitive work | Moderate | Conditional | [REF-046](../references.md#ref-046) |
-| [QOL-100](../catalog.md) | Audit recurring commitments and remove those no longer worth their cost | Inference | Conditional | [REF-012](../references.md#ref-012), [REF-043](../references.md#ref-043) |
-| [QOL-117](../catalog.md) | Reduce sustained work weeks of 55 hours or more when work design can be changed | Moderate | Conditional | [REF-042](../references.md#ref-042) |
+| ID | Statement | Kind | Categories | Evidence Strength | Applicability | Support Mode | Status | References |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [QOL-021](../items/QOL-021.md) | Spend money to buy back unwanted time when worthwhile | Intervention | time, financial-wellbeing, mental-health | Moderate | Conditional | Direct | Active | [REF-012](../references/REF-012.md) |
+| [QOL-022](../items/QOL-022.md) | Outsource cleaning when it meaningfully saves unwanted time | Intervention | time, friction-reduction, environment | Moderate | Conditional | Inferred | Active | [REF-012](../references/REF-012.md) |
+| [QOL-023](../items/QOL-023.md) | Use grocery delivery when it meaningfully saves unwanted time | Intervention | time, friction-reduction, nutrition | Moderate | Conditional | Inferred | Active | [REF-012](../references/REF-012.md) |
+| [QOL-024](../items/QOL-024.md) | Outsource laundry/ironing when it meaningfully saves unwanted time | Intervention | time, friction-reduction | Moderate | Conditional | Inferred | Active | [REF-012](../references/REF-012.md) |
+| [QOL-025](../items/QOL-025.md) | Use prepared meals or meal services when they meaningfully save unwanted time | Intervention | time, friction-reduction, nutrition | Moderate | Conditional | Inferred | Active | [REF-012](../references/REF-012.md) |
+| [QOL-026](../items/QOL-026.md) | Outsource recurring maintenance when it meaningfully saves unwanted time | Intervention | time, friction-reduction, environment | Moderate | Conditional | Inferred | Active | [REF-012](../references/REF-012.md) |
+| [QOL-027](../items/QOL-027.md) | Pay for faster transport selectively when time savings justify it | Intervention | time, financial-wellbeing, work-design | Moderate | Conditional | Inferred | Active | [REF-012](../references/REF-012.md) |
+| [QOL-028](../items/QOL-028.md) | Automate recurring bills and administrative chores | Intervention | time, friction-reduction, financial-wellbeing | Moderate | Conditional | Inferred | Active | [REF-012](../references/REF-012.md) |
+| [QOL-029](../items/QOL-029.md) | Use hybrid work when role and circumstances support it | Intervention | work-design, time, mental-health | Moderate | Conditional | Direct | Active | [REF-013](../references/REF-013.md) |
+| [QOL-030](../items/QOL-030.md) | Quantify the annual time cost of commuting | Assessment | time, work-design, financial-wellbeing | Moderate | Conditional | Inferred | Active | [REF-012](../references/REF-012.md), [REF-013](../references/REF-013.md) |
+| [QOL-031](../items/QOL-031.md) | Consider living closer to recurring destinations when commute dominates life | Intervention | time, work-design, environment, financial-wellbeing | Moderate | Conditional | Inferred | Active | [REF-012](../references/REF-012.md), [REF-013](../references/REF-013.md) |
+| [QOL-032](../items/QOL-032.md) | Protect meeting-free or interruption-free focus blocks | Intervention | attention, work-design, time | Moderate | Conditional | Inferred | Active | [REF-009](../references/REF-009.md), [REF-010](../references/REF-010.md) |
+| [QOL-080](../items/QOL-080.md) | Measure actual weekly work hours when workload is uncertain | Assessment | work-design, time, preventive-health | High | Conditional | Inferred | Active | [REF-042](../references/REF-042.md) |
+| [QOL-081](../items/QOL-081.md) | Improve psychological detachment from work when mental carryover impairs recovery | Intervention | work-design, mental-health, time | Moderate | Conditional | Direct | Active | [REF-043](../references/REF-043.md) |
+| [QOL-082](../items/QOL-082.md) | Build deliberate recovery skills after work when recovery is persistently poor | Intervention | work-design, mental-health, time | Low | Conditional | Direct | Active | [REF-044](../references/REF-044.md) |
+| [QOL-083](../items/QOL-083.md) | Reduce office noise when concentration demands and noise exposure justify it | Intervention | work-design, environment, attention | Low | Conditional | Inferred | Active | [REF-006](../references/REF-006.md) |
+| [QOL-084](../items/QOL-084.md) | Consider modest workplace greening as a low-stakes environmental intervention | Intervention | work-design, environment, mental-health | Low | Conditional | Direct | Active | [REF-054](../references/REF-054.md) |
+| [QOL-085](../items/QOL-085.md) | Spend some discretionary money on meaningful shared experiences when valued | Intervention | financial-wellbeing, social, relationships | Moderate | Conditional | Direct | Active | [REF-055](../references/REF-055.md) |
+| [QOL-086](../items/QOL-086.md) | Treat prosocial spending as potentially beneficial, not universally effective | Guardrail | financial-wellbeing, social, mental-health | Low | Conditional | Direct | Active | [REF-056](../references/REF-056.md) |
+| [QOL-087](../items/QOL-087.md) | Increase financial safety margin when financial insecurity is a meaningful stressor | Intervention | financial-wellbeing, mental-health, preventive-health | Low | Conditional | Inferred | Active | [REF-067](../references/REF-067.md) |
+| [QOL-088](../items/QOL-088.md) | Automate recurring financial obligations when automation removes cognitive load | Intervention | financial-wellbeing, friction-reduction, time | Moderate | Conditional | Inferred | Active | [REF-012](../references/REF-012.md), [REF-067](../references/REF-067.md) |
+| [QOL-089](../items/QOL-089.md) | Use activity self-monitoring when it helps sustain movement | Intervention | physical-activity, technology, behavior-change | Moderate | Conditional | Direct | Active | [REF-045](../references/REF-045.md) |
+| [QOL-090](../items/QOL-090.md) | Use microbreaks to manage fatigue during long cognitive work | Intervention | work-design, attention, mental-health | Moderate | Conditional | Direct | Active | [REF-046](../references/REF-046.md) |
+| [QOL-100](../items/QOL-100.md) | Audit recurring commitments for whether they still justify their time, money, and recovery cost | Assessment | time, friction-reduction, mental-health | Moderate | Conditional | Inferred | Active | [REF-012](../references/REF-012.md), [REF-043](../references/REF-043.md) |
+| [QOL-117](../items/QOL-117.md) | Reduce sustained work weeks of 55 hours or more when work design can be changed | Intervention | work-design, time, occupational-health, preventive-health | Moderate | Conditional | Inferred | Active | [REF-042](../references/REF-042.md) |
 
 ## QOL-021 — Spend money to buy back unwanted time when worthwhile
 
-**Categories:** time, financial-wellbeing, mental-health  
-**Evidence:** Moderate  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -62,13 +59,10 @@ The experiment tested a category of time-saving purchase, not every concrete ser
 
 ### References
 
-- [REF-012](../references.md#ref-012)
+- [REF-012](../references/REF-012.md)
 
 ## QOL-022 through QOL-028 — Concrete ways to buy time
 
-**Categories:** time, friction-reduction, financial-wellbeing  
-**Evidence:** Inference  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -88,13 +82,10 @@ These interventions depend strongly on finances, service quality, preferences, h
 
 ### References
 
-- [REF-012](../references.md#ref-012)
+- [REF-012](../references/REF-012.md)
 
 ## QOL-029 — Use hybrid work when role and circumstances support it
 
-**Categories:** work-design, time, mental-health  
-**Evidence:** Moderate  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -114,13 +105,10 @@ This was one company and occupational context. It does not establish the same ef
 
 ### References
 
-- [REF-013](../references.md#ref-013)
+- [REF-013](../references/REF-013.md)
 
 ## QOL-030 / QOL-031 — Make recurring travel costs visible
 
-**Categories:** time, work-design, environment, financial-wellbeing  
-**Evidence:** Inference  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -140,14 +128,11 @@ Housing, social ties, neighborhood quality, job stability, and money may outweig
 
 ### References
 
-- [REF-012](../references.md#ref-012)
-- [REF-013](../references.md#ref-013)
+- [REF-012](../references/REF-012.md)
+- [REF-013](../references/REF-013.md)
 
 ## QOL-080 / QOL-117 — Measure long working hours, then reduce sustained exposure when feasible
 
-**Categories:** work-design, time, occupational-health, preventive-health  
-**Evidence:** Inference for measurement; Moderate for reducing sustained very-long-hour exposure  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -167,13 +152,10 @@ The 55-hour figure is a population-level exposure category, not a sharp individu
 
 ### References
 
-- [REF-042](../references.md#ref-042)
+- [REF-042](../references/REF-042.md)
 
 ## QOL-081 / QOL-082 — Separate being off work from recovering from work
 
-**Categories:** work-design, mental-health, time  
-**Evidence:** Moderate for detachment; Low for broad recovery training  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -193,14 +175,11 @@ Individual recovery strategies cannot correct chronic understaffing, unsafe cond
 
 ### References
 
-- [REF-043](../references.md#ref-043)
-- [REF-044](../references.md#ref-044)
+- [REF-043](../references/REF-043.md)
+- [REF-044](../references/REF-044.md)
 
 ## QOL-087 / QOL-088 — Financial friction matters when it is actually stressful
 
-**Categories:** financial-wellbeing, mental-health, time, friction-reduction  
-**Evidence:** Low for hardship-health association; Inference for automation  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -220,14 +199,11 @@ Financial advice is context-dependent. Increasing savings at the expense of basi
 
 ### References
 
-- [REF-067](../references.md#ref-067)
-- [REF-012](../references.md#ref-012)
+- [REF-067](../references/REF-067.md)
+- [REF-012](../references/REF-012.md)
 
 ## QOL-100 — Audit recurring commitments
 
-**Categories:** time, friction-reduction, mental-health  
-**Evidence:** Inference  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -243,5 +219,5 @@ Some responsibilities cannot or should not be removed merely because they are un
 
 ### References
 
-- [REF-012](../references.md#ref-012)
-- [REF-043](../references.md#ref-043)
+- [REF-012](../references/REF-012.md)
+- [REF-043](../references/REF-043.md)

@@ -6,29 +6,26 @@ See the [canonical catalog](../catalog.md) and [reference registry](../reference
 
 ## Map
 
-| ID | Item | Evidence | Applicability | References |
-|---|---|---|---|---|
-| [QOL-007](../catalog.md) | Reduce meaningful nighttime environmental noise | High | Conditional | [REF-006](../references.md#ref-006), [REF-052](../references.md#ref-052) |
-| [QOL-008](../catalog.md) | Do not assume white/pink noise improves sleep; test conditionally | Moderate | Conditional | [REF-052](../references.md#ref-052) |
-| [QOL-009](../catalog.md) | Improve thermal comfort during sleep | Low | Conditional | [REF-072](../references.md#ref-072) |
-| [QOL-010](../catalog.md) | Use blackout or a sleep mask when bedroom light is disruptive | Moderate | Conditional | [REF-007](../references.md#ref-007) |
-| [QOL-042](../catalog.md) | Reduce bedroom noise when it disrupts sleep | High | Conditional | [REF-006](../references.md#ref-006), [REF-052](../references.md#ref-052) |
-| [QOL-043](../catalog.md) | Make the bedroom sufficiently dark for sleep | Low | Conditional | [REF-007](../references.md#ref-007) |
-| [QOL-044](../catalog.md) | Get adequate light during the day | High | General | [REF-002](../references.md#ref-002) |
-| [QOL-045](../catalog.md) | Keep the bedroom thermally comfortable | Low | Conditional | [REF-072](../references.md#ref-072) |
-| [QOL-046](../catalog.md) | Use source control/exhaust ventilation while cooking | High | Conditional | [REF-021](../references.md#ref-021) |
-| [QOL-047](../catalog.md) | Use HEPA filtration when particulate exposure or another indication justifies it | High | Conditional | [REF-022](../references.md#ref-022) |
-| [QOL-048](../catalog.md) | Avoid treating consumer CO2 sensing as a guaranteed cognitive-performance hack | Moderate | General | [REF-053](../references.md#ref-053) |
-| [QOL-083](../catalog.md) | Reduce office noise when concentration demands and noise exposure justify it | Low | Conditional | [REF-006](../references.md#ref-006) |
-| [QOL-084](../catalog.md) | Consider modest workplace greening/vegetation as a low-stakes environmental intervention | Low | Conditional | [REF-054](../references.md#ref-054) |
-| [QOL-098](../catalog.md) | Repair or replace recurring physical irritants in the environment | Inference | Conditional | [REF-012](../references.md#ref-012) |
-| [QOL-099](../catalog.md) | Duplicate inexpensive frequently transported items when it removes repeated friction | Inference | Conditional | [REF-012](../references.md#ref-012) |
+| ID | Statement | Kind | Categories | Evidence Strength | Applicability | Support Mode | Status | References |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [QOL-007](../items/QOL-007.md) | Reduce meaningful nighttime environmental noise | Intervention | sleep, environment | High | Conditional | Direct | Active | [REF-006](../references/REF-006.md), [REF-052](../references/REF-052.md) |
+| [QOL-008](../items/QOL-008.md) | Do not assume white or pink noise improves sleep; test conditionally | Guardrail | sleep, environment | Moderate | Conditional | Direct | Active | [REF-052](../references/REF-052.md) |
+| [QOL-009](../items/QOL-009.md) | Improve thermal comfort during sleep | Intervention | sleep, environment | Low | Conditional | Inferred | Active | [REF-072](../references/REF-072.md) |
+| [QOL-010](../items/QOL-010.md) | Use blackout or a sleep mask when bedroom light is disruptive | Intervention | sleep, environment, circadian | Moderate | Conditional | Inferred | Active | [REF-007](../references/REF-007.md) |
+| [QOL-042](../items/QOL-042.md) | Reduce bedroom noise when it disrupts sleep | Intervention | sleep, environment |  | Conditional | Direct | Deprecated |  |
+| [QOL-043](../items/QOL-043.md) | Make the bedroom sufficiently dark for sleep | Intervention | sleep, environment, circadian | Low | Conditional | Inferred | Active | [REF-007](../references/REF-007.md) |
+| [QOL-044](../items/QOL-044.md) | Get adequate light during the day | Intervention | circadian, sleep, environment |  | General | Inferred | Deprecated |  |
+| [QOL-045](../items/QOL-045.md) | Keep the bedroom thermally comfortable | Intervention | sleep, environment |  | Conditional | Inferred | Deprecated |  |
+| [QOL-046](../items/QOL-046.md) | Use source control/exhaust ventilation while cooking | Intervention | indoor-air, environment, preventive-health | High | Conditional | Direct | Active | [REF-021](../references/REF-021.md) |
+| [QOL-047](../items/QOL-047.md) | Use HEPA filtration when particulate exposure or another indication justifies it | Intervention | indoor-air, environment, preventive-health | High | Conditional | Direct | Active | [REF-022](../references/REF-022.md) |
+| [QOL-048](../items/QOL-048.md) | Avoid treating consumer CO2 sensing as a guaranteed cognitive-performance hack | Guardrail | indoor-air, environment, attention | Moderate | General | Direct | Active | [REF-053](../references/REF-053.md) |
+| [QOL-083](../items/QOL-083.md) | Reduce office noise when concentration demands and noise exposure justify it | Intervention | work-design, environment, attention | Low | Conditional | Inferred | Active | [REF-006](../references/REF-006.md) |
+| [QOL-084](../items/QOL-084.md) | Consider modest workplace greening as a low-stakes environmental intervention | Intervention | work-design, environment, mental-health | Low | Conditional | Direct | Active | [REF-054](../references/REF-054.md) |
+| [QOL-098](../items/QOL-098.md) | Repair or replace recurring physical irritants when doing so reliably removes repeated friction | Intervention | friction-reduction, environment, time | Moderate | Conditional | Inferred | Active | [REF-012](../references/REF-012.md) |
+| [QOL-099](../items/QOL-099.md) | Duplicate inexpensive frequently transported items when it reliably removes repeated friction | Intervention | friction-reduction, time | Moderate | Conditional | Inferred | Active | [REF-012](../references/REF-012.md) |
 
 ## QOL-042 through QOL-045 — Treat the bedroom as an exposure environment
 
-**Categories:** sleep, environment, circadian  
-**Evidence:** Mixed  
-**Applicability:** Conditional except for daytime light
 
 ### Idea
 
@@ -48,17 +45,14 @@ There is no evidence here for a universally ideal bedroom temperature, sound pro
 
 ### References
 
-- [REF-002](../references.md#ref-002)
-- [REF-006](../references.md#ref-006)
-- [REF-007](../references.md#ref-007)
-- [REF-052](../references.md#ref-052)
-- [REF-072](../references.md#ref-072)
+- [REF-002](../references/REF-002.md)
+- [REF-006](../references/REF-006.md)
+- [REF-007](../references/REF-007.md)
+- [REF-052](../references/REF-052.md)
+- [REF-072](../references/REF-072.md)
 
 ## QOL-046 — Use source control/exhaust ventilation while cooking
 
-**Categories:** indoor-air, environment, preventive-health  
-**Evidence:** High  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -78,13 +72,10 @@ Indoor-air exposures vary with cooking method, fuel, ventilation, home layout, a
 
 ### References
 
-- [REF-021](../references.md#ref-021)
+- [REF-021](../references/REF-021.md)
 
 ## QOL-047 — Use HEPA filtration conditionally
 
-**Categories:** indoor-air, environment, preventive-health  
-**Evidence:** High  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -104,13 +95,10 @@ No filter removes all pollutants. Some air-cleaning technologies can themselves 
 
 ### References
 
-- [REF-022](../references.md#ref-022)
+- [REF-022](../references/REF-022.md)
 
 ## QOL-048 — Do not turn CO2 into a universal cognitive score
 
-**Categories:** indoor-air, environment, attention  
-**Evidence:** Moderate  
-**Applicability:** General
 
 ### Idea
 
@@ -126,13 +114,10 @@ This does not make ventilation irrelevant. CO2, particles, VOCs, humidity, tempe
 
 ### References
 
-- [REF-053](../references.md#ref-053)
+- [REF-053](../references/REF-053.md)
 
 ## QOL-084 — Workplace vegetation is a small, low-stakes intervention
 
-**Categories:** work-design, environment, mental-health  
-**Evidence:** Low  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -148,13 +133,10 @@ The study was small and short. Plants are an environmental preference, not a tre
 
 ### References
 
-- [REF-054](../references.md#ref-054)
+- [REF-054](../references/REF-054.md)
 
 ## QOL-098 / QOL-099 — Remove repeated physical friction
 
-**Categories:** friction-reduction, environment, time  
-**Evidence:** Inference  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -174,4 +156,4 @@ This principle can become an excuse for unnecessary consumption. Require a real 
 
 ### References
 
-- [REF-012](../references.md#ref-012)
+- [REF-012](../references/REF-012.md)

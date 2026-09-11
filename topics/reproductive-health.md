@@ -8,20 +8,17 @@ This page maps reproductive and pelvic-health factors that may substantially aff
 
 ## Map
 
-| ID | Item | Evidence | Applicability | References |
-|---|---|---|---|---|
-| [QOL-079](../catalog.md) | Include sexual health in quality-of-life assessment when relevant | High | Conditional | [REF-066](../references.md#ref-066) |
-| [QOL-108](../catalog.md) | Use supervised pelvic floor muscle training for stress or mixed urinary incontinence | High | Conditional | [REF-079](../references.md#ref-079) |
-| [QOL-109](../catalog.md) | Use bladder training for urgency or mixed urinary incontinence | High | Conditional | [REF-079](../references.md#ref-079) |
-| [QOL-110](../catalog.md) | Treat menopause-associated symptoms when they impair well-being or function | High | Conditional | [REF-080](../references.md#ref-080) |
-| [QOL-111](../catalog.md) | Treat heavy menstrual bleeding according to its quality-of-life impact | High | Conditional | [REF-081](../references.md#ref-081) |
-| [QOL-112](../catalog.md) | Investigate possible endometriosis when cyclical pain or related symptoms impair daily life | High | Conditional | [REF-082](../references.md#ref-082) |
+| ID | Statement | Kind | Categories | Evidence Strength | Applicability | Support Mode | Status | References |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [QOL-079](../items/QOL-079.md) | Include sexual health in quality-of-life assessment when relevant | Assessment | sexual-health, relationships, preventive-health | High | Conditional | Direct | Active | [REF-066](../references/REF-066.md) |
+| [QOL-108](../items/QOL-108.md) | Use supervised pelvic floor muscle training for stress or mixed urinary incontinence | Intervention | pelvic-health, physical-activity, preventive-health | High | Conditional | Direct | Active | [REF-079](../references/REF-079.md) |
+| [QOL-109](../items/QOL-109.md) | Use bladder training for urgency or mixed urinary incontinence | Intervention | pelvic-health, behavior-change, preventive-health | High | Conditional | Direct | Active | [REF-079](../references/REF-079.md) |
+| [QOL-110](../items/QOL-110.md) | Treat menopause-associated symptoms when they impair well-being or function | Intervention | reproductive-health, sleep, mental-health, sexual-health | High | Conditional | Direct | Active | [REF-080](../references/REF-080.md) |
+| [QOL-111](../items/QOL-111.md) | Treat heavy menstrual bleeding according to its quality-of-life impact | Intervention | reproductive-health, preventive-health | High | Conditional | Direct | Active | [REF-081](../references/REF-081.md) |
+| [QOL-112](../items/QOL-112.md) | Investigate possible endometriosis when cyclical pain or related symptoms impair daily life | Assessment | reproductive-health, pain, sexual-health, gastrointestinal | High | Conditional | Direct | Active | [REF-082](../references/REF-082.md) |
 
 ## QOL-108 / QOL-109 — Match conservative treatment to the incontinence pattern
 
-**Categories:** pelvic-health, physical-activity, behavior-change, preventive-health  
-**Evidence:** High  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -37,13 +34,10 @@ Symptoms should be characterized before selecting treatment. Pelvic floor muscle
 
 ### References
 
-- [REF-079](../references.md#ref-079)
+- [REF-079](../references/REF-079.md)
 
 ## QOL-110 — Treat menopause-associated symptoms when they impair well-being or function
 
-**Categories:** reproductive-health, sleep, mental-health, sexual-health  
-**Evidence:** High  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -59,13 +53,10 @@ No single treatment suits every symptom profile. Hormonal and non-hormonal optio
 
 ### References
 
-- [REF-080](../references.md#ref-080)
+- [REF-080](../references/REF-080.md)
 
 ## QOL-111 — Treat heavy menstrual bleeding according to its quality-of-life impact
 
-**Categories:** reproductive-health, preventive-health  
-**Evidence:** High  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -81,13 +72,10 @@ Causes differ and can require different investigation or treatment. This item do
 
 ### References
 
-- [REF-081](../references.md#ref-081)
+- [REF-081](../references/REF-081.md)
 
 ## QOL-112 — Investigate possible endometriosis when symptoms impair daily life
 
-**Categories:** reproductive-health, pain, sexual-health, gastrointestinal  
-**Evidence:** High  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -103,4 +91,4 @@ These symptoms are not specific to endometriosis. Evaluation depends on the full
 
 ### References
 
-- [REF-082](../references.md#ref-082)
+- [REF-082](../references/REF-082.md)

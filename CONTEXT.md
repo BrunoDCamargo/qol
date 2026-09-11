@@ -78,8 +78,8 @@ A canonical but extensible retrieval tag applied to QoL Items. Categories do not
 _Avoid_: section, primary category
 
 **Topic View**:
-A non-canonical thematic presentation of related QoL Items.
-_Avoid_: category, owner
+A non-canonical thematic presentation of related QoL Items. Topic membership and editorial prose are presentation choices; displayed item statement, kind, categories, Evidence Strength, applicability, Support Mode, lifecycle status, and canonical links are derived from the referenced QoL Items and References.
+_Avoid_: category, owner, independent metadata registry
 
 ## Lifecycle
 

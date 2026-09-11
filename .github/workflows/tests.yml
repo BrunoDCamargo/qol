@@ -32,7 +32,7 @@ jobs:
         run: |
           if ! python -m qol_kb.views --check; then
             python -m qol_kb.views
-            git diff -- generated
+            git diff -- catalog.md references.md generated topics
             exit 1
           fi
 
