@@ -263,6 +263,25 @@ def _validate_reference_semantics(
             )
 
 
+def _validate_implementation_option_semantics(
+    record_path: Path,
+    front_matter: dict[str, Any],
+) -> None:
+    if (
+        front_matter["status"] == "Active"
+        and front_matter.get("replaced_by") is not None
+    ):
+        raise ValueError(
+            f"{record_path}: Active implementation option cannot declare replaced_by"
+        )
+    if front_matter["status"] == "Deprecated":
+        reason = front_matter.get("deprecation_reason")
+        if not isinstance(reason, str) or not reason.strip():
+            raise ValueError(
+                f"{record_path}: deprecation_reason is required for Deprecated implementation options"
+            )
+
+
 def load_record(path: str | Path) -> Record:
     record_path = Path(path)
     record_type = _record_type_for_path(record_path)
@@ -295,6 +314,7 @@ def load_record(path: str | Path) -> Record:
         _validate_reference_semantics(record_path, front_matter)
         evidence_strength = None
     else:
+        _validate_implementation_option_semantics(record_path, front_matter)
         evidence_strength = None
 
     body = "".join(lines[closing_index + 1 :])
@@ -346,6 +366,22 @@ def _validate_repository_records(
                     raise ValueError(
                         f"{record_id}: Active implementation option cannot target "
                         f"Deprecated item {item_id}"
+                    )
+            for replacement_id in record.front_matter.get("replaced_by", []):
+                if replacement_id == record_id:
+                    raise ValueError(
+                        f"{record_id}: implementation option replacement must be distinct"
+                    )
+                replacement = records_by_id.get(replacement_id)
+                if replacement is None or replacement.record_type != "implementation_option":
+                    raise ValueError(
+                        f"{record_id}: implementation option replacement does not resolve: "
+                        f"{replacement_id}"
+                    )
+                if replacement.front_matter["status"] != "Active":
+                    raise ValueError(
+                        f"{record_id}: implementation option replacement must be Active: "
+                        f"{replacement_id}"
                     )
             continue
 
