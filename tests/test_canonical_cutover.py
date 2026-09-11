@@ -1,7 +1,7 @@
 from pathlib import Path
 import unittest
 
-from qol_kb import records
+from qol_kb import records, views
 
 
 REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
@@ -33,6 +33,26 @@ class CanonicalCutoverTests(unittest.TestCase):
             expected.issubset(actual),
             f"missing intended informs relationships: {sorted(expected - actual)}",
         )
+
+    def test_root_catalog_and_reference_indexes_are_generated_outputs(self):
+        expected_paths = {
+            Path("catalog.md"),
+            Path("references.md"),
+            Path("generated/implementation-options.md"),
+        }
+
+        self.assertEqual(set(views.OUTPUT_PATHS), expected_paths)
+        generated = views.generate_views(REPOSITORY_ROOT)
+        self.assertEqual(
+            (REPOSITORY_ROOT / "catalog.md").read_bytes(),
+            generated[Path("catalog.md")],
+        )
+        self.assertEqual(
+            (REPOSITORY_ROOT / "references.md").read_bytes(),
+            generated[Path("references.md")],
+        )
+        self.assertFalse((REPOSITORY_ROOT / "generated" / "catalog.md").exists())
+        self.assertFalse((REPOSITORY_ROOT / "generated" / "references.md").exists())
 
 
 if __name__ == "__main__":
