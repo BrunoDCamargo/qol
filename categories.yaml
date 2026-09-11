@@ -53,3 +53,21 @@ categories:
   strength:
     definition: Muscle-strengthening activity, physical strength, and related functional capacity.
     status: Active
+  vision:
+    definition: Visual function, vision symptoms, and interventions or assessments affecting everyday seeing.
+    status: Active
+  oral-health:
+    definition: Oral and dental health, pain, function, and related quality-of-life effects.
+    status: Active
+  hearing:
+    definition: Hearing function, hearing-related symptoms, communication, and rehabilitation needs.
+    status: Active
+  social:
+    definition: Social connection, participation, isolation, and interpersonal contact relevant to well-being.
+    status: Active
+  weight:
+    definition: Body-weight-related health, weight management, and dietary or behavioral determinants.
+    status: Active
+  hydration:
+    definition: Fluid intake, dehydration risk, and beverage choices related to adequate hydration.
+    status: Active
