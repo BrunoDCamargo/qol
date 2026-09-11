@@ -2,8 +2,7 @@ name: Tests
 
 on:
   push:
-    branches:
-      - feature/implementation-options
+  pull_request:
   workflow_dispatch:
 
 jobs:
