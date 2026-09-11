@@ -467,6 +467,335 @@
 - **Supports:**
   - Social isolation and loneliness are important determinants of health and well-being, while social connection has structural, functional, and quality dimensions.
 
+### REF-031
+
+[Canonical record](../references/REF-031.md)
+
+- **Title:** Assessing a facilitated social network intervention for health outcomes in lonely and socially isolated people: the pragmatic, cluster-randomized PALS trial
+- **Authors:** Band R, et al.
+- **Year:** 2026
+- **Source:** Frontiers in Public Health
+- **Source type:** primary research
+- **Design:** pragmatic cluster-randomized trial, n=469
+- **DOI:** 10.3389/fpubh.2026.1701579
+- **PMID:** 41982893
+- **URLs:**
+  - https://pubmed.ncbi.nlm.nih.gov/41982893/
+- **Supports:**
+  - A structured intervention connecting lonely or socially isolated adults to community resources did not produce clinically meaningful improvement in the studied primary or secondary outcomes.
+
+### REF-032
+
+[Canonical record](../references/REF-032.md)
+
+- **Title:** Heterogeneity of Effects in a Prosociality-Based Intervention to Reduce Loneliness and Increase Social Contact
+- **Authors:** Archer Lee Y, et al.
+- **Year:** 2026
+- **Source:** Journal of Personality
+- **Source type:** primary research
+- **Design:** randomized controlled trial, n=208
+- **DOI:** 10.1111/jopy.70015
+- **PMID:** 40847560
+- **URLs:**
+  - https://pubmed.ncbi.nlm.nih.gov/40847560/
+- **Supports:**
+  - A prosociality-based intervention showed heterogeneous effects and did not yield a consistent average reduction in loneliness across participants.
+
+### REF-033
+
+[Canonical record](../references/REF-033.md)
+
+- **Title:** Vitamin, Mineral, and Multivitamin Supplementation to Prevent Cardiovascular Disease and Cancer: Preventive Medication
+- **Authors:** U.S. Preventive Services Task Force
+- **Year:** Unknown
+- **Source:** U.S. Preventive Services Task Force
+- **Source type:** official evidence-based recommendation
+- **URLs:**
+  - https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/vitamin-supplementation-to-prevent-cvd-and-cancer-preventive-medication
+- **Supports:**
+  - Evidence does not justify assuming generic vitamin or multivitamin supplementation provides broad preventive benefit for cardiovascular disease or cancer in otherwise healthy community-dwelling adults; some supplements have specific harms.
+
+### REF-034
+
+[Canonical record](../references/REF-034.md)
+
+- **Title:** Vitamin D Deficiency in Adults: Screening
+- **Authors:** U.S. Preventive Services Task Force
+- **Year:** Unknown
+- **Source:** U.S. Preventive Services Task Force
+- **Source type:** official evidence-based recommendation
+- **URLs:**
+  - https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/vitamin-d-deficiency-screening
+- **Supports:**
+  - Evidence is insufficient to recommend for or against population screening for vitamin D deficiency in asymptomatic community-dwelling adults without a specific indication.
+
+### REF-035
+
+[Canonical record](../references/REF-035.md)
+
+- **Title:** Using Dietary Supplements Wisely
+- **Authors:** National Center for Complementary and Integrative Health
+- **Year:** Unknown
+- **Source:** National Center for Complementary and Integrative Health
+- **Source type:** official health guidance
+- **URLs:**
+  - https://www.nccih.nih.gov/health/using-dietary-supplements-wisely
+- **Supports:**
+  - Evidence and safety vary substantially across supplements; supplements may interact with medicines and are best tied to a defined need or evidence-based indication.
+
+### REF-036
+
+[Canonical record](../references/REF-036.md)
+
+- **Title:** The importance of sleep regularity: a consensus statement of the National Sleep Foundation sleep timing and variability panel
+- **Authors:** Sletten TL, et al.
+- **Year:** 2023
+- **Source:** Sleep Health
+- **Source type:** expert consensus informed by systematic evidence review
+- **DOI:** 10.1016/j.sleh.2023.07.016
+- **PMID:** 37684151
+- **URLs:**
+  - https://pubmed.ncbi.nlm.nih.gov/37684151/
+- **Supports:**
+  - Consistency of sleep and wake timing is an important dimension of healthy sleep alongside duration and quality.
+
+### REF-037
+
+[Canonical record](../references/REF-037.md)
+
+- **Title:** Treatment of restless legs syndrome and periodic limb movement disorder: an American Academy of Sleep Medicine clinical practice guideline
+- **Authors:** Winkelman JW, et al.
+- **Year:** 2025
+- **Source:** Journal of Clinical Sleep Medicine
+- **Source type:** clinical practice guideline
+- **DOI:** 10.5664/jcsm.11390
+- **PMID:** 39324694
+- **URLs:**
+  - https://pubmed.ncbi.nlm.nih.gov/39324694/
+- **Supports:**
+  - Restless legs syndrome is a clinically recognized and treatable sleep-related condition with evidence-based evaluation and treatment options.
+
+### REF-038
+
+[Canonical record](../references/REF-038.md)
+
+- **Title:** Efficacy of topical nasal steroid budesonide on improving sleep and daytime somnolence in perennial allergic rhinitis
+- **Authors:** Hughes K, et al.
+- **Year:** 2003
+- **Source:** Allergy
+- **Source type:** primary research
+- **Design:** randomized double-blind crossover trial
+- **DOI:** 10.1034/j.1398-9995.2003.00093.x
+- **PMID:** 12797340
+- **URLs:**
+  - https://pubmed.ncbi.nlm.nih.gov/12797340/
+- **Supports:**
+  - Treating perennial allergic rhinitis with intranasal budesonide improved congestion and some sleep/daytime-function outcomes in the studied patients.
+
+### REF-039
+
+[Canonical record](../references/REF-039.md)
+
+- **Title:** Bruxism
+- **Authors:** National Institute of Dental and Craniofacial Research
+- **Year:** Unknown
+- **Source:** National Institute of Dental and Craniofacial Research
+- **Source type:** official health guidance
+- **URLs:**
+  - https://www.nidcr.nih.gov/health-info/bruxism
+- **Supports:**
+  - Awake or sleep bruxism can cause tooth damage, jaw pain or tiredness, and headache when sufficiently severe; symptomatic cases warrant evaluation.
+
+### REF-040
+
+[Canonical record](../references/REF-040.md)
+
+- **Title:** The impact of break schedules on digital eye strain symptoms and ocular accommodation during prolonged near work
+- **Authors:** Redondo B, et al.
+- **Year:** 2025
+- **Source:** Experimental Eye Research
+- **Source type:** primary research
+- **Design:** controlled crossover experiment, n=24
+- **DOI:** 10.1016/j.exer.2025.110463
+- **PMID:** 40466853
+- **URLs:**
+  - https://pubmed.ncbi.nlm.nih.gov/40466853/
+- **Supports:**
+  - Break schedules during prolonged near-screen work reduced some symptoms of digital eye strain in the studied participants.
+
+### REF-041
+
+[Canonical record](../references/REF-041.md)
+
+- **Title:** Behavioral activation for depression: A comprehensive systematic review and meta-analysis
+- **Authors:** Cuijpers P, et al.
+- **Year:** 2026
+- **Source:** Clinical Psychology Review
+- **Source type:** secondary evidence
+- **Design:** systematic review and meta-analysis of 105 trials
+- **DOI:** 10.1016/j.cpr.2026.102783
+- **PMID:** 42492146
+- **URLs:**
+  - https://pubmed.ncbi.nlm.nih.gov/42492146/
+- **Supports:**
+  - Behavioral activation has a substantial randomized evidence base for adult depression; effect magnitude and comparative effectiveness vary by study and comparator.
+
+### REF-042
+
+[Canonical record](../references/REF-042.md)
+
+- **Title:** Global, regional, and national burdens of ischemic heart disease and stroke attributable to exposure to long working hours for 194 countries, 2000-2016: A systematic analysis from the WHO/ILO Joint Estimates of the Work-related Burden of Disease and Injury
+- **Authors:** Pega F, Náfrádi B, Momen NC, et al.
+- **Year:** 2021
+- **Source:** Environment International
+- **Source type:** WHO/ILO systematic burden analysis
+- **DOI:** 10.1016/j.envint.2021.106595
+- **PMID:** 34011457
+- **URLs:**
+  - https://pubmed.ncbi.nlm.nih.gov/34011457/
+- **Supports:**
+  - WHO/ILO estimates identify working 55 or more hours per week as associated with increased ischemic heart disease and stroke risk relative to standard 35-40 hour work weeks; the underlying risk estimates are population-level evidence, not an individual threshold guarantee.
+
+### REF-043
+
+[Canonical record](../references/REF-043.md)
+
+- **Title:** Mindfulness and cognitive-behavioral strategies for psychological detachment: Comparing effectiveness and mechanisms of change
+- **Authors:** Reis D, Hart A, Krautter K, Prestele E, Lehr D, Friese M
+- **Year:** 2024
+- **Source:** Journal of Occupational Health Psychology
+- **Source type:** primary research
+- **Design:** randomized controlled intervention, n=393
+- **DOI:** 10.1037/ocp0000381
+- **PMID:** 39101888
+- **URLs:**
+  - https://pubmed.ncbi.nlm.nih.gov/39101888/
+- **Supports:**
+  - Structured cognitive-behavioral and mindfulness-based interventions can improve psychological detachment from work in workers with difficulty detaching.
+
+### REF-044
+
+[Canonical record](../references/REF-044.md)
+
+- **Title:** Learning how to recover from stress: Results from an internet-based randomized controlled pilot trial
+- **Authors:** Persson Asplund R, et al.
+- **Year:** 2023
+- **Source:** Internet Interventions
+- **Source type:** primary research
+- **Design:** pilot randomized controlled trial, n=69
+- **DOI:** 10.1016/j.invent.2023.100681
+- **PMID:** 38023967
+- **URLs:**
+  - https://pubmed.ncbi.nlm.nih.gov/38023967/
+- **Supports:**
+  - A structured recovery-training program improved several recovery, stress, anxiety, quality-of-life, and work-ability outcomes in a small worker trial; replication in larger samples is needed.
+
+### REF-045
+
+[Canonical record](../references/REF-045.md)
+
+- **Title:** Which behaviour change techniques are effective to promote physical activity and reduce sedentary behaviour in adults: a factorial randomized trial of an e- and m-health intervention
+- **Authors:** Schroé H, et al.
+- **Year:** 2020
+- **Source:** International Journal of Behavioral Nutrition and Physical Activity
+- **Source type:** primary research
+- **Design:** factorial randomized trial, n=473
+- **DOI:** 10.1186/s12966-020-01001-x
+- **PMID:** 33028335
+- **URLs:**
+  - https://pubmed.ncbi.nlm.nih.gov/33028335/
+- **Supports:**
+  - Self-monitoring was among the behavior-change components that increased physical activity and reduced sedentary behavior in the studied digital intervention.
+
+### REF-046
+
+[Canonical record](../references/REF-046.md)
+
+- **Title:** Give me a break! A systematic review and meta-analysis on the efficacy of micro-breaks for increasing well-being and performance
+- **Authors:** Albulescu P, et al.
+- **Year:** 2022
+- **Source:** PLOS ONE
+- **Source type:** secondary evidence
+- **Design:** systematic review and meta-analysis
+- **DOI:** 10.1371/journal.pone.0272460
+- **PMID:** 36044424
+- **URLs:**
+  - https://pubmed.ncbi.nlm.nih.gov/36044424/
+- **Supports:**
+  - Microbreaks show small average benefits for vigor and fatigue; effects on task performance are less consistent and depend on break duration and task context.
+
+### REF-047
+
+[Canonical record](../references/REF-047.md)
+
+- **Title:** Clinical Practice Guideline for Management of Tinnitus: Recommendations From the US VA/DOD Clinical Practice Guideline Work Group
+- **Authors:** Sherlock LP, et al.
+- **Year:** 2025
+- **Source:** JAMA Otolaryngology-Head & Neck Surgery
+- **Source type:** clinical practice guideline summary
+- **DOI:** 10.1001/jamaoto.2025.0052
+- **PMID:** 40111327
+- **URLs:**
+  - https://pubmed.ncbi.nlm.nih.gov/40111327/
+- **Supports:**
+  - Bothersome tinnitus has evidence-based management options; it should not be assumed that nothing can reduce its functional or emotional burden.
+
+### REF-048
+
+[Canonical record](../references/REF-048.md)
+
+- **Title:** Irritable Bowel Syndrome
+- **Authors:** National Institute of Diabetes and Digestive and Kidney Diseases
+- **Year:** Unknown
+- **Source:** National Institute of Diabetes and Digestive and Kidney Diseases
+- **Source type:** official health guidance
+- **URLs:**
+  - https://www.niddk.nih.gov/health-information/digestive-diseases/irritable-bowel-syndrome
+- **Supports:**
+  - Chronic bowel symptoms can arise from treatable or manageable gastrointestinal conditions; IBS diagnosis requires a characteristic symptom pattern and assessment rather than assumption from nonspecific bowel changes alone.
+
+### REF-049
+
+[Canonical record](../references/REF-049.md)
+
+- **Title:** Finding and Learning about Side Effects (Adverse Reactions)
+- **Authors:** U.S. Food and Drug Administration
+- **Year:** Unknown
+- **Source:** U.S. Food and Drug Administration
+- **Source type:** official medication-safety guidance
+- **URLs:**
+  - https://www.fda.gov/drugs/find-information-about-drug/finding-and-learning-about-side-effects-adverse-reactions
+- **Supports:**
+  - Medicines can cause adverse effects, and new symptoms temporally associated with medication initiation or dose changes warrant review with an appropriate clinician rather than unilateral discontinuation.
+
+### REF-050
+
+[Canonical record](../references/REF-050.md)
+
+- **Title:** Constipation: Definition & Facts; Symptoms & Causes; Eating, Diet, & Nutrition; Treatment
+- **Authors:** National Institute of Diabetes and Digestive and Kidney Diseases
+- **Year:** Unknown
+- **Source:** National Institute of Diabetes and Digestive and Kidney Diseases
+- **Source type:** official health guidance
+- **URLs:**
+  - https://www.niddk.nih.gov/health-information/digestive-diseases/constipation
+- **Supports:**
+  - Constipation can include hard, dry, or difficult-to-pass stools even when bowel movements still occur; evaluation and management depend on symptoms and causes.
+
+### REF-051
+
+[Canonical record](../references/REF-051.md)
+
+- **Title:** Lactose Intolerance: Treatment
+- **Authors:** National Institute of Diabetes and Digestive and Kidney Diseases
+- **Year:** Unknown
+- **Source:** National Institute of Diabetes and Digestive and Kidney Diseases
+- **Source type:** official health guidance
+- **URLs:**
+  - https://www.niddk.nih.gov/health-information/digestive-diseases/lactose-intolerance/treatment
+- **Supports:**
+  - Lactose-intolerance symptoms can often be managed by adjusting lactose exposure or using lactose-reduced products or lactase, while maintaining adequate nutrition.
+
 ### REF-052
 
 [Canonical record](../references/REF-052.md)
@@ -484,6 +813,91 @@
 - **Supports:**
   - Intermittent environmental noise disturbed sleep; earplugs mitigated some effects, while pink noise was not uniformly beneficial and reduced REM sleep in this study.
 
+### REF-053
+
+[Canonical record](../references/REF-053.md)
+
+- **Title:** Do carbon dioxide, volatile organic compounds and atmospheric pressure affect the cognitive performance of occupants in indoor environments? Results of a large-scale experiment with simulated flights
+- **Authors:** Herbig B, et al.
+- **Year:** 2026
+- **Source:** International Journal of Hygiene and Environmental Health
+- **Source type:** primary research
+- **Design:** randomized controlled exposure study, n=398
+- **DOI:** 10.1016/j.ijheh.2026.114809
+- **PMID:** 42035679
+- **URLs:**
+  - https://pubmed.ncbi.nlm.nih.gov/42035679/
+- **Supports:**
+  - Acute exposure to the tested CO2 concentrations, including high concentrations, did not produce a systematic decline across cognitive measures; a consumer CO2 reading should not be treated as a guaranteed cognitive-performance proxy.
+
+### REF-054
+
+[Canonical record](../references/REF-054.md)
+
+- **Title:** The restorative effects of working individually in a vegetated office space: A crossover controlled experimental study in real-life workplace setting
+- **Authors:** Zhang G, Li T, Cui Y, Ren TH
+- **Year:** 2025
+- **Source:** Work
+- **Source type:** primary research
+- **Design:** crossover workplace-environment experiment, n=40
+- **DOI:** 10.1177/10519815251323994
+- **PMID:** 40112331
+- **URLs:**
+  - https://pubmed.ncbi.nlm.nih.gov/40112331/
+- **Supports:**
+  - One hour of work in a room with plants produced lower reported stress and fatigue than a matched room without vegetation in a small crossover study.
+
+### REF-055
+
+[Canonical record](../references/REF-055.md)
+
+- **Title:** To do, to have, or to share? Valuing experiences over material possessions depends on the involvement of others
+- **Authors:** Caprariello PA, Reis HT
+- **Year:** 2013
+- **Source:** Journal of Personality and Social Psychology
+- **Source type:** primary research
+- **Design:** four studies including experimental designs
+- **DOI:** 10.1037/a0030953
+- **PMID:** 23276272
+- **URLs:**
+  - https://pubmed.ncbi.nlm.nih.gov/23276272/
+- **Supports:**
+  - The social context of an experience helps explain when experiential spending is associated with greater well-being than material spending.
+
+### REF-056
+
+[Canonical record](../references/REF-056.md)
+
+- **Title:** Prosocial spending encourages happiness: a replication of the only experiment in the existing literature
+- **Authors:** Kim J, et al.
+- **Year:** 2022
+- **Source:** PLOS ONE
+- **Source type:** primary research
+- **Design:** close replication experiment, n=133
+- **DOI:** 10.1371/journal.pone.0272434
+- **PMID:** 36070255
+- **URLs:**
+  - https://pubmed.ncbi.nlm.nih.gov/36070255/
+- **Supports:**
+  - A close replication did not reproduce the original prosocial-spending happiness effect under the original analysis in a clear way, although alternative analyses found some positive evidence; prosocial spending should not be treated as universally effective.
+
+### REF-057
+
+[Canonical record](../references/REF-057.md)
+
+- **Title:** Feasibility and Acceptability of a Smartphone-Delivered Mindfulness Intervention for Stress: Pilot Randomized Controlled Trial
+- **Authors:** Sparacio A, et al.
+- **Year:** 2025
+- **Source:** JMIR Mental Health
+- **Source type:** primary research
+- **Design:** pilot randomized controlled trial, n=60, structurally matched control
+- **DOI:** 10.2196/77793
+- **PMID:** 40828581
+- **URLs:**
+  - https://pubmed.ncbi.nlm.nih.gov/40828581/
+- **Supports:**
+  - The tested mindfulness program was feasible, but did not show a clear mindfulness-specific stress reduction over the matched control in this small trial; mindfulness should not be presented as a universal remedy.
+
 ### REF-058
 
 [Canonical record](../references/REF-058.md)
@@ -500,6 +914,37 @@
   - https://pubmed.ncbi.nlm.nih.gov/39501163/
 - **Supports:**
   - A weighted blanket improved self-reported sleep quality more than a normal blanket in adults with clinical insomnia in a pilot trial; objective sleep differences were less clear and larger validation studies are needed.
+
+### REF-059
+
+[Canonical record](../references/REF-059.md)
+
+- **Title:** Prediction of treatment response at 5-year follow-up in a randomized clinical trial of behaviorally based couple therapies
+- **Authors:** Baucom BR, Atkins DC, Rowe LS, Doss BD, Christensen A
+- **Year:** 2015
+- **Source:** Journal of Consulting and Clinical Psychology
+- **Source type:** primary research
+- **Design:** long-term follow-up of a randomized clinical trial of two behavioral couple therapies
+- **DOI:** 10.1037/a0038005
+- **PMID:** 25265544
+- **URLs:**
+  - https://pubmed.ncbi.nlm.nih.gov/25265544/
+- **Supports:**
+  - Behaviorally based couple therapies have randomized clinical evidence and can produce durable improvement for couples with relationship distress; response varies among couples.
+
+### REF-060
+
+[Canonical record](../references/REF-060.md)
+
+- **Title:** Migraine and other headache disorders
+- **Authors:** World Health Organization
+- **Year:** 2025
+- **Source:** World Health Organization
+- **Source type:** official health guidance
+- **URLs:**
+  - https://www.who.int/news-room/fact-sheets/detail/headache-disorders
+- **Supports:**
+  - Recurrent headache and migraine can substantially impair quality of life and functioning, and effective diagnosis and treatment options exist.
 
 ### REF-072
 
