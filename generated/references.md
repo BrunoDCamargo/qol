@@ -946,6 +946,175 @@
 - **Supports:**
   - Recurrent headache and migraine can substantially impair quality of life and functioning, and effective diagnosis and treatment options exist.
 
+### REF-061
+
+[Canonical record](../references/REF-061.md)
+
+- **Title:** Patient-reported migraine-specific quality of life, activity impairment and headache impact with once-daily atogepant for preventive treatment of migraine in a randomized, 52-week trial
+- **Authors:** Lipton RB, Halker Singh RB, Mechtler L, et al.
+- **Year:** 2023
+- **Source:** Cephalalgia
+- **Source type:** primary research
+- **Design:** randomized, open-label 52-week preventive-treatment trial
+- **DOI:** 10.1177/03331024231190296
+- **PMID:** 37638400
+- **URLs:**
+  - https://pubmed.ncbi.nlm.nih.gov/37638400/
+- **Supports:**
+  - In adults with episodic migraine receiving atogepant, migraine-specific quality-of-life, activity-impairment, and headache-impact measures improved over follow-up; this does not imply one preventive therapy suits every migraine patient.
+
+### REF-062
+
+[Canonical record](../references/REF-062.md)
+
+- **Title:** Treatment for GER & GERD
+- **Authors:** National Institute of Diabetes and Digestive and Kidney Diseases
+- **Year:** Unknown
+- **Source:** National Institute of Diabetes and Digestive and Kidney Diseases
+- **Source type:** official health guidance
+- **URLs:**
+  - https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults/treatment
+- **Supports:**
+  - Clinically relevant GERD is treatable with lifestyle measures, medicines, and in selected cases procedures; treatment should be matched to symptoms and diagnosis.
+
+### REF-063
+
+[Canonical record](../references/REF-063.md)
+
+- **Title:** Efficacy of Proton Pump Inhibitor Therapy for Nocturnal GERD Symptoms and Associated Sleep Disturbances: A Systematic Review of Randomized Controlled Trials
+- **Authors:** Koo TH, Shibli F, Mari A, Bar N, Fass R
+- **Year:** 2026
+- **Source:** Journal of Clinical Gastroenterology
+- **Source type:** secondary evidence
+- **Design:** systematic review of 5 randomized controlled trials, n=1,495
+- **DOI:** 10.1097/MCG.0000000000002428
+- **PMID:** 42496003
+- **URLs:**
+  - https://pubmed.ncbi.nlm.nih.gov/42496003/
+- **Supports:**
+  - In adults with GERD and nocturnal symptoms, placebo-controlled trials generally found proton-pump inhibitors improved nighttime heartburn and GERD-related sleep disturbance; results for broader sleep outcomes were heterogeneous.
+
+### REF-064
+
+[Canonical record](../references/REF-064.md)
+
+- **Title:** WHO guideline for non-surgical management of chronic primary low back pain in adults in primary and community care settings
+- **Authors:** World Health Organization
+- **Year:** 2023
+- **Source:** World Health Organization
+- **Source type:** official clinical guideline
+- **URLs:**
+  - https://www.who.int/publications/i/item/9789240081789
+- **Supports:**
+  - Chronic primary low-back pain has evidence-based non-surgical management options including education, exercise, selected physical and psychological therapies, and selected medicines; persistent pain should not simply be normalized.
+
+### REF-065
+
+[Canonical record](../references/REF-065.md)
+
+- **Title:** Nocturia terminology definition
+- **Authors:** International Continence Society
+- **Year:** 2018
+- **Source:** International Continence Society
+- **Source type:** professional standards/terminology source
+- **URLs:**
+  - https://www.ics.org/committees/standardisation/terminologydiscussions/nocturia
+- **Supports:**
+  - Nocturia is defined around waking during the main sleep period to pass urine, and frequency should be quantified; causes are heterogeneous and assessment should consider impact and etiology.
+
+### REF-066
+
+[Canonical record](../references/REF-066.md)
+
+- **Title:** Sexual health and well-being
+- **Authors:** World Health Organization
+- **Year:** Unknown
+- **Source:** World Health Organization
+- **Source type:** official health framework
+- **URLs:**
+  - https://www.who.int/health-topics/sexual-health
+- **Supports:**
+  - Sexual health includes physical, emotional, mental, and social well-being related to sexuality and can be a legitimate component of quality-of-life assessment.
+
+### REF-067
+
+[Canonical record](../references/REF-067.md)
+
+- **Title:** How financial hardship is associated with the onset of mental health problems over time
+- **Authors:** Kiely KM, Leach LS, Olesen SC, Butterworth P
+- **Year:** 2015
+- **Source:** Social Psychiatry and Psychiatric Epidemiology
+- **Source type:** primary observational research
+- **Design:** nine-wave national longitudinal panel, n=11,134
+- **DOI:** 10.1007/s00127-015-1027-0
+- **PMID:** 25683473
+- **URLs:**
+  - https://pubmed.ncbi.nlm.nih.gov/25683473/
+- **Supports:**
+  - Financial hardship and cash-flow problems were longitudinally associated with greater risk of mental-health problems; this supports treating financial insecurity as a potential stressor but does not prove a particular savings target improves mental health.
+
+### REF-068
+
+[Canonical record](../references/REF-068.md)
+
+- **Title:** Dietary Guidelines for Americans, 2025-2030
+- **Authors:** U.S. Department of Health and Human Services, U.S. Department of Agriculture
+- **Year:** 2026
+- **Source:** U.S. Department of Health and Human Services and U.S. Department of Agriculture
+- **Source type:** official dietary guideline
+- **URLs:**
+  - https://cdn.realfood.gov/DGA.pdf
+- **Supports:**
+  - The guideline recommends choosing water and unsweetened beverages and emphasizes nutrient-dense foods while reducing highly processed foods.
+
+### REF-069
+
+[Canonical record](../references/REF-069.md)
+
+- **Title:** About Water and Healthier Drinks
+- **Authors:** Centers for Disease Control and Prevention
+- **Year:** 2026
+- **Source:** Centers for Disease Control and Prevention
+- **Source type:** official health guidance
+- **URLs:**
+  - https://www.cdc.gov/healthy-weight-growth/water-healthy-drinks/index.html
+- **Supports:**
+  - Adequate water intake prevents dehydration; hydration needs vary with individual and environmental factors, and water is a calorie-free default beverage.
+
+### REF-070
+
+[Canonical record](../references/REF-070.md)
+
+- **Title:** Sleep Disturbances and Atopic Dermatitis: Relationships, Methods for Assessment, and Therapies
+- **Authors:** Bawany F, Northcott CA, Beck LA, Pigeon WR
+- **Year:** 2021
+- **Source:** Journal of Allergy and Clinical Immunology: In Practice
+- **Source type:** secondary evidence
+- **Design:** narrative review of sleep disturbance in atopic dermatitis
+- **DOI:** 10.1016/j.jaip.2020.12.007
+- **PMID:** 33321263
+- **URLs:**
+  - https://pubmed.ncbi.nlm.nih.gov/33321263/
+- **Supports:**
+  - Atopic dermatitis is commonly associated with sleep disturbance, with pruritus and scratching among important mechanisms; controlling symptomatic disease can be relevant to sleep and quality of life.
+
+### REF-071
+
+[Canonical record](../references/REF-071.md)
+
+- **Title:** Effects of a 14-day social media abstinence on mental health and well-being: results from an experimental study
+- **Authors:** de Hesselle LC, Montag C
+- **Year:** 2024
+- **Source:** BMC Psychology
+- **Source type:** primary research
+- **Design:** randomized experimental study
+- **DOI:** 10.1186/s40359-024-01611-1
+- **PMID:** 38481298
+- **URLs:**
+  - https://pubmed.ncbi.nlm.nih.gov/38481298/
+- **Supports:**
+  - Fourteen days of social-media abstinence reduced screen time and body-image dissatisfaction in the intervention group, but did not produce clear between-group improvements in depression, anxiety, FoMO, or loneliness; generic detox claims should therefore be narrow.
+
 ### REF-072
 
 [Canonical record](../references/REF-072.md)
@@ -962,6 +1131,202 @@
   - https://pubmed.ncbi.nlm.nih.gov/41062732/
 - **Supports:**
   - Thermal comfort and cooling/dehumidification conditions affected some subjective and objective sleep measures in a very small crossover study; no single bedroom temperature can be inferred as universally optimal.
+
+### REF-073
+
+[Canonical record](../references/REF-073.md)
+
+- **Title:** Carbohydrate intake for adults and children: WHO guideline
+- **Authors:** World Health Organization
+- **Year:** 2023
+- **Source:** World Health Organization
+- **Source type:** official guideline
+- **URLs:**
+  - https://www.who.int/publications/i/item/9789240073593
+- **Supports:**
+  - Carbohydrate intake should come primarily from whole grains, vegetables, fruits, and pulses; adults should consume at least 25 g/day of naturally occurring dietary fibre, with age-appropriate guidance for children.
+
+### REF-074
+
+[Canonical record](../references/REF-074.md)
+
+- **Title:** Guideline: Sugars intake for adults and children
+- **Authors:** World Health Organization
+- **Year:** 2015
+- **Source:** World Health Organization
+- **Source type:** official guideline
+- **URLs:**
+  - https://www.who.int/publications/i/item/9789241549028
+- **Supports:**
+  - WHO recommends reducing free sugars to less than 10% of total energy intake and suggests a further reduction below 5% for additional health benefits.
+
+### REF-075
+
+[Canonical record](../references/REF-075.md)
+
+- **Title:** Guideline: Sodium intake for adults and children
+- **Authors:** World Health Organization
+- **Year:** 2012
+- **Source:** World Health Organization
+- **Source type:** official guideline
+- **URLs:**
+  - https://www.who.int/publications/i/item/9789241504836
+- **Supports:**
+  - WHO recommends reducing sodium intake to less than 2 g/day in adults, with lower age-adjusted maximum levels for children, to reduce blood pressure and cardiovascular risk.
+
+### REF-076
+
+[Canonical record](../references/REF-076.md)
+
+- **Title:** Saturated fatty acid and trans-fatty acid intake for adults and children: WHO guideline
+- **Authors:** World Health Organization
+- **Year:** 2023
+- **Source:** World Health Organization
+- **Source type:** official guideline
+- **URLs:**
+  - https://www.who.int/publications/i/item/9789240073630
+- **Supports:**
+  - Saturated and trans-fatty acid intake should be limited and replaced primarily with polyunsaturated or monounsaturated fats from plant sources, or carbohydrate from foods containing naturally occurring dietary fibre.
+
+### REF-077
+
+[Canonical record](../references/REF-077.md)
+
+- **Title:** Use of lower-sodium salt substitutes: WHO guideline
+- **Authors:** World Health Organization
+- **Year:** 2025
+- **Source:** World Health Organization
+- **Source type:** official guideline
+- **URLs:**
+  - https://www.who.int/publications/i/item/9789240105591
+- **Supports:**
+  - For adults who consume discretionary table salt, replacing regular salt with a lower-sodium substitute containing potassium can reduce sodium exposure; the recommendation excludes people with kidney impairment or other conditions that impair potassium excretion and is not a universal recommendation for pregnancy or children.
+
+### REF-078
+
+[Canonical record](../references/REF-078.md)
+
+- **Title:** Weight Loss to Prevent Obesity-Related Morbidity and Mortality in Adults: Behavioral Interventions
+- **Authors:** U.S. Preventive Services Task Force
+- **Year:** 2018
+- **Source:** U.S. Preventive Services Task Force
+- **Source type:** official evidence-based recommendation
+- **URLs:**
+  - https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions
+- **Supports:**
+  - Adults with obesity should be offered or referred to intensive, multicomponent behavioral interventions; benefits include clinically meaningful weight loss and reduced incident diabetes in relevant populations.
+
+### REF-079
+
+[Canonical record](../references/REF-079.md)
+
+- **Title:** Urinary incontinence and pelvic organ prolapse in women: management (NG123), recommendations
+- **Authors:** National Institute for Health and Care Excellence
+- **Year:** 2019
+- **Source:** National Institute for Health and Care Excellence
+- **Source type:** official clinical guideline
+- **URLs:**
+  - https://www.nice.org.uk/guidance/ng123/chapter/recommendations
+- **Supports:**
+  - Supervised pelvic floor muscle training for at least 3 months is first-line treatment for stress or mixed urinary incontinence, while bladder training for at least 6 weeks is first-line treatment for urgency or mixed urinary incontinence.
+
+### REF-080
+
+[Canonical record](../references/REF-080.md)
+
+- **Title:** Menopause: identification and management (NG23), recommendations
+- **Authors:** National Institute for Health and Care Excellence
+- **Year:** 2026
+- **Source:** National Institute for Health and Care Excellence
+- **Source type:** official clinical guideline
+- **URLs:**
+  - https://www.nice.org.uk/guidance/ng23/chapter/recommendations
+- **Supports:**
+  - Menopause-associated vasomotor, genitourinary, mood, sleep, sexual, and other symptoms can justify symptom-specific management, with treatment choices based on symptoms, preferences, contraindications, and individual risk.
+
+### REF-081
+
+[Canonical record](../references/REF-081.md)
+
+- **Title:** Heavy menstrual bleeding: assessment and management (NG88), recommendations
+- **Authors:** National Institute for Health and Care Excellence
+- **Year:** 2021
+- **Source:** National Institute for Health and Care Excellence
+- **Source type:** official clinical guideline
+- **URLs:**
+  - https://www.nice.org.uk/guidance/ng88/chapter/recommendations
+- **Supports:**
+  - Heavy menstrual bleeding should be assessed and managed according to its impact on quality of life, symptoms, preferences, and underlying pathology rather than blood-loss volume alone.
+
+### REF-082
+
+[Canonical record](../references/REF-082.md)
+
+- **Title:** Endometriosis: diagnosis and management (NG73), recommendations
+- **Authors:** National Institute for Health and Care Excellence
+- **Year:** 2024
+- **Source:** National Institute for Health and Care Excellence
+- **Source type:** official clinical guideline
+- **URLs:**
+  - https://www.nice.org.uk/guidance/ng73/chapter/recommendations
+- **Supports:**
+  - Chronic pelvic pain, period-related pain that affects daily activities and quality of life, deep pain during or after sex, and cyclical gastrointestinal or urinary symptoms can justify evaluation for possible endometriosis.
+
+### REF-083
+
+[Canonical record](../references/REF-083.md)
+
+- **Title:** Osteoarthritis in over 16s: diagnosis and management (NG226), recommendations
+- **Authors:** National Institute for Health and Care Excellence
+- **Year:** 2022
+- **Source:** National Institute for Health and Care Excellence
+- **Source type:** official clinical guideline
+- **URLs:**
+  - https://www.nice.org.uk/guidance/ng226/chapter/recommendations
+- **Supports:**
+  - Therapeutic exercise is a core treatment for osteoarthritis; exercise should be tailored to needs and can improve pain, physical function, and quality of life with adherence.
+
+### REF-084
+
+[Canonical record](../references/REF-084.md)
+
+- **Title:** Cataract Surgery
+- **Authors:** National Eye Institute
+- **Year:** Unknown
+- **Source:** National Eye Institute
+- **Source type:** official health guidance
+- **URLs:**
+  - https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/cataracts/cataract-surgery
+- **Supports:**
+  - Cataract surgery can be considered when cataract-related vision loss interferes with everyday activities such as reading, driving, or other valued tasks; timing should be based on functional impact and clinical context.
+
+### REF-085
+
+[Canonical record](../references/REF-085.md)
+
+- **Title:** Understand Noise Exposure
+- **Authors:** Centers for Disease Control and Prevention, National Institute for Occupational Safety and Health
+- **Year:** 2024
+- **Source:** Centers for Disease Control and Prevention, National Institute for Occupational Safety and Health
+- **Source type:** official occupational-health guidance
+- **URLs:**
+  - https://www.cdc.gov/niosh/noise/prevent/understand.html
+- **Supports:**
+  - Repeated hazardous occupational noise exposure can cause permanent hearing loss; exposure should be controlled at the source when possible and hearing protection should be used when indicated as part of a hearing-loss prevention program.
+
+### REF-086
+
+[Canonical record](../references/REF-086.md)
+
+- **Title:** Physical activity and sedentary behaviour: a brief to support older people
+- **Authors:** World Health Organization
+- **Year:** 2022
+- **Source:** World Health Organization
+- **Source type:** official guideline brief
+- **URLs:**
+  - https://www.who.int/publications/i/item/9789240064096
+- **Supports:**
+  - Older adults should include varied multicomponent physical activity that emphasizes functional balance and strength on 3 or more days per week to enhance functional capacity and help prevent falls, adapted to abilities and health status.
 
 ## Deprecated References
 No Deprecated references.
