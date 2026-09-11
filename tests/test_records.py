@@ -30,6 +30,17 @@ class StructuredRecordPipelineTests(unittest.TestCase):
             ("The fixture reference can be loaded.",),
         )
 
+    def test_loads_implementation_option_records_through_the_same_pipeline(self):
+        record = load_record(
+            FIXTURES / "implementation-options" / "IMP-900.md"
+        )
+
+        self.assertEqual(record.record_type, "implementation_option")
+        self.assertEqual(record.front_matter["id"], "IMP-900")
+        self.assertEqual(record.front_matter["name"], "Use a sleep mask")
+        self.assertEqual(record.front_matter["implements"], ("QOL-900",))
+        self.assertEqual(record.front_matter["acquisition"], "purchase")
+
     def test_rejects_filename_and_record_id_mismatch(self):
         with self.assertRaisesRegex(
             ValueError,
