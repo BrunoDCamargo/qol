@@ -6,31 +6,28 @@ See the [canonical catalog](../catalog.md) and [reference registry](../reference
 
 ## Map
 
-| ID | Item | Evidence | Applicability | References |
-|---|---|---|---|---|
-| [QOL-017](../catalog.md) | Create periods of monotasking | Moderate | General | [REF-010](../references.md#ref-010) |
-| [QOL-021](../catalog.md) | Spend money to buy back unwanted time when worthwhile | Moderate | Conditional | [REF-012](../references.md#ref-012) |
-| [QOL-059](../catalog.md) | Use evidence-based psychological treatment for clinically significant anxiety | High | Conditional | [REF-029](../references.md#ref-029) |
-| [QOL-060](../catalog.md) | Address persistent rumination when it consumes attention or recovery | Low | Conditional | [REF-029](../references.md#ref-029), [REF-043](../references.md#ref-043) |
-| [QOL-061](../catalog.md) | Treat meditation/mindfulness as a conditional tool rather than a universal remedy | Low | Conditional | [REF-057](../references.md#ref-057), [REF-029](../references.md#ref-029) |
-| [QOL-062](../catalog.md) | Maintain recurring contact with people one values | High | General | [REF-030](../references.md#ref-030) |
-| [QOL-063](../catalog.md) | Prefer reliable recurring social contact over relying only on occasional large events | Inference | General | [REF-030](../references.md#ref-030) |
-| [QOL-064](../catalog.md) | Do not assume more social activities alone will resolve loneliness | Moderate | Conditional | [REF-031](../references.md#ref-031) |
-| [QOL-065](../catalog.md) | Do not assume prosocial acts are a universal treatment for loneliness | Moderate | Conditional | [REF-032](../references.md#ref-032) |
-| [QOL-077](../catalog.md) | Evaluate and treat persistent loss of interest/pleasure or depression when present | Moderate | Conditional | [REF-041](../references.md#ref-041) |
-| [QOL-078](../catalog.md) | Treat persistent relationship distress when it is a major QoL driver | Moderate | Conditional | [REF-059](../references.md#ref-059) |
-| [QOL-079](../catalog.md) | Include sexual health in quality-of-life assessment when relevant | High | Conditional | [REF-066](../references.md#ref-066) |
-| [QOL-080](../catalog.md) | Measure actual weekly work hours when workload is uncertain | Inference | Conditional | [REF-042](../references.md#ref-042) |
-| [QOL-081](../catalog.md) | Improve psychological detachment from work | Moderate | Conditional | [REF-043](../references.md#ref-043) |
-| [QOL-082](../catalog.md) | Build deliberate recovery skills after work | Low | Conditional | [REF-044](../references.md#ref-044) |
-| [QOL-085](../catalog.md) | Spend some discretionary money on meaningful shared experiences when valued | Moderate | Conditional | [REF-055](../references.md#ref-055) |
-| [QOL-092](../catalog.md) | Schedule rewarding activities when low activation or avoidance is a problem | Moderate | Conditional | [REF-041](../references.md#ref-041) |
+| ID | Statement | Kind | Categories | Evidence Strength | Applicability | Support Mode | Status | References |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [QOL-017](../items/QOL-017.md) | Create periods of monotasking | Intervention | attention, work-design, mental-health | Moderate | General | Inferred | Active | [REF-010](../references/REF-010.md) |
+| [QOL-021](../items/QOL-021.md) | Spend money to buy back unwanted time when worthwhile | Intervention | time, financial-wellbeing, mental-health | Moderate | Conditional | Direct | Active | [REF-012](../references/REF-012.md) |
+| [QOL-059](../items/QOL-059.md) | Use evidence-based psychological treatment for clinically significant anxiety | Intervention | mental-health, preventive-health | High | Conditional | Direct | Active | [REF-029](../references/REF-029.md) |
+| [QOL-060](../items/QOL-060.md) | Address persistent rumination when it consumes attention or recovery | Intervention | mental-health, attention, work-design | Low | Conditional | Inferred | Active | [REF-029](../references/REF-029.md), [REF-043](../references/REF-043.md) |
+| [QOL-061](../items/QOL-061.md) | Treat meditation or mindfulness as a conditional tool rather than a universal remedy | Guardrail | mental-health, attention | Low | Conditional | Direct | Active | [REF-029](../references/REF-029.md), [REF-057](../references/REF-057.md) |
+| [QOL-062](../items/QOL-062.md) | Maintain recurring contact with people one values | Intervention | social, relationships, mental-health | High | General | Inferred | Active | [REF-030](../references/REF-030.md) |
+| [QOL-063](../items/QOL-063.md) | Prefer reliable recurring social contact over relying only on occasional large events | Intervention | social, relationships, mental-health | High | General | Inferred | Active | [REF-030](../references/REF-030.md) |
+| [QOL-064](../items/QOL-064.md) | Do not assume more social activities alone will resolve loneliness | Guardrail | social, mental-health | Moderate | Conditional | Direct | Active | [REF-031](../references/REF-031.md) |
+| [QOL-065](../items/QOL-065.md) | Do not assume prosocial acts are a universal treatment for loneliness | Guardrail | social, mental-health | Moderate | Conditional | Direct | Active | [REF-032](../references/REF-032.md) |
+| [QOL-077](../items/QOL-077.md) | Treat persistent loss of interest, pleasure, or depression when present | Intervention | mental-health, preventive-health | Moderate | Conditional | Direct | Active | [REF-041](../references/REF-041.md) |
+| [QOL-078](../items/QOL-078.md) | Treat persistent relationship distress when it is a major quality-of-life driver | Intervention | relationships, social, mental-health | Moderate | Conditional | Direct | Active | [REF-059](../references/REF-059.md) |
+| [QOL-079](../items/QOL-079.md) | Include sexual health in quality-of-life assessment when relevant | Assessment | sexual-health, relationships, preventive-health | High | Conditional | Direct | Active | [REF-066](../references/REF-066.md) |
+| [QOL-080](../items/QOL-080.md) | Measure actual weekly work hours when workload is uncertain | Assessment | work-design, time, preventive-health | High | Conditional | Inferred | Active | [REF-042](../references/REF-042.md) |
+| [QOL-081](../items/QOL-081.md) | Improve psychological detachment from work when mental carryover impairs recovery | Intervention | work-design, mental-health, time | Moderate | Conditional | Direct | Active | [REF-043](../references/REF-043.md) |
+| [QOL-082](../items/QOL-082.md) | Build deliberate recovery skills after work when recovery is persistently poor | Intervention | work-design, mental-health, time | Low | Conditional | Direct | Active | [REF-044](../references/REF-044.md) |
+| [QOL-085](../items/QOL-085.md) | Spend some discretionary money on meaningful shared experiences when valued | Intervention | financial-wellbeing, social, relationships | Moderate | Conditional | Direct | Active | [REF-055](../references/REF-055.md) |
+| [QOL-092](../items/QOL-092.md) | Schedule meaningful or rewarding activities when low activation is part of depression or avoidance | Intervention | mental-health, behavior-change | Moderate | Conditional | Direct | Active | [REF-041](../references/REF-041.md) |
 
 ## QOL-059 — Use evidence-based psychological treatment for clinically significant anxiety
 
-**Categories:** mental-health, preventive-health  
-**Evidence:** High  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -54,13 +51,10 @@ The cited WHO recommendation directly addresses GAD and panic disorder. Other an
 
 ### References
 
-- [REF-029](../references.md#ref-029)
+- [REF-029](../references/REF-029.md)
 
 ## QOL-060 — Address persistent rumination when it consumes attention or recovery
 
-**Categories:** mental-health, attention, work-design  
-**Evidence:** Low  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -84,14 +78,11 @@ Rumination occurs across several diagnoses and also in normal stress. This item 
 
 ### References
 
-- [REF-029](../references.md#ref-029)
-- [REF-043](../references.md#ref-043)
+- [REF-029](../references/REF-029.md)
+- [REF-043](../references/REF-043.md)
 
 ## QOL-061 — Treat meditation/mindfulness as a conditional tool
 
-**Categories:** mental-health, attention  
-**Evidence:** Low  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -111,14 +102,11 @@ Programs vary substantially in dose, quality, population, and outcome.
 
 ### References
 
-- [REF-029](../references.md#ref-029)
-- [REF-057](../references.md#ref-057)
+- [REF-029](../references/REF-029.md)
+- [REF-057](../references/REF-057.md)
 
 ## QOL-077 / QOL-092 — Treat low activation or depression as a real target
 
-**Categories:** mental-health, behavior-change, preventive-health  
-**Evidence:** Moderate  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -138,13 +126,10 @@ Scheduling pleasant activities by itself is not equivalent to a full depression 
 
 ### References
 
-- [REF-041](../references.md#ref-041)
+- [REF-041](../references/REF-041.md)
 
 ## QOL-081 / QOL-082 — Recovery from work is a modifiable process
 
-**Categories:** work-design, mental-health, time  
-**Evidence:** Moderate for detachment; Low for broad recovery training  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -164,11 +149,11 @@ If overload, instability, harassment, or another structural problem is the main 
 
 ### References
 
-- [REF-043](../references.md#ref-043)
-- [REF-044](../references.md#ref-044)
+- [REF-043](../references/REF-043.md)
+- [REF-044](../references/REF-044.md)
 
 ## Cross-links
 
-- [QOL-017](../catalog.md) covers attentional fragmentation and monotasking.
-- [QOL-021](../catalog.md) covers time-saving spending when time pressure itself is the stressor.
-- [QOL-085](../catalog.md) covers meaningful shared experiences and overlaps with social well-being.
+- [QOL-017](../items/QOL-017.md) covers attentional fragmentation and monotasking.
+- [QOL-021](../items/QOL-021.md) covers time-saving spending when time pressure itself is the stressor.
+- [QOL-085](../items/QOL-085.md) covers meaningful shared experiences and overlaps with social well-being.

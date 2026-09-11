@@ -6,26 +6,23 @@ See the [canonical catalog](../catalog.md) and [reference registry](../reference
 
 ## Map
 
-| ID | Item | Evidence | Applicability | References |
-|---|---|---|---|---|
-| [QOL-012](../catalog.md) | Trial reduced or blocked mobile internet on smartphones | Moderate | General | [REF-008](../references.md#ref-008) |
-| [QOL-013](../catalog.md) | Disable nonessential notifications | Moderate | General | [REF-009](../references.md#ref-009) |
-| [QOL-014](../catalog.md) | Remove nonessential badges, banners, and vibrations | Inference | General | [REF-009](../references.md#ref-009) |
-| [QOL-015](../catalog.md) | Move discretionary social-media use to less interruptive devices | Inference | Conditional | [REF-008](../references.md#ref-008) |
-| [QOL-016](../catalog.md) | Reduce work-app intrusion into off-hours when feasible | Moderate | Conditional | [REF-011](../references.md#ref-011) |
-| [QOL-017](../catalog.md) | Create periods of monotasking | Moderate | General | [REF-010](../references.md#ref-010) |
-| [QOL-018](../catalog.md) | Batch asynchronous communication when immediate response is unnecessary | Inference | Conditional | [REF-009](../references.md#ref-009), [REF-010](../references.md#ref-010) |
-| [QOL-019](../catalog.md) | Keep the phone physically out of reach during focus activities | Inference | Conditional | [REF-008](../references.md#ref-008), [REF-009](../references.md#ref-009) |
-| [QOL-020](../catalog.md) | Treat generic social-media detox claims cautiously | Moderate | General | [REF-071](../references.md#ref-071) |
-| [QOL-032](../catalog.md) | Protect meeting-free or interruption-free focus blocks | Inference | Conditional | [REF-009](../references.md#ref-009), [REF-010](../references.md#ref-010) |
-| [QOL-075](../catalog.md) | Address digital eye strain when screen work causes symptoms | Moderate | Conditional | [REF-040](../references.md#ref-040) |
-| [QOL-090](../catalog.md) | Use microbreaks to manage fatigue during long cognitive work | Moderate | Conditional | [REF-046](../references.md#ref-046) |
+| ID | Statement | Kind | Categories | Evidence Strength | Applicability | Support Mode | Status | References |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [QOL-012](../items/QOL-012.md) | Trial reduced or blocked mobile internet on smartphones | Intervention | attention, technology, mental-health | Moderate | General | Direct | Active | [REF-008](../references/REF-008.md) |
+| [QOL-013](../items/QOL-013.md) | Disable nonessential notifications | Intervention | attention, technology, work-design | Moderate | General | Direct | Active | [REF-009](../references/REF-009.md) |
+| [QOL-014](../items/QOL-014.md) | Remove nonessential badges, banners, and vibrations | Intervention | attention, technology | Moderate | General | Inferred | Active | [REF-009](../references/REF-009.md) |
+| [QOL-015](../items/QOL-015.md) | Move discretionary social-media use to less interruptive devices | Intervention | attention, technology, mental-health | Moderate | Conditional | Inferred | Active | [REF-008](../references/REF-008.md) |
+| [QOL-016](../items/QOL-016.md) | Reduce work-app intrusion into off-hours when feasible | Intervention | technology, work-design, mental-health, time | Moderate | Conditional | Direct | Active | [REF-011](../references/REF-011.md) |
+| [QOL-017](../items/QOL-017.md) | Create periods of monotasking | Intervention | attention, work-design, mental-health | Moderate | General | Inferred | Active | [REF-010](../references/REF-010.md) |
+| [QOL-018](../items/QOL-018.md) | Batch asynchronous communication when immediate response is unnecessary | Intervention | attention, technology, work-design | Moderate | Conditional | Inferred | Active | [REF-009](../references/REF-009.md), [REF-010](../references/REF-010.md) |
+| [QOL-019](../items/QOL-019.md) | Keep the phone physically out of reach during focus activities | Intervention | attention, technology, friction-reduction | Moderate | Conditional | Inferred | Active | [REF-008](../references/REF-008.md), [REF-009](../references/REF-009.md) |
+| [QOL-020](../items/QOL-020.md) | Treat generic social-media detox claims cautiously | Guardrail | technology, mental-health, attention | Moderate | General | Direct | Active | [REF-071](../references/REF-071.md) |
+| [QOL-032](../items/QOL-032.md) | Protect meeting-free or interruption-free focus blocks | Intervention | attention, work-design, time | Moderate | Conditional | Inferred | Active | [REF-009](../references/REF-009.md), [REF-010](../references/REF-010.md) |
+| [QOL-075](../items/QOL-075.md) | Address digital eye strain when screen work causes symptoms | Intervention | vision, technology, attention, work-design | Moderate | Conditional | Direct | Active | [REF-040](../references/REF-040.md) |
+| [QOL-090](../items/QOL-090.md) | Use microbreaks to manage fatigue during long cognitive work | Intervention | work-design, attention, mental-health | Moderate | Conditional | Direct | Active | [REF-046](../references/REF-046.md) |
 
 ## QOL-012 — Trial reduced or blocked mobile internet on smartphones
 
-**Categories:** attention, technology, mental-health  
-**Evidence:** Moderate  
-**Applicability:** General
 
 ### Idea
 
@@ -49,13 +46,10 @@ The trial does not establish that everyone should permanently remove smartphone 
 
 ### References
 
-- [REF-008](../references.md#ref-008)
+- [REF-008](../references/REF-008.md)
 
 ## QOL-013 / QOL-014 — Reduce externally triggered checking
 
-**Categories:** attention, technology, work-design  
-**Evidence:** Moderate for notifications; Inference for interface cues  
-**Applicability:** General
 
 ### Idea
 
@@ -75,13 +69,10 @@ Some roles require rapid response. Notification reduction should preserve safety
 
 ### References
 
-- [REF-009](../references.md#ref-009)
+- [REF-009](../references/REF-009.md)
 
 ## QOL-017 / QOL-018 / QOL-032 — Reduce avoidable context switching
 
-**Categories:** attention, work-design, technology  
-**Evidence:** Moderate for interruption/multitasking effects; Inference for scheduling tactics  
-**Applicability:** Mixed
 
 ### Idea
 
@@ -101,14 +92,11 @@ Monotasking is not appropriate for every job. The goal is to remove unnecessary 
 
 ### References
 
-- [REF-009](../references.md#ref-009)
-- [REF-010](../references.md#ref-010)
+- [REF-009](../references/REF-009.md)
+- [REF-010](../references/REF-010.md)
 
 ## QOL-020 — Treat generic social-media detox claims cautiously
 
-**Categories:** technology, mental-health, attention  
-**Evidence:** Moderate  
-**Applicability:** General
 
 ### Idea
 
@@ -124,13 +112,10 @@ Platforms, baseline use, age, motivations, and interventions differ. This cautio
 
 ### References
 
-- [REF-071](../references.md#ref-071)
+- [REF-071](../references/REF-071.md)
 
 ## QOL-075 / QOL-090 — Manage screen-related fatigue with symptoms in mind
 
-**Categories:** vision, technology, attention, work-design  
-**Evidence:** Moderate  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -150,5 +135,5 @@ Breaks do not correct refractive error, ocular disease, or all causes of fatigue
 
 ### References
 
-- [REF-040](../references.md#ref-040)
-- [REF-046](../references.md#ref-046)
+- [REF-040](../references/REF-040.md)
+- [REF-046](../references/REF-046.md)

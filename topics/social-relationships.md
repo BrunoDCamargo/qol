@@ -6,22 +6,19 @@ See the [canonical catalog](../catalog.md) and [reference registry](../reference
 
 ## Map
 
-| ID | Item | Evidence | Applicability | References |
-|---|---|---|---|---|
-| [QOL-062](../catalog.md) | Maintain recurring contact with people one values | High | General | [REF-030](../references.md#ref-030) |
-| [QOL-063](../catalog.md) | Prefer reliable recurring social contact over relying only on occasional large events | Inference | General | [REF-030](../references.md#ref-030) |
-| [QOL-064](../catalog.md) | Do not assume more social activities alone will resolve loneliness | Moderate | Conditional | [REF-031](../references.md#ref-031) |
-| [QOL-065](../catalog.md) | Do not assume prosocial acts are a universal treatment for loneliness | Moderate | Conditional | [REF-032](../references.md#ref-032) |
-| [QOL-078](../catalog.md) | Treat persistent relationship distress when it is a major QoL driver | Moderate | Conditional | [REF-059](../references.md#ref-059) |
-| [QOL-079](../catalog.md) | Include sexual health in quality-of-life assessment when relevant | High | Conditional | [REF-066](../references.md#ref-066) |
-| [QOL-085](../catalog.md) | Spend some discretionary money on meaningful shared experiences when valued | Moderate | Conditional | [REF-055](../references.md#ref-055) |
-| [QOL-086](../catalog.md) | Treat prosocial spending as potentially beneficial, not universally effective | Low | Conditional | [REF-056](../references.md#ref-056) |
+| ID | Statement | Kind | Categories | Evidence Strength | Applicability | Support Mode | Status | References |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [QOL-062](../items/QOL-062.md) | Maintain recurring contact with people one values | Intervention | social, relationships, mental-health | High | General | Inferred | Active | [REF-030](../references/REF-030.md) |
+| [QOL-063](../items/QOL-063.md) | Prefer reliable recurring social contact over relying only on occasional large events | Intervention | social, relationships, mental-health | High | General | Inferred | Active | [REF-030](../references/REF-030.md) |
+| [QOL-064](../items/QOL-064.md) | Do not assume more social activities alone will resolve loneliness | Guardrail | social, mental-health | Moderate | Conditional | Direct | Active | [REF-031](../references/REF-031.md) |
+| [QOL-065](../items/QOL-065.md) | Do not assume prosocial acts are a universal treatment for loneliness | Guardrail | social, mental-health | Moderate | Conditional | Direct | Active | [REF-032](../references/REF-032.md) |
+| [QOL-078](../items/QOL-078.md) | Treat persistent relationship distress when it is a major quality-of-life driver | Intervention | relationships, social, mental-health | Moderate | Conditional | Direct | Active | [REF-059](../references/REF-059.md) |
+| [QOL-079](../items/QOL-079.md) | Include sexual health in quality-of-life assessment when relevant | Assessment | sexual-health, relationships, preventive-health | High | Conditional | Direct | Active | [REF-066](../references/REF-066.md) |
+| [QOL-085](../items/QOL-085.md) | Spend some discretionary money on meaningful shared experiences when valued | Intervention | financial-wellbeing, social, relationships | Moderate | Conditional | Direct | Active | [REF-055](../references/REF-055.md) |
+| [QOL-086](../items/QOL-086.md) | Treat prosocial spending as potentially beneficial, not universally effective | Guardrail | financial-wellbeing, social, mental-health | Low | Conditional | Direct | Active | [REF-056](../references/REF-056.md) |
 
 ## QOL-062 / QOL-063 — Social connection is more than event count
 
-**Categories:** social, relationships, mental-health  
-**Evidence:** High for the importance of social connection; Inference for the recurring-contact implementation  
-**Applicability:** General
 
 ### Idea
 
@@ -45,13 +42,10 @@ Frequency alone does not establish connection quality. Some people need less con
 
 ### References
 
-- [REF-030](../references.md#ref-030)
+- [REF-030](../references/REF-030.md)
 
 ## QOL-064 — More social activity is not automatically a loneliness treatment
 
-**Categories:** social, mental-health  
-**Evidence:** Moderate  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -67,13 +61,10 @@ A null result for one intervention does not mean social connection is unimportan
 
 ### References
 
-- [REF-031](../references.md#ref-031)
+- [REF-031](../references/REF-031.md)
 
 ## QOL-065 — Prosocial acts are not a universal loneliness treatment
 
-**Categories:** social, mental-health  
-**Evidence:** Moderate  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -85,13 +76,10 @@ A randomized prosociality intervention found heterogeneous effects and no consis
 
 ### References
 
-- [REF-032](../references.md#ref-032)
+- [REF-032](../references/REF-032.md)
 
 ## QOL-078 — Treat persistent relationship distress when it drives QoL
 
-**Categories:** relationships, social, mental-health  
-**Evidence:** Moderate  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -107,13 +95,10 @@ Relationship problems differ in cause and safety context. Couple therapy is not 
 
 ### References
 
-- [REF-059](../references.md#ref-059)
+- [REF-059](../references/REF-059.md)
 
 ## QOL-079 — Include sexual health when relevant
 
-**Categories:** sexual-health, relationships, preventive-health  
-**Evidence:** High  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -129,13 +114,10 @@ The item is an assessment principle, not a claim that more sexual activity unive
 
 ### References
 
-- [REF-066](../references.md#ref-066)
+- [REF-066](../references/REF-066.md)
 
 ## QOL-085 / QOL-086 — Spending and relationships depend on context
 
-**Categories:** financial-wellbeing, social, relationships, mental-health  
-**Evidence:** Moderate for shared experiences; Low for universal prosocial-spending claims  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -151,5 +133,5 @@ The value of an experience depends on preferences, companions, financial constra
 
 ### References
 
-- [REF-055](../references.md#ref-055)
-- [REF-056](../references.md#ref-056)
+- [REF-055](../references/REF-055.md)
+- [REF-056](../references/REF-056.md)

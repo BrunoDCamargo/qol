@@ -6,36 +6,33 @@ See the [canonical catalog](../catalog.md) and [reference registry](../reference
 
 ## Map
 
-| ID | Item | Evidence | Applicability | References |
-|---|---|---|---|---|
-| [QOL-001](../catalog.md) | Maintain sufficient sleep duration | High | General | [REF-001](../references.md#ref-001) |
-| [QOL-002](../catalog.md) | Evaluate possible sleep apnea when signs are present | High | Conditional | [REF-003](../references.md#ref-003) |
-| [QOL-003](../catalog.md) | Use CBT-I for chronic insomnia when indicated | High | Conditional | [REF-004](../references.md#ref-004) |
-| [QOL-004](../catalog.md) | Test caffeine timing when sleep may be affected | Moderate | Conditional | [REF-005](../references.md#ref-005) |
-| [QOL-005](../catalog.md) | Increase useful daytime light exposure | High | General | [REF-002](../references.md#ref-002) |
-| [QOL-006](../catalog.md) | Reduce bright light late at night when circadian delay is a concern | High | Conditional | [REF-002](../references.md#ref-002) |
-| [QOL-007](../catalog.md) | Reduce meaningful nighttime environmental noise | High | Conditional | [REF-006](../references.md#ref-006), [REF-052](../references.md#ref-052) |
-| [QOL-008](../catalog.md) | Do not assume white/pink noise improves sleep; test conditionally | Moderate | Conditional | [REF-052](../references.md#ref-052) |
-| [QOL-009](../catalog.md) | Improve thermal comfort during sleep | Low | Conditional | [REF-072](../references.md#ref-072) |
-| [QOL-010](../catalog.md) | Use blackout or a sleep mask when bedroom light is disruptive | Moderate | Conditional | [REF-007](../references.md#ref-007) |
-| [QOL-011](../catalog.md) | Consider weighted blankets only for relevant sleep/anxiety contexts | Low | Conditional | [REF-058](../references.md#ref-058) |
-| [QOL-042](../catalog.md) | Reduce bedroom noise when it disrupts sleep | High | Conditional | [REF-006](../references.md#ref-006), [REF-052](../references.md#ref-052) |
-| [QOL-043](../catalog.md) | Make the bedroom sufficiently dark for sleep | Low | Conditional | [REF-007](../references.md#ref-007) |
-| [QOL-044](../catalog.md) | Get adequate light during the day | High | General | [REF-002](../references.md#ref-002) |
-| [QOL-045](../catalog.md) | Keep the bedroom thermally comfortable | Low | Conditional | [REF-072](../references.md#ref-072) |
-| [QOL-069](../catalog.md) | Keep sleep/wake timing reasonably regular | Moderate | General | [REF-036](../references.md#ref-036) |
-| [QOL-070](../catalog.md) | Evaluate restless-legs symptoms when present | High | Conditional | [REF-037](../references.md#ref-037) |
-| [QOL-071](../catalog.md) | Treat persistent rhinitis/congestion when it affects sleep or daytime function | Moderate | Conditional | [REF-038](../references.md#ref-038) |
-| [QOL-072](../catalog.md) | Treat recurrent headache/migraine when it meaningfully affects function | High | Conditional | [REF-060](../references.md#ref-060), [REF-061](../references.md#ref-061) |
-| [QOL-073](../catalog.md) | Evaluate symptomatic bruxism/TMD rather than normalizing it | High | Conditional | [REF-039](../references.md#ref-039) |
-| [QOL-074](../catalog.md) | Treat clinically relevant nocturnal reflux | High | Conditional | [REF-062](../references.md#ref-062), [REF-063](../references.md#ref-063) |
-| [QOL-094](../catalog.md) | Evaluate recurrent nocturia when it disrupts sleep | High | Conditional | [REF-065](../references.md#ref-065) |
+| ID | Statement | Kind | Categories | Evidence Strength | Applicability | Support Mode | Status | References |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [QOL-001](../items/QOL-001.md) | Maintain sufficient sleep duration | Intervention | sleep, preventive-health | High | General | Direct | Active | [REF-001](../references/REF-001.md) |
+| [QOL-002](../items/QOL-002.md) | Evaluate possible sleep apnea when signs are present | Assessment | sleep, preventive-health | High | Conditional | Direct | Active | [REF-003](../references/REF-003.md) |
+| [QOL-003](../items/QOL-003.md) | Use CBT-I for chronic insomnia when indicated | Intervention | sleep, mental-health | High | Conditional | Direct | Active | [REF-004](../references/REF-004.md) |
+| [QOL-004](../items/QOL-004.md) | Test caffeine timing when sleep may be affected | Intervention | sleep, circadian, substances | Moderate | Conditional | Direct | Active | [REF-005](../references/REF-005.md) |
+| [QOL-005](../items/QOL-005.md) | Increase useful daytime light exposure | Intervention | sleep, circadian, environment | High | General | Inferred | Active | [REF-002](../references/REF-002.md) |
+| [QOL-006](../items/QOL-006.md) | Reduce bright light late at night when circadian delay is a concern | Intervention | sleep, circadian, environment, technology | High | Conditional | Direct | Active | [REF-002](../references/REF-002.md) |
+| [QOL-007](../items/QOL-007.md) | Reduce meaningful nighttime environmental noise | Intervention | sleep, environment | High | Conditional | Direct | Active | [REF-006](../references/REF-006.md), [REF-052](../references/REF-052.md) |
+| [QOL-008](../items/QOL-008.md) | Do not assume white or pink noise improves sleep; test conditionally | Guardrail | sleep, environment | Moderate | Conditional | Direct | Active | [REF-052](../references/REF-052.md) |
+| [QOL-009](../items/QOL-009.md) | Improve thermal comfort during sleep | Intervention | sleep, environment | Low | Conditional | Inferred | Active | [REF-072](../references/REF-072.md) |
+| [QOL-010](../items/QOL-010.md) | Use blackout or a sleep mask when bedroom light is disruptive | Intervention | sleep, environment, circadian | Moderate | Conditional | Inferred | Active | [REF-007](../references/REF-007.md) |
+| [QOL-011](../items/QOL-011.md) | Consider weighted blankets only for relevant sleep/anxiety contexts | Intervention | sleep, mental-health | Low | Conditional | Inferred | Active | [REF-058](../references/REF-058.md) |
+| [QOL-042](../items/QOL-042.md) | Reduce bedroom noise when it disrupts sleep | Intervention | sleep, environment |  | Conditional | Direct | Deprecated |  |
+| [QOL-043](../items/QOL-043.md) | Make the bedroom sufficiently dark for sleep | Intervention | sleep, environment, circadian | Low | Conditional | Inferred | Active | [REF-007](../references/REF-007.md) |
+| [QOL-044](../items/QOL-044.md) | Get adequate light during the day | Intervention | circadian, sleep, environment |  | General | Inferred | Deprecated |  |
+| [QOL-045](../items/QOL-045.md) | Keep the bedroom thermally comfortable | Intervention | sleep, environment |  | Conditional | Inferred | Deprecated |  |
+| [QOL-069](../items/QOL-069.md) | Keep sleep and wake timing reasonably regular | Intervention | sleep, circadian, preventive-health | Moderate | General | Direct | Active | [REF-036](../references/REF-036.md) |
+| [QOL-070](../items/QOL-070.md) | Evaluate restless-legs symptoms when present | Assessment | sleep, preventive-health | High | Conditional | Direct | Active | [REF-037](../references/REF-037.md) |
+| [QOL-071](../items/QOL-071.md) | Treat persistent rhinitis or congestion when it affects sleep or daytime function | Intervention | sleep, preventive-health | Moderate | Conditional | Direct | Active | [REF-038](../references/REF-038.md) |
+| [QOL-072](../items/QOL-072.md) | Treat recurrent headache or migraine when it meaningfully affects function | Intervention | pain, preventive-health, mental-health | High | Conditional | Direct | Active | [REF-060](../references/REF-060.md), [REF-061](../references/REF-061.md) |
+| [QOL-073](../items/QOL-073.md) | Evaluate symptomatic bruxism rather than normalizing it | Assessment | oral-health, pain, sleep, preventive-health | High | Conditional | Direct | Active | [REF-039](../references/REF-039.md) |
+| [QOL-074](../items/QOL-074.md) | Treat clinically relevant nocturnal reflux | Intervention | gastrointestinal, sleep, preventive-health | High | Conditional | Direct | Active | [REF-062](../references/REF-062.md), [REF-063](../references/REF-063.md) |
+| [QOL-094](../items/QOL-094.md) | Evaluate recurrent nocturia when it disrupts sleep | Assessment | sleep, preventive-health | High | Conditional | Direct | Active | [REF-065](../references/REF-065.md) |
 
 ## QOL-002 — Evaluate possible sleep apnea when signs are present
 
-**Categories:** sleep, preventive-health  
-**Evidence:** High  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -59,13 +56,10 @@ Snoring alone does not establish sleep apnea. This item applies when symptoms or
 
 ### References
 
-- [REF-003](../references.md#ref-003)
+- [REF-003](../references/REF-003.md)
 
 ## QOL-003 — Use CBT-I for chronic insomnia when indicated
 
-**Categories:** sleep, mental-health  
-**Evidence:** High  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -89,13 +83,10 @@ CBT-I is a treatment for insomnia, not a universal sleep optimization protocol f
 
 ### References
 
-- [REF-004](../references.md#ref-004)
+- [REF-004](../references/REF-004.md)
 
 ## QOL-007 / QOL-008 — Treat sound as an environmental variable
 
-**Categories:** sleep, environment  
-**Evidence:** High for harmful environmental noise; Moderate for specific masking strategies  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -119,14 +110,11 @@ The best intervention depends on the source and the sleeper. Masking sound is di
 
 ### References
 
-- [REF-006](../references.md#ref-006)
-- [REF-052](../references.md#ref-052)
+- [REF-006](../references/REF-006.md)
+- [REF-052](../references/REF-052.md)
 
 ## QOL-009 / QOL-045 — Keep the bedroom thermally comfortable
 
-**Categories:** sleep, environment  
-**Evidence:** Low  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -150,13 +138,10 @@ The direct trial was very small and does not establish a universal ideal bedroom
 
 ### References
 
-- [REF-072](../references.md#ref-072)
+- [REF-072](../references/REF-072.md)
 
 ## QOL-010 — Use darkness interventions when light is actually disruptive
 
-**Categories:** sleep, environment, circadian  
-**Evidence:** Moderate  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -180,13 +165,10 @@ The RCT population was late-pregnancy women with short sleep, so generalization 
 
 ### References
 
-- [REF-007](../references.md#ref-007)
+- [REF-007](../references/REF-007.md)
 
 ## QOL-069 — Keep sleep/wake timing reasonably regular
 
-**Categories:** sleep, circadian, preventive-health  
-**Evidence:** Moderate  
-**Applicability:** General
 
 ### Idea
 
@@ -210,4 +192,4 @@ There is no single schedule that suits everyone, and shift work or caregiving ma
 
 ### References
 
-- [REF-036](../references.md#ref-036)
+- [REF-036](../references/REF-036.md)

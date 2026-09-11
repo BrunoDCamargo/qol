@@ -8,44 +8,41 @@ This page maps conditions that can have a large quality-of-life effect **when th
 
 ## Map
 
-| ID | Item | Evidence | Applicability | References |
-|---|---|---|---|---|
-| [QOL-002](../catalog.md) | Evaluate possible sleep apnea when signs are present | High | Conditional | [REF-003](../references.md#ref-003) |
-| [QOL-038](../catalog.md) | Treat recurrent neck pain rather than normalizing it | Moderate | Conditional | [REF-017](../references.md#ref-017) |
-| [QOL-049](../catalog.md) | Correct meaningful refractive error and reassess vision when symptomatic | Moderate | Conditional | [REF-023](../references.md#ref-023) |
-| [QOL-050](../catalog.md) | Treat oral-health problems rather than normalizing pain or dysfunction | High | Conditional | [REF-024](../references.md#ref-024) |
-| [QOL-051](../catalog.md) | Evaluate hearing when functional difficulty is present | High | Conditional | [REF-025](../references.md#ref-025) |
-| [QOL-070](../catalog.md) | Evaluate restless-legs symptoms when present | High | Conditional | [REF-037](../references.md#ref-037) |
-| [QOL-071](../catalog.md) | Treat persistent rhinitis/congestion when it affects sleep or daytime function | Moderate | Conditional | [REF-038](../references.md#ref-038) |
-| [QOL-072](../catalog.md) | Treat recurrent headache/migraine when it meaningfully affects function | High | Conditional | [REF-060](../references.md#ref-060), [REF-061](../references.md#ref-061) |
-| [QOL-073](../catalog.md) | Evaluate symptomatic bruxism/TMD rather than normalizing it | High | Conditional | [REF-039](../references.md#ref-039) |
-| [QOL-074](../catalog.md) | Treat clinically relevant nocturnal reflux | High | Conditional | [REF-062](../references.md#ref-062), [REF-063](../references.md#ref-063) |
-| [QOL-075](../catalog.md) | Address digital eye strain when screen work causes symptoms | Moderate | Conditional | [REF-040](../references.md#ref-040) |
-| [QOL-076](../catalog.md) | Treat recurrent low-back pain rather than normalizing it | High | Conditional | [REF-064](../references.md#ref-064) |
-| [QOL-077](../catalog.md) | Evaluate and treat persistent loss of interest/pleasure or depression when present | Moderate | Conditional | [REF-041](../references.md#ref-041) |
-| [QOL-078](../catalog.md) | Treat persistent relationship distress when it is a major QoL driver | Moderate | Conditional | [REF-059](../references.md#ref-059) |
-| [QOL-079](../catalog.md) | Include sexual health in quality-of-life assessment when relevant | High | Conditional | [REF-066](../references.md#ref-066) |
-| [QOL-093](../catalog.md) | Treat bothersome tinnitus rather than assuming nothing can help | High | Conditional | [REF-047](../references.md#ref-047) |
-| [QOL-094](../catalog.md) | Evaluate recurrent nocturia when it disrupts sleep | High | Conditional | [REF-065](../references.md#ref-065) |
-| [QOL-095](../catalog.md) | Investigate chronic GI symptoms that meaningfully affect QoL | High | Conditional | [REF-048](../references.md#ref-048), [REF-050](../references.md#ref-050) |
-| [QOL-096](../catalog.md) | Treat eczema/pruritus when it disrupts comfort or sleep | Moderate | Conditional | [REF-070](../references.md#ref-070) |
-| [QOL-097](../catalog.md) | Review medications when symptoms plausibly track medication initiation or dose changes | High | Conditional | [REF-049](../references.md#ref-049) |
-| [QOL-108](../catalog.md) | Use supervised pelvic floor muscle training for stress or mixed urinary incontinence | High | Conditional | [REF-079](../references.md#ref-079) |
-| [QOL-109](../catalog.md) | Use bladder training for urgency or mixed urinary incontinence | High | Conditional | [REF-079](../references.md#ref-079) |
-| [QOL-110](../catalog.md) | Treat menopause-associated symptoms when they impair well-being or function | High | Conditional | [REF-080](../references.md#ref-080) |
-| [QOL-111](../catalog.md) | Treat heavy menstrual bleeding according to its quality-of-life impact | High | Conditional | [REF-081](../references.md#ref-081) |
-| [QOL-112](../catalog.md) | Investigate possible endometriosis when cyclical pain or related symptoms impair daily life | High | Conditional | [REF-082](../references.md#ref-082) |
-| [QOL-113](../catalog.md) | Use therapeutic exercise in osteoarthritis management | High | Conditional | [REF-083](../references.md#ref-083) |
-| [QOL-114](../catalog.md) | Consider cataract surgery when cataract-related vision loss interferes with everyday activities | High | Conditional | [REF-084](../references.md#ref-084) |
-| [QOL-115](../catalog.md) | Use hearing rehabilitation when meaningful hearing loss is identified | High | Conditional | [REF-025](../references.md#ref-025) |
-| [QOL-116](../catalog.md) | Reduce hazardous occupational noise exposure and use hearing protection when indicated | High | Conditional | [REF-085](../references.md#ref-085) |
-| [QOL-118](../catalog.md) | Include multicomponent balance and strength activity in older age | High | Conditional | [REF-086](../references.md#ref-086) |
+| ID | Statement | Kind | Categories | Evidence Strength | Applicability | Support Mode | Status | References |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [QOL-002](../items/QOL-002.md) | Evaluate possible sleep apnea when signs are present | Assessment | sleep, preventive-health | High | Conditional | Direct | Active | [REF-003](../references/REF-003.md) |
+| [QOL-038](../items/QOL-038.md) | Treat recurrent neck pain rather than normalizing it | Intervention | pain, physical-activity, work-design | Moderate | Conditional | Direct | Active | [REF-017](../references/REF-017.md) |
+| [QOL-049](../items/QOL-049.md) | Correct meaningful refractive error and reassess vision when symptomatic | Intervention | vision, preventive-health, attention | Moderate | Conditional | Direct | Active | [REF-023](../references/REF-023.md) |
+| [QOL-050](../items/QOL-050.md) | Treat oral-health problems rather than normalizing pain or dysfunction | Intervention | oral-health, preventive-health, pain | High | Conditional | Direct | Active | [REF-024](../references/REF-024.md) |
+| [QOL-051](../items/QOL-051.md) | Evaluate hearing when functional difficulty is present | Assessment | hearing, preventive-health, social | High | Conditional | Direct | Active | [REF-025](../references/REF-025.md) |
+| [QOL-070](../items/QOL-070.md) | Evaluate restless-legs symptoms when present | Assessment | sleep, preventive-health | High | Conditional | Direct | Active | [REF-037](../references/REF-037.md) |
+| [QOL-071](../items/QOL-071.md) | Treat persistent rhinitis or congestion when it affects sleep or daytime function | Intervention | sleep, preventive-health | Moderate | Conditional | Direct | Active | [REF-038](../references/REF-038.md) |
+| [QOL-072](../items/QOL-072.md) | Treat recurrent headache or migraine when it meaningfully affects function | Intervention | pain, preventive-health, mental-health | High | Conditional | Direct | Active | [REF-060](../references/REF-060.md), [REF-061](../references/REF-061.md) |
+| [QOL-073](../items/QOL-073.md) | Evaluate symptomatic bruxism rather than normalizing it | Assessment | oral-health, pain, sleep, preventive-health | High | Conditional | Direct | Active | [REF-039](../references/REF-039.md) |
+| [QOL-074](../items/QOL-074.md) | Treat clinically relevant nocturnal reflux | Intervention | gastrointestinal, sleep, preventive-health | High | Conditional | Direct | Active | [REF-062](../references/REF-062.md), [REF-063](../references/REF-063.md) |
+| [QOL-075](../items/QOL-075.md) | Address digital eye strain when screen work causes symptoms | Intervention | vision, technology, attention, work-design | Moderate | Conditional | Direct | Active | [REF-040](../references/REF-040.md) |
+| [QOL-076](../items/QOL-076.md) | Treat recurrent low-back pain rather than normalizing it | Intervention | pain, physical-activity, preventive-health | High | Conditional | Direct | Active | [REF-064](../references/REF-064.md) |
+| [QOL-077](../items/QOL-077.md) | Treat persistent loss of interest, pleasure, or depression when present | Intervention | mental-health, preventive-health | Moderate | Conditional | Direct | Active | [REF-041](../references/REF-041.md) |
+| [QOL-078](../items/QOL-078.md) | Treat persistent relationship distress when it is a major quality-of-life driver | Intervention | relationships, social, mental-health | Moderate | Conditional | Direct | Active | [REF-059](../references/REF-059.md) |
+| [QOL-079](../items/QOL-079.md) | Include sexual health in quality-of-life assessment when relevant | Assessment | sexual-health, relationships, preventive-health | High | Conditional | Direct | Active | [REF-066](../references/REF-066.md) |
+| [QOL-093](../items/QOL-093.md) | Treat bothersome tinnitus rather than assuming nothing can help | Intervention | hearing, mental-health, preventive-health | High | Conditional | Direct | Active | [REF-047](../references/REF-047.md) |
+| [QOL-094](../items/QOL-094.md) | Evaluate recurrent nocturia when it disrupts sleep | Assessment | sleep, preventive-health | High | Conditional | Direct | Active | [REF-065](../references/REF-065.md) |
+| [QOL-095](../items/QOL-095.md) | Investigate chronic gastrointestinal symptoms that meaningfully affect quality of life | Assessment | gastrointestinal, preventive-health, nutrition | High | Conditional | Direct | Active | [REF-048](../references/REF-048.md), [REF-050](../references/REF-050.md) |
+| [QOL-096](../items/QOL-096.md) | Treat eczema or pruritus when it disrupts comfort or sleep | Intervention | preventive-health, sleep, pain | Moderate | Conditional | Inferred | Active | [REF-070](../references/REF-070.md) |
+| [QOL-097](../items/QOL-097.md) | Review medications when symptoms plausibly track medication initiation or dose changes | Assessment | medications, preventive-health | High | Conditional | Direct | Active | [REF-049](../references/REF-049.md) |
+| [QOL-108](../items/QOL-108.md) | Use supervised pelvic floor muscle training for stress or mixed urinary incontinence | Intervention | pelvic-health, physical-activity, preventive-health | High | Conditional | Direct | Active | [REF-079](../references/REF-079.md) |
+| [QOL-109](../items/QOL-109.md) | Use bladder training for urgency or mixed urinary incontinence | Intervention | pelvic-health, behavior-change, preventive-health | High | Conditional | Direct | Active | [REF-079](../references/REF-079.md) |
+| [QOL-110](../items/QOL-110.md) | Treat menopause-associated symptoms when they impair well-being or function | Intervention | reproductive-health, sleep, mental-health, sexual-health | High | Conditional | Direct | Active | [REF-080](../references/REF-080.md) |
+| [QOL-111](../items/QOL-111.md) | Treat heavy menstrual bleeding according to its quality-of-life impact | Intervention | reproductive-health, preventive-health | High | Conditional | Direct | Active | [REF-081](../references/REF-081.md) |
+| [QOL-112](../items/QOL-112.md) | Investigate possible endometriosis when cyclical pain or related symptoms impair daily life | Assessment | reproductive-health, pain, sexual-health, gastrointestinal | High | Conditional | Direct | Active | [REF-082](../references/REF-082.md) |
+| [QOL-113](../items/QOL-113.md) | Use therapeutic exercise in osteoarthritis management | Intervention | pain, physical-activity, preventive-health | High | Conditional | Direct | Active | [REF-083](../references/REF-083.md) |
+| [QOL-114](../items/QOL-114.md) | Consider cataract surgery when cataract-related vision loss interferes with everyday activities | Intervention | vision, preventive-health, aging | High | Conditional | Direct | Active | [REF-084](../references/REF-084.md) |
+| [QOL-115](../items/QOL-115.md) | Use hearing rehabilitation when meaningful hearing loss is identified | Intervention | hearing, social, preventive-health | High | Conditional | Direct | Active | [REF-025](../references/REF-025.md) |
+| [QOL-116](../items/QOL-116.md) | Reduce hazardous occupational noise exposure and use hearing protection when indicated | Intervention | hearing, environment, occupational-health, preventive-health | High | Conditional | Direct | Active | [REF-085](../references/REF-085.md) |
+| [QOL-118](../items/QOL-118.md) | Include multicomponent balance and strength activity in older age | Intervention | aging, physical-activity, strength, preventive-health | High | Conditional | Direct | Active | [REF-086](../references/REF-086.md) |
 
 ## QOL-049 — Correct meaningful refractive error and reassess vision when symptomatic
 
-**Categories:** vision, preventive-health, attention  
-**Evidence:** Moderate  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -65,13 +62,10 @@ The trial population was older adults, so effect size cannot be assumed in young
 
 ### References
 
-- [REF-023](../references.md#ref-023)
+- [REF-023](../references/REF-023.md)
 
 ## QOL-050 / QOL-051 — Treat sensory or oral deficits when they affect function
 
-**Categories:** oral-health, hearing, preventive-health, social  
-**Evidence:** High  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -91,14 +85,11 @@ Routine screening intervals and treatment choices depend on age, risk, local gui
 
 ### References
 
-- [REF-024](../references.md#ref-024)
-- [REF-025](../references.md#ref-025)
+- [REF-024](../references/REF-024.md)
+- [REF-025](../references/REF-025.md)
 
 ## QOL-070 / QOL-071 / QOL-073 / QOL-074 — Sleep can be disrupted by a condition outside the sleep system
 
-**Categories:** sleep, preventive-health, oral-health, gastrointestinal  
-**Evidence:** Mixed  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -114,17 +105,14 @@ Each condition has its own diagnostic criteria. This map does not imply that non
 
 ### References
 
-- [REF-037](../references.md#ref-037)
-- [REF-038](../references.md#ref-038)
-- [REF-039](../references.md#ref-039)
-- [REF-062](../references.md#ref-062)
-- [REF-063](../references.md#ref-063)
+- [REF-037](../references/REF-037.md)
+- [REF-038](../references/REF-038.md)
+- [REF-039](../references/REF-039.md)
+- [REF-062](../references/REF-062.md)
+- [REF-063](../references/REF-063.md)
 
 ## QOL-072 — Treat recurrent headache or migraine when it impairs function
 
-**Categories:** pain, preventive-health, mental-health  
-**Evidence:** High  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -140,14 +128,11 @@ Headache type matters. New, sudden, severe, or neurologically unusual headache c
 
 ### References
 
-- [REF-060](../references.md#ref-060)
-- [REF-061](../references.md#ref-061)
+- [REF-060](../references/REF-060.md)
+- [REF-061](../references/REF-061.md)
 
 ## QOL-075 — Address digital eye strain when screen work causes symptoms
 
-**Categories:** vision, technology, attention, work-design  
-**Evidence:** Moderate  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -167,13 +152,10 @@ The study was small. Persistent or unilateral visual symptoms, pain, or visual l
 
 ### References
 
-- [REF-040](../references.md#ref-040)
+- [REF-040](../references/REF-040.md)
 
 ## QOL-093 — Treat bothersome tinnitus rather than assuming nothing can help
 
-**Categories:** hearing, mental-health, preventive-health  
-**Evidence:** High  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -189,13 +171,10 @@ New unilateral tinnitus, pulsatile tinnitus, sudden hearing changes, or other co
 
 ### References
 
-- [REF-047](../references.md#ref-047)
+- [REF-047](../references/REF-047.md)
 
 ## QOL-094 — Distinguish waking to urinate from urinating because one is already awake
 
-**Categories:** sleep, preventive-health  
-**Evidence:** High  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -211,13 +190,10 @@ Nocturia has multiple possible causes. A person who wakes for another reason and
 
 ### References
 
-- [REF-065](../references.md#ref-065)
+- [REF-065](../references/REF-065.md)
 
 ## QOL-095 — Investigate chronic GI symptoms that meaningfully affect QoL
 
-**Categories:** gastrointestinal, preventive-health, nutrition  
-**Evidence:** High  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -237,14 +213,11 @@ Blood in stool, unexplained weight loss, persistent severe pain, fever, vomiting
 
 ### References
 
-- [REF-048](../references.md#ref-048)
-- [REF-050](../references.md#ref-050)
+- [REF-048](../references/REF-048.md)
+- [REF-050](../references/REF-050.md)
 
 ## QOL-096 — Treat eczema/pruritus when it disrupts comfort or sleep
 
-**Categories:** preventive-health, sleep, pain  
-**Evidence:** Moderate  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -260,13 +233,10 @@ The reference is secondary evidence and much of the literature measures sleep as
 
 ### References
 
-- [REF-070](../references.md#ref-070)
+- [REF-070](../references/REF-070.md)
 
 ## QOL-097 — Review medications when symptom timing makes the link plausible
 
-**Categories:** medications, preventive-health  
-**Evidence:** High  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -286,7 +256,7 @@ Do not stop prescribed medicines abruptly on the basis of this item. Symptoms ca
 
 ### References
 
-- [REF-049](../references.md#ref-049)
+- [REF-049](../references/REF-049.md)
 
 ## QOL-108 through QOL-112 — Reproductive and pelvic symptoms can be major QoL drivers
 
@@ -294,10 +264,10 @@ Urinary incontinence, menopause-associated symptoms, heavy menstrual bleeding, a
 
 ### References
 
-- [REF-079](../references.md#ref-079)
-- [REF-080](../references.md#ref-080)
-- [REF-081](../references.md#ref-081)
-- [REF-082](../references.md#ref-082)
+- [REF-079](../references/REF-079.md)
+- [REF-080](../references/REF-080.md)
+- [REF-081](../references/REF-081.md)
+- [REF-082](../references/REF-082.md)
 
 ## QOL-113 — Use therapeutic exercise in osteoarthritis management
 
@@ -305,25 +275,19 @@ NICE treats therapeutic exercise as a core treatment for osteoarthritis, tailore
 
 ### References
 
-- [REF-083](../references.md#ref-083)
+- [REF-083](../references/REF-083.md)
 
 ## QOL-114 — Treat cataract according to functional impact
 
-**Categories:** vision, preventive-health, aging  
-**Evidence:** High  
-**Applicability:** Conditional
 
 Cataract surgery can be considered when cataract-related vision loss interferes with reading, driving, or other everyday activities. The decision depends on functional impact and clinical context rather than the mere presence of a cataract.
 
 ### References
 
-- [REF-084](../references.md#ref-084)
+- [REF-084](../references/REF-084.md)
 
 ## QOL-115 / QOL-116 — Rehabilitate hearing loss and prevent avoidable noise injury
 
-**Categories:** hearing, social, environment, occupational-health, preventive-health  
-**Evidence:** High  
-**Applicability:** Conditional
 
 Meaningful hearing loss can justify rehabilitation to reduce communication and participation barriers. Hazardous occupational noise exposure warrants source control where possible and hearing protection when indicated.
 
@@ -333,8 +297,8 @@ Hearing protection is one layer of a prevention program and should not replace f
 
 ### References
 
-- [REF-025](../references.md#ref-025)
-- [REF-085](../references.md#ref-085)
+- [REF-025](../references/REF-025.md)
+- [REF-085](../references/REF-085.md)
 
 ## QOL-118 — Preserve balance and strength in older age
 
@@ -342,4 +306,4 @@ WHO recommends multicomponent activity emphasizing balance and strength in older
 
 ### References
 
-- [REF-086](../references.md#ref-086)
+- [REF-086](../references/REF-086.md)

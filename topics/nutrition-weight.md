@@ -6,33 +6,30 @@ See the [canonical catalog](../catalog.md) and [reference registry](../reference
 
 ## Map
 
-| ID | Item | Evidence | Applicability | References |
-|---|---|---|---|---|
-| [QOL-004](../catalog.md) | Test caffeine timing when sleep may be affected | Moderate | Conditional | [REF-005](../references.md#ref-005) |
-| [QOL-052](../catalog.md) | Reduce reliance on ultraprocessed foods | Moderate | General | [REF-026](../references.md#ref-026), [REF-068](../references.md#ref-068) |
-| [QOL-053](../catalog.md) | Design the food environment so preferred choices are easy defaults | Inference | General | [REF-026](../references.md#ref-026), [REF-068](../references.md#ref-068) |
-| [QOL-054](../catalog.md) | Use water/unsweetened drinks as default hydration | High | General | [REF-068](../references.md#ref-068), [REF-069](../references.md#ref-069) |
-| [QOL-055](../catalog.md) | Maintain adequate hydration when intake is insufficient | High | Conditional | [REF-069](../references.md#ref-069) |
-| [QOL-056](../catalog.md) | Adjust caffeine timing before assuming total abstinence is necessary | Moderate | Conditional | [REF-005](../references.md#ref-005) |
-| [QOL-057](../catalog.md) | Trial lower alcohol exposure when alcohol may affect sleep, mood, or health | High | Conditional | [REF-027](../references.md#ref-027) |
-| [QOL-058](../catalog.md) | Stop nicotine/tobacco use when applicable | High | Conditional | [REF-028](../references.md#ref-028) |
-| [QOL-066](../catalog.md) | Avoid assuming generic multivitamins will transform health or QoL | High | General | [REF-033](../references.md#ref-033) |
-| [QOL-067](../catalog.md) | Avoid indiscriminate vitamin-D screening in asymptomatic adults without indication | High | General | [REF-034](../references.md#ref-034) |
-| [QOL-068](../catalog.md) | Use supplements for a defined need, deficiency, or evidence-based indication | High | Conditional | [REF-035](../references.md#ref-035) |
-| [QOL-095](../catalog.md) | Investigate chronic GI symptoms that meaningfully affect QoL | High | Conditional | [REF-048](../references.md#ref-048), [REF-050](../references.md#ref-050) |
-| [QOL-101](../catalog.md) | Prefer whole grains, vegetables, fruits, and pulses as primary carbohydrate sources | High | General | [REF-073](../references.md#ref-073) |
-| [QOL-102](../catalog.md) | Maintain adequate dietary fibre intake from foods | High | General | [REF-073](../references.md#ref-073) |
-| [QOL-103](../catalog.md) | Limit free-sugars intake | High | General | [REF-074](../references.md#ref-074) |
-| [QOL-104](../catalog.md) | Reduce excessive sodium intake | High | General | [REF-075](../references.md#ref-075) |
-| [QOL-105](../catalog.md) | Replace saturated and trans fats with unsaturated fats or naturally fibre-rich carbohydrate sources | High | General | [REF-076](../references.md#ref-076) |
-| [QOL-106](../catalog.md) | Consider lower-sodium salt substitutes containing potassium when appropriate | Moderate | Conditional | [REF-077](../references.md#ref-077) |
-| [QOL-107](../catalog.md) | Use intensive multicomponent behavioral weight-loss interventions for obesity when indicated | High | Conditional | [REF-078](../references.md#ref-078) |
+| ID | Statement | Kind | Categories | Evidence Strength | Applicability | Support Mode | Status | References |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [QOL-004](../items/QOL-004.md) | Test caffeine timing when sleep may be affected | Intervention | sleep, circadian, substances | Moderate | Conditional | Direct | Active | [REF-005](../references/REF-005.md) |
+| [QOL-052](../items/QOL-052.md) | Reduce reliance on ultraprocessed foods | Intervention | nutrition, weight, preventive-health | Moderate | General | Direct | Active | [REF-026](../references/REF-026.md), [REF-068](../references/REF-068.md) |
+| [QOL-053](../items/QOL-053.md) | Design the food environment so preferred choices are easy defaults | Intervention | nutrition, weight, friction-reduction | Moderate | General | Inferred | Active | [REF-026](../references/REF-026.md), [REF-068](../references/REF-068.md) |
+| [QOL-054](../items/QOL-054.md) | Use water or unsweetened drinks as default hydration | Intervention | hydration, nutrition, weight | High | General | Direct | Active | [REF-068](../references/REF-068.md), [REF-069](../references/REF-069.md) |
+| [QOL-055](../items/QOL-055.md) | Maintain adequate hydration when intake is insufficient | Intervention | hydration, preventive-health | High | Conditional | Direct | Active | [REF-069](../references/REF-069.md) |
+| [QOL-056](../items/QOL-056.md) | Adjust caffeine timing before assuming total abstinence is necessary | Intervention | sleep, circadian, substances |  | Conditional | Direct | Deprecated |  |
+| [QOL-057](../items/QOL-057.md) | Trial lower alcohol exposure when alcohol may affect sleep, mood, or health | Intervention | substances, sleep, preventive-health, mental-health | High | Conditional | Inferred | Active | [REF-027](../references/REF-027.md) |
+| [QOL-058](../items/QOL-058.md) | Stop nicotine or tobacco use when applicable | Intervention | substances, preventive-health | High | Conditional | Direct | Active | [REF-028](../references/REF-028.md) |
+| [QOL-066](../items/QOL-066.md) | Avoid assuming generic multivitamins will transform health or quality of life | Guardrail | nutrition, preventive-health, supplements | High | General | Direct | Active | [REF-033](../references/REF-033.md) |
+| [QOL-067](../items/QOL-067.md) | Avoid indiscriminate vitamin-D screening in asymptomatic adults without indication | Guardrail | preventive-health, supplements | High | General | Direct | Active | [REF-034](../references/REF-034.md) |
+| [QOL-068](../items/QOL-068.md) | Use supplements for a defined need, deficiency, or evidence-based indication | Intervention | supplements, preventive-health, nutrition, medications | High | Conditional | Direct | Active | [REF-035](../references/REF-035.md) |
+| [QOL-095](../items/QOL-095.md) | Investigate chronic gastrointestinal symptoms that meaningfully affect quality of life | Assessment | gastrointestinal, preventive-health, nutrition | High | Conditional | Direct | Active | [REF-048](../references/REF-048.md), [REF-050](../references/REF-050.md) |
+| [QOL-101](../items/QOL-101.md) | Prefer whole grains, vegetables, fruits, and pulses as primary carbohydrate sources | Intervention | nutrition, preventive-health | High | General | Direct | Active | [REF-073](../references/REF-073.md) |
+| [QOL-102](../items/QOL-102.md) | Maintain adequate dietary fibre intake from foods | Intervention | nutrition, gastrointestinal, preventive-health | High | General | Direct | Active | [REF-073](../references/REF-073.md) |
+| [QOL-103](../items/QOL-103.md) | Limit free-sugars intake | Intervention | nutrition, weight, oral-health, preventive-health | High | General | Direct | Active | [REF-074](../references/REF-074.md) |
+| [QOL-104](../items/QOL-104.md) | Reduce excessive sodium intake | Intervention | nutrition, preventive-health | High | General | Direct | Active | [REF-075](../references/REF-075.md) |
+| [QOL-105](../items/QOL-105.md) | Replace saturated and trans fats with unsaturated fats or naturally fibre-rich carbohydrate sources | Intervention | nutrition, preventive-health | High | General | Direct | Active | [REF-076](../references/REF-076.md) |
+| [QOL-106](../items/QOL-106.md) | Consider lower-sodium salt substitutes containing potassium when appropriate | Intervention | nutrition, preventive-health | Moderate | Conditional | Direct | Active | [REF-077](../references/REF-077.md) |
+| [QOL-107](../items/QOL-107.md) | Use intensive multicomponent behavioral weight-loss interventions for obesity when indicated | Intervention | weight, nutrition, physical-activity, behavior-change, preventive-health | High | Conditional | Direct | Active | [REF-078](../references/REF-078.md) |
 
 ## QOL-052 — Reduce reliance on ultraprocessed foods
 
-**Categories:** nutrition, weight, preventive-health  
-**Evidence:** Moderate  
-**Applicability:** General
 
 ### Idea
 
@@ -56,14 +53,11 @@ The inpatient RCT was small and short. Food processing is not the only determina
 
 ### References
 
-- [REF-026](../references.md#ref-026)
-- [REF-068](../references.md#ref-068)
+- [REF-026](../references/REF-026.md)
+- [REF-068](../references/REF-068.md)
 
 ## QOL-053 — Design the food environment so preferred choices are easy defaults
 
-**Categories:** nutrition, weight, friction-reduction  
-**Evidence:** Inference  
-**Applicability:** General
 
 ### Idea
 
@@ -87,14 +81,11 @@ This is a behavioral-design inference. It should not be presented as a clinical 
 
 ### References
 
-- [REF-026](../references.md#ref-026)
-- [REF-068](../references.md#ref-068)
+- [REF-026](../references/REF-026.md)
+- [REF-068](../references/REF-068.md)
 
 ## QOL-054 / QOL-055 — Use adequate hydration, not maximal hydration
 
-**Categories:** hydration, nutrition, preventive-health  
-**Evidence:** High  
-**Applicability:** General for water as a default; Conditional for increasing intake
 
 ### Idea
 
@@ -118,14 +109,11 @@ More water is not automatically better. Some medical conditions require individu
 
 ### References
 
-- [REF-068](../references.md#ref-068)
-- [REF-069](../references.md#ref-069)
+- [REF-068](../references/REF-068.md)
+- [REF-069](../references/REF-069.md)
 
 ## QOL-004 / QOL-056 — Treat caffeine dose and timing as variables
 
-**Categories:** sleep, circadian, substances  
-**Evidence:** Moderate  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -145,13 +133,10 @@ The study tested a relatively high 400 mg dose. Individual caffeine metabolism a
 
 ### References
 
-- [REF-005](../references.md#ref-005)
+- [REF-005](../references/REF-005.md)
 
 ## QOL-057 / QOL-058 — Substance reductions are conditional high-value interventions
 
-**Categories:** substances, preventive-health, sleep, mental-health  
-**Evidence:** High  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -171,14 +156,11 @@ People with physiological dependence may need clinical support. Abrupt alcohol c
 
 ### References
 
-- [REF-027](../references.md#ref-027)
-- [REF-028](../references.md#ref-028)
+- [REF-027](../references/REF-027.md)
+- [REF-028](../references/REF-028.md)
 
 ## QOL-066 / QOL-067 / QOL-068 — Supplements should answer a defined question
 
-**Categories:** supplements, preventive-health, nutrition, medications  
-**Evidence:** High  
-**Applicability:** Mixed
 
 ### Idea
 
@@ -198,15 +180,12 @@ These recommendations do not argue against treating a documented deficiency or u
 
 ### References
 
-- [REF-033](../references.md#ref-033)
-- [REF-034](../references.md#ref-034)
-- [REF-035](../references.md#ref-035)
+- [REF-033](../references/REF-033.md)
+- [REF-034](../references/REF-034.md)
+- [REF-035](../references/REF-035.md)
 
 ## QOL-101 through QOL-106 — Treat diet quality as more than food processing
 
-**Categories:** nutrition, gastrointestinal, weight, oral-health, preventive-health  
-**Evidence:** High for QOL-101 through QOL-105; Moderate for QOL-106  
-**Applicability:** General except QOL-106
 
 ### Idea
 
@@ -222,17 +201,14 @@ The salt-substitute recommendation is not universal. Kidney impairment and other
 
 ### References
 
-- [REF-073](../references.md#ref-073)
-- [REF-074](../references.md#ref-074)
-- [REF-075](../references.md#ref-075)
-- [REF-076](../references.md#ref-076)
-- [REF-077](../references.md#ref-077)
+- [REF-073](../references/REF-073.md)
+- [REF-074](../references/REF-074.md)
+- [REF-075](../references/REF-075.md)
+- [REF-076](../references/REF-076.md)
+- [REF-077](../references/REF-077.md)
 
 ## QOL-107 — Use structured obesity treatment when indicated
 
-**Categories:** weight, nutrition, physical-activity, behavior-change, preventive-health  
-**Evidence:** High  
-**Applicability:** Conditional
 
 ### Idea
 
@@ -248,8 +224,8 @@ This item does not define one universal target weight or exclude medications, su
 
 ### References
 
-- [REF-078](../references.md#ref-078)
+- [REF-078](../references/REF-078.md)
 
 ## Cross-link: QOL-095 — Chronic gastrointestinal symptoms
 
-Dietary experimentation can be useful for some GI conditions, but recurring symptoms should not be assigned to a fashionable diet diagnosis without assessment. See [QOL-095](../catalog.md) and [health-checks.md](health-checks.md).
+Dietary experimentation can be useful for some GI conditions, but recurring symptoms should not be assigned to a fashionable diet diagnosis without assessment. See [QOL-095](../items/QOL-095.md) and [health-checks.md](health-checks.md).
