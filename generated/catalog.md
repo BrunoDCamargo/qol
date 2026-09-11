@@ -3,6 +3,7 @@
 ## Active Categories
 | Category | Definition |
 | --- | --- |
+| aging | Age-related function, independence, sensory health, and healthy-aging determinants. |
 | attention | Attention, focus, interruption, and cognitive workload affecting daily functioning. |
 | behavior-change | Behavioral strategies, self-monitoring, habit supports, and structured behavior change affecting quality of life. |
 | circadian | Timing and regularity of sleep, wakefulness, and other circadian exposures. |
@@ -16,11 +17,14 @@
 | medications | Medication use, safety, effects, and treatment decisions relevant to quality of life. |
 | mental-health | Psychological and emotional well-being, symptoms, and functioning. |
 | nutrition | Food access, dietary patterns, meal choices, and nutrition-related exposures. |
+| occupational-health | Work-related exposures and occupational risk controls affecting health and quality of life. |
 | oral-health | Oral and dental health, pain, function, and related quality-of-life effects. |
 | pain | Pain, musculoskeletal discomfort, and interventions affecting pain-related function. |
+| pelvic-health | Pelvic floor function, urinary continence, and related pelvic symptoms or treatments affecting quality of life. |
 | physical-activity | Interventions and exposures involving bodily movement or exercise. |
 | preventive-health | Preventive actions, risk reduction, screening, and health-maintenance interventions. |
 | relationships | Close relationships, interpersonal functioning, conflict, and relationship quality affecting well-being. |
+| reproductive-health | Menstrual, menopausal, reproductive, and related symptom contexts affecting quality of life. |
 | sedentary-behavior | Prolonged sitting or reclining and interventions intended to reduce sedentary exposure. |
 | sexual-health | Sexual health, sexual well-being, and related quality-of-life assessment or care. |
 | sleep | Sleep duration, quality, continuity, conditions, and sleep-related functioning. |
@@ -136,6 +140,24 @@ No Deprecated categories.
 | [QOL-098](../items/QOL-098.md) | Repair or replace recurring physical irritants when doing so reliably removes repeated friction | Intervention | friction-reduction, environment, time | Moderate | Conditional | Inferred | [REF-012](references.md#ref-012) |
 | [QOL-099](../items/QOL-099.md) | Duplicate inexpensive frequently transported items when it reliably removes repeated friction | Intervention | friction-reduction, time | Moderate | Conditional | Inferred | [REF-012](references.md#ref-012) |
 | [QOL-100](../items/QOL-100.md) | Audit recurring commitments for whether they still justify their time, money, and recovery cost | Assessment | time, friction-reduction, mental-health | Moderate | Conditional | Inferred | [REF-012](references.md#ref-012), [REF-043](references.md#ref-043) |
+| [QOL-101](../items/QOL-101.md) | Prefer whole grains, vegetables, fruits, and pulses as primary carbohydrate sources | Intervention | nutrition, preventive-health | High | General | Direct | [REF-073](references.md#ref-073) |
+| [QOL-102](../items/QOL-102.md) | Maintain adequate dietary fibre intake from foods | Intervention | nutrition, gastrointestinal, preventive-health | High | General | Direct | [REF-073](references.md#ref-073) |
+| [QOL-103](../items/QOL-103.md) | Limit free-sugars intake | Intervention | nutrition, weight, oral-health, preventive-health | High | General | Direct | [REF-074](references.md#ref-074) |
+| [QOL-104](../items/QOL-104.md) | Reduce excessive sodium intake | Intervention | nutrition, preventive-health | High | General | Direct | [REF-075](references.md#ref-075) |
+| [QOL-105](../items/QOL-105.md) | Replace saturated and trans fats with unsaturated fats or naturally fibre-rich carbohydrate sources | Intervention | nutrition, preventive-health | High | General | Direct | [REF-076](references.md#ref-076) |
+| [QOL-106](../items/QOL-106.md) | Consider lower-sodium salt substitutes containing potassium when appropriate | Intervention | nutrition, preventive-health | Moderate | Conditional | Direct | [REF-077](references.md#ref-077) |
+| [QOL-107](../items/QOL-107.md) | Use intensive multicomponent behavioral weight-loss interventions for obesity when indicated | Intervention | weight, nutrition, physical-activity, behavior-change, preventive-health | High | Conditional | Direct | [REF-078](references.md#ref-078) |
+| [QOL-108](../items/QOL-108.md) | Use supervised pelvic floor muscle training for stress or mixed urinary incontinence | Intervention | pelvic-health, physical-activity, preventive-health | High | Conditional | Direct | [REF-079](references.md#ref-079) |
+| [QOL-109](../items/QOL-109.md) | Use bladder training for urgency or mixed urinary incontinence | Intervention | pelvic-health, behavior-change, preventive-health | High | Conditional | Direct | [REF-079](references.md#ref-079) |
+| [QOL-110](../items/QOL-110.md) | Treat menopause-associated symptoms when they impair well-being or function | Intervention | reproductive-health, sleep, mental-health, sexual-health | High | Conditional | Direct | [REF-080](references.md#ref-080) |
+| [QOL-111](../items/QOL-111.md) | Treat heavy menstrual bleeding according to its quality-of-life impact | Intervention | reproductive-health, preventive-health | High | Conditional | Direct | [REF-081](references.md#ref-081) |
+| [QOL-112](../items/QOL-112.md) | Investigate possible endometriosis when cyclical pain or related symptoms impair daily life | Assessment | reproductive-health, pain, sexual-health, gastrointestinal | High | Conditional | Direct | [REF-082](references.md#ref-082) |
+| [QOL-113](../items/QOL-113.md) | Use therapeutic exercise in osteoarthritis management | Intervention | pain, physical-activity, preventive-health | High | Conditional | Direct | [REF-083](references.md#ref-083) |
+| [QOL-114](../items/QOL-114.md) | Consider cataract surgery when cataract-related vision loss interferes with everyday activities | Intervention | vision, preventive-health, aging | High | Conditional | Direct | [REF-084](references.md#ref-084) |
+| [QOL-115](../items/QOL-115.md) | Use hearing rehabilitation when meaningful hearing loss is identified | Intervention | hearing, social, preventive-health | High | Conditional | Direct | [REF-025](references.md#ref-025) |
+| [QOL-116](../items/QOL-116.md) | Reduce hazardous occupational noise exposure and use hearing protection when indicated | Intervention | hearing, environment, occupational-health, preventive-health | High | Conditional | Direct | [REF-085](references.md#ref-085) |
+| [QOL-117](../items/QOL-117.md) | Reduce sustained work weeks of 55 hours or more when work design can be changed | Intervention | work-design, time, occupational-health, preventive-health | Moderate | Conditional | Inferred | [REF-042](references.md#ref-042) |
+| [QOL-118](../items/QOL-118.md) | Include multicomponent balance and strength activity in older age | Intervention | aging, physical-activity, strength, preventive-health | High | Conditional | Direct | [REF-086](references.md#ref-086) |
 
 ## Deprecated QoL Items
 | ID | Statement | Deprecation reason | Replaced by |
