@@ -52,7 +52,7 @@ class RepositorySnapshot:
     categories: tuple[Category, ...]
     items: tuple[Record, ...]
     references: tuple[Record, ...]
-    implementation_options: tuple[Record, ...]
+    implementation_options: tuple[Record, ...] = ()
 
 
 class _UniqueKeyLoader(yaml.SafeLoader):
