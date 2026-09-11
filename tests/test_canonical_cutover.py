@@ -73,6 +73,27 @@ class CanonicalCutoverTests(unittest.TestCase):
         self.assertNotIn("**Applicability:**", rendered)
         self.assertNotIn("../references.md#ref-", rendered)
 
+    def test_topic_membership_is_separate_from_the_generated_map(self):
+        snapshot = records.load_repository(REPOSITORY_ROOT)
+        selections = views.load_topic_selections(REPOSITORY_ROOT)
+        source = (REPOSITORY_ROOT / "topics" / "attention-digital.md").read_text(
+            encoding="utf-8"
+        )
+        tampered = source.replace(
+            "[QOL-014](../items/QOL-014.md)",
+            "[QOL-999](../items/QOL-999.md)",
+            1,
+        )
+
+        rendered = views.render_topic_view(
+            tampered,
+            snapshot,
+            selections["attention-digital.md"],
+        )
+
+        self.assertIn("[QOL-014](../items/QOL-014.md)", rendered)
+        self.assertNotIn("[QOL-999](../items/QOL-999.md)", rendered)
+
 
 if __name__ == "__main__":
     unittest.main()
