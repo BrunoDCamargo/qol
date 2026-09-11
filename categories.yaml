@@ -71,3 +71,18 @@ categories:
   hydration:
     definition: Fluid intake, dehydration risk, and beverage choices related to adequate hydration.
     status: Active
+  relationships:
+    definition: Close relationships, interpersonal functioning, conflict, and relationship quality affecting well-being.
+    status: Active
+  supplements:
+    definition: Dietary supplements, vitamins, minerals, and related supplementation decisions.
+    status: Active
+  medications:
+    definition: Medication use, safety, effects, and treatment decisions relevant to quality of life.
+    status: Active
+  gastrointestinal:
+    definition: Gastrointestinal symptoms, disorders, and management affecting comfort, sleep, or daily function.
+    status: Active
+  sexual-health:
+    definition: Sexual health, sexual well-being, and related quality-of-life assessment or care.
+    status: Active
