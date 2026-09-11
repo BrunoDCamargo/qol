@@ -12,6 +12,7 @@ SCHEMA_DIR = Path(__file__).resolve().parents[1] / "schemas"
 SCHEMA_FILES = {
     "item": "qol-item.schema.json",
     "reference": "reference.schema.json",
+    "implementation_option": "implementation-option.schema.json",
 }
 EVIDENCE_STRENGTH_ORDER = {
     "Low": 0,
@@ -102,6 +103,8 @@ def _record_type_for_path(record_path: Path) -> str:
         return "item"
     if record_path.stem.startswith("REF-"):
         return "reference"
+    if record_path.stem.startswith("IMP-"):
+        return "implementation_option"
     raise ValueError(f"{record_path.name} is not a supported canonical record filename")
 
 
@@ -287,8 +290,10 @@ def load_record(path: str | Path) -> Record:
     if record_type == "item":
         _validate_item_semantics(record_path, front_matter)
         evidence_strength = _derived_evidence_strength(front_matter)
-    else:
+    elif record_type == "reference":
         _validate_reference_semantics(record_path, front_matter)
+        evidence_strength = None
+    else:
         evidence_strength = None
 
     body = "".join(lines[closing_index + 1 :])
