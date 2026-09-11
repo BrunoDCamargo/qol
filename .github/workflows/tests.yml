@@ -1,4 +1,4 @@
-name: Structural validation
+name: Release gate
 
 on:
   push:
@@ -8,8 +8,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  structural-validation:
-    name: Structure and determinism only; scientific review is human
+  release-gate:
+    name: Canonical repository release gate
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -24,17 +24,11 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Validate canonical structure
+      - name: Validate canonical records and cross-references
         run: python -c "from qol_kb.records import validate_repository; validate_repository('.')"
 
-      - name: Verify generated views
-        shell: bash
-        run: |
-          if ! python -m qol_kb.views --check; then
-            python -m qol_kb.views
-            git diff -- catalog.md references.md generated topics
-            exit 1
-          fi
+      - name: Verify deterministic generated output
+        run: python -m qol_kb.views --check
 
-      - name: Run structural tests
+      - name: Run full structural suite
         run: python -m unittest discover -s tests

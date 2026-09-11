@@ -16,6 +16,10 @@ _TOPIC_METADATA_PREFIXES = (
     "**Support mode:**",
     "**Status:**",
 )
+_LEGACY_TOPIC_LINK_PATTERN = re.compile(
+    r"\.\./(?:catalog\.md|references\.md)(?:#[^)\s]+)?",
+    flags=re.IGNORECASE,
+)
 
 
 def _markdown_cell(value: object) -> str:
@@ -200,36 +204,6 @@ def render_implementation_options(snapshot: RepositorySnapshot) -> str:
     return "\n".join(sections) + "\n"
 
 
-def _render_index_pointer(title: str, target: str, canonical_sources: str) -> str:
-    return "\n".join(
-        [
-            _GENERATED_NOTICE,
-            "",
-            f"# {title}",
-            "",
-            f"This compatibility path is generated. Browse the current derived index at [{target}]({target}).",
-            "",
-            f"Canonical metadata is edited only in {canonical_sources}.",
-        ]
-    ) + "\n"
-
-
-def render_catalog_pointer(_: RepositorySnapshot) -> str:
-    return _render_index_pointer(
-        "QoL Catalog",
-        "generated/catalog.md",
-        "`items/` and `categories.yaml`",
-    )
-
-
-def render_references_pointer(_: RepositorySnapshot) -> str:
-    return _render_index_pointer(
-        "Reference Index",
-        "generated/references.md",
-        "`references/`",
-    )
-
-
 def load_topic_selections(root: str | Path) -> dict[str, tuple[str, ...]]:
     path = Path(root) / "topic-views.yaml"
     try:
@@ -292,6 +266,9 @@ def _topic_map(snapshot: RepositorySnapshot, identities: tuple[str, ...]) -> lis
 
 
 def render_topic_view(source: str, snapshot: RepositorySnapshot, identities: tuple[str, ...]) -> str:
+    if _LEGACY_TOPIC_LINK_PATTERN.search(source):
+        raise ValueError("topic view contains a legacy registry link")
+
     lines = source.splitlines()
     try:
         map_heading = lines.index("## Map")
@@ -308,24 +285,10 @@ def render_topic_view(source: str, snapshot: RepositorySnapshot, identities: tup
         for line in lines
         if not line.startswith(_TOPIC_METADATA_PREFIXES)
     ]
-    rendered = "\n".join(lines).rstrip() + "\n"
-    rendered = re.sub(
-        r"\.\./references\.md#ref-([0-9]{3,})",
-        lambda match: f"../references/REF-{match.group(1)}.md",
-        rendered,
-        flags=re.IGNORECASE,
-    )
-    rendered = re.sub(
-        r"\[(QOL-[0-9]{3,})\]\(\.\./catalog\.md(?:#[^)]+)?\)",
-        lambda match: f"[{match.group(1)}](../items/{match.group(1)}.md)",
-        rendered,
-    )
-    return rendered
+    return "\n".join(lines).rstrip() + "\n"
 
 
 OUTPUT_PATHS = {
-    Path("catalog.md"): render_catalog_pointer,
-    Path("references.md"): render_references_pointer,
     Path("generated/catalog.md"): render_catalog,
     Path("generated/references.md"): render_references,
     Path("generated/implementation-options.md"): render_implementation_options,
