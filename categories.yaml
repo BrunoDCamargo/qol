@@ -38,3 +38,18 @@ categories:
   preventive-health:
     definition: Preventive actions, risk reduction, screening, and health-maintenance interventions.
     status: Active
+  attention:
+    definition: Attention, focus, interruption, and cognitive workload affecting daily functioning.
+    status: Active
+  technology:
+    definition: Digital devices, software, connectivity, and technology-mediated exposures or behaviors.
+    status: Active
+  substances:
+    definition: Caffeine, alcohol, nicotine, and other substance exposures relevant to quality of life.
+    status: Active
+  financial-wellbeing:
+    definition: Financial security, spending trade-offs, affordability, and money-related stress or well-being.
+    status: Active
+  strength:
+    definition: Muscle-strengthening activity, physical strength, and related functional capacity.
+    status: Active

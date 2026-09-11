@@ -3,8 +3,10 @@
 ## Active Categories
 | Category | Definition |
 | --- | --- |
+| attention | Attention, focus, interruption, and cognitive workload affecting daily functioning. |
 | circadian | Timing and regularity of sleep, wakefulness, and other circadian exposures. |
 | environment | Physical environmental conditions and exposures affecting quality of life. |
+| financial-wellbeing | Financial security, spending trade-offs, affordability, and money-related stress or well-being. |
 | friction-reduction | Practical changes that reduce recurring effort, inconvenience, or administrative burden. |
 | indoor-air | Indoor air pollutants, ventilation, filtration, and related environmental exposures. |
 | mental-health | Psychological and emotional well-being, symptoms, and functioning. |
@@ -14,6 +16,9 @@
 | preventive-health | Preventive actions, risk reduction, screening, and health-maintenance interventions. |
 | sedentary-behavior | Prolonged sitting or reclining and interventions intended to reduce sedentary exposure. |
 | sleep | Sleep duration, quality, continuity, conditions, and sleep-related functioning. |
+| strength | Muscle-strengthening activity, physical strength, and related functional capacity. |
+| substances | Caffeine, alcohol, nicotine, and other substance exposures relevant to quality of life. |
+| technology | Digital devices, software, connectivity, and technology-mediated exposures or behaviors. |
 | time | Time use, time pressure, and changes that recover or protect discretionary time. |
 | work-design | Work organization, workspace, scheduling, and job-related conditions affecting quality of life. |
 
@@ -23,16 +28,45 @@ No Deprecated categories.
 ## Active QoL Items
 | ID | Statement | Kind | Categories | Evidence Strength | Applicability | Support mode | References |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| [QOL-001](../items/QOL-001.md) | Maintain sufficient sleep duration | Intervention | sleep, preventive-health | High | General | Direct | [REF-001](references.md#ref-001) |
+| [QOL-002](../items/QOL-002.md) | Evaluate possible sleep apnea when signs are present | Assessment | sleep, preventive-health | High | Conditional | Direct | [REF-003](references.md#ref-003) |
+| [QOL-003](../items/QOL-003.md) | Use CBT-I for chronic insomnia when indicated | Intervention | sleep, mental-health | High | Conditional | Direct | [REF-004](references.md#ref-004) |
+| [QOL-004](../items/QOL-004.md) | Test caffeine timing when sleep may be affected | Intervention | sleep, circadian, substances | Moderate | Conditional | Direct | [REF-005](references.md#ref-005) |
+| [QOL-005](../items/QOL-005.md) | Increase useful daytime light exposure | Intervention | sleep, circadian, environment | High | General | Inferred | [REF-002](references.md#ref-002) |
+| [QOL-006](../items/QOL-006.md) | Reduce bright light late at night when circadian delay is a concern | Intervention | sleep, circadian, environment, technology | High | Conditional | Direct | [REF-002](references.md#ref-002) |
 | [QOL-007](../items/QOL-007.md) | Reduce meaningful nighttime environmental noise | Intervention | sleep, environment | High | Conditional | Direct | [REF-006](references.md#ref-006), [REF-052](references.md#ref-052) |
+| [QOL-008](../items/QOL-008.md) | Do not assume white or pink noise improves sleep; test conditionally | Guardrail | sleep, environment | Moderate | Conditional | Direct | [REF-052](references.md#ref-052) |
 | [QOL-009](../items/QOL-009.md) | Improve thermal comfort during sleep | Intervention | sleep, environment | Low | Conditional | Inferred | [REF-072](references.md#ref-072) |
 | [QOL-010](../items/QOL-010.md) | Use blackout or a sleep mask when bedroom light is disruptive | Intervention | sleep, environment, circadian | Moderate | Conditional | Inferred | [REF-007](references.md#ref-007) |
 | [QOL-011](../items/QOL-011.md) | Consider weighted blankets only for relevant sleep/anxiety contexts | Intervention | sleep, mental-health | Low | Conditional | Inferred | [REF-058](references.md#ref-058) |
+| [QOL-012](../items/QOL-012.md) | Trial reduced or blocked mobile internet on smartphones | Intervention | attention, technology, mental-health | Moderate | General | Direct | [REF-008](references.md#ref-008) |
+| [QOL-013](../items/QOL-013.md) | Disable nonessential notifications | Intervention | attention, technology, work-design | Moderate | General | Direct | [REF-009](references.md#ref-009) |
+| [QOL-014](../items/QOL-014.md) | Remove nonessential badges, banners, and vibrations | Intervention | attention, technology | Moderate | General | Inferred | [REF-009](references.md#ref-009) |
+| [QOL-015](../items/QOL-015.md) | Move discretionary social-media use to less interruptive devices | Intervention | attention, technology, mental-health | Moderate | Conditional | Inferred | [REF-008](references.md#ref-008) |
+| [QOL-016](../items/QOL-016.md) | Reduce work-app intrusion into off-hours when feasible | Intervention | technology, work-design, mental-health, time | Moderate | Conditional | Direct | [REF-011](references.md#ref-011) |
+| [QOL-017](../items/QOL-017.md) | Create periods of monotasking | Intervention | attention, work-design, mental-health | Moderate | General | Inferred | [REF-010](references.md#ref-010) |
+| [QOL-018](../items/QOL-018.md) | Batch asynchronous communication when immediate response is unnecessary | Intervention | attention, technology, work-design | Moderate | Conditional | Inferred | [REF-009](references.md#ref-009), [REF-010](references.md#ref-010) |
+| [QOL-019](../items/QOL-019.md) | Keep the phone physically out of reach during focus activities | Intervention | attention, technology, friction-reduction | Moderate | Conditional | Inferred | [REF-008](references.md#ref-008), [REF-009](references.md#ref-009) |
+| [QOL-020](../items/QOL-020.md) | Treat generic social-media detox claims cautiously | Guardrail | technology, mental-health, attention | Moderate | General | Direct | [REF-071](references.md#ref-071) |
+| [QOL-021](../items/QOL-021.md) | Spend money to buy back unwanted time when worthwhile | Intervention | time, financial-wellbeing, mental-health | Moderate | Conditional | Direct | [REF-012](references.md#ref-012) |
 | [QOL-022](../items/QOL-022.md) | Outsource cleaning when it meaningfully saves unwanted time | Intervention | time, friction-reduction, environment | Moderate | Conditional | Inferred | [REF-012](references.md#ref-012) |
 | [QOL-023](../items/QOL-023.md) | Use grocery delivery when it meaningfully saves unwanted time | Intervention | time, friction-reduction, nutrition | Moderate | Conditional | Inferred | [REF-012](references.md#ref-012) |
 | [QOL-024](../items/QOL-024.md) | Outsource laundry/ironing when it meaningfully saves unwanted time | Intervention | time, friction-reduction | Moderate | Conditional | Inferred | [REF-012](references.md#ref-012) |
 | [QOL-025](../items/QOL-025.md) | Use prepared meals or meal services when they meaningfully save unwanted time | Intervention | time, friction-reduction, nutrition | Moderate | Conditional | Inferred | [REF-012](references.md#ref-012) |
 | [QOL-026](../items/QOL-026.md) | Outsource recurring maintenance when it meaningfully saves unwanted time | Intervention | time, friction-reduction, environment | Moderate | Conditional | Inferred | [REF-012](references.md#ref-012) |
+| [QOL-027](../items/QOL-027.md) | Pay for faster transport selectively when time savings justify it | Intervention | time, financial-wellbeing, work-design | Moderate | Conditional | Inferred | [REF-012](references.md#ref-012) |
+| [QOL-028](../items/QOL-028.md) | Automate recurring bills and administrative chores | Intervention | time, friction-reduction, financial-wellbeing | Moderate | Conditional | Inferred | [REF-012](references.md#ref-012) |
+| [QOL-029](../items/QOL-029.md) | Use hybrid work when role and circumstances support it | Intervention | work-design, time, mental-health | Moderate | Conditional | Direct | [REF-013](references.md#ref-013) |
+| [QOL-030](../items/QOL-030.md) | Quantify the annual time cost of commuting | Assessment | time, work-design, financial-wellbeing | Moderate | Conditional | Inferred | [REF-012](references.md#ref-012), [REF-013](references.md#ref-013) |
+| [QOL-031](../items/QOL-031.md) | Consider living closer to recurring destinations when commute dominates life | Intervention | time, work-design, environment, financial-wellbeing | Moderate | Conditional | Inferred | [REF-012](references.md#ref-012), [REF-013](references.md#ref-013) |
+| [QOL-032](../items/QOL-032.md) | Protect meeting-free or interruption-free focus blocks | Intervention | attention, work-design, time | Moderate | Conditional | Inferred | [REF-009](references.md#ref-009), [REF-010](references.md#ref-010) |
+| [QOL-033](../items/QOL-033.md) | Add regular walking | Intervention | physical-activity, preventive-health, mental-health | High | General | Direct | [REF-014](references.md#ref-014), [REF-015](references.md#ref-015), [REF-016](references.md#ref-016) |
 | [QOL-034](../items/QOL-034.md) | Walk outdoors when feasible | Intervention | physical-activity, environment, mental-health, circadian | Moderate | General | Inferred | [REF-002](references.md#ref-002), [REF-014](references.md#ref-014) |
+| [QOL-035](../items/QOL-035.md) | Treat sub-guideline amounts of physical activity as useful, not worthless | Guardrail | physical-activity, preventive-health | High | General | Direct | [REF-014](references.md#ref-014), [REF-015](references.md#ref-015) |
+| [QOL-036](../items/QOL-036.md) | Perform resistance training at least twice weekly when able | Intervention | physical-activity, strength, preventive-health | High | General | Direct | [REF-015](references.md#ref-015), [REF-016](references.md#ref-016) |
+| [QOL-037](../items/QOL-037.md) | Break up long periods of sitting | Intervention | physical-activity, sedentary-behavior, work-design | High | General | Inferred | [REF-015](references.md#ref-015) |
+| [QOL-038](../items/QOL-038.md) | Treat recurrent neck pain rather than normalizing it | Intervention | pain, physical-activity, work-design | Moderate | Conditional | Direct | [REF-017](references.md#ref-017) |
+| [QOL-039](../items/QOL-039.md) | Combine ergonomics with movement or exercise rather than relying only on gadgets | Intervention | pain, work-design, physical-activity | Moderate | Conditional | Direct | [REF-018](references.md#ref-018) |
 | [QOL-040](../items/QOL-040.md) | Consider sit-stand workstations conditionally | Intervention | sedentary-behavior, work-design, physical-activity | Moderate | Conditional | Direct | [REF-019](references.md#ref-019) |
 | [QOL-041](../items/QOL-041.md) | Use massage as a conditional adjunct for relevant musculoskeletal pain | Intervention | pain, physical-activity | Moderate | Conditional | Inferred | [REF-020](references.md#ref-020) |
 | [QOL-046](../items/QOL-046.md) | Use source control/exhaust ventilation while cooking | Intervention | indoor-air, environment, preventive-health | High | Conditional | Direct | [REF-021](references.md#ref-021) |
