@@ -16,7 +16,12 @@
 No Deprecated categories.
 
 ## Active QoL Items
-No Active QoL items.
+| ID | Statement | Kind | Categories | Evidence Strength | Applicability | Support mode | References |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [QOL-007](../items/QOL-007.md) | Reduce meaningful nighttime environmental noise | Intervention | sleep, environment | High | Conditional | Direct | [REF-006](references.md#ref-006), [REF-052](references.md#ref-052) |
+| [QOL-010](../items/QOL-010.md) | Use blackout or a sleep mask when bedroom light is disruptive | Intervention | sleep, environment, circadian | Moderate | Conditional | Inferred | [REF-007](references.md#ref-007) |
+| [QOL-022](../items/QOL-022.md) | Outsource cleaning when it meaningfully saves unwanted time | Intervention | time, friction-reduction, environment | Moderate | Conditional | Inferred | [REF-012](references.md#ref-012) |
+| [QOL-025](../items/QOL-025.md) | Use prepared meals or meal services when they meaningfully save unwanted time | Intervention | time, friction-reduction, nutrition | Moderate | Conditional | Inferred | [REF-012](references.md#ref-012) |
 
 ## Deprecated QoL Items
 No Deprecated QoL items.
