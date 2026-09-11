@@ -8,13 +8,13 @@ REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
 
 
 class FinalQolMigrationTests(unittest.TestCase):
-    def test_all_original_seed_qol_items_are_canonical(self):
+    def test_all_current_qol_items_are_canonical(self):
         snapshot = records.load_repository(REPOSITORY_ROOT)
         canonical_ids = {
             record.front_matter["id"]
             for record in snapshot.items
         }
-        expected_ids = {f"QOL-{number:03d}" for number in range(1, 101)}
+        expected_ids = {f"QOL-{number:03d}" for number in range(1, 119)}
 
         self.assertTrue(
             expected_ids.issubset(canonical_ids),
