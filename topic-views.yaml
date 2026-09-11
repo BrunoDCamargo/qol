@@ -1,0 +1,190 @@
+topics:
+  attention-digital.md:
+    - QOL-012
+    - QOL-013
+    - QOL-014
+    - QOL-015
+    - QOL-016
+    - QOL-017
+    - QOL-018
+    - QOL-019
+    - QOL-020
+    - QOL-032
+    - QOL-075
+    - QOL-090
+
+  environment.md:
+    - QOL-007
+    - QOL-008
+    - QOL-009
+    - QOL-010
+    - QOL-042
+    - QOL-043
+    - QOL-044
+    - QOL-045
+    - QOL-046
+    - QOL-047
+    - QOL-048
+    - QOL-083
+    - QOL-084
+    - QOL-098
+    - QOL-099
+
+  health-checks.md:
+    - QOL-002
+    - QOL-038
+    - QOL-049
+    - QOL-050
+    - QOL-051
+    - QOL-070
+    - QOL-071
+    - QOL-072
+    - QOL-073
+    - QOL-074
+    - QOL-075
+    - QOL-076
+    - QOL-077
+    - QOL-078
+    - QOL-079
+    - QOL-093
+    - QOL-094
+    - QOL-095
+    - QOL-096
+    - QOL-097
+    - QOL-108
+    - QOL-109
+    - QOL-110
+    - QOL-111
+    - QOL-112
+    - QOL-113
+    - QOL-114
+    - QOL-115
+    - QOL-116
+    - QOL-118
+
+  mental-health.md:
+    - QOL-017
+    - QOL-021
+    - QOL-059
+    - QOL-060
+    - QOL-061
+    - QOL-062
+    - QOL-063
+    - QOL-064
+    - QOL-065
+    - QOL-077
+    - QOL-078
+    - QOL-079
+    - QOL-080
+    - QOL-081
+    - QOL-082
+    - QOL-085
+    - QOL-092
+
+  nutrition-weight.md:
+    - QOL-004
+    - QOL-052
+    - QOL-053
+    - QOL-054
+    - QOL-055
+    - QOL-056
+    - QOL-057
+    - QOL-058
+    - QOL-066
+    - QOL-067
+    - QOL-068
+    - QOL-095
+    - QOL-101
+    - QOL-102
+    - QOL-103
+    - QOL-104
+    - QOL-105
+    - QOL-106
+    - QOL-107
+
+  physical-activity.md:
+    - QOL-033
+    - QOL-034
+    - QOL-035
+    - QOL-036
+    - QOL-037
+    - QOL-038
+    - QOL-039
+    - QOL-040
+    - QOL-041
+    - QOL-076
+    - QOL-089
+    - QOL-090
+    - QOL-091
+    - QOL-108
+    - QOL-113
+    - QOL-118
+
+  reproductive-health.md:
+    - QOL-079
+    - QOL-108
+    - QOL-109
+    - QOL-110
+    - QOL-111
+    - QOL-112
+
+  sleep.md:
+    - QOL-001
+    - QOL-002
+    - QOL-003
+    - QOL-004
+    - QOL-005
+    - QOL-006
+    - QOL-007
+    - QOL-008
+    - QOL-009
+    - QOL-010
+    - QOL-011
+    - QOL-042
+    - QOL-043
+    - QOL-044
+    - QOL-045
+    - QOL-069
+    - QOL-070
+    - QOL-071
+    - QOL-072
+    - QOL-073
+    - QOL-074
+    - QOL-094
+
+  social-relationships.md:
+    - QOL-062
+    - QOL-063
+    - QOL-064
+    - QOL-065
+    - QOL-078
+    - QOL-079
+    - QOL-085
+    - QOL-086
+
+  work-time.md:
+    - QOL-021
+    - QOL-022
+    - QOL-023
+    - QOL-024
+    - QOL-025
+    - QOL-026
+    - QOL-027
+    - QOL-028
+    - QOL-029
+    - QOL-030
+    - QOL-031
+    - QOL-032
+    - QOL-080
+    - QOL-081
+    - QOL-082
+    - QOL-083
+    - QOL-084
+    - QOL-085
+    - QOL-086
+    - QOL-087
+    - QOL-088
+    - QOL-089
+    - QOL-090
+    - QOL-100
+    - QOL-117

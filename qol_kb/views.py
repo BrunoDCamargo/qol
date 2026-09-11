@@ -3,6 +3,8 @@ from pathlib import Path
 import re
 import sys
 
+import yaml
+
 from .records import Category, Record, RepositorySnapshot, load_repository
 
 
@@ -228,25 +230,34 @@ def render_references_pointer(_: RepositorySnapshot) -> str:
     )
 
 
-def _topic_item_ids(source: str) -> tuple[str, ...]:
-    lines = source.splitlines()
+def load_topic_selections(root: str | Path) -> dict[str, tuple[str, ...]]:
+    path = Path(root) / "topic-views.yaml"
     try:
-        start = lines.index("## Map") + 1
-    except ValueError as error:
-        raise ValueError("topic view is missing a '## Map' section") from error
+        raw = yaml.safe_load(path.read_text(encoding="utf-8"))
+    except yaml.YAMLError as error:
+        raise ValueError(f"{path}: invalid YAML: {error}") from error
 
-    end = next(
-        (index for index in range(start, len(lines)) if lines[index].startswith("## ")),
-        len(lines),
-    )
-    identities = []
-    for line in lines[start:end]:
-        match = re.match(r"\| \[(QOL-[0-9]{3,})\]", line)
-        if match and match.group(1) not in identities:
-            identities.append(match.group(1))
-    if not identities:
-        raise ValueError("topic view Map must select at least one QOL identity")
-    return tuple(identities)
+    topics = raw.get("topics") if isinstance(raw, dict) else None
+    if not isinstance(topics, dict) or not topics:
+        raise ValueError(f"{path}: topics must be a non-empty mapping")
+
+    selections: dict[str, tuple[str, ...]] = {}
+    for name, raw_identities in topics.items():
+        if not isinstance(name, str) or Path(name).name != name or not name.endswith(".md"):
+            raise ValueError(f"{path}: invalid topic filename {name!r}")
+        if not isinstance(raw_identities, list) or not raw_identities:
+            raise ValueError(f"{path}: {name} must select at least one QoL Item")
+        identities = tuple(raw_identities)
+        if any(
+            not isinstance(identity, str)
+            or re.fullmatch(r"QOL-[0-9]{3,}", identity) is None
+            for identity in identities
+        ):
+            raise ValueError(f"{path}: {name} contains an invalid QoL Item identity")
+        if len(set(identities)) != len(identities):
+            raise ValueError(f"{path}: {name} contains duplicate QoL Item identities")
+        selections[name] = identities
+    return selections
 
 
 def _topic_map(snapshot: RepositorySnapshot, identities: tuple[str, ...]) -> list[str]:
@@ -280,10 +291,12 @@ def _topic_map(snapshot: RepositorySnapshot, identities: tuple[str, ...]) -> lis
     )
 
 
-def render_topic_view(source: str, snapshot: RepositorySnapshot) -> str:
-    identities = _topic_item_ids(source)
+def render_topic_view(source: str, snapshot: RepositorySnapshot, identities: tuple[str, ...]) -> str:
     lines = source.splitlines()
-    map_heading = lines.index("## Map")
+    try:
+        map_heading = lines.index("## Map")
+    except ValueError as error:
+        raise ValueError("topic view is missing a '## Map' section") from error
     map_end = next(
         (index for index in range(map_heading + 1, len(lines)) if lines[index].startswith("## ")),
         len(lines),
@@ -328,11 +341,27 @@ def generate_views(root: str | Path) -> dict[Path, bytes]:
     }
     topics_path = root_path / "topics"
     if topics_path.is_dir():
-        for topic_path in sorted(topics_path.glob("*.md")):
+        selections = load_topic_selections(root_path)
+        topic_paths = {
+            topic_path.name: topic_path
+            for topic_path in sorted(topics_path.glob("*.md"))
+        }
+        if set(selections) != set(topic_paths):
+            missing_selections = sorted(set(topic_paths) - set(selections))
+            missing_topics = sorted(set(selections) - set(topic_paths))
+            details = []
+            if missing_selections:
+                details.append(f"missing selections for {', '.join(missing_selections)}")
+            if missing_topics:
+                details.append(f"missing topic files for {', '.join(missing_topics)}")
+            raise ValueError("topic view selection mismatch: " + "; ".join(details))
+        for topic_name, identities in selections.items():
+            topic_path = topic_paths[topic_name]
             relative_path = topic_path.relative_to(root_path)
             generated[relative_path] = render_topic_view(
                 topic_path.read_text(encoding="utf-8"),
                 snapshot,
+                identities,
             ).encode("utf-8")
     return generated
 
