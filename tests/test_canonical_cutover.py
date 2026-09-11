@@ -86,11 +86,12 @@ class CanonicalCutoverTests(unittest.TestCase):
         self.assertIn("[QOL-014](../items/QOL-014.md)", rendered)
         self.assertNotIn("[QOL-999](../items/QOL-999.md)", rendered)
 
-    def test_topic_views_do_not_link_retired_registry_paths(self):
+    def test_topic_views_do_not_reference_retired_registry_authority(self):
         for topic_path in sorted((REPOSITORY_ROOT / "topics").glob("*.md")):
             source = topic_path.read_text(encoding="utf-8")
             self.assertNotIn("../catalog.md", source, topic_path.name)
             self.assertNotIn("../references.md", source, topic_path.name)
+            self.assertNotIn("ID in `catalog.md`", source, topic_path.name)
 
     def test_topic_views_reject_reintroduced_legacy_registry_links(self):
         snapshot = records.load_repository(REPOSITORY_ROOT)
