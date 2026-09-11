@@ -11,3 +11,15 @@ categories:
   circadian:
     definition: Timing and regularity of sleep, wakefulness, and other circadian exposures.
     status: Active
+  sleep:
+    definition: Sleep duration, quality, continuity, conditions, and sleep-related functioning.
+    status: Active
+  time:
+    definition: Time use, time pressure, and changes that recover or protect discretionary time.
+    status: Active
+  friction-reduction:
+    definition: Practical changes that reduce recurring effort, inconvenience, or administrative burden.
+    status: Active
+  nutrition:
+    definition: Food access, dietary patterns, meal choices, and nutrition-related exposures.
+    status: Active
