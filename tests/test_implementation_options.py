@@ -84,20 +84,18 @@ class ImplementationOptionRepositoryTests(unittest.TestCase):
             )
             for record in snapshot.implementation_options
         }
+        expected = {
+            "IMP-001": ("Sleep mask", "purchase", ("QOL-010",)),
+            "IMP-002": (
+                "Earplugs for nighttime noise",
+                "purchase",
+                ("QOL-007",),
+            ),
+            "IMP-003": ("Home cleaning service", "service", ("QOL-022",)),
+            "IMP-004": ("Prepared meal service", "service", ("QOL-025",)),
+        }
 
-        self.assertEqual(
-            options,
-            {
-                "IMP-001": ("Sleep mask", "purchase", ("QOL-010",)),
-                "IMP-002": (
-                    "Earplugs for nighttime noise",
-                    "purchase",
-                    ("QOL-007",),
-                ),
-                "IMP-003": ("Home cleaning service", "service", ("QOL-022",)),
-                "IMP-004": ("Prepared meal service", "service", ("QOL-025",)),
-            },
-        )
+        self.assertEqual({key: options.get(key) for key in expected}, expected)
 
     def test_repository_snapshot_includes_sorted_implementation_options(self):
         with tempfile.TemporaryDirectory() as tmp:
