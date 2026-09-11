@@ -8,18 +8,24 @@
 | environment | Physical environmental conditions and exposures affecting quality of life. |
 | financial-wellbeing | Financial security, spending trade-offs, affordability, and money-related stress or well-being. |
 | friction-reduction | Practical changes that reduce recurring effort, inconvenience, or administrative burden. |
+| hearing | Hearing function, hearing-related symptoms, communication, and rehabilitation needs. |
+| hydration | Fluid intake, dehydration risk, and beverage choices related to adequate hydration. |
 | indoor-air | Indoor air pollutants, ventilation, filtration, and related environmental exposures. |
 | mental-health | Psychological and emotional well-being, symptoms, and functioning. |
 | nutrition | Food access, dietary patterns, meal choices, and nutrition-related exposures. |
+| oral-health | Oral and dental health, pain, function, and related quality-of-life effects. |
 | pain | Pain, musculoskeletal discomfort, and interventions affecting pain-related function. |
 | physical-activity | Interventions and exposures involving bodily movement or exercise. |
 | preventive-health | Preventive actions, risk reduction, screening, and health-maintenance interventions. |
 | sedentary-behavior | Prolonged sitting or reclining and interventions intended to reduce sedentary exposure. |
 | sleep | Sleep duration, quality, continuity, conditions, and sleep-related functioning. |
+| social | Social connection, participation, isolation, and interpersonal contact relevant to well-being. |
 | strength | Muscle-strengthening activity, physical strength, and related functional capacity. |
 | substances | Caffeine, alcohol, nicotine, and other substance exposures relevant to quality of life. |
 | technology | Digital devices, software, connectivity, and technology-mediated exposures or behaviors. |
 | time | Time use, time pressure, and changes that recover or protect discretionary time. |
+| vision | Visual function, vision symptoms, and interventions or assessments affecting everyday seeing. |
+| weight | Body-weight-related health, weight management, and dietary or behavioral determinants. |
 | work-design | Work organization, workspace, scheduling, and job-related conditions affecting quality of life. |
 
 ## Deprecated Categories
@@ -69,8 +75,26 @@ No Deprecated categories.
 | [QOL-039](../items/QOL-039.md) | Combine ergonomics with movement or exercise rather than relying only on gadgets | Intervention | pain, work-design, physical-activity | Moderate | Conditional | Direct | [REF-018](references.md#ref-018) |
 | [QOL-040](../items/QOL-040.md) | Consider sit-stand workstations conditionally | Intervention | sedentary-behavior, work-design, physical-activity | Moderate | Conditional | Direct | [REF-019](references.md#ref-019) |
 | [QOL-041](../items/QOL-041.md) | Use massage as a conditional adjunct for relevant musculoskeletal pain | Intervention | pain, physical-activity | Moderate | Conditional | Inferred | [REF-020](references.md#ref-020) |
+| [QOL-043](../items/QOL-043.md) | Make the bedroom sufficiently dark for sleep | Intervention | sleep, environment, circadian | Low | Conditional | Inferred | [REF-007](references.md#ref-007) |
 | [QOL-046](../items/QOL-046.md) | Use source control/exhaust ventilation while cooking | Intervention | indoor-air, environment, preventive-health | High | Conditional | Direct | [REF-021](references.md#ref-021) |
 | [QOL-047](../items/QOL-047.md) | Use HEPA filtration when particulate exposure or another indication justifies it | Intervention | indoor-air, environment, preventive-health | High | Conditional | Direct | [REF-022](references.md#ref-022) |
+| [QOL-048](../items/QOL-048.md) | Avoid treating consumer CO2 sensing as a guaranteed cognitive-performance hack | Guardrail | indoor-air, environment, attention | Moderate | General | Direct | [REF-053](references.md#ref-053) |
+| [QOL-049](../items/QOL-049.md) | Correct meaningful refractive error and reassess vision when symptomatic | Intervention | vision, preventive-health, attention | Moderate | Conditional | Direct | [REF-023](references.md#ref-023) |
+| [QOL-050](../items/QOL-050.md) | Treat oral-health problems rather than normalizing pain or dysfunction | Intervention | oral-health, preventive-health, pain | High | Conditional | Direct | [REF-024](references.md#ref-024) |
+| [QOL-051](../items/QOL-051.md) | Evaluate hearing when functional difficulty is present | Assessment | hearing, preventive-health, social | High | Conditional | Direct | [REF-025](references.md#ref-025) |
+| [QOL-052](../items/QOL-052.md) | Reduce reliance on ultraprocessed foods | Intervention | nutrition, weight, preventive-health | Moderate | General | Direct | [REF-026](references.md#ref-026), [REF-068](references.md#ref-068) |
+| [QOL-053](../items/QOL-053.md) | Design the food environment so preferred choices are easy defaults | Intervention | nutrition, weight, friction-reduction | Moderate | General | Inferred | [REF-026](references.md#ref-026), [REF-068](references.md#ref-068) |
+| [QOL-054](../items/QOL-054.md) | Use water or unsweetened drinks as default hydration | Intervention | hydration, nutrition, weight | High | General | Direct | [REF-068](references.md#ref-068), [REF-069](references.md#ref-069) |
+| [QOL-055](../items/QOL-055.md) | Maintain adequate hydration when intake is insufficient | Intervention | hydration, preventive-health | High | Conditional | Direct | [REF-069](references.md#ref-069) |
+| [QOL-057](../items/QOL-057.md) | Trial lower alcohol exposure when alcohol may affect sleep, mood, or health | Intervention | substances, sleep, preventive-health, mental-health | High | Conditional | Inferred | [REF-027](references.md#ref-027) |
+| [QOL-058](../items/QOL-058.md) | Stop nicotine or tobacco use when applicable | Intervention | substances, preventive-health | High | Conditional | Direct | [REF-028](references.md#ref-028) |
+| [QOL-059](../items/QOL-059.md) | Use evidence-based psychological treatment for clinically significant anxiety | Intervention | mental-health, preventive-health | High | Conditional | Direct | [REF-029](references.md#ref-029) |
+| [QOL-060](../items/QOL-060.md) | Address persistent rumination when it consumes attention or recovery | Intervention | mental-health, attention, work-design | Low | Conditional | Inferred | [REF-029](references.md#ref-029), [REF-043](references.md#ref-043) |
 
 ## Deprecated QoL Items
-No Deprecated QoL items.
+| ID | Statement | Deprecation reason | Replaced by |
+| --- | --- | --- | --- |
+| [QOL-042](../items/QOL-042.md) | Reduce bedroom noise when it disrupts sleep | Duplicate of QOL-007; both identities represent reducing meaningful nighttime environmental noise when it disrupts sleep. | [QOL-007](../items/QOL-007.md) |
+| [QOL-044](../items/QOL-044.md) | Get adequate light during the day | Duplicate of QOL-005; both identities represent increasing useful daytime light exposure for circadian timing. | [QOL-005](../items/QOL-005.md) |
+| [QOL-045](../items/QOL-045.md) | Keep the bedroom thermally comfortable | Duplicate of QOL-009; both identities represent improving thermal comfort during sleep. | [QOL-009](../items/QOL-009.md) |
+| [QOL-056](../items/QOL-056.md) | Adjust caffeine timing before assuming total abstinence is necessary | Duplicate of QOL-004; both identities represent adjusting caffeine timing when sleep may be affected. | [QOL-004](../items/QOL-004.md) |
