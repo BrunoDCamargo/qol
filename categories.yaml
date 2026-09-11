@@ -86,3 +86,6 @@ categories:
   sexual-health:
     definition: Sexual health, sexual well-being, and related quality-of-life assessment or care.
     status: Active
+  behavior-change:
+    definition: Behavioral strategies, self-monitoring, habit supports, and structured behavior change affecting quality of life.
+    status: Active
