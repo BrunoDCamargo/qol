@@ -5,8 +5,12 @@
 | --- | --- |
 | circadian | Timing and regularity of sleep, wakefulness, and other circadian exposures. |
 | environment | Physical environmental conditions and exposures affecting quality of life. |
+| friction-reduction | Practical changes that reduce recurring effort, inconvenience, or administrative burden. |
 | mental-health | Psychological and emotional well-being, symptoms, and functioning. |
+| nutrition | Food access, dietary patterns, meal choices, and nutrition-related exposures. |
 | physical-activity | Interventions and exposures involving bodily movement or exercise. |
+| sleep | Sleep duration, quality, continuity, conditions, and sleep-related functioning. |
+| time | Time use, time pressure, and changes that recover or protect discretionary time. |
 
 ## Deprecated Categories
 No Deprecated categories.
