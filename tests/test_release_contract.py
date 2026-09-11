@@ -1,5 +1,8 @@
 from pathlib import Path
+import re
 import unittest
+
+from qol_kb import records, views
 
 
 REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
@@ -77,6 +80,42 @@ class ReleaseContractTests(unittest.TestCase):
 
     def test_transition_era_specs_and_plans_are_not_current_docs(self):
         self.assertFalse((REPOSITORY_ROOT / "docs" / "superpowers").exists())
+
+    def test_every_emitted_qol_and_ref_identity_resolves(self):
+        snapshot = records.load_repository(REPOSITORY_ROOT)
+        canonical_qol = {record.front_matter["id"] for record in snapshot.items}
+        canonical_ref = {record.front_matter["id"] for record in snapshot.references}
+        rendered = "\n".join(
+            content.decode("utf-8")
+            for content in views.generate_views(REPOSITORY_ROOT).values()
+        )
+        emitted_qol = set(re.findall(r"\bQOL-[0-9]{3,}\b", rendered))
+        emitted_ref = set(re.findall(r"\bREF-[0-9]{3,}\b", rendered))
+
+        self.assertFalse(emitted_qol - canonical_qol)
+        self.assertFalse(emitted_ref - canonical_ref)
+        for identity in emitted_qol:
+            self.assertTrue((REPOSITORY_ROOT / "items" / f"{identity}.md").is_file())
+        for identity in emitted_ref:
+            self.assertTrue(
+                (REPOSITORY_ROOT / "references" / f"{identity}.md").is_file()
+            )
+
+    def test_ci_is_the_final_release_gate_without_transition_repair(self):
+        workflow = (
+            REPOSITORY_ROOT / ".github" / "workflows" / "tests.yml"
+        ).read_text(encoding="utf-8")
+
+        self.assertIn("name: Release gate", workflow)
+        self.assertIn("name: Canonical repository release gate", workflow)
+        self.assertIn(
+            'python -c "from qol_kb.records import validate_repository; validate_repository(\'.\')"',
+            workflow,
+        )
+        self.assertIn("python -m qol_kb.views --check", workflow)
+        self.assertIn("python -m unittest discover -s tests", workflow)
+        self.assertNotIn("if ! python -m qol_kb.views --check", workflow)
+        self.assertNotIn("git diff -- catalog.md references.md", workflow)
 
 
 if __name__ == "__main__":
