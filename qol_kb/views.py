@@ -17,7 +17,7 @@ _TOPIC_METADATA_PREFIXES = (
     "**Status:**",
 )
 _LEGACY_TOPIC_LINK_PATTERN = re.compile(
-    r"\.\./(?:catalog\.md(?:#[^)\s]+)?|references\.md#ref-[0-9]{3,})",
+    r"\[(?:QOL|REF)-[0-9]{3,}\]\(\.\./(?:catalog\.md(?:#[^)]+)?|references\.md#ref-[0-9]{3,})\)",
     flags=re.IGNORECASE,
 )
 
