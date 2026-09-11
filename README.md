@@ -123,7 +123,8 @@ items/                   Canonical structured QoL Items
 references/              Canonical structured evidence records
 implementation-options/  Canonical concrete implementation options
 categories.yaml          Category registry
-topics/                  Editorial topic views with generated canonical maps
+topic-views.yaml         Editorial topic membership selections
+topics/                  Editorial prose with generated canonical maps
 generated/               Derived catalog, reference, and implementation views
 schemas/                 Structured-data schemas
 qol_kb/                  Generation and validation code
@@ -139,7 +140,7 @@ The migration from the original monolithic `catalog.md` and `references.md` regi
 
 QoL Item metadata is edited in `items/`, reference metadata in `references/`, Implementation Options in `implementation-options/`, and category definitions in `categories.yaml`. The complete catalog and reference indexes are derived under `generated/`.
 
-Topic pages remain editorial documents. Their prose and choice of which `QOL-*` identities belong in a topic are maintained in `topics/`, while the `## Map` table is rebuilt from canonical records. The displayed statement, kind, categories, Evidence Strength, applicability, Support Mode, lifecycle status, and reference links are therefore derived rather than independently maintained.
+Topic pages preserve editorial prose. Topic membership is selected separately in `topic-views.yaml`, while each topic's entire `## Map` table is rebuilt from canonical records. The displayed IDs, statements, kinds, categories, Evidence Strength, applicability, Support Mode, lifecycle status, and reference links are therefore generated rather than independently maintained. Legacy catalog/reference links in topic prose are normalized by the same generator.
 
 ## Generated views
 
@@ -147,16 +148,17 @@ The generator owns:
 
 - `catalog.md` and `references.md` compatibility pointers;
 - files under `generated/`;
-- canonical metadata inside each topic page's `## Map` table and canonical record links in topic prose.
+- the complete `## Map` block in each topic page;
+- normalization of legacy canonical links in topic prose.
 
-After changing canonical structured sources or topic composition:
+After changing canonical structured sources, `topic-views.yaml`, or editorial topic prose:
 
 ```powershell
 python -m qol_kb.views
 python -m qol_kb.views --check
 ```
 
-`--check` compares the expected bytes with committed output. CI rejects drift in generated indexes, compatibility pointers, and Topic View metadata. Editorial prose remains editable because the generator preserves it.
+`--check` compares the expected bytes with committed output. CI rejects drift in generated indexes, compatibility pointers, and Topic View metadata. Editorial prose remains editable because the generator preserves it outside the generated map and link normalization rules.
 
 ## Adding or revising knowledge
 
@@ -168,8 +170,8 @@ python -m qol_kb.views --check
 4. Apply all useful registered category tags.
 5. Set applicability and Support Mode conservatively.
 6. Add explicit Support and Constraint Claims as needed and link reusable `REF-*` records.
-7. Add the identity to relevant topic `## Map` selections when that improves discovery; the generator will populate the canonical row metadata.
-8. Run the view generator rather than editing generated metadata by hand.
+7. Add the identity to relevant selections in `topic-views.yaml` when that improves discovery.
+8. Run the view generator; do not edit topic `## Map` rows or other generated metadata by hand.
 9. Keep claims no broader than their sources support.
 
 ### Add an Implementation Option
