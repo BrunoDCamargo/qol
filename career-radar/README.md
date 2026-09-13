@@ -11,11 +11,13 @@ Structured evidence registries:
 - [`organizations.yaml`](organizations.yaml): verified organizations and evidence;
 - [`sources.yaml`](sources.yaml): recurring opportunity and discovery sources.
 
-The YAML registry is broader than this README. This page is the decision-oriented view and orders targets by career relevance.
+The YAML registry is broader than this README. This page is the decision-oriented view and groups targets by career relevance.
 
-## Priority 1: Curitiba and RMC with own R&D
+## Primary targets
 
-These are the primary targets. They combine local viability with sustained research, PD&I, product development, engineering development, clinical research or scientific activity.
+Local Curitiba/RMC work and remote work available from Brazil have **equal priority**. What matters is the quality and durability of the R&D environment.
+
+### Curitiba and RMC
 
 | Organization | Area | Work mode | Opportunities |
 |---|---|---|---|
@@ -58,15 +60,9 @@ These are the primary targets. They combine local viability with sustained resea
 
 The complete local registry, including universities, research institutes and additional industrial organizations, remains in [`organizations.yaml`](organizations.yaml).
 
-## Priority 2: Paraná opportunities practical from Curitiba
+### Remote from Brazil
 
-This lane covers organizations outside Curitiba/RMC only when the work arrangement is realistically compatible with continuing to live in Curitiba. Geographic proximity alone is not enough.
-
-No additional targets are promoted in this lane yet. It is a search priority for future research passes.
-
-## Priority 3: Brazilian organizations with remote R&D careers
-
-These organizations are based in Brazil, maintain their own research or R&D activity and have current evidence that work can be performed remotely from Brazil.
+These organizations maintain their own research or R&D activity and have current evidence that professionals can work remotely while living in Brazil.
 
 | Organization | Base | Area | Opportunities |
 |---|---|---|---|
@@ -77,14 +73,18 @@ These organizations are based in Brazil, maintain their own research or R&D acti
 | Instituto Atlântico | Fortaleza, CE | ICT / R&D | [Trabalhe Conosco](https://www.atlantico.com.br/trabalhe-conosco/) |
 | Kunumi | Belo Horizonte, MG | AI research | [Vagas](https://job-boards.greenhouse.io/kunumi) |
 | Blip | Belo Horizonte, MG | applied AI research | [Vagas](https://job-boards.greenhouse.io/blip-global) |
-
-## Priority 4: international organizations with remote-Brazil R&D careers
-
-International organizations enter this lane only when they maintain a real internal R&D environment and currently offer sustained remote work to professionals located in Brazil.
-
-| Organization | Base | Area | Opportunities |
-|---|---|---|---|
+| FIT Instituto de Tecnologia | Sorocaba / Jaguariúna / Manaus | ICT / P&D / applied AI | [Carreiras](https://www.fit-tecnologia.org.br/carreiras) |
+| Radix | Rio de Janeiro, RJ | engineering / software / PD&I | [Pessoas e carreiras](https://radixeng.com.br/pessoas-e-carreiras) |
+| BairesDev | international / Latin America | software / internal R&D / data & ML | [Remote jobs](https://talent.bairesdev.com/) |
 | AE Studio | Los Angeles, CA, USA | applied AI / AI safety research | [Vagas](https://job-boards.greenhouse.io/aestudio) |
+
+An international headquarters does not reduce priority when the organization has a sustained internal R&D environment and a current recurring career path open to professionals in Brazil.
+
+## Additional Paraná possibilities
+
+Organizations elsewhere in Paraná can qualify when the work arrangement is realistically compatible with continuing to live in Curitiba. Geographic proximity alone is not enough.
+
+No additional targets are promoted in this lane yet. It remains a search lane for future research passes.
 
 ## Secondary track: research-intensive service organizations
 
@@ -132,17 +132,15 @@ Candidates stay here until R&D relevance, viability from Curitiba and a recurrin
 - **De Cosméticos:** formula research and development in São José dos Pinhais is established, but a stable recurring careers channel still needs verification.
 - **Fortrea:** clinical-development relevance and recurring careers are established, but current Brazil-specific remote eligibility still needs stronger evidence.
 - **Worldwide Clinical Trials:** Brazil CRO activity and a recurring careers route are established, but current remote-Brazil eligibility still needs direct evidence.
+- **Fundação CERTI:** strong PD&I and recurring careers are established, but the current institutional model is described as hybrid/flexible in Florianópolis; Curitiba viability still needs direct evidence.
 
 ## Maintenance rule
 
-Research new candidates in this order:
+Research new candidates with equal emphasis on:
 
-1. Curitiba/RMC organizations with own R&D;
-2. Paraná organizations practical from Curitiba;
-3. Brazilian organizations with current remote R&D careers;
-4. international organizations with current remote-Brazil research employment;
-5. discovery platforms and general opportunity sources.
+1. Curitiba/RMC organizations with sustained R&D careers;
+2. organizations anywhere in Brazil or abroad with sustained R&D careers that are currently remote from Brazil.
 
-Research-intensive service organizations remain a secondary track throughout this sequence.
+Then investigate Paraná arrangements that are realistically compatible with Curitiba and maintain research-intensive service organizations as a secondary track.
 
 Do not promote a candidate because of one vacancy. Preserve evidence in `docs/research/`, then promote only when the organization satisfies the focus defined in [`FOCUS.md`](FOCUS.md).
