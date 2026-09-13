@@ -122,3 +122,99 @@
     note: O complexo de Curitiba inclui engenharia, pesquisa e desenvolvimento e campo de provas para produtos do grupo na América Latina.
   careers_url: https://www.volvogroup.com/br/careers.html
   last_checked: 2026-09-13
+
+- id: embrapa-florestas
+  name: Embrapa Florestas
+  organization_type: research-institute
+  location:
+    city: Colombo
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.embrapa.br/florestas/infraestrutura
+    note: A unidade em Colombo mantém laboratórios, rede experimental e projetos subordinados à Chefia de Pesquisa e Desenvolvimento.
+  jobs_url: https://www.embrapa.br/pt/estagios-e-concursos
+  last_checked: 2026-09-13
+
+- id: simepar
+  name: Sistema de Tecnologia e Monitoramento Ambiental do Paraná (Simepar)
+  organization_type: nonprofit
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+    - hybrid
+  rd_evidence:
+    url: https://www.simepar.br/simepar/page/13
+    note: A missão institucional inclui promover pesquisa científica e desenvolvimento tecnológico em ciências atmosféricas e ambientais.
+  jobs_url: https://www.simepar.br/simepar/timeline/noticias
+  tags:
+    - third-sector
+  last_checked: 2026-09-13
+
+- id: cnh-curitiba
+  name: CNH
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://media.cnh.com/latin-america-portuguese/cnh/cnh-industrial-eleita-novamente-uma-das-10-empresas-mais-inovadoras-do-brasil/s/aed5e57c-b0cb-4880-9e0b-4227010a3e57
+    note: A companhia identifica Curitiba entre seus centros de Pesquisa e Desenvolvimento na América Latina.
+  careers_url: https://join.cnh.com/
+  last_checked: 2026-09-13
+
+- id: venturus
+  name: Venturus
+  organization_type: ict
+  location:
+    city: Campinas
+    state: SP
+    country: Brasil
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://www.venturus.org.br/venturus/sobre
+    note: O Venturus se define como centro de tecnologia, pesquisa, desenvolvimento e inovação e mantém linhas e laboratórios de pesquisa aplicada.
+  careers_url: https://www.venturus.org.br/venturus/carreira
+  last_checked: 2026-09-13
+
+- id: cesar
+  name: CESAR
+  organization_type: nonprofit
+  location:
+    city: Recife
+    state: PE
+    country: Brasil
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://www.cesar.org.br/quem-somos
+    note: O CESAR se define como centro de pesquisa e desenvolvimento e conduz projetos de PD&I e pesquisa aplicada.
+  careers_url: https://www.cesar.org.br/trabalhe-com-a-gente
+  tags:
+    - embrapii
+    - third-sector
+  last_checked: 2026-09-13
+
+- id: instituto-eldorado
+  name: Instituto de Pesquisas ELDORADO
+  organization_type: ict
+  location:
+    city: Campinas
+    state: SP
+    country: Brasil
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://eldorado.org.br/carreiras/
+    note: O instituto se apresenta como referência nacional em pesquisa, desenvolvimento e inovação em tecnologia.
+  careers_url: https://eldorado.org.br/carreiras/
+  last_checked: 2026-09-13
