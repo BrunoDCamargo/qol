@@ -1,1 +1,124 @@
-[]
+- id: lactec
+  name: Lactec
+  organization_type: ict
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+    - hybrid
+  rd_evidence:
+    url: https://lactec.com.br/solucoes/pdi/
+    note: Mantém área institucional de Pesquisa, Desenvolvimento e Inovação e informa mais de 400 projetos de P&D realizados.
+  careers_url: https://lactec.com.br/trabalhe-conosco/
+  tags:
+    - embrapii
+  last_checked: 2026-09-13
+
+- id: tecpar
+  name: Instituto de Tecnologia do Paraná (Tecpar)
+  organization_type: research-institute
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.tecpar.br/Pagina/Pesquisa-e-Desenvolvimento
+    note: O instituto mantém uma área institucional de Pesquisa e Desenvolvimento com projetos tecnológicos em andamento.
+  careers_url: https://www.tecpar.br/Pagina/Trabalhe-Conosco
+  last_checked: 2026-09-13
+
+- id: ufpr
+  name: Universidade Federal do Paraná (UFPR)
+  organization_type: university
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://ufpr.br/prpi/a-pro-reitoria-de-pesquisa-e-inovacao/
+    note: A Pró-Reitoria de Pesquisa e Inovação coordena pesquisa, inovação e propriedade intelectual na universidade.
+  jobs_url: https://progepe.ufpr.br/concursos/
+  last_checked: 2026-09-13
+
+- id: utfpr
+  name: Universidade Tecnológica Federal do Paraná (UTFPR)
+  organization_type: university
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.utfpr.edu.br/pesquisa-e-pos-graduacao
+    note: A UTFPR mantém pesquisa científica e tecnológica voltada ao desenvolvimento de tecnologias, produtos, processos e conhecimento.
+  jobs_url: https://www.utfpr.edu.br/concursos
+  last_checked: 2026-09-13
+
+- id: pucpr
+  name: Pontifícia Universidade Católica do Paraná (PUCPR)
+  organization_type: university
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.pucpr.br/pesquisa
+    note: A universidade mantém estrutura de pesquisa, grupos, áreas estratégicas, iniciação científica, stricto sensu e editais de pesquisa.
+  careers_url: https://grupomarista.org.br/carreiras/
+  last_checked: 2026-09-13
+
+- id: fiocruz-parana-icc
+  name: Instituto Carlos Chagas (Fiocruz Paraná)
+  organization_type: research-institute
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.icc.fiocruz.br/sobre-o-instituto/
+    note: Unidade técnico-científica da Fiocruz no Paraná dedicada a pesquisa básica e aplicada, desenvolvimento tecnológico e inovação.
+  jobs_url: https://posgraduacao.icc.fiocruz.br/editais/
+  last_checked: 2026-09-13
+
+- id: senai-isi-eletroquimica
+  name: Instituto SENAI de Inovação em Eletroquímica
+  organization_type: ict
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://embrapii.org.br/unidades/eletroquimica-industrial-senai-isi-eletroquimica/
+    note: Unidade EMBRAPII em Curitiba que atua em pesquisa aplicada, desenvolvimento de produtos, processos e protótipos em eletroquímica industrial.
+  careers_url: https://app.jobconvo.com/pt-br/careers/sistema-fiep/35ad6a0f-51a9-4b5f-b1fe-154124819dfd/
+  tags:
+    - embrapii
+  last_checked: 2026-09-13
+
+- id: volvo-group-curitiba
+  name: Grupo Volvo
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.volvogroup.com/br/news-and-media/news/2025/dezembro/volvo-celebra-a-producao-de-500-mil-veiculos-no-brasil.html
+    note: O complexo de Curitiba inclui engenharia, pesquisa e desenvolvimento e campo de provas para produtos do grupo na América Latina.
+  careers_url: https://www.volvogroup.com/br/careers.html
+  last_checked: 2026-09-13
