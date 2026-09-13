@@ -38,6 +38,11 @@ Structured sources of truth:
 | Novonesis | company / biotech | onsite | [Research & Development](https://www.novonesis.com/pt/careers/areas-of-work/research-and-development) | [Vagas](https://www.novonesis.com/pt/careers/jobs) |
 | ERT Bioplastics | company / deeptech | onsite | [Origem e tecnologia](https://ertbio.com/sobre/) | [Trabalhe Conosco](https://ertbio.com/trabalhe-conosco/) |
 | LG Electronics | company / product development | onsite | [Núcleo de P&D no Paraná](https://www.lg.com/br/sobre-a-lg/press-media/lg-inaugura-fabrica-de-geladeiras-no-parana/) | [Trabalhe Conosco](https://www.lg.com/br/sobre-a-lg/trabalhe-conosco/) |
+| Herbarium | company / pharma | onsite | [PD&I e Programa Herbarium de Inovação](https://herbarium.com.br/parceria-para-inovacao/) | [Trabalhe Conosco](https://herbarium.com.br/trabalheconosco/) |
+| Instituto de Desenvolvimento Rural do Paraná (IDR-Paraná) | research institute / public sector | onsite | [Pesquisa, Desenvolvimento e Inovação](https://www.idrparana.pr.gov.br/Pagina/Pesquisa-Desenvolvimento-e-Inovacao-no-IDR-Parana) | [Bolsa Técnica](https://www.idrparana.pr.gov.br/Pagina/Bolsa-Tecnica) |
+| Copel | company / energy | onsite | [Programa de P&D+i](https://www.copel.com/site/institucional/programa-de-pesquisa-e-desenvolvimento/) | [Carreira](https://www.copel.com/site/institucional/carreira/) |
+| Sanepar | company / sanitation | onsite | [Pesquisa e Desenvolvimento](https://www.sanepar.com.br/pesquisa-desenvolvimento) | [Concursos](https://www.sanepar.com.br/concursos) |
+| Lightera | company / optical communications | onsite | [Pesquisa e Desenvolvimento](https://lightera.com/pt-br/inovacao/) | [Pessoas e Carreiras](https://lightera.com/pt-br/pessoas-e-carreiras/) |
 
 ## Remote in Brazil
 
@@ -71,3 +76,8 @@ Candidates stay here until R&D relevance, viability from Curitiba, and a recurri
 - Microcapsules Tech: strong biotech/deeptech R&D evidence and current P&D hiring in Curitiba are confirmed, but a stable recurring careers/jobs page still needs verification before promotion to `organizations.yaml`.
 - Neodent: Curitiba headquarters and a strong product innovation/research ecosystem are confirmed, but a stable first-party careers route and explicit institutional P&D framing still need verification.
 - BEAUTYCOLOR Company: Pinhais presence and a recurring Trabalhe Conosco channel are confirmed, but current P&D-role evidence is not yet available from a sufficiently strong first-party source.
+- Pumatronix: strong own R&D evidence and a technology laboratory in Curitiba are confirmed, but a stable recurring institutional careers/jobs channel still needs verification.
+- Instituto Atlântico: strong R&D and a recurring careers portal are confirmed, but remote-Brazil eligibility for someone living in Curitiba still needs explicit evidence.
+- Arteche: global R&D&I capability and recurring careers are confirmed, but current first-party evidence does not establish Curitiba as one of its R&D centers.
+- Valmet: Araucária presence and company-wide continuous R&D are confirmed, but a current first-party source tying R&D work specifically to the local operation is still missing.
+- Perkons: Pinhais headquarters, technology development and a recurring contact/careers route are confirmed, but explicit institutional R&D framing is still weaker than the accepted threshold.
