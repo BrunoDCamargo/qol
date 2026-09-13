@@ -49,6 +49,9 @@ Structured sources of truth:
 | Siderquímica | company / chemicals | onsite | [Setor de P&D](https://siderquimica.com.br/) | [Trabalhe Conosco](https://siderquimica.com.br/trabalhe-conosco/) |
 | Solabia Group / Laborclin | company / biotech & diagnostics | onsite | [R&D e unidade Curitiba](https://www.solabia.com/our-know-how/) | [Carreiras](https://www.solabia.com/careers/) |
 | Instron Brasil / EMIC | company / test & measurement | onsite | [P&D e desenvolvimento EMIC](https://www.instron.com/es-ar/-/media/literature-library/products/2018/01/2300-series-brazil-brochure.pdf) | [Carreiras](https://careers.itw.com/us/en/instron) |
+| Biogénesis Bagó | company / biotech & animal health | onsite | [Hub de P&D em Campo Largo](https://www.biogenesisbago.com/br/noticia/266/) | [Trabalhe Conosco](https://www.biogenesisbago.com/br/) |
+| Isogama | company / chemicals | onsite | [Pesquisa & Desenvolvimento](https://isogama.com/nosso-compromisso/) | [Trabalhe Conosco](https://isogama.com/trabalhe-conosco/) |
+| Bioma | company / biotech & agtech | onsite | [Pesquisa e desenvolvimento](https://bioma.ind.br/institucional/) | [Trabalhe Conosco](https://app.jobconvo.com/pt-br/careers/bioma/ffac8404-2e08-4d51-9ed7-4b1b58e1eb7f/) |
 
 ## Remote in Brazil
 
