@@ -1330,3 +1330,66 @@
     - cro
     - life-sciences
   last_checked: 2026-09-13
+
+- id: fit-instituto-tecnologia
+  name: FIT Instituto de Tecnologia
+  organization_type: ict
+  location:
+    city: Sorocaba
+    state: SP
+    country: Brasil
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://www.fit-tecnologia.org.br/wp/o-instituto/
+    note: ICT sem fins lucrativos com Pesquisa e Desenvolvimento como área formal de negócio, mais de 500 profissionais e centros de excelência em IA aplicada, conectividade, automação, sistemas e prototipagem; a carreira institucional oferece vagas presenciais, híbridas e remotas e trabalho de onde estiver.
+  careers_url: https://www.fit-tecnologia.org.br/carreiras
+  tags:
+    - software
+    - hardware
+    - automation
+    - artificial-intelligence
+    - research
+  last_checked: 2026-09-13
+
+- id: radix
+  name: Radix
+  organization_type: company
+  location:
+    city: Rio de Janeiro
+    state: RJ
+    country: Brasil
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://radixeng.com.br/a-radix/inovacao
+    note: A empresa mantém time dedicado de Pesquisa, Desenvolvimento e Inovação, linhas de pesquisa e projetos técnico-científicos; o modelo Radix Everywhere é remote first e permite atuação de profissionais distribuídos por todo o Brasil.
+  careers_url: https://radixeng.com.br/pessoas-e-carreiras
+  tags:
+    - engineering
+    - software
+    - industrial-technology
+    - energy
+    - research
+  last_checked: 2026-09-13
+
+- id: bairesdev
+  name: BairesDev
+  organization_type: company
+  location:
+    city: San Francisco
+    state: CA
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://talent.bairesdev.com/pt/vagas/cientista-de-dados-senior-remote
+    note: A empresa mantém equipe interna de Pesquisa e Desenvolvimento com trabalho em análise de dados, machine learning e desenvolvimento de software, além de portal recorrente de vagas 100% remotas; a própria empresa informa presença profissional ampla no Brasil e modelo remote first.
+  careers_url: https://talent.bairesdev.com/
+  tags:
+    - software
+    - artificial-intelligence
+    - machine-learning
+    - data-science
+    - research
+  last_checked: 2026-09-13
