@@ -325,3 +325,40 @@
     - biotech
     - agtech
   last_checked: 2026-09-13
+
+- id: grupo-boticario
+  name: Grupo Boticário
+  organization_type: company
+  location:
+    city: São José dos Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.grupoboticario.com.br/midia/grupo-boticario-inaugura-novo-centro-de-pesquisa-inovacao-e-desenvolvimento/
+    note: Mantém Centro de Pesquisa, Inovação e Desenvolvimento em São José dos Pinhais, com laboratórios, pesquisadores e desenvolvimento de ingredientes, materiais, embalagens e produtos.
+  careers_url: https://grupoboticario.gupy.io/
+  tags:
+    - cosmetics
+    - research
+  last_checked: 2026-09-13
+
+- id: positivo-tecnologia
+  name: Positivo Tecnologia
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+    - hybrid
+  rd_evidence:
+    url: https://www.positivotecnologia.com.br/positivo-tecnologia-inaugura-positivo-labs-centro-de-excelencia-em-inteligencia-artificial-para-acelerar-a-inovacao-no-brasil/
+    note: O Positivo Labs em Curitiba reúne infraestrutura para projetos de Pesquisa e Desenvolvimento em IA, hardware, nuvem, cibersegurança, grandes modelos de linguagem e agentes inteligentes.
+  careers_url: https://positivotecnologia.gupy.io/
+  tags:
+    - artificial-intelligence
+    - hardware
+  last_checked: 2026-09-13
