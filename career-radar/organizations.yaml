@@ -1103,3 +1103,230 @@
     - engineering
     - research
   last_checked: 2026-09-13
+
+- id: neodent
+  name: Neodent
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://careers.straumann.com/global/en
+    note: A Neodent integra o Straumann Group, que pesquisa, desenvolve e fabrica soluções odontológicas; a operação brasileira mantém pesquisa científica, evidência clínica e programas de incentivo à pesquisa em Curitiba.
+  careers_url: https://careers.straumann.com/global/en
+  tags:
+    - medical-devices
+    - dentistry
+    - clinical-research
+  last_checked: 2026-09-13
+
+- id: beautycolor-company
+  name: BEAUTYCOLOR Company
+  organization_type: company
+  location:
+    city: Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://beautycolorcompany.vagas.solides.com.br/vaga/890893
+    note: A operação de Pinhais mantém atividades explícitas de Pesquisa e Desenvolvimento em cosméticos, com vaga institucional atual de estágio em P&D e estrutura própria de laboratório e pesquisa.
+  careers_url: https://beautycolorcompany.vagas.solides.com.br/
+  tags:
+    - cosmetics
+    - chemicals
+    - product-development
+  last_checked: 2026-09-13
+
+- id: perkons
+  name: Perkons
+  organization_type: company
+  location:
+    city: Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.perkons.com/estudos-e-pesquisas/
+    note: A empresa desenvolve tecnologia própria para trânsito e mobilidade e mantém uma área institucional de estudos e pesquisas aplicada a segurança viária e sistemas inteligentes de transporte.
+  careers_url: https://perkons.portaldetalentos.senior.com.br/about
+  tags:
+    - transportation
+    - intelligent-transportation-systems
+    - engineering
+  last_checked: 2026-09-13
+
+- id: ateei
+  name: ATEEI
+  organization_type: company
+  location:
+    city: Campo Largo
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://ateei.com.br/
+    note: A empresa oferece explicitamente Pesquisa e Desenvolvimento, desenvolvimento de produtos, engenharia, prototipagem e integração de produtos em Campo Largo.
+  careers_url: https://ateei.com.br/trabalhe-conosco
+  tags:
+    - engineering
+    - electronics
+    - product-development
+  last_checked: 2026-09-13
+
+- id: instituto-atlantico
+  name: Instituto Atlântico
+  organization_type: ict
+  location:
+    city: Fortaleza
+    state: CE
+    country: Brasil
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://www.atlantico.com.br/sobre/
+    note: ICT dedicada a pesquisa, desenvolvimento e inovação em tecnologia, com programas formais de P&D e oportunidades recentes divulgadas pela própria organização em modalidade remota.
+  careers_url: https://www.atlantico.com.br/trabalhe-conosco/
+  tags:
+    - software
+    - artificial-intelligence
+    - research
+  last_checked: 2026-09-13
+
+- id: kunumi
+  name: Kunumi
+  organization_type: company
+  location:
+    city: Belo Horizonte
+    state: MG
+    country: Brasil
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://www.kunumi.com/br/carreiras
+    note: A empresa conduz pesquisa de ponta em inteligência artificial e mantém funções atuais de Research Engineer e ciência de dados com esforços explícitos de P&D e trabalho remoto no Brasil.
+  careers_url: https://job-boards.greenhouse.io/kunumi
+  tags:
+    - artificial-intelligence
+    - machine-learning
+    - research
+  last_checked: 2026-09-13
+
+- id: vector-trading
+  name: Vector Trading
+  organization_type: company
+  location:
+    city: São Paulo
+    state: SP
+    country: Brasil
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://vectortrading.com/
+    note: A empresa mantém equipe de pesquisa quantitativa dedicada a dados de mercado, estratégias de negociação, risco e geração de receita, com oportunidades atuais de Quant Researcher em modalidade remota no Brasil.
+  careers_url: https://vector-trading.breezy.hr/
+  tags:
+    - quantitative-research
+    - finance
+    - data-science
+  last_checked: 2026-09-13
+
+- id: edetek
+  name: EDETEK
+  organization_type: company
+  location:
+    city: Princeton
+    state: NJ
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://edetek.com/
+    note: Empresa de tecnologia para pesquisa clínica que desenvolve plataformas e serviços de clinical development, incluindo R&D Cloud, com oportunidades atuais remotas abertas para Brasil e América do Sul.
+  careers_url: https://edetek.com/careers/
+  tags:
+    - clinical-research
+    - life-sciences
+    - software
+  last_checked: 2026-09-13
+
+- id: turing
+  name: Turing
+  organization_type: company
+  location:
+    city: San Francisco
+    state: CA
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://www.turing.com/research
+    note: A empresa trabalha com laboratórios de IA de fronteira em datasets, ambientes de reinforcement learning e benchmarks de pesquisa, e mantém funções de Research Engineer explicitamente remotas em todo o Brasil.
+  careers_url: https://job-boards.greenhouse.io/turing
+  tags:
+    - artificial-intelligence
+    - frontier-ai
+    - research
+  last_checked: 2026-09-13
+
+- id: blip
+  name: Blip
+  organization_type: company
+  location:
+    city: Belo Horizonte
+    state: MG
+    country: Brasil
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://job-boards.greenhouse.io/blip-global/jobs/4324655009
+    note: A Diretoria de Inteligência Artificial mantém pesquisa aplicada em modelos de linguagem, incluindo criação, fine-tuning e destilação de modelos, com funções atuais explicitamente remotas no Brasil.
+  careers_url: https://job-boards.greenhouse.io/blip-global
+  tags:
+    - artificial-intelligence
+    - applied-research
+    - machine-learning
+  last_checked: 2026-09-13
+
+- id: ae-studio
+  name: AE Studio
+  organization_type: company
+  location:
+    city: Los Angeles
+    state: CA
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://job-boards.greenhouse.io/aestudio/jobs/4011417004
+    note: Empresa de IA aplicada que financia e executa pesquisa em AI safety/alignment; mantém vaga atual de Applied AI Data Scientist aberta como Brazil remote e área recorrente de Data Science & Research.
+  careers_url: https://job-boards.greenhouse.io/aestudio
+  tags:
+    - artificial-intelligence
+    - ai-safety
+    - research
+  last_checked: 2026-09-13
+
+- id: icon-plc
+  name: ICON plc
+  organization_type: company
+  location:
+    city: Dublin
+    country: Ireland
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://careers.iconplc.com/jobs-in-brazil
+    note: Organização global de pesquisa clínica e desenvolvimento que mantém no Brasil funções de clinical operations, monitoring e trial management atualmente marcadas como Remote ou Remote or Office.
+  careers_url: https://careers.iconplc.com/jobs-in-brazil
+  tags:
+    - clinical-research
+    - cro
+    - life-sciences
+  last_checked: 2026-09-13
