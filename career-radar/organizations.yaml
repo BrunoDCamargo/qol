@@ -362,3 +362,22 @@
     - artificial-intelligence
     - hardware
   last_checked: 2026-09-13
+
+- id: ilapeo
+  name: Faculdade ILAPEO
+  organization_type: research-institute
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.ilapeo.com.br/institucional/comite-interno-de-pesquisa-ilapeo/
+    note: Mantém Comitê Interno de Pesquisa, programas de mestrado e doutorado profissional e projetos de pesquisa científica e desenvolvimento de novas técnicas e produtos em odontologia.
+  careers_url: https://www.ilapeo.com.br/trabalhe-conosco/
+  tags:
+    - health
+    - dentistry
+    - academic-research
+  last_checked: 2026-09-13
