@@ -28,6 +28,8 @@ Structured sources of truth:
 | ST-One | startup / deeptech | onsite / hybrid | [Pesquisa e Desenvolvimento](https://www.st-one.io/a-st-one/sobre-nos/) | [Carreiras](https://www.st-one.io/a-st-one/carreiras/) |
 | Centro Internacional de Tecnologia de Software (CITS) | ICT | onsite | [Pesquisa e Desenvolvimento](https://www.cits.br/pesquisa-e-desenvolvimento/) | [Trabalhe Conosco](https://www.cits.br/trabalhe-conosco/) |
 | BIOTROP Soluções Biológicas | biotech / agtech | onsite | [Pesquisa e Desenvolvimento](https://biotrop.com.br/quem-somos/) | [Carreiras](https://biotropbr.gupy.io/) |
+| Grupo Boticário | company / research | onsite | [Centro de Pesquisa, Inovação e Desenvolvimento](https://www.grupoboticario.com.br/midia/grupo-boticario-inaugura-novo-centro-de-pesquisa-inovacao-e-desenvolvimento/) | [Carreiras](https://grupoboticario.gupy.io/) |
+| Positivo Tecnologia | company / AI & hardware | onsite / hybrid | [Positivo Labs](https://www.positivotecnologia.com.br/positivo-tecnologia-inaugura-positivo-labs-centro-de-excelencia-em-inteligencia-artificial-para-acelerar-a-inovacao-no-brasil/) | [Carreiras](https://positivotecnologia.gupy.io/) |
 
 ## Remote in Brazil
 
