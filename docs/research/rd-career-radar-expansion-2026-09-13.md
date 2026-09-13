@@ -4,9 +4,9 @@
 
 This research pass expanded the R&D Career Radar across organization sizes and sectors while preserving the inclusion rule: public evidence of meaningful R&D activity, viability for someone living in Curitiba, and a recurring institutional opportunity channel.
 
-Twenty-two organizations were promoted during these expansion passes: Renault Group / Renault do Brasil, HORSE Powertrain Brasil, Mondelēz International, Electrolux Group, Novonesis, ERT Bioplastics, LG Electronics, Herbarium, IDR-Paraná, Copel, Sanepar, Lightera, Bosch Curitiba, Valmet, Arteche, SiDi, Siderquímica, Solabia Group / Laborclin, Instron Brasil / EMIC, Biogénesis Bagó, Isogama, and Bioma.
+Twenty-six organizations were promoted during these expansion passes: Renault Group / Renault do Brasil, HORSE Powertrain Brasil, Mondelēz International, Electrolux Group, Novonesis, ERT Bioplastics, LG Electronics, Herbarium, IDR-Paraná, Copel, Sanepar, Lightera, Bosch Curitiba, Valmet, Arteche, SiDi, Siderquímica, Solabia Group / Laborclin, Instron Brasil / EMIC, Biogénesis Bagó, Isogama, Bioma, Brose Curitiba, NHS Sistemas de Energia, Hospital INC, and KUHN Brasil.
 
-Acceptance decisions use primary sources. Candidates remain in `To investigate` whenever R&D relevance, geographic viability, or the recurring opportunity channel is not sufficiently established.
+Acceptance decisions use primary sources. Candidates remain in `To investigate` whenever R&D relevance, geographic viability, or the recurring institutional opportunity channel is not sufficiently established.
 
 ## Findings
 
@@ -47,6 +47,13 @@ Acceptance decisions use primary sources. Candidates remain in `To investigate` 
 - **Isogama — Accept.** Isogama explicitly describes itself as an industry consolidated in Pesquisa & Desenvolvimento, lists its Paraná unit in São José dos Pinhais, and maintains a recurring `Trabalhe Conosco` form for future opportunities. [Isogama compromisso](https://isogama.com/nosso-compromisso/) [Isogama carreiras](https://isogama.com/trabalhe-conosco/)
 - **Bioma — Accept.** Bioma's institutional page says its microbiological and fertilizer solutions are based on research, continuous development and innovation, with its operation in Fazenda Rio Grande. Its official JobConvo portal is recurring and currently includes an `Assistente de Laboratório P&D` opening in Fazenda Rio Grande. [Bioma institucional](https://bioma.ind.br/institucional/) [Bioma careers](https://app.jobconvo.com/pt-br/careers/bioma/ffac8404-2e08-4d51-9ed7-4b1b58e1eb7f/)
 
+### Pass 6: automotive suppliers, electronics, clinical research, and agricultural machinery
+
+- **Brose Curitiba — Accept.** Brose describes research and product development as part of its mechatronic automotive business, maintains an operation in São José dos Pinhais, and has a recurring careers portal with Research & Development among its job categories. [Brose company](https://www.brose.com/de-en/company/) [Brose careers](https://www.brose.com/us-en/careers/jobs-at-brose/)
+- **NHS Sistemas de Energia — Accept.** The Curitiba manufacturer of UPS systems, inverters and energy solutions states that it has its own research and development team for creating and evolving products and technologies. It maintains a recurring careers page with Curitiba opportunities. [NHS](https://nhs.com.br/a-nhs/) [NHS careers](https://nhs.com.br/trabalhe-conosco/)
+- **Hospital INC — Accept.** The Instituto de Neurologia de Curitiba maintains research and clinical-investigation programs in neurology and neurosurgery and has participated in dozens of clinical studies through its Curitiba research structure. It maintains a recurring jobs portal. [INC research programs](https://site.inc-neuro.com.br/pt/programas-desenvolvidos) [INC careers](https://ats.abler.com.br/jobs/hospitalinc)
+- **KUHN Brasil — Accept.** KUHN states that the group has eleven R&D centers, including in Brazil, invests about EUR 50 million per year in research and development, and works across engineering, electronics, prototypes, tests and IoT. It maintains a unit and recurring careers in São José dos Pinhais. [KUHN R&D opportunities](https://www.kuhnbrasil.com.br/sobre-kuhn/junte-se-familia-kuhn/uma-variedade-de-oportunidades-na-kuhn) [KUHN careers](https://www.kuhnbrasil.com.br/trabalhe-na-kuhn)
+
 ## Gaps and caveats
 
 - **CPQD:** strong R&D evidence and recurring careers, but current public evidence still does not establish remote-Brazil eligibility strongly enough for someone living in Curitiba. [CPQD](https://www.cpqd.com.br/sobre-o-cpqd/)
@@ -60,6 +67,7 @@ Acceptance decisions use primary sources. Candidates remain in `To investigate` 
 - **Perkons:** Pinhais headquarters and technology development are established, but explicit institutional R&D framing remains weaker than the accepted threshold.
 - **ATEEI:** Campo Largo presence and explicit product research/development services are established, but a stable recurring institutional careers channel still needs verification. [ATEEI](https://ateei.com.br/)
 - **De Cosméticos:** São José dos Pinhais presence and a long-running formula research/development operation are established, but a stable recurring careers channel was not verified. [De Cosméticos](https://decosmeticos.com.br/)
+- **Nutrimental:** recurring careers and São José dos Pinhais headquarters are established; historical institutional material describes food-technology R&D, but a stronger current primary source is still preferred before acceptance. [Nutrimental Careers](https://nutrimental.com.br/jobs/)
 
 ## Sources
 
