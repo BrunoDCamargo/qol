@@ -56,6 +56,8 @@ Structured sources of truth:
 | NHS Sistemas de Energia | company / electronics | onsite | [Equipe própria de P&D](https://nhs.com.br/a-nhs/) | [Trabalhe Conosco](https://nhs.com.br/trabalhe-conosco/) |
 | Hospital INC - Instituto de Neurologia de Curitiba | clinical research / health | onsite | [Programas de Pesquisa e Investigação](https://site.inc-neuro.com.br/pt/programas-desenvolvidos) | [Trabalhe Conosco](https://ats.abler.com.br/jobs/hospitalinc) |
 | KUHN Brasil | company / agricultural machinery | onsite | [Atividades de P&D](https://www.kuhnbrasil.com.br/sobre-kuhn/junte-se-familia-kuhn/uma-variedade-de-oportunidades-na-kuhn) | [Trabalhe na KUHN](https://www.kuhnbrasil.com.br/trabalhe-na-kuhn) |
+| Gestamp Paraná | company / automotive | onsite | [R&D & Engineering](https://jobs.gestamp.com/go/BR-R%26D-%26-Engineering/8751101/) | [Carreiras](https://jobs.gestamp.com/?locale=pt_BR) |
+| Dauch Corporation / AAM | company / automotive | onsite | [Research & Development](https://www.aam.com/how-we-do-it/research-development) | [Carreiras](https://careers.aam.com/) |
 
 ## Remote in Brazil
 
@@ -79,6 +81,8 @@ Structured sources of truth:
 | Fundação Araucária - Programas Abertos | research funding | Paraná | [Acessar](https://www.fappr.pr.gov.br/Programas-Abertos) |
 | Vale do Pinhão / Agência Curitiba - Programas | startup ecosystem / mixed opportunities | Curitiba e RMC | [Acessar](https://agenciacuritiba.com.br/programas/) |
 | IEL Paraná - Talento Inovação | PD&I scholarships / mixed opportunities | Paraná | [Acessar](https://www.ielpr.org.br/talento-inovacao/bolsista/) |
+| FUNTEF-PR - Trabalhe Conosco e Bolsas | academic opportunities | Paraná / UTFPR | [Acessar](https://funtefpr.org.br/trabalhe-conosco/) |
+| FUNPAR - Editais de Seleção de Pessoal | academic opportunities | Paraná / UFPR | [Acessar](https://trabalheconosco.funpar.ufpr.br/) |
 
 ## To investigate
 
@@ -92,3 +96,6 @@ Candidates stay here until R&D relevance, viability from Curitiba, and a recurri
 - Pumatronix: strong own R&D evidence and a technology laboratory in Curitiba are confirmed, but a stable recurring institutional careers/jobs channel still needs verification.
 - Instituto Atlântico: strong R&D and a recurring careers portal are confirmed, but remote-Brazil eligibility for someone living in Curitiba still needs explicit evidence.
 - Perkons: Pinhais headquarters, technology development and a recurring contact/careers route are confirmed, but explicit institutional R&D framing is still weaker than the accepted threshold.
+- Nutrimental: current careers and São José dos Pinhais headquarters are confirmed, and institutional material describes food-technology R&D, but the strongest R&D evidence is historical and should be refreshed before promotion.
+- ATEEI: Campo Largo presence and explicit product research/development services are established, but a stable recurring institutional careers channel still needs verification.
+- De Cosméticos: São José dos Pinhais presence and a long-running formula research/development operation are established, but a stable recurring careers channel was not verified.
