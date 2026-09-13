@@ -602,3 +602,79 @@
     - optical-communications
     - hardware
   last_checked: 2026-09-13
+
+- id: bosch-curitiba
+  name: Bosch Curitiba
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.bosch.com.br/carreiras/campos-de-trabalho/
+    note: A Bosch mantém Pesquisa e Desenvolvimento como área formal de carreira e publica funções de engenharia de desenvolvimento de produto na planta de Curitiba.
+  careers_url: https://www.bosch.com.br/carreiras/
+  tags:
+    - automotive
+    - engineering
+    - product-development
+  last_checked: 2026-09-13
+
+- id: valmet-araucaria
+  name: Valmet
+  organization_type: company
+  location:
+    city: Araucária
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.valmet.com/pt/sobre-a-valmet/sobre/pesquisa-e-desenvolvimento/
+    note: A Valmet mantém mais de 500 profissionais de P&D e dezenas de instalações de pesquisa e desenvolvimento, com sede sul-americana em Araucária e oportunidades recorrentes na região.
+  careers_url: https://www.valmet.com/pt/carreira-valmet/
+  tags:
+    - industrial-technology
+    - automation
+    - sustainability
+  last_checked: 2026-09-13
+
+- id: arteche-curitiba
+  name: Arteche
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - hybrid
+  rd_evidence:
+    url: https://careers.arteche.com/
+    note: O grupo mantém sete centros de P&D&I em tecnologias para o setor elétrico e presença profissional recorrente em Curitiba.
+  careers_url: https://careers.arteche.com/
+  tags:
+    - energy
+    - electrical-engineering
+    - industrial-technology
+  last_checked: 2026-09-13
+
+- id: sidi
+  name: SiDi
+  organization_type: ict
+  location:
+    city: Campinas
+    state: SP
+    country: Brasil
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://www.sidi.org.br/pt-br/servicos
+    note: O instituto atua em pesquisa, desenvolvimento e inovação de produtos e soluções tecnológicas, cobrindo pesquisa inicial, prototipagem, desenvolvimento e aplicação.
+  careers_url: https://www.sidi.org.br/pt-br/carreiras
+  tags:
+    - software
+    - artificial-intelligence
+    - research
+  last_checked: 2026-09-13
