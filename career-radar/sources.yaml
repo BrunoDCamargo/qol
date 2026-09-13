@@ -46,3 +46,10 @@
   url: https://www.fappr.pr.gov.br/Programas-Abertos
   scope: Paraná
   last_checked: 2026-09-13
+
+- id: vale-do-pinhao-agencia-curitiba
+  name: Vale do Pinhão / Agência Curitiba - Programas
+  source_type: mixed-opportunities
+  url: https://agenciacuritiba.com.br/programas/
+  scope: Curitiba e RMC
+  last_checked: 2026-09-13
