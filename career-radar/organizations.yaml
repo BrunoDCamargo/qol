@@ -252,3 +252,58 @@
   tags:
     - third-sector
   last_checked: 2026-09-13
+
+- id: hilab
+  name: Hilab
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://hilab.com.br/pesquisa-cientifica/
+    note: A healthtech mantém departamento de P&D em Curitiba, mais de 40 pesquisadores e linhas de pesquisa em biologia molecular, eletroquímica, IA, ciência de dados e sistemas embarcados.
+  careers_url: https://hilab.com.br/carreiras/
+  tags:
+    - healthtech
+    - startup-ecosystem
+  last_checked: 2026-09-13
+
+- id: st-one
+  name: ST-One
+  organization_type: startup
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+    - hybrid
+  rd_evidence:
+    url: https://www.st-one.io/a-st-one/sobre-nos/
+    note: A startup se define como empresa de Pesquisa e Desenvolvimento de novas tecnologias para manufatura, com hardware, ciência de dados e tecnologia industrial próprios.
+  careers_url: https://www.st-one.io/a-st-one/carreiras/
+  tags:
+    - indtech
+    - deeptech
+  last_checked: 2026-09-13
+
+- id: cits
+  name: Centro Internacional de Tecnologia de Software (CITS)
+  organization_type: ict
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.cits.br/pesquisa-e-desenvolvimento/
+    note: ICT privada cuja principal área articuladora e executora é P&D, com projetos em hardware, manufatura digital, mobile/cloud, tecnologias livres e sistemas embarcados.
+  careers_url: https://www.cits.br/trabalhe-conosco/
+  tags:
+    - software
+    - deeptech
+  last_checked: 2026-09-13
