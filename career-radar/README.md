@@ -31,6 +31,13 @@ Structured sources of truth:
 | Grupo Boticário | company / research | onsite | [Centro de Pesquisa, Inovação e Desenvolvimento](https://www.grupoboticario.com.br/midia/grupo-boticario-inaugura-novo-centro-de-pesquisa-inovacao-e-desenvolvimento/) | [Carreiras](https://grupoboticario.gupy.io/) |
 | Positivo Tecnologia | company / AI & hardware | onsite / hybrid | [Positivo Labs](https://www.positivotecnologia.com.br/positivo-tecnologia-inaugura-positivo-labs-centro-de-excelencia-em-inteligencia-artificial-para-acelerar-a-inovacao-no-brasil/) | [Carreiras](https://positivotecnologia.gupy.io/) |
 | Faculdade ILAPEO | research institute / health | onsite | [Comitê Interno de Pesquisa](https://www.ilapeo.com.br/institucional/comite-interno-de-pesquisa-ilapeo/) | [Trabalhe Conosco](https://www.ilapeo.com.br/trabalhe-conosco/) |
+| Renault Group / Renault do Brasil | company / automotive | onsite | [Renault Design Center LatAm](https://media.renaultgroup.com/renault-group-inaugurates-its-brand-new-renault-design-center-latam/) | [Carreiras](https://www.renaultgroup.com/en/careers/) |
+| HORSE Powertrain Brasil | company / automotive | onsite | [Centro de P&D em Curitiba](https://horse-powertrain.com/documents-brazil) | [Carreiras](https://jobs.horse-powertrain.com/pt-BR) |
+| Mondelēz International | company / food | onsite | [Technology Center Curitiba](https://www.mondelezinternational.com/brazil/) | [Carreiras](https://www.mondelezinternational.com/careers/) |
+| Electrolux Group | company / product development | onsite | [R&D e Product Engineering](https://career.electroluxgroup.com/global/en/meet-our-teams) | [Carreiras](https://career.electroluxgroup.com/global/en/) |
+| Novonesis | company / biotech | onsite | [Research & Development](https://www.novonesis.com/pt/careers/areas-of-work/research-and-development) | [Vagas](https://www.novonesis.com/pt/careers/jobs) |
+| ERT Bioplastics | company / deeptech | onsite | [Origem e tecnologia](https://ertbio.com/sobre/) | [Trabalhe Conosco](https://ertbio.com/trabalhe-conosco/) |
+| LG Electronics | company / product development | onsite | [Núcleo de P&D no Paraná](https://www.lg.com/br/sobre-a-lg/press-media/lg-inaugura-fabrica-de-geladeiras-no-parana/) | [Trabalhe Conosco](https://www.lg.com/br/sobre-a-lg/trabalhe-conosco/) |
 
 ## Remote in Brazil
 
@@ -59,7 +66,8 @@ Structured sources of truth:
 Candidates stay here until R&D relevance, viability from Curitiba, and a recurring opportunity page are all verified.
 
 - Bosch Curitiba: the organization has R&D careers and a Curitiba site, but current public evidence tying R&D work specifically to Curitiba is still weak.
-- Renault Geely do Brasil: São José dos Pinhais is confirmed, but a recurring public source explicitly connecting the local complex to R&D roles still needs verification.
 - CPQD: current careers are strongly R&D-oriented, but the currently visible opportunities are hybrid in Campinas; remote-Brazil eligibility needs fresh evidence.
 - Human Robotics: Curitiba presence and a recurring careers channel are confirmed, but the institutional site does not yet state R&D/PD&I activity explicitly enough for the accepted catalog.
 - Microcapsules Tech: strong biotech/deeptech R&D evidence and current P&D hiring in Curitiba are confirmed, but a stable recurring careers/jobs page still needs verification before promotion to `organizations.yaml`.
+- Neodent: Curitiba headquarters and a strong product innovation/research ecosystem are confirmed, but a stable first-party careers route and explicit institutional P&D framing still need verification.
+- BEAUTYCOLOR Company: Pinhais presence and a recurring Trabalhe Conosco channel are confirmed, but current P&D-role evidence is not yet available from a sufficiently strong first-party source.
