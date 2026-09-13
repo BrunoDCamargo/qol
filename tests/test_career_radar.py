@@ -85,6 +85,38 @@ class CareerRadarTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "organization_type"):
             validate_career_radar(root)
 
+    def test_rejects_missing_rd_evidence(self):
+        root = self._write_radar(
+            """
+- id: no-rd-evidence
+  name: No R&D Evidence
+  organization_type: company
+  location: {city: Curitiba, state: PR, country: Brasil}
+  viable_from_curitiba: [onsite]
+  careers_url: https://example.org/careers
+  last_checked: 2026-09-13
+""",
+            "[]\n",
+        )
+        with self.assertRaisesRegex(ValueError, "rd_evidence"):
+            validate_career_radar(root)
+
+    def test_rejects_missing_opportunity_link(self):
+        root = self._write_radar(
+            """
+- id: no-opportunity-link
+  name: No Opportunity Link
+  organization_type: research-institute
+  location: {city: Curitiba, state: PR, country: Brasil}
+  viable_from_curitiba: [onsite]
+  rd_evidence: {url: https://example.org/rd, note: R&D activity.}
+  last_checked: 2026-09-13
+""",
+            "[]\n",
+        )
+        with self.assertRaisesRegex(ValueError, "careers_url or jobs_url"):
+            validate_career_radar(root)
+
     def test_rejects_invalid_source_type(self):
         root = self._write_radar(
             "[]\n",
