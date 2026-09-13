@@ -180,6 +180,9 @@ class CareerRadarTests(unittest.TestCase):
         )
         validate_career_radar(root)
 
+    def test_repository_career_radar_is_valid(self):
+        validate_career_radar(ROOT)
+
 
 if __name__ == "__main__":
     unittest.main()
