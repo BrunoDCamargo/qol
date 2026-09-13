@@ -381,3 +381,130 @@
     - dentistry
     - academic-research
   last_checked: 2026-09-13
+
+- id: renault-group-brasil
+  name: Renault Group / Renault do Brasil
+  organization_type: company
+  location:
+    city: São José dos Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://media.renaultgroup.com/renault-group-inaugurates-its-brand-new-renault-design-center-latam/
+    note: O complexo Ayrton Senna abriga o Renault Design Center LatAm, responsável por desenvolver conceitos e modelos para Brasil e América Latina e contribuir para projetos globais do grupo.
+  careers_url: https://www.renaultgroup.com/en/careers/
+  tags:
+    - automotive
+    - product-development
+  last_checked: 2026-09-13
+
+- id: horse-powertrain-brasil
+  name: HORSE Powertrain Brasil
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://horse-powertrain.com/documents-brazil
+    note: A HORSE identifica oficialmente sua operação de Curitiba como planta e centro de P&D dedicado a tecnologias de powertrain e mobilidade de menor emissão.
+  careers_url: https://jobs.horse-powertrain.com/pt-BR
+  tags:
+    - automotive
+    - powertrain
+  last_checked: 2026-09-13
+
+- id: mondelez-curitiba
+  name: Mondelēz International
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.mondelezinternational.com/brazil/
+    note: A operação brasileira mantém em Curitiba um dos Technology Centers globais da Mondelēz, com atividades de Pesquisa, Desenvolvimento, Qualidade e Inovação para produtos, ingredientes e processos.
+  careers_url: https://www.mondelezinternational.com/careers/
+  tags:
+    - food
+    - consumer-products
+  last_checked: 2026-09-13
+
+- id: electrolux-group-curitiba
+  name: Electrolux Group
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://career.electroluxgroup.com/global/en/meet-our-teams
+    note: A página de carreiras identifica Product Engineering em Curitiba e a companhia publica de forma recorrente vagas locais de Research & Development em desenvolvimento de produto, laboratório, eletrônica e software.
+  careers_url: https://career.electroluxgroup.com/global/en/
+  tags:
+    - appliances
+    - product-development
+  last_checked: 2026-09-13
+
+- id: novonesis-parana
+  name: Novonesis
+  organization_type: company
+  location:
+    city: Araucária
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.novonesis.com/pt/careers/areas-of-work/research-and-development
+    note: A Novonesis define P&D como base de suas biossoluções, com pesquisa aplicada e desenvolvimento de produtos e processos; mantém operações oficialmente listadas em Araucária e Quatro Barras, na RMC.
+  careers_url: https://www.novonesis.com/pt/careers/jobs
+  tags:
+    - biotech
+    - biosolutions
+  last_checked: 2026-09-13
+
+- id: ert-bioplastics
+  name: ERT Bioplastics
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://ertbio.com/sobre/
+    note: A ERT nasceu de pesquisa acadêmica em engenharia de polímeros e desenvolve bioplásticos compostáveis e compostos especializados, com operação industrial em Curitiba.
+  careers_url: https://ertbio.com/trabalhe-conosco/
+  tags:
+    - deeptech
+    - materials
+    - sustainability
+  last_checked: 2026-09-13
+
+- id: lg-electronics-fazenda-rio-grande
+  name: LG Electronics
+  organization_type: company
+  location:
+    city: Fazenda Rio Grande
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.lg.com/br/sobre-a-lg/press-media/lg-inaugura-fabrica-de-geladeiras-no-parana/
+    note: A fábrica inaugurada em Fazenda Rio Grande em agosto de 2026 possui núcleo local de Pesquisa & Desenvolvimento com cerca de 40 profissionais, focado em adaptar produtos e engenharia ao mercado brasileiro.
+  careers_url: https://www.lg.com/br/sobre-a-lg/trabalhe-conosco/
+  tags:
+    - appliances
+    - product-development
+  last_checked: 2026-09-13
