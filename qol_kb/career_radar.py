@@ -30,6 +30,42 @@ SOURCE_TYPES = frozenset(
 )
 WORK_MODES = frozenset({"onsite", "hybrid", "remote-brazil"})
 
+# AMEP: https://www.amep.pr.gov.br/FAQ/Municipios-da-Regiao-Metropolitana-de-Curitiba
+RMC_CITIES = frozenset(
+    name.casefold()
+    for name in {
+        "Curitiba",
+        "Adrianópolis",
+        "Agudos do Sul",
+        "Almirante Tamandaré",
+        "Araucária",
+        "Balsa Nova",
+        "Bocaiúva do Sul",
+        "Campina Grande do Sul",
+        "Campo do Tenente",
+        "Campo Largo",
+        "Campo Magro",
+        "Cerro Azul",
+        "Colombo",
+        "Contenda",
+        "Doutor Ulysses",
+        "Fazenda Rio Grande",
+        "Itaperuçu",
+        "Lapa",
+        "Mandirituba",
+        "Piên",
+        "Pinhais",
+        "Piraquara",
+        "Quatro Barras",
+        "Quitandinha",
+        "Rio Branco do Sul",
+        "Rio Negro",
+        "São José dos Pinhais",
+        "Tijucas do Sul",
+        "Tunas do Paraná",
+    }
+)
+
 
 def _load_list(path: Path) -> list[dict[str, Any]]:
     if not path.is_file():
@@ -99,8 +135,8 @@ def _validate_organization(record: dict[str, Any], index: int) -> None:
     location = record.get("location")
     if not isinstance(location, dict):
         raise ValueError(f"{label}.location: mapping is required")
-    _text(location, "city", f"{label}.location")
-    _text(location, "state", f"{label}.location")
+    city = _text(location, "city", f"{label}.location")
+    state = _text(location, "state", f"{label}.location")
     _text(location, "country", f"{label}.location")
 
     modes = record.get("viable_from_curitiba")
@@ -108,6 +144,12 @@ def _validate_organization(record: dict[str, Any], index: int) -> None:
         raise ValueError(f"{label}.viable_from_curitiba: non-empty list is required")
     if any(mode not in WORK_MODES for mode in modes):
         raise ValueError(f"{label}.viable_from_curitiba: invalid work mode")
+
+    in_rmc = state.casefold() == "pr" and city.casefold() in RMC_CITIES
+    if not in_rmc and "remote-brazil" not in modes:
+        raise ValueError(f"{label}.viable_from_curitiba: remote-brazil is required outside RMC")
+    if not in_rmc and any(mode in {"onsite", "hybrid"} for mode in modes):
+        raise ValueError(f"{label}.viable_from_curitiba: onsite or hybrid is only valid in RMC")
 
     rd_evidence = record.get("rd_evidence")
     if not isinstance(rd_evidence, dict):
