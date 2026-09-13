@@ -43,6 +43,9 @@ Structured sources of truth:
 | Copel | company / energy | onsite | [Programa de P&D+i](https://www.copel.com/site/institucional/programa-de-pesquisa-e-desenvolvimento/) | [Carreira](https://www.copel.com/site/institucional/carreira/) |
 | Sanepar | company / sanitation | onsite | [Pesquisa e Desenvolvimento](https://www.sanepar.com.br/pesquisa-desenvolvimento) | [Concursos](https://www.sanepar.com.br/concursos) |
 | Lightera | company / optical communications | onsite | [Pesquisa e Desenvolvimento](https://lightera.com/pt-br/inovacao/) | [Pessoas e Carreiras](https://lightera.com/pt-br/pessoas-e-carreiras/) |
+| Bosch Curitiba | company / engineering | onsite | [Pesquisa e Desenvolvimento](https://www.bosch.com.br/carreiras/campos-de-trabalho/) | [Carreiras](https://www.bosch.com.br/carreiras/) |
+| Valmet | company / industrial technology | onsite | [Pesquisa e Desenvolvimento](https://www.valmet.com/pt/sobre-a-valmet/sobre/pesquisa-e-desenvolvimento/) | [Carreiras](https://www.valmet.com/pt/carreira-valmet/) |
+| Arteche | company / energy technology | hybrid | [R&D&I e inovação](https://careers.arteche.com/) | [Carreiras](https://careers.arteche.com/) |
 
 ## Remote in Brazil
 
@@ -51,6 +54,7 @@ Structured sources of truth:
 | Venturus | Campinas, SP | ICT | remote Brazil | [Carreiras](https://www.venturus.org.br/venturus/carreira) |
 | CESAR | Recife, PE | nonprofit / EMBRAPII | remote Brazil | [Vagas](https://www.cesar.org.br/trabalhe-com-a-gente) |
 | Instituto de Pesquisas ELDORADO | Campinas, SP | ICT | remote Brazil | [Carreiras](https://eldorado.org.br/carreiras/) |
+| SiDi | Campinas, SP | ICT | remote Brazil | [Carreiras](https://www.sidi.org.br/pt-br/carreiras) |
 
 ## General opportunity sources
 
@@ -70,7 +74,6 @@ Structured sources of truth:
 
 Candidates stay here until R&D relevance, viability from Curitiba, and a recurring opportunity page are all verified.
 
-- Bosch Curitiba: the organization has R&D careers and a Curitiba site, but current public evidence tying R&D work specifically to Curitiba is still weak.
 - CPQD: current careers are strongly R&D-oriented, but the currently visible opportunities are hybrid in Campinas; remote-Brazil eligibility needs fresh evidence.
 - Human Robotics: Curitiba presence and a recurring careers channel are confirmed, but the institutional site does not yet state R&D/PD&I activity explicitly enough for the accepted catalog.
 - Microcapsules Tech: strong biotech/deeptech R&D evidence and current P&D hiring in Curitiba are confirmed, but a stable recurring careers/jobs page still needs verification before promotion to `organizations.yaml`.
@@ -78,6 +81,4 @@ Candidates stay here until R&D relevance, viability from Curitiba, and a recurri
 - BEAUTYCOLOR Company: Pinhais presence and a recurring Trabalhe Conosco channel are confirmed, but current P&D-role evidence is not yet available from a sufficiently strong first-party source.
 - Pumatronix: strong own R&D evidence and a technology laboratory in Curitiba are confirmed, but a stable recurring institutional careers/jobs channel still needs verification.
 - Instituto Atlântico: strong R&D and a recurring careers portal are confirmed, but remote-Brazil eligibility for someone living in Curitiba still needs explicit evidence.
-- Arteche: global R&D&I capability and recurring careers are confirmed, but current first-party evidence does not establish Curitiba as one of its R&D centers.
-- Valmet: Araucária presence and company-wide continuous R&D are confirmed, but a current first-party source tying R&D work specifically to the local operation is still missing.
 - Perkons: Pinhais headquarters, technology development and a recurring contact/careers route are confirmed, but explicit institutional R&D framing is still weaker than the accepted threshold.
