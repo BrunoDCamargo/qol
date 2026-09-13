@@ -53,3 +53,10 @@
   url: https://agenciacuritiba.com.br/programas/
   scope: Curitiba e RMC
   last_checked: 2026-09-13
+
+- id: iel-parana-talento-inovacao
+  name: IEL Paraná - Talento Inovação
+  source_type: mixed-opportunities
+  url: https://www.ielpr.org.br/talento-inovacao/bolsista/
+  scope: Paraná
+  last_checked: 2026-09-13
