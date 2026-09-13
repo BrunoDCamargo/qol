@@ -74,3 +74,10 @@
   url: https://trabalheconosco.funpar.ufpr.br/
   scope: Paraná / UFPR
   last_checked: 2026-09-13
+
+- id: turing-research-assignments
+  name: Turing - Research and AI Assignments
+  source_type: contract-research-opportunities
+  url: https://www.turing.com/jobs
+  scope: Brasil / internacional remoto
+  last_checked: 2026-09-13
