@@ -27,6 +27,7 @@ Structured sources of truth:
 | Hilab | healthtech | onsite | [Hilab Research](https://hilab.com.br/pesquisa-cientifica/) | [Carreiras](https://hilab.com.br/carreiras/) |
 | ST-One | startup / deeptech | onsite / hybrid | [Pesquisa e Desenvolvimento](https://www.st-one.io/a-st-one/sobre-nos/) | [Carreiras](https://www.st-one.io/a-st-one/carreiras/) |
 | Centro Internacional de Tecnologia de Software (CITS) | ICT | onsite | [Pesquisa e Desenvolvimento](https://www.cits.br/pesquisa-e-desenvolvimento/) | [Trabalhe Conosco](https://www.cits.br/trabalhe-conosco/) |
+| BIOTROP Soluções Biológicas | biotech / agtech | onsite | [Pesquisa e Desenvolvimento](https://biotrop.com.br/quem-somos/) | [Carreiras](https://biotropbr.gupy.io/) |
 
 ## Remote in Brazil
 
@@ -57,3 +58,4 @@ Candidates stay here until R&D relevance, viability from Curitiba, and a recurri
 - Renault Geely do Brasil: São José dos Pinhais is confirmed, but a recurring public source explicitly connecting the local complex to R&D roles still needs verification.
 - CPQD: current careers are strongly R&D-oriented, but the currently visible opportunities are hybrid in Campinas; remote-Brazil eligibility needs fresh evidence.
 - Human Robotics: Curitiba presence and a recurring careers channel are confirmed, but the institutional site does not yet state R&D/PD&I activity explicitly enough for the accepted catalog.
+- Microcapsules Tech: strong biotech/deeptech R&D evidence and current P&D hiring in Curitiba are confirmed, but a stable recurring careers/jobs page still needs verification before promotion to `organizations.yaml`.
