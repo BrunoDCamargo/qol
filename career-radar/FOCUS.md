@@ -9,42 +9,35 @@ For each candidate, ask: **is this a place where a professional can plausibly bu
 A strong candidate combines:
 
 1. meaningful and recurring R&D, research, product-development, engineering-development or scientific activity;
-2. practical viability from Curitiba, through local presence, compatible hybrid work, or current remote-Brazil work;
+2. practical viability while living in Curitiba, either through Curitiba/RMC presence or current remote work available from Brazil;
 3. a recurring institutional path to employment, fellowship, selection or other sustained professional participation.
 
-## Priority order
+## Primary targets: local or remote Brazil
 
-### Priority 1: Curitiba and RMC with own R&D
+Two work arrangements have equal priority:
 
-Highest priority. Favor organizations that maintain laboratories, research groups, engineering development, product development, clinical research, applied research or formal PD&I in Curitiba or the Região Metropolitana de Curitiba.
+- **Curitiba/RMC:** organizations with laboratories, research groups, engineering development, product development, clinical research, applied research or formal PD&I that can be pursued locally;
+- **remote Brazil:** organizations anywhere in Brazil or abroad that maintain a real internal R&D environment and currently allow professionals located in Brazil to work remotely.
 
-This group best matches the purpose of the radar because it combines geographic viability with a stable R&D environment.
-
-### Priority 2: Paraná opportunities practical from Curitiba
-
-Look for organizations elsewhere in Paraná when the work arrangement is realistically compatible with continuing to live in Curitiba. This can include occasional-presence hybrid work, field or project work with a Curitiba base, or other arrangements supported by current evidence.
-
-Do not treat a distant Paraná location as viable merely because it is in the same state.
-
-### Priority 3: Brazilian organizations with remote R&D careers
-
-Include Brazilian ICTs, companies and research organizations that maintain their own R&D or research activity and currently allow professionals to work remotely from Brazil.
+Neither arrangement outranks the other. Rank organizations by the quality and durability of the R&D career environment, not by the location of the headquarters.
 
 Remote eligibility must have current evidence. Historical remote policies alone do not establish present viability.
 
-### Priority 4: international organizations with remote-Brazil R&D careers
+For international employers, verify that the recurring career path actually accepts professionals located in Brazil. Contract structure and time-zone overlap are relevant notes, but an international headquarters does not lower priority by itself when the role is a sustained R&D career available from Brazil.
 
-Include international organizations when they maintain a real internal research or R&D environment and currently hire professionals located in Brazil for sustained remote work.
+## Additional local possibilities
 
-These rank below comparable Brazilian targets because employment structure, contracts, time-zone overlap and long-term availability can add uncertainty.
+Organizations elsewhere in Paraná can qualify when the work arrangement is realistically compatible with continuing to live in Curitiba. This can include occasional-presence hybrid work, field or project work with a Curitiba base, or other arrangements supported by current evidence.
 
-### Secondary track: research-intensive service organizations
+Do not treat a distant Paraná location as viable merely because it is in the same state.
+
+## Secondary track: research-intensive service organizations
 
 CROs, engineering consultancies, quantitative-research firms and similar organizations can remain in the radar when research is a durable part of the work and they offer recurring employment compatible with Curitiba.
 
-They rank below organizations with their own direct R&D programs because the work can depend more strongly on client projects, service contracts or specific assignments.
+They remain a secondary track when the professional experience depends mainly on client projects, service contracts or assignments rather than a stable internal R&D program.
 
-### Opportunity sources
+## Opportunity sources
 
 Funding portals, scholarship programs, job aggregators, contractor marketplaces and assignment platforms belong to the opportunity-source layer. They can be useful for finding work without representing a long-term R&D environment themselves.
 
@@ -53,7 +46,7 @@ Funding portals, scholarship programs, job aggregators, contractor marketplaces 
 Promote a candidate into the career radar only when all three conditions have adequate evidence:
 
 - **R&D relevance:** the organization performs meaningful research, PD&I, scientific work, engineering development or product-development activity;
-- **Curitiba viability:** the opportunity can realistically be pursued while living in Curitiba;
+- **Curitiba viability:** the opportunity can realistically be pursued while living in Curitiba, including current remote-Brazil work;
 - **recurring path:** a stable careers, jobs, fellowship, selection or opportunity channel exists.
 
 One isolated vacancy does not establish a recurring career path.
@@ -72,7 +65,7 @@ CROs and clinical-development organizations qualify when research is their core 
 
 - [`organizations.yaml`](organizations.yaml) stores verified organizations and their evidence. It is an evidence registry, not a ranking.
 - [`sources.yaml`](sources.yaml) stores recurring opportunity and discovery sources.
-- [`README.md`](README.md) is the decision-oriented view and presents organizations by career priority.
+- [`README.md`](README.md) is the decision-oriented view and presents organizations by career relevance.
 - `docs/research/` preserves the evidence and reasoning behind additions, exclusions and reclassifications.
 
 Research can preserve a lower-priority entity in `organizations.yaml` even when the README does not surface it as a primary career target. The README controls the practical career view; the YAML preserves the verified research record.
