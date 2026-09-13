@@ -7,6 +7,7 @@ An evidence-oriented knowledge base for reusable propositions, evidence records,
 - [Generated QoL catalog](generated/catalog.md)
 - [Generated reference index](generated/references.md)
 - [Implementation Options](generated/implementation-options.md)
+- [R&D Career Radar](career-radar/README.md)
 - [Sleep](topics/sleep.md)
 - [Physical activity](topics/physical-activity.md)
 - [Nutrition and weight](topics/nutrition-weight.md)
