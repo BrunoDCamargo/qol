@@ -9,7 +9,7 @@ For each candidate, ask: **is this a place where a professional can plausibly bu
 A strong candidate combines:
 
 1. meaningful and recurring R&D, research, product-development, engineering-development or scientific activity;
-2. practical viability from Curitiba, through Curitiba/RMC presence, compatible hybrid work, or current remote-Brazil work;
+2. practical viability from Curitiba, through local presence, compatible hybrid work, or current remote-Brazil work;
 3. a recurring institutional path to employment, fellowship, selection or other sustained professional participation.
 
 ## Priority order
@@ -20,17 +20,29 @@ Highest priority. Favor organizations that maintain laboratories, research group
 
 This group best matches the purpose of the radar because it combines geographic viability with a stable R&D environment.
 
-### Priority 2: Brazil organizations with remote R&D careers
+### Priority 2: Paraná opportunities practical from Curitiba
+
+Look for organizations elsewhere in Paraná when the work arrangement is realistically compatible with continuing to live in Curitiba. This can include occasional-presence hybrid work, field or project work with a Curitiba base, or other arrangements supported by current evidence.
+
+Do not treat a distant Paraná location as viable merely because it is in the same state.
+
+### Priority 3: Brazilian organizations with remote R&D careers
 
 Include Brazilian ICTs, companies and research organizations that maintain their own R&D or research activity and currently allow professionals to work remotely from Brazil.
 
 Remote eligibility must have current evidence. Historical remote policies alone do not establish present viability.
 
-### Priority 3: research-intensive service organizations
+### Priority 4: international organizations with remote-Brazil R&D careers
+
+Include international organizations when they maintain a real internal research or R&D environment and currently hire professionals located in Brazil for sustained remote work.
+
+These rank below comparable Brazilian targets because employment structure, contracts, time-zone overlap and long-term availability can add uncertainty.
+
+### Secondary track: research-intensive service organizations
 
 CROs, engineering consultancies, quantitative-research firms and similar organizations can remain in the radar when research is a durable part of the work and they offer recurring employment compatible with Curitiba.
 
-They rank below organizations with their own local or remote R&D programs because the work can depend more strongly on client projects, service contracts or specific assignments.
+They rank below organizations with their own direct R&D programs because the work can depend more strongly on client projects, service contracts or specific assignments.
 
 ### Opportunity sources
 
