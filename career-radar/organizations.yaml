@@ -307,3 +307,21 @@
     - software
     - deeptech
   last_checked: 2026-09-13
+
+- id: biotrop
+  name: BIOTROP Soluções Biológicas
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://biotrop.com.br/quem-somos/
+    note: A empresa declara investimentos massivos em inovação, pesquisa e desenvolvimento, mais de 1.200 ensaios de campo e P&D por safra e atuação em soluções biológicas para o agronegócio.
+  careers_url: https://biotropbr.gupy.io/
+  tags:
+    - biotech
+    - agtech
+  last_checked: 2026-09-13
