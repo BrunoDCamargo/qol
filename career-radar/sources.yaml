@@ -1,1 +1,41 @@
-[]
+- id: cnpq-bolsas-auxilios
+  name: CNPq - Bolsas e Auxílios
+  source_type: research-funding
+  url: https://www.gov.br/cnpq/pt-br/acesso-a-informacao/bolsas-e-auxilios
+  scope: Brasil
+  last_checked: 2026-09-13
+
+- id: capes-editais
+  name: CAPES - Editais e Resultados
+  source_type: academic-opportunities
+  url: https://www.gov.br/capes/pt-br/assuntos/editais-e-resultados-capes
+  scope: Brasil
+  last_checked: 2026-09-13
+
+- id: embrapii-unidades
+  name: EMBRAPII - Nossas Unidades
+  source_type: rd-network
+  url: https://embrapii.org.br/nossas-unidades/
+  scope: Brasil
+  last_checked: 2026-09-13
+
+- id: euraxess-jobs
+  name: EURAXESS - Jobs & Opportunities
+  source_type: mixed-opportunities
+  url: https://euraxess.ec.europa.eu/jobs
+  scope: Brasil e internacional
+  last_checked: 2026-09-13
+
+- id: finep-chamadas
+  name: Finep - Chamadas Públicas
+  source_type: research-funding
+  url: https://www.finep.gov.br/chamadas-publicas
+  scope: Brasil
+  last_checked: 2026-09-13
+
+- id: cpnu
+  name: Concurso Público Nacional Unificado (CPNU)
+  source_type: public-jobs
+  url: https://www.gov.br/gestao/pt-br/concursonacional
+  scope: Brasil
+  last_checked: 2026-09-13
