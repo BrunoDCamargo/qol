@@ -60,3 +60,17 @@
   url: https://www.ielpr.org.br/talento-inovacao/bolsista/
   scope: Paraná
   last_checked: 2026-09-13
+
+- id: funtef-pr-oportunidades
+  name: FUNTEF-PR - Trabalhe Conosco e Bolsas
+  source_type: academic-opportunities
+  url: https://funtefpr.org.br/trabalhe-conosco/
+  scope: Paraná / UTFPR
+  last_checked: 2026-09-13
+
+- id: funpar-selecoes
+  name: FUNPAR - Editais de Seleção de Pessoal
+  source_type: academic-opportunities
+  url: https://trabalheconosco.funpar.ufpr.br/
+  scope: Paraná / UFPR
+  last_checked: 2026-09-13
