@@ -678,3 +678,60 @@
     - artificial-intelligence
     - research
   last_checked: 2026-09-13
+
+- id: siderquimica
+  name: Siderquímica
+  organization_type: company
+  location:
+    city: São José dos Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://siderquimica.com.br/
+    note: A empresa mantém Setor de Pesquisa e Desenvolvimento e desenvolve tecnologias químicas para celulose, papel, painéis de madeira e processos têxteis em São José dos Pinhais.
+  careers_url: https://siderquimica.com.br/trabalhe-conosco/
+  tags:
+    - chemicals
+    - industrial-chemistry
+    - materials
+  last_checked: 2026-09-13
+
+- id: solabia-laborclin
+  name: Solabia Group / Laborclin
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.solabia.com/our-know-how/
+    note: O grupo mantém sete centros complementares de P&D em biotecnologia, química e diagnóstico e identifica oficialmente a unidade Laborclin em Curitiba para produtos de diagnóstico e análise microbiológica.
+  careers_url: https://www.solabia.com/careers/
+  tags:
+    - biotech
+    - diagnostics
+    - microbiology
+  last_checked: 2026-09-13
+
+- id: instron-brasil-emic
+  name: Instron Brasil / EMIC
+  organization_type: company
+  location:
+    city: São José dos Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.instron.com/es-ar/-/media/literature-library/products/2018/01/2300-series-brazil-brochure.pdf
+    note: A Instron documenta investimentos em pesquisa e desenvolvimento de equipamentos de ensaio e uma equipe sul-americana de engenheiros, técnicos e pesquisadores sediada em São José dos Pinhais, onde a linha EMIC é desenvolvida e fabricada.
+  careers_url: https://careers.itw.com/us/en/instron
+  tags:
+    - test-measurement
+    - engineering
+    - hardware
+  last_checked: 2026-09-13
