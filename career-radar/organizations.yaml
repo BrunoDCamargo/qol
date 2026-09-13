@@ -868,3 +868,41 @@
     - engineering
     - automation
   last_checked: 2026-09-13
+
+- id: gestamp-parana
+  name: Gestamp Paraná
+  organization_type: company
+  location:
+    city: São José dos Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://jobs.gestamp.com/go/BR-R%26D-%26-Engineering/8751101/
+    note: A Gestamp mantém R&D & Engineering como área formal no Brasil e a unidade Paraná em São José dos Pinhais possui escopo institucional de desenvolvimento, manufatura e ferramentais para componentes automotivos.
+  careers_url: https://jobs.gestamp.com/?locale=pt_BR
+  tags:
+    - automotive
+    - engineering
+    - materials
+  last_checked: 2026-09-13
+
+- id: dauch-aam-araucaria
+  name: Dauch Corporation / AAM
+  organization_type: company
+  location:
+    city: Araucária
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.aam.com/how-we-do-it/research-development
+    note: A empresa mantém investimento estruturado em pesquisa e desenvolvimento e centros globais de engenharia; sua operação em Araucária mantém vagas recorrentes de engenharia de processos e outras funções técnicas.
+  careers_url: https://careers.aam.com/
+  tags:
+    - automotive
+    - driveline
+    - engineering
+  last_checked: 2026-09-13
