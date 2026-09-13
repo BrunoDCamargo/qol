@@ -130,6 +130,56 @@ class CareerRadarTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "last_checked"):
             validate_career_radar(root)
 
+    def test_requires_remote_brazil_outside_rmc(self):
+        root = self._write_radar(
+            """
+- id: sao-paulo-onsite
+  name: Sao Paulo Onsite
+  organization_type: company
+  location: {city: São Paulo, state: SP, country: Brasil}
+  viable_from_curitiba: [onsite]
+  rd_evidence: {url: https://example.org/rd, note: R&D activity.}
+  careers_url: https://example.org/careers
+  last_checked: 2026-09-13
+""",
+            "[]\n",
+        )
+        with self.assertRaisesRegex(ValueError, "remote-brazil"):
+            validate_career_radar(root)
+
+    def test_rejects_onsite_or_hybrid_modes_outside_rmc(self):
+        root = self._write_radar(
+            """
+- id: mixed-mode
+  name: Mixed Mode
+  organization_type: company
+  location: {city: São Paulo, state: SP, country: Brasil}
+  viable_from_curitiba: [remote-brazil, hybrid]
+  rd_evidence: {url: https://example.org/rd, note: R&D activity.}
+  careers_url: https://example.org/careers
+  last_checked: 2026-09-13
+""",
+            "[]\n",
+        )
+        with self.assertRaisesRegex(ValueError, "onsite or hybrid"):
+            validate_career_radar(root)
+
+    def test_accepts_rmc_city_for_hybrid_work(self):
+        root = self._write_radar(
+            """
+- id: sao-jose
+  name: Sao Jose Research
+  organization_type: company
+  location: {city: São José dos Pinhais, state: PR, country: Brasil}
+  viable_from_curitiba: [hybrid]
+  rd_evidence: {url: https://example.org/rd, note: R&D activity.}
+  jobs_url: https://example.org/jobs
+  last_checked: 2026-09-13
+""",
+            "[]\n",
+        )
+        validate_career_radar(root)
+
 
 if __name__ == "__main__":
     unittest.main()
