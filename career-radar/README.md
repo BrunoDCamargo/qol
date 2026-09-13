@@ -46,6 +46,9 @@ Structured sources of truth:
 | Bosch Curitiba | company / engineering | onsite | [Pesquisa e Desenvolvimento](https://www.bosch.com.br/carreiras/campos-de-trabalho/) | [Carreiras](https://www.bosch.com.br/carreiras/) |
 | Valmet | company / industrial technology | onsite | [Pesquisa e Desenvolvimento](https://www.valmet.com/pt/sobre-a-valmet/sobre/pesquisa-e-desenvolvimento/) | [Carreiras](https://www.valmet.com/pt/carreira-valmet/) |
 | Arteche | company / energy technology | hybrid | [R&D&I e inovação](https://careers.arteche.com/) | [Carreiras](https://careers.arteche.com/) |
+| Siderquímica | company / chemicals | onsite | [Setor de P&D](https://siderquimica.com.br/) | [Trabalhe Conosco](https://siderquimica.com.br/trabalhe-conosco/) |
+| Solabia Group / Laborclin | company / biotech & diagnostics | onsite | [R&D e unidade Curitiba](https://www.solabia.com/our-know-how/) | [Carreiras](https://www.solabia.com/careers/) |
+| Instron Brasil / EMIC | company / test & measurement | onsite | [P&D e desenvolvimento EMIC](https://www.instron.com/es-ar/-/media/literature-library/products/2018/01/2300-series-brazil-brochure.pdf) | [Carreiras](https://careers.itw.com/us/en/instron) |
 
 ## Remote in Brazil
 
