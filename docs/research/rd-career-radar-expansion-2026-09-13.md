@@ -4,7 +4,7 @@
 
 This research pass expanded the R&D Career Radar across organization sizes and sectors while preserving the inclusion rule: public evidence of meaningful R&D activity, viability for someone living in Curitiba, and a recurring institutional opportunity channel.
 
-Sixteen organizations were promoted during these expansion passes: Renault Group / Renault do Brasil, HORSE Powertrain Brasil, Mondelēz International, Electrolux Group, Novonesis, ERT Bioplastics, LG Electronics, Herbarium, IDR-Paraná, Copel, Sanepar, Lightera, Bosch Curitiba, Valmet, Arteche, and SiDi.
+Nineteen organizations were promoted during these expansion passes: Renault Group / Renault do Brasil, HORSE Powertrain Brasil, Mondelēz International, Electrolux Group, Novonesis, ERT Bioplastics, LG Electronics, Herbarium, IDR-Paraná, Copel, Sanepar, Lightera, Bosch Curitiba, Valmet, Arteche, SiDi, Siderquímica, Solabia Group / Laborclin, and Instron Brasil / EMIC.
 
 Acceptance decisions use primary sources. Candidates remain in `To investigate` whenever R&D relevance, geographic viability, or the recurring opportunity channel is not sufficiently established.
 
@@ -34,6 +34,12 @@ Acceptance decisions use primary sources. Candidates remain in `To investigate` 
 - **Valmet — Accept.** Valmet reports more than 500 R&D professionals and dozens of R&D facilities globally, identifies Araucária as its South American base, and maintains recurring Brazilian careers and open-job channels. [Valmet R&D](https://www.valmet.com/pt/sobre-a-valmet/sobre/pesquisa-e-desenvolvimento/) [Valmet Brazil](https://www.valmet.com/pt/sobre-a-valmet/) [Valmet Careers](https://www.valmet.com/pt/carreira-valmet/)
 - **Arteche — Accept.** Arteche's current careers portal states that the group has seven R&D&I centers and shows active hybrid opportunities in Curitiba, establishing both company-level R&D and local employment viability. [Arteche Careers](https://careers.arteche.com/)
 - **SiDi — Accept as remote-brazil.** SiDi describes its services as research, development and innovation from initial research through prototyping and application. Its careers page says more than 800 Sidiers are spread across Brazil and includes home-office support. [SiDi Services](https://www.sidi.org.br/pt-br/servicos) [SiDi Careers](https://www.sidi.org.br/pt-br/carreiras)
+
+### Pass 4: mid-sized chemistry, diagnostics, and scientific instrumentation
+
+- **Siderquímica — Accept.** The company's institutional site in São José dos Pinhais explicitly identifies an R&D Department and states that it develops chemical technologies for pulp, paper, wood panels and textile dyeing. It also maintains a recurring `Trabalhe Conosco` page. [Siderquímica](https://siderquimica.com.br/) [Siderquímica careers](https://siderquimica.com.br/trabalhe-conosco/)
+- **Solabia Group / Laborclin — Accept.** Solabia states that it maintains seven complementary R&D centers and lists its Laborclin site in Curitiba for diagnostic and microbiological-analysis products. The group also maintains a recurring global careers page. [Solabia know-how](https://www.solabia.com/our-know-how/) [Solabia careers](https://www.solabia.com/careers/)
+- **Instron Brasil / EMIC — Accept.** Instron's first-party EMIC material documents investments in research and development, describes a South American team of engineers, technicians and researchers, and explains that the EMIC line is developed and manufactured in São José dos Pinhais. Instron also has a recurring ITW careers portal. [Instron EMIC Series 23](https://www.instron.com/es-ar/-/media/literature-library/products/2018/01/2300-series-brazil-brochure.pdf) [Instron locations](https://www.instron.com/pt-br/our-company/about-us/locations/) [Instron careers](https://careers.itw.com/us/en/instron)
 
 ## Gaps and caveats
 
