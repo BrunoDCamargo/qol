@@ -22,6 +22,8 @@ Structured sources of truth:
 | Embrapa Florestas | research institute | onsite | [Infraestrutura de P&D](https://www.embrapa.br/florestas/infraestrutura) | [Estágios e concursos](https://www.embrapa.br/pt/estagios-e-concursos) |
 | Sistema de Tecnologia e Monitoramento Ambiental do Paraná (Simepar) | nonprofit / third sector | onsite / hybrid | [Institucional](https://www.simepar.br/simepar/page/13) | [Processos seletivos e chamadas](https://www.simepar.br/simepar/timeline/noticias) |
 | CNH | company | onsite | [Centro de P&D em Curitiba](https://media.cnh.com/latin-america-portuguese/cnh/cnh-industrial-eleita-novamente-uma-das-10-empresas-mais-inovadoras-do-brasil/s/aed5e57c-b0cb-4880-9e0b-4227010a3e57) | [Carreiras](https://join.cnh.com/) |
+| Instituto de Pesquisa Pelé Pequeno Príncipe | research institute / third sector | onsite | [Pesquisa em saúde](https://pelepequenoprincipe.org.br/institucional/quem-somos/) | [Trabalhe Conosco](https://pelepequenoprincipe.org.br/institucional/trabalhe-conosco/) |
+| Hospital Erasto Gaertner / CEPEP | nonprofit / third sector | onsite | [Pesquisa clínica e projetos](https://cepep.erastogaertner.com.br/) | [Trabalhe Conosco](https://erastogaertner.com.br/trabalheconosco) |
 
 ## Remote in Brazil
 
@@ -41,6 +43,7 @@ Structured sources of truth:
 | EURAXESS - Jobs & Opportunities | mixed opportunities | Brasil e internacional | [Acessar](https://euraxess.ec.europa.eu/jobs) |
 | Finep - Chamadas Públicas | research funding | Brasil | [Acessar](https://www.finep.gov.br/chamadas-publicas) |
 | Concurso Público Nacional Unificado (CPNU) | public jobs | Brasil | [Acessar](https://www.gov.br/gestao/pt-br/concursonacional) |
+| Fundação Araucária - Programas Abertos | research funding | Paraná | [Acessar](https://www.fappr.pr.gov.br/Programas-Abertos) |
 
 ## To investigate
 
