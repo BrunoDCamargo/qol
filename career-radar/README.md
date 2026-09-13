@@ -77,6 +77,9 @@ These organizations maintain their own research or R&D activity and have current
 | Radix | Rio de Janeiro, RJ | engineering / software / PD&I | [Pessoas e carreiras](https://radixeng.com.br/pessoas-e-carreiras) |
 | BairesDev | international / Latin America | software / internal R&D / data & ML | [Remote jobs](https://talent.bairesdev.com/) |
 | AE Studio | Los Angeles, CA, USA | applied AI / AI safety research | [Vagas](https://job-boards.greenhouse.io/aestudio) |
+| BeOne Medicines | global | oncology biotech / internal R&D / clinical development | [Carreiras](https://beonemedicines.com/careers/) |
+| Adaption | international | frontier AI research / adaptive ML | [Carreiras](https://adaptionlabs.ai/careers) |
+| Roboflow | international / Brazil hub | computer vision / ML research | [Carreiras](https://roboflow.com/careers) |
 
 An international headquarters does not reduce priority when the organization has a sustained internal R&D environment and a current recurring career path open to professionals in Brazil.
 
@@ -133,6 +136,7 @@ Candidates stay here until R&D relevance, viability from Curitiba and a recurrin
 - **Fortrea:** clinical-development relevance and recurring careers are established, but current Brazil-specific remote eligibility still needs stronger evidence.
 - **Worldwide Clinical Trials:** Brazil CRO activity and a recurring careers route are established, but current remote-Brazil eligibility still needs direct evidence.
 - **Fundação CERTI:** strong PD&I and recurring careers are established, but the current institutional model is described as hybrid/flexible in Florianópolis; Curitiba viability still needs direct evidence.
+- **Instituto Recôncavo de Tecnologia:** strong PD&I and an institutional careers channel are established; current remote-Brazil evidence was found outside the institutional site, so promotion waits for a first-party remote-work confirmation.
 
 ## Maintenance rule
 
