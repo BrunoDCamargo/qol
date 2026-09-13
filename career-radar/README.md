@@ -30,6 +30,7 @@ Structured sources of truth:
 | BIOTROP Soluções Biológicas | biotech / agtech | onsite | [Pesquisa e Desenvolvimento](https://biotrop.com.br/quem-somos/) | [Carreiras](https://biotropbr.gupy.io/) |
 | Grupo Boticário | company / research | onsite | [Centro de Pesquisa, Inovação e Desenvolvimento](https://www.grupoboticario.com.br/midia/grupo-boticario-inaugura-novo-centro-de-pesquisa-inovacao-e-desenvolvimento/) | [Carreiras](https://grupoboticario.gupy.io/) |
 | Positivo Tecnologia | company / AI & hardware | onsite / hybrid | [Positivo Labs](https://www.positivotecnologia.com.br/positivo-tecnologia-inaugura-positivo-labs-centro-de-excelencia-em-inteligencia-artificial-para-acelerar-a-inovacao-no-brasil/) | [Carreiras](https://positivotecnologia.gupy.io/) |
+| Faculdade ILAPEO | research institute / health | onsite | [Comitê Interno de Pesquisa](https://www.ilapeo.com.br/institucional/comite-interno-de-pesquisa-ilapeo/) | [Trabalhe Conosco](https://www.ilapeo.com.br/trabalhe-conosco/) |
 
 ## Remote in Brazil
 
@@ -51,6 +52,7 @@ Structured sources of truth:
 | Concurso Público Nacional Unificado (CPNU) | public jobs | Brasil | [Acessar](https://www.gov.br/gestao/pt-br/concursonacional) |
 | Fundação Araucária - Programas Abertos | research funding | Paraná | [Acessar](https://www.fappr.pr.gov.br/Programas-Abertos) |
 | Vale do Pinhão / Agência Curitiba - Programas | startup ecosystem / mixed opportunities | Curitiba e RMC | [Acessar](https://agenciacuritiba.com.br/programas/) |
+| IEL Paraná - Talento Inovação | PD&I scholarships / mixed opportunities | Paraná | [Acessar](https://www.ielpr.org.br/talento-inovacao/bolsista/) |
 
 ## To investigate
 
