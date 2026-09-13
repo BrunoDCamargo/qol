@@ -735,3 +735,60 @@
     - engineering
     - hardware
   last_checked: 2026-09-13
+
+- id: biogenesis-bago
+  name: Biogénesis Bagó
+  organization_type: company
+  location:
+    city: Campo Largo
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.biogenesisbago.com/br/noticia/266/
+    note: A nova planta de vacinas veterinárias em Campo Largo é descrita institucionalmente como futuro hub de pesquisa e desenvolvimento para a América Latina, com produção de soluções biotecnológicas.
+  careers_url: https://www.biogenesisbago.com/br/
+  tags:
+    - biotech
+    - animal-health
+    - vaccines
+  last_checked: 2026-09-13
+
+- id: isogama
+  name: Isogama
+  organization_type: company
+  location:
+    city: São José dos Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://isogama.com/nosso-compromisso/
+    note: A indústria química se define como consolidada em Pesquisa e Desenvolvimento, com parque fabril e mão de obra especializada para customização e beneficiamento de produtos na unidade do Paraná.
+  careers_url: https://isogama.com/trabalhe-conosco/
+  tags:
+    - chemicals
+    - industrial-chemistry
+    - materials
+  last_checked: 2026-09-13
+
+- id: bioma
+  name: Bioma
+  organization_type: company
+  location:
+    city: Fazenda Rio Grande
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://bioma.ind.br/institucional/
+    note: A empresa desenvolve soluções microbiológicas e fertilizantes com base em pesquisa, desenvolvimento contínuo e inovação e mantém operação em Fazenda Rio Grande.
+  careers_url: https://app.jobconvo.com/pt-br/careers/bioma/ffac8404-2e08-4d51-9ed7-4b1b58e1eb7f/
+  tags:
+    - biotech
+    - agtech
+    - bioinputs
+  last_checked: 2026-09-13
