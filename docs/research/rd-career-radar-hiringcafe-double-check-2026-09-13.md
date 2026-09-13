@@ -4,16 +4,18 @@
 
 HiringCafe was used only as a discovery surface. Acceptance decisions were re-checked against first-party sources and the Career Radar inclusion rule: meaningful R&D or research activity, viability for someone living in Curitiba, and a recurring institutional opportunity channel.
 
-Six organizations passed the full evidence chain in this pass and were added to the accepted catalog:
+Eight organizations passed the full evidence chain in this pass and were added to the accepted catalog:
 
 - SEGULA Technologies Brasil;
 - Parexel;
 - Syneos Health;
 - MMS Holdings;
 - IQVIA;
-- Thermo Fisher Scientific / PPD.
+- Thermo Fisher Scientific / PPD;
+- Precision for Medicine;
+- Fugro.
 
-Precision for Medicine, Kunumi and Vector Trading remain in `To investigate` because one part of the geographic viability evidence was not strong enough in current first-party material.
+Kunumi and Vector Trading remain in `To investigate` because explicit Curitiba or remote-Brazil eligibility was not established from current first-party sources. EDETEK and Turing are also retained for further investigation rather than promoted on the basis of aggregator listings alone.
 
 ## Accepted organizations
 
@@ -59,17 +61,25 @@ Precision for Medicine, Kunumi and Vector Trading remain in `To investigate` bec
 - **Opportunity channel:** the Brazil jobs portal is recurring. [Thermo Fisher Brazil Jobs](https://jobs.thermofisher.com/global/en/brazil-jobs)
 - **Decision:** Accept as remote Brazil.
 
-## Held for investigation
-
 ### Precision for Medicine
 
-- **Verified:** the company is a CRO with substantial clinical-trial and drug-development activity. [Precision for Medicine CRO Services](https://www.precisionformedicine.com/clinical-trial-services/cro-services)
-- **Gap:** current first-party material reviewed in this pass did not establish remote-Brazil eligibility with the same confidence as the accepted CROs.
-- **Decision:** Keep in `To investigate`.
+- **Research fact:** Precision for Medicine is a global CRO covering clinical development, translational research, biomarker-driven trials, oncology, rare disease and advanced modalities. [Precision for Medicine CRO Services](https://www.precisionformedicine.com/clinical-trial-services/cro-services)
+- **Geographic fact:** the official Precision Medicine Group careers portal currently lists multiple roles explicitly located `Remote, Brazil`, including Senior Clinical Research Associate and Senior Clinical Data Engineer. [Precision Medicine Group Career Search](https://careers.precisiongroupcompanies.com/career-search/)
+- **Opportunity channel:** the group maintains a recurring official career-search portal with country and remote filters. [Precision Medicine Group Career Search](https://careers.precisiongroupcompanies.com/career-search/)
+- **Decision:** Accept as remote Brazil.
+
+### Fugro
+
+- **Research fact:** Fugro states that it performs more than 150 R&D projects focused on new and improved data-acquisition technologies, web-based data management, modelling, big data, cloud, robotics and remote/autonomous systems. It also participates in joint R&D programmes with universities, institutes and industry. [Fugro Centres of Expertise](https://www.fugro.com/expertise/other-expertise/centres-of-expertise) [Fugro Research Programmes](https://www.fugro.com/expertise/other-expertise/research-programmes)
+- **Geographic fact:** Fugro maintains a Brazil office in Pinhais, Paraná, and publishes local Pinhais roles, including hybrid positions. [Fugro Brazil](https://www.fugro.com/contact/locations/brazil) [Fugro Brazil Jobs](https://www.fugro.com/careers/jobs?locations.countries=Brazil)
+- **Opportunity channel:** Fugro's careers portal provides a recurring Brazil job search and talent community. [Fugro Brazil Jobs](https://www.fugro.com/careers/jobs?locations.countries=Brazil)
+- **Decision:** Accept as Curitiba/RMC.
+
+## Held for investigation
 
 ### Kunumi
 
-- **Verified:** Kunumi explicitly presents AI research and advanced research work and maintains a careers page. [Kunumi Careers](https://www.kunumi.com/careers)
+- **Verified:** Kunumi explicitly presents AGI as a long-term AI research goal, describes cutting-edge research, and maintains a careers page. [Kunumi Careers](https://www.kunumi.com/careers)
 - **Gap:** current first-party evidence did not explicitly establish Curitiba or remote-Brazil work eligibility.
 - **Decision:** Keep in `To investigate`.
 
@@ -78,6 +88,18 @@ Precision for Medicine, Kunumi and Vector Trading remain in `To investigate` bec
 - **Verified:** Vector Trading describes quantitative research and systematic, scientific model development and maintains an active careers portal. [Vector Trading Open Roles](https://www.vectortrading.com/open-roles)
 - **Gap:** current first-party evidence did not explicitly establish remote-Brazil eligibility for its research roles.
 - **Decision:** Keep in `To investigate`.
+
+### EDETEK
+
+- **Verified:** EDETEK states that it was created to build software and services for Clinical R&D and maintains an R&D Cloud, clinical-development services and a recurring careers page. [EDETEK About](https://edetek.com/about-us/) [EDETEK Careers](https://edetek.com/careers/)
+- **Gap:** a third-party listing suggested Brazil-remote availability, but current first-party material reviewed here does not explicitly establish remote-Brazil eligibility.
+- **Decision:** Keep in `To investigate`.
+
+### Turing
+
+- **Verified:** Turing conducts frontier AI research and currently offers a paid, flexible Frontier Contributor research initiative for researchers, graduate students and domain experts. [Turing Frontier Contributor](https://go.turing.com/frontier-contributor)
+- **Gap:** the HiringCafe `Research Engineer` result may represent Turing's talent marketplace or a client assignment rather than a durable Turing employment path. The current first-party evidence is therefore better treated as a research opportunity lead than as proof for an accepted employer record.
+- **Decision:** Keep in `To investigate` and consider later whether Turing belongs better in `sources.yaml`.
 
 ## Discovery-only names
 
