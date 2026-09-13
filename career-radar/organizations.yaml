@@ -1,0 +1,1105 @@
+- id: lactec
+  name: Lactec
+  organization_type: ict
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+    - hybrid
+  rd_evidence:
+    url: https://lactec.com.br/solucoes/pdi/
+    note: Mantém área institucional de Pesquisa, Desenvolvimento e Inovação e informa mais de 400 projetos de P&D realizados.
+  careers_url: https://lactec.com.br/trabalhe-conosco/
+  tags:
+    - embrapii
+  last_checked: 2026-09-13
+
+- id: tecpar
+  name: Instituto de Tecnologia do Paraná (Tecpar)
+  organization_type: research-institute
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.tecpar.br/Pagina/Pesquisa-e-Desenvolvimento
+    note: O instituto mantém uma área institucional de Pesquisa e Desenvolvimento com projetos tecnológicos em andamento.
+  careers_url: https://www.tecpar.br/Pagina/Trabalhe-Conosco
+  last_checked: 2026-09-13
+
+- id: ufpr
+  name: Universidade Federal do Paraná (UFPR)
+  organization_type: university
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://ufpr.br/prpi/a-pro-reitoria-de-pesquisa-e-inovacao/
+    note: A Pró-Reitoria de Pesquisa e Inovação coordena pesquisa, inovação e propriedade intelectual na universidade.
+  jobs_url: https://progepe.ufpr.br/concursos/
+  last_checked: 2026-09-13
+
+- id: utfpr
+  name: Universidade Tecnológica Federal do Paraná (UTFPR)
+  organization_type: university
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.utfpr.edu.br/pesquisa-e-pos-graduacao
+    note: A UTFPR mantém pesquisa científica e tecnológica voltada ao desenvolvimento de tecnologias, produtos, processos e conhecimento.
+  jobs_url: https://www.utfpr.edu.br/concursos
+  last_checked: 2026-09-13
+
+- id: pucpr
+  name: Pontifícia Universidade Católica do Paraná (PUCPR)
+  organization_type: university
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.pucpr.br/pesquisa
+    note: A universidade mantém estrutura de pesquisa, grupos, áreas estratégicas, iniciação científica, stricto sensu e editais de pesquisa.
+  careers_url: https://grupomarista.org.br/carreiras/
+  last_checked: 2026-09-13
+
+- id: fiocruz-parana-icc
+  name: Instituto Carlos Chagas (Fiocruz Paraná)
+  organization_type: research-institute
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.icc.fiocruz.br/sobre-o-instituto/
+    note: Unidade técnico-científica da Fiocruz no Paraná dedicada a pesquisa básica e aplicada, desenvolvimento tecnológico e inovação.
+  jobs_url: https://posgraduacao.icc.fiocruz.br/editais/
+  last_checked: 2026-09-13
+
+- id: senai-isi-eletroquimica
+  name: Instituto SENAI de Inovação em Eletroquímica
+  organization_type: ict
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://embrapii.org.br/unidades/eletroquimica-industrial-senai-isi-eletroquimica/
+    note: Unidade EMBRAPII em Curitiba que atua em pesquisa aplicada, desenvolvimento de produtos, processos e protótipos em eletroquímica industrial.
+  careers_url: https://app.jobconvo.com/pt-br/careers/sistema-fiep/35ad6a0f-51a9-4b5f-b1fe-154124819dfd/
+  tags:
+    - embrapii
+  last_checked: 2026-09-13
+
+- id: volvo-group-curitiba
+  name: Grupo Volvo
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.volvogroup.com/br/news-and-media/news/2025/dezembro/volvo-celebra-a-producao-de-500-mil-veiculos-no-brasil.html
+    note: O complexo de Curitiba inclui engenharia, pesquisa e desenvolvimento e campo de provas para produtos do grupo na América Latina.
+  careers_url: https://www.volvogroup.com/br/careers.html
+  last_checked: 2026-09-13
+
+- id: embrapa-florestas
+  name: Embrapa Florestas
+  organization_type: research-institute
+  location:
+    city: Colombo
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.embrapa.br/florestas/infraestrutura
+    note: A unidade em Colombo mantém laboratórios, rede experimental e projetos subordinados à Chefia de Pesquisa e Desenvolvimento.
+  jobs_url: https://www.embrapa.br/pt/estagios-e-concursos
+  last_checked: 2026-09-13
+
+- id: simepar
+  name: Sistema de Tecnologia e Monitoramento Ambiental do Paraná (Simepar)
+  organization_type: nonprofit
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+    - hybrid
+  rd_evidence:
+    url: https://www.simepar.br/simepar/page/13
+    note: A missão institucional inclui promover pesquisa científica e desenvolvimento tecnológico em ciências atmosféricas e ambientais.
+  jobs_url: https://www.simepar.br/simepar/timeline/noticias
+  tags:
+    - third-sector
+  last_checked: 2026-09-13
+
+- id: cnh-curitiba
+  name: CNH
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://media.cnh.com/latin-america-portuguese/cnh/cnh-industrial-eleita-novamente-uma-das-10-empresas-mais-inovadoras-do-brasil/s/aed5e57c-b0cb-4880-9e0b-4227010a3e57
+    note: A companhia identifica Curitiba entre seus centros de Pesquisa e Desenvolvimento na América Latina.
+  careers_url: https://join.cnh.com/
+  last_checked: 2026-09-13
+
+- id: venturus
+  name: Venturus
+  organization_type: ict
+  location:
+    city: Campinas
+    state: SP
+    country: Brasil
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://www.venturus.org.br/venturus/sobre
+    note: O Venturus se define como centro de tecnologia, pesquisa, desenvolvimento e inovação e mantém linhas e laboratórios de pesquisa aplicada.
+  careers_url: https://www.venturus.org.br/venturus/carreira
+  last_checked: 2026-09-13
+
+- id: cesar
+  name: CESAR
+  organization_type: nonprofit
+  location:
+    city: Recife
+    state: PE
+    country: Brasil
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://www.cesar.org.br/quem-somos
+    note: O CESAR se define como centro de pesquisa e desenvolvimento e conduz projetos de PD&I e pesquisa aplicada.
+  careers_url: https://www.cesar.org.br/trabalhe-com-a-gente
+  tags:
+    - embrapii
+    - third-sector
+  last_checked: 2026-09-13
+
+- id: instituto-eldorado
+  name: Instituto de Pesquisas ELDORADO
+  organization_type: ict
+  location:
+    city: Campinas
+    state: SP
+    country: Brasil
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://eldorado.org.br/carreiras/
+    note: O instituto se apresenta como referência nacional em pesquisa, desenvolvimento e inovação em tecnologia.
+  careers_url: https://eldorado.org.br/carreiras/
+  last_checked: 2026-09-13
+
+- id: ipp-pele-pequeno-principe
+  name: Instituto de Pesquisa Pelé Pequeno Príncipe
+  organization_type: research-institute
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://pelepequenoprincipe.org.br/institucional/quem-somos/
+    note: Instituto dedicado à pesquisa científica em saúde, com laboratórios e projetos em áreas como genética, oncologia, microbiologia e doenças raras.
+  careers_url: https://pelepequenoprincipe.org.br/institucional/trabalhe-conosco/
+  tags:
+    - third-sector
+  last_checked: 2026-09-13
+
+- id: erasto-gaertner-cepep
+  name: Hospital Erasto Gaertner / CEPEP
+  organization_type: nonprofit
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://cepep.erastogaertner.com.br/
+    note: O CEPEP conduz pesquisa clínica e projetos de desenvolvimento científico e inovação assistencial no complexo Erasto Gaertner.
+  careers_url: https://erastogaertner.com.br/trabalheconosco
+  tags:
+    - third-sector
+  last_checked: 2026-09-13
+
+- id: hilab
+  name: Hilab
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://hilab.com.br/pesquisa-cientifica/
+    note: A healthtech mantém departamento de P&D em Curitiba, mais de 40 pesquisadores e linhas de pesquisa em biologia molecular, eletroquímica, IA, ciência de dados e sistemas embarcados.
+  careers_url: https://hilab.com.br/carreiras/
+  tags:
+    - healthtech
+    - startup-ecosystem
+  last_checked: 2026-09-13
+
+- id: st-one
+  name: ST-One
+  organization_type: startup
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+    - hybrid
+  rd_evidence:
+    url: https://www.st-one.io/a-st-one/sobre-nos/
+    note: A startup se define como empresa de Pesquisa e Desenvolvimento de novas tecnologias para manufatura, com hardware, ciência de dados e tecnologia industrial próprios.
+  careers_url: https://www.st-one.io/a-st-one/carreiras/
+  tags:
+    - indtech
+    - deeptech
+  last_checked: 2026-09-13
+
+- id: cits
+  name: Centro Internacional de Tecnologia de Software (CITS)
+  organization_type: ict
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.cits.br/pesquisa-e-desenvolvimento/
+    note: ICT privada cuja principal área articuladora e executora é P&D, com projetos em hardware, manufatura digital, mobile/cloud, tecnologias livres e sistemas embarcados.
+  careers_url: https://www.cits.br/trabalhe-conosco/
+  tags:
+    - software
+    - deeptech
+  last_checked: 2026-09-13
+
+- id: biotrop
+  name: BIOTROP Soluções Biológicas
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://biotrop.com.br/quem-somos/
+    note: A empresa declara investimentos massivos em inovação, pesquisa e desenvolvimento, mais de 1.200 ensaios de campo e P&D por safra e atuação em soluções biológicas para o agronegócio.
+  careers_url: https://biotropbr.gupy.io/
+  tags:
+    - biotech
+    - agtech
+  last_checked: 2026-09-13
+
+- id: grupo-boticario
+  name: Grupo Boticário
+  organization_type: company
+  location:
+    city: São José dos Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.grupoboticario.com.br/midia/grupo-boticario-inaugura-novo-centro-de-pesquisa-inovacao-e-desenvolvimento/
+    note: Mantém Centro de Pesquisa, Inovação e Desenvolvimento em São José dos Pinhais, com laboratórios, pesquisadores e desenvolvimento de ingredientes, materiais, embalagens e produtos.
+  careers_url: https://grupoboticario.gupy.io/
+  tags:
+    - cosmetics
+    - research
+  last_checked: 2026-09-13
+
+- id: positivo-tecnologia
+  name: Positivo Tecnologia
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+    - hybrid
+  rd_evidence:
+    url: https://www.positivotecnologia.com.br/positivo-tecnologia-inaugura-positivo-labs-centro-de-excelencia-em-inteligencia-artificial-para-acelerar-a-inovacao-no-brasil/
+    note: O Positivo Labs em Curitiba reúne infraestrutura para projetos de Pesquisa e Desenvolvimento em IA, hardware, nuvem, cibersegurança, grandes modelos de linguagem e agentes inteligentes.
+  careers_url: https://positivotecnologia.gupy.io/
+  tags:
+    - artificial-intelligence
+    - hardware
+  last_checked: 2026-09-13
+
+- id: ilapeo
+  name: Faculdade ILAPEO
+  organization_type: research-institute
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.ilapeo.com.br/institucional/comite-interno-de-pesquisa-ilapeo/
+    note: Mantém Comitê Interno de Pesquisa, programas de mestrado e doutorado profissional e projetos de pesquisa científica e desenvolvimento de novas técnicas e produtos em odontologia.
+  careers_url: https://www.ilapeo.com.br/trabalhe-conosco/
+  tags:
+    - health
+    - dentistry
+    - academic-research
+  last_checked: 2026-09-13
+
+- id: renault-group-brasil
+  name: Renault Group / Renault do Brasil
+  organization_type: company
+  location:
+    city: São José dos Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://media.renaultgroup.com/renault-group-inaugurates-its-brand-new-renault-design-center-latam/
+    note: O complexo Ayrton Senna abriga o Renault Design Center LatAm, responsável por desenvolver conceitos e modelos para Brasil e América Latina e contribuir para projetos globais do grupo.
+  careers_url: https://www.renaultgroup.com/en/careers/
+  tags:
+    - automotive
+    - product-development
+  last_checked: 2026-09-13
+
+- id: horse-powertrain-brasil
+  name: HORSE Powertrain Brasil
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://horse-powertrain.com/documents-brazil
+    note: A HORSE identifica oficialmente sua operação de Curitiba como planta e centro de P&D dedicado a tecnologias de powertrain e mobilidade de menor emissão.
+  careers_url: https://jobs.horse-powertrain.com/pt-BR
+  tags:
+    - automotive
+    - powertrain
+  last_checked: 2026-09-13
+
+- id: mondelez-curitiba
+  name: Mondelēz International
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.mondelezinternational.com/brazil/
+    note: A operação brasileira mantém em Curitiba um dos Technology Centers globais da Mondelēz, com atividades de Pesquisa, Desenvolvimento, Qualidade e Inovação para produtos, ingredientes e processos.
+  careers_url: https://www.mondelezinternational.com/careers/
+  tags:
+    - food
+    - consumer-products
+  last_checked: 2026-09-13
+
+- id: electrolux-group-curitiba
+  name: Electrolux Group
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://career.electroluxgroup.com/global/en/meet-our-teams
+    note: A página de carreiras identifica Product Engineering em Curitiba e a companhia publica de forma recorrente vagas locais de Research & Development em desenvolvimento de produto, laboratório, eletrônica e software.
+  careers_url: https://career.electroluxgroup.com/global/en/
+  tags:
+    - appliances
+    - product-development
+  last_checked: 2026-09-13
+
+- id: novonesis-parana
+  name: Novonesis
+  organization_type: company
+  location:
+    city: Araucária
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.novonesis.com/pt/careers/areas-of-work/research-and-development
+    note: A Novonesis define P&D como base de suas biossoluções, com pesquisa aplicada e desenvolvimento de produtos e processos; mantém operações oficialmente listadas em Araucária e Quatro Barras, na RMC.
+  careers_url: https://www.novonesis.com/pt/careers/jobs
+  tags:
+    - biotech
+    - biosolutions
+  last_checked: 2026-09-13
+
+- id: ert-bioplastics
+  name: ERT Bioplastics
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://ertbio.com/sobre/
+    note: A ERT nasceu de pesquisa acadêmica em engenharia de polímeros e desenvolve bioplásticos compostáveis e compostos especializados, com operação industrial em Curitiba.
+  careers_url: https://ertbio.com/trabalhe-conosco/
+  tags:
+    - deeptech
+    - materials
+    - sustainability
+  last_checked: 2026-09-13
+
+- id: lg-electronics-fazenda-rio-grande
+  name: LG Electronics
+  organization_type: company
+  location:
+    city: Fazenda Rio Grande
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.lg.com/br/sobre-a-lg/press-media/lg-inaugura-fabrica-de-geladeiras-no-parana/
+    note: A fábrica inaugurada em Fazenda Rio Grande em agosto de 2026 possui núcleo local de Pesquisa & Desenvolvimento com cerca de 40 profissionais, focado em adaptar produtos e engenharia ao mercado brasileiro.
+  careers_url: https://www.lg.com/br/sobre-a-lg/trabalhe-conosco/
+  tags:
+    - appliances
+    - product-development
+  last_checked: 2026-09-13
+
+- id: herbarium
+  name: Herbarium
+  organization_type: company
+  location:
+    city: Colombo
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://herbarium.com.br/parceria-para-inovacao/
+    note: A indústria farmacêutica mantém área Regulatória e de PD&I especializada e o Programa Herbarium de Inovação, com pesquisa aplicada e parcerias com ICTs para desenvolvimento de produtos em fitoterapia.
+  careers_url: https://herbarium.com.br/trabalheconosco/
+  tags:
+    - pharma
+    - phytotherapy
+    - biotech
+  last_checked: 2026-09-13
+
+- id: idr-parana
+  name: Instituto de Desenvolvimento Rural do Paraná (IDR-Paraná)
+  organization_type: research-institute
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.idrparana.pr.gov.br/Pagina/Pesquisa-Desenvolvimento-e-Inovacao-no-IDR-Parana
+    note: O instituto mantém estrutura institucional de pesquisa, desenvolvimento e inovação aplicada ao desenvolvimento rural e um Polo Regional de Pesquisa em Curitiba.
+  jobs_url: https://www.idrparana.pr.gov.br/Pagina/Bolsa-Tecnica
+  tags:
+    - public-sector
+    - agriculture
+    - research-scholarships
+  last_checked: 2026-09-13
+
+- id: copel
+  name: Copel
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.copel.com/site/institucional/programa-de-pesquisa-e-desenvolvimento/
+    note: A Copel mantém Programa de Pesquisa, Desenvolvimento e Inovação regulado pela ANEEL, com desenvolvimento tecnológico em energia e sede em Curitiba.
+  careers_url: https://www.copel.com/site/institucional/carreira/
+  tags:
+    - energy
+    - public-sector
+  last_checked: 2026-09-13
+
+- id: sanepar
+  name: Sanepar
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.sanepar.com.br/pesquisa-desenvolvimento
+    note: A Sanepar trata P&D+i como prática contínua e estratégica e mantém Gerência de Pesquisa e Inovação com profissionais dedicados a pesquisa aplicada e inovação em saneamento.
+  jobs_url: https://www.sanepar.com.br/concursos
+  tags:
+    - sanitation
+    - public-sector
+    - sustainability
+  last_checked: 2026-09-13
+
+- id: lightera
+  name: Lightera
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://lightera.com/pt-br/inovacao/
+    note: A Lightera mantém mais de 100 profissionais dedicados a P&D em tecnologias ópticas e sua história institucional registra laboratório de pesquisa em Curitiba, onde mantém planta e escritório.
+  careers_url: https://lightera.com/pt-br/pessoas-e-carreiras/
+  tags:
+    - telecommunications
+    - optical-communications
+    - hardware
+  last_checked: 2026-09-13
+
+- id: bosch-curitiba
+  name: Bosch Curitiba
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.bosch.com.br/carreiras/campos-de-trabalho/
+    note: A Bosch mantém Pesquisa e Desenvolvimento como área formal de carreira e publica funções de engenharia de desenvolvimento de produto na planta de Curitiba.
+  careers_url: https://www.bosch.com.br/carreiras/
+  tags:
+    - automotive
+    - engineering
+    - product-development
+  last_checked: 2026-09-13
+
+- id: valmet-araucaria
+  name: Valmet
+  organization_type: company
+  location:
+    city: Araucária
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.valmet.com/pt/sobre-a-valmet/sobre/pesquisa-e-desenvolvimento/
+    note: A Valmet mantém mais de 500 profissionais de P&D e dezenas de instalações de pesquisa e desenvolvimento, com sede sul-americana em Araucária e oportunidades recorrentes na região.
+  careers_url: https://www.valmet.com/pt/carreira-valmet/
+  tags:
+    - industrial-technology
+    - automation
+    - sustainability
+  last_checked: 2026-09-13
+
+- id: arteche-curitiba
+  name: Arteche
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - hybrid
+  rd_evidence:
+    url: https://careers.arteche.com/
+    note: O grupo mantém sete centros de P&D&I em tecnologias para o setor elétrico e presença profissional recorrente em Curitiba.
+  careers_url: https://careers.arteche.com/
+  tags:
+    - energy
+    - electrical-engineering
+    - industrial-technology
+  last_checked: 2026-09-13
+
+- id: sidi
+  name: SiDi
+  organization_type: ict
+  location:
+    city: Campinas
+    state: SP
+    country: Brasil
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://www.sidi.org.br/pt-br/servicos
+    note: O instituto atua em pesquisa, desenvolvimento e inovação de produtos e soluções tecnológicas, cobrindo pesquisa inicial, prototipagem, desenvolvimento e aplicação.
+  careers_url: https://www.sidi.org.br/pt-br/carreiras
+  tags:
+    - software
+    - artificial-intelligence
+    - research
+  last_checked: 2026-09-13
+
+- id: siderquimica
+  name: Siderquímica
+  organization_type: company
+  location:
+    city: São José dos Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://siderquimica.com.br/
+    note: A empresa mantém Setor de Pesquisa e Desenvolvimento e desenvolve tecnologias químicas para celulose, papel, painéis de madeira e processos têxteis em São José dos Pinhais.
+  careers_url: https://siderquimica.com.br/trabalhe-conosco/
+  tags:
+    - chemicals
+    - industrial-chemistry
+    - materials
+  last_checked: 2026-09-13
+
+- id: solabia-laborclin
+  name: Solabia Group / Laborclin
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.solabia.com/our-know-how/
+    note: O grupo mantém sete centros complementares de P&D em biotecnologia, química e diagnóstico e identifica oficialmente a unidade Laborclin em Curitiba para produtos de diagnóstico e análise microbiológica.
+  careers_url: https://www.solabia.com/careers/
+  tags:
+    - biotech
+    - diagnostics
+    - microbiology
+  last_checked: 2026-09-13
+
+- id: instron-brasil-emic
+  name: Instron Brasil / EMIC
+  organization_type: company
+  location:
+    city: São José dos Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.instron.com/es-ar/-/media/literature-library/products/2018/01/2300-series-brazil-brochure.pdf
+    note: A Instron documenta investimentos em pesquisa e desenvolvimento de equipamentos de ensaio e uma equipe sul-americana de engenheiros, técnicos e pesquisadores sediada em São José dos Pinhais, onde a linha EMIC é desenvolvida e fabricada.
+  careers_url: https://careers.itw.com/us/en/instron
+  tags:
+    - test-measurement
+    - engineering
+    - hardware
+  last_checked: 2026-09-13
+
+- id: biogenesis-bago
+  name: Biogénesis Bagó
+  organization_type: company
+  location:
+    city: Campo Largo
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.biogenesisbago.com/br/noticia/266/
+    note: A nova planta de vacinas veterinárias em Campo Largo é descrita institucionalmente como futuro hub de pesquisa e desenvolvimento para a América Latina, com produção de soluções biotecnológicas.
+  careers_url: https://www.biogenesisbago.com/br/
+  tags:
+    - biotech
+    - animal-health
+    - vaccines
+  last_checked: 2026-09-13
+
+- id: isogama
+  name: Isogama
+  organization_type: company
+  location:
+    city: São José dos Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://isogama.com/nosso-compromisso/
+    note: A indústria química se define como consolidada em Pesquisa e Desenvolvimento, com parque fabril e mão de obra especializada para customização e beneficiamento de produtos na unidade do Paraná.
+  careers_url: https://isogama.com/trabalhe-conosco/
+  tags:
+    - chemicals
+    - industrial-chemistry
+    - materials
+  last_checked: 2026-09-13
+
+- id: bioma
+  name: Bioma
+  organization_type: company
+  location:
+    city: Fazenda Rio Grande
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://bioma.ind.br/institucional/
+    note: A empresa desenvolve soluções microbiológicas e fertilizantes com base em pesquisa, desenvolvimento contínuo e inovação e mantém operação em Fazenda Rio Grande.
+  careers_url: https://app.jobconvo.com/pt-br/careers/bioma/ffac8404-2e08-4d51-9ed7-4b1b58e1eb7f/
+  tags:
+    - biotech
+    - agtech
+    - bioinputs
+  last_checked: 2026-09-13
+
+- id: brose-curitiba
+  name: Brose Curitiba
+  organization_type: company
+  location:
+    city: São José dos Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.brose.com/de-en/company/
+    note: A Brose desenvolve sistemas mecatrônicos para a indústria automotiva e descreve pesquisa e desenvolvimento de produto como parte central de suas atividades; mantém operação e vagas recorrentes em São José dos Pinhais.
+  careers_url: https://www.brose.com/us-en/careers/jobs-at-brose/
+  tags:
+    - automotive
+    - mechatronics
+    - product-development
+  last_checked: 2026-09-13
+
+- id: nhs
+  name: NHS Sistemas de Energia
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://nhs.com.br/a-nhs/
+    note: A fabricante curitibana de nobreaks, inversores e soluções de energia declara possuir equipe própria de pesquisa e desenvolvimento para criação e evolução de produtos e tecnologias.
+  careers_url: https://nhs.com.br/trabalhe-conosco/
+  tags:
+    - energy
+    - electronics
+    - hardware
+  last_checked: 2026-09-13
+
+- id: hospital-inc
+  name: Hospital INC - Instituto de Neurologia de Curitiba
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://site.inc-neuro.com.br/pt/programas-desenvolvidos
+    note: O Hospital INC mantém programas de pesquisa e investigação clínica em neurologia e neurocirurgia e um Centro de Pesquisa Clínica em Curitiba com participação em dezenas de estudos.
+  careers_url: https://ats.abler.com.br/jobs/hospitalinc
+  tags:
+    - health
+    - clinical-research
+    - neuroscience
+  last_checked: 2026-09-13
+
+- id: kuhn-brasil
+  name: KUHN Brasil
+  organization_type: company
+  location:
+    city: São José dos Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.kuhnbrasil.com.br/sobre-kuhn/junte-se-familia-kuhn/uma-variedade-de-oportunidades-na-kuhn
+    note: O grupo mantém onze centros de P&D, incluindo no Brasil, investe aproximadamente 50 milhões de euros anuais em pesquisa e desenvolvimento e atua em engenharia, eletrônica, protótipos, testes e IoT; mantém unidade em São José dos Pinhais.
+  careers_url: https://www.kuhnbrasil.com.br/trabalhe-na-kuhn
+  tags:
+    - agricultural-machinery
+    - engineering
+    - automation
+  last_checked: 2026-09-13
+
+- id: gestamp-parana
+  name: Gestamp Paraná
+  organization_type: company
+  location:
+    city: São José dos Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://jobs.gestamp.com/go/BR-R%26D-%26-Engineering/8751101/
+    note: A Gestamp mantém R&D & Engineering como área formal no Brasil e a unidade Paraná em São José dos Pinhais possui escopo institucional de desenvolvimento, manufatura e ferramentais para componentes automotivos.
+  careers_url: https://jobs.gestamp.com/?locale=pt_BR
+  tags:
+    - automotive
+    - engineering
+    - materials
+  last_checked: 2026-09-13
+
+- id: dauch-aam-araucaria
+  name: Dauch Corporation / AAM
+  organization_type: company
+  location:
+    city: Araucária
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.aam.com/how-we-do-it/research-development
+    note: A empresa mantém investimento estruturado em pesquisa e desenvolvimento e centros globais de engenharia; sua operação em Araucária mantém vagas recorrentes de engenharia de processos e outras funções técnicas.
+  careers_url: https://careers.aam.com/
+  tags:
+    - automotive
+    - driveline
+    - engineering
+  last_checked: 2026-09-13
+
+- id: nutrimental
+  name: Nutrimental
+  organization_type: company
+  location:
+    city: São José dos Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://nutrimental.com.br/sobre-nos/nossa-essencia/
+    note: A empresa afirma em sua página institucional atual investir em pesquisa e desenvolvimento de tecnologia alimentar para criação e evolução de alimentos práticos e saudáveis; sua matriz e fábrica ficam em São José dos Pinhais.
+  careers_url: https://nutrimental.com.br/jobs/
+  tags:
+    - food
+    - food-technology
+    - product-development
+  last_checked: 2026-09-13
+
+- id: neoortho-medartis
+  name: NeoOrtho Medartis Group
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://neoortho.gupy.io/
+    note: A fabricante curitibana desenvolve implantes ortopédicos e próteses personalizadas e seu portal institucional de carreiras identifica explicitamente um departamento de engenharia P&D; integra o Medartis Group desde 2025.
+  careers_url: https://neoortho.gupy.io/
+  tags:
+    - medical-devices
+    - orthopaedics
+    - engineering
+  last_checked: 2026-09-13
+
+- id: segula-technologies-brasil
+  name: SEGULA Technologies Brasil
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://brasil.segulatechnologies.com/pt/news/o-grupo-de-engenharia-segula-technologies-brasil-vai-recrutar-mais-de-600-profissionais-em-2026/
+    note: O Centro Global de Excelência em Veículos Agrícolas de Curitiba é dedicado a projeto, desenvolvimento e industrialização de máquinas agrícolas de nova geração; a empresa também atua em desenvolvimento de produto, eletrônica embarcada, automação e tecnologia avançada.
+  careers_url: https://careers.segulatechnologies.com/pt_BR/annonces
+  tags:
+    - engineering
+    - automotive
+    - agricultural-machinery
+    - product-development
+  last_checked: 2026-09-13
+
+- id: parexel
+  name: Parexel
+  organization_type: company
+  location:
+    city: Raleigh
+    state: NC
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://jobs.parexel.com/en/clinical-research-associates-jobs
+    note: CRO global dedicada a desenvolvimento clínico e pesquisa clínica, com atuação em clinical trials, biometrics, medical sciences, regulatory e áreas relacionadas ao desenvolvimento de terapias.
+  careers_url: https://jobs.parexel.com/en/search_jobs
+  tags:
+    - clinical-research
+    - cro
+    - life-sciences
+  last_checked: 2026-09-13
+
+- id: syneos-health
+  name: Syneos Health
+  organization_type: company
+  location:
+    city: Morrisville
+    state: NC
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://www.syneoshealth.com/clinical-corporate-careers/pages/clinical-development
+    note: Organização global de desenvolvimento clínico que conduz pesquisa clínica de Fase I-IV, monitoramento, gestão de estudos e serviços de desenvolvimento de terapias.
+  careers_url: https://www.syneoshealth.com/clinical-corporate-careers/search/jobs
+  tags:
+    - clinical-research
+    - cro
+    - life-sciences
+  last_checked: 2026-09-13
+
+- id: mms-holdings
+  name: MMS Holdings
+  organization_type: company
+  location:
+    city: Canton
+    state: MI
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://mmsholdings.com/about/
+    note: CRO global orientada a dados e ciência, com atuação em desenvolvimento de medicamentos, desenho e análise de estudos, biometria, data science, medical writing e assuntos regulatórios.
+  careers_url: https://mmsholdings.com/careers/
+  tags:
+    - clinical-research
+    - cro
+    - data-science
+    - life-sciences
+  last_checked: 2026-09-13
+
+- id: iqvia
+  name: IQVIA
+  organization_type: company
+  location:
+    city: São Paulo
+    state: SP
+    country: Brasil
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://jobs.iqvia.com/en/clinical-research
+    note: A empresa atua em pesquisa clínica e desenvolvimento de terapias, com funções de clinical science, clinical operations, monitoring, biometrics, data e tecnologia aplicadas ao ciclo de desenvolvimento clínico.
+  careers_url: https://jobs.iqvia.com/en/jobs
+  tags:
+    - clinical-research
+    - cro
+    - life-sciences
+    - data-science
+  last_checked: 2026-09-13
+
+- id: thermo-fisher-ppd
+  name: Thermo Fisher Scientific / PPD
+  organization_type: company
+  location:
+    city: São Paulo
+    state: SP
+    country: Brasil
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://jobs.thermofisher.com/global/en/clinical-research
+    note: O negócio PPD da Thermo Fisher atua em pesquisa clínica e desenvolvimento de medicamentos, enquanto a companhia mantém uma estrutura global de P&D com milhares de cientistas e engenheiros em ciências da vida, diagnósticos, instrumentação e software.
+  careers_url: https://jobs.thermofisher.com/global/en/brazil-jobs
+  tags:
+    - clinical-research
+    - cro
+    - life-sciences
+    - research
+  last_checked: 2026-09-13
+
+- id: precision-for-medicine
+  name: Precision for Medicine
+  organization_type: company
+  location:
+    city: Bethesda
+    state: MD
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://www.precisionformedicine.com/clinical-trial-services/cro-services
+    note: CRO global especializada em desenvolvimento clínico, pesquisa translacional, biomarcadores, oncologia, doenças raras e terapias avançadas, cobrindo estudos de primeira administração em humanos até fases tardias.
+  careers_url: https://careers.precisiongroupcompanies.com/career-search/
+  tags:
+    - clinical-research
+    - cro
+    - life-sciences
+    - translational-research
+  last_checked: 2026-09-13
+
+- id: fugro-pinhais
+  name: Fugro
+  organization_type: company
+  location:
+    city: Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+    - hybrid
+  rd_evidence:
+    url: https://www.fugro.com/expertise/other-expertise/centres-of-expertise
+    note: A Fugro mantém mais de 150 projetos de P&D focados em aquisição de dados, software, cloud, big data, robótica e sistemas remotos/autônomos, além de programas conjuntos de pesquisa com universidades e institutos.
+  careers_url: https://www.fugro.com/careers/jobs?locations.countries=Brazil
+  tags:
+    - geodata
+    - geoscience
+    - engineering
+    - research
+  last_checked: 2026-09-13

@@ -77,9 +77,12 @@ From the repository root, run:
 
 ```powershell
 python -c "from qol_kb.records import validate_repository; validate_repository('.')"
+python -c "from qol_kb.career_radar import validate_career_radar; validate_career_radar('.')"
 python -m qol_kb.views
 python -m qol_kb.views --check
 python -m unittest discover -s tests
 ```
+
+Career Radar validation is structural and offline. Contributors verify link freshness and any `remote-brazil` eligibility against institutional sources during curation.
 
 The repository is releasable only when canonical validation succeeds, every cross-reference and lifecycle invariant resolves, generated output has no drift, and the full test suite passes. Structural automation does not replace human review of scientific claims.
