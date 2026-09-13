@@ -29,6 +29,12 @@ Structured sources of truth:
 
 | Source | Type | Scope | Link |
 |---|---|---|---|
+| CNPq - Bolsas e Auxílios | research funding | Brasil | [Acessar](https://www.gov.br/cnpq/pt-br/acesso-a-informacao/bolsas-e-auxilios) |
+| CAPES - Editais e Resultados | academic opportunities | Brasil | [Acessar](https://www.gov.br/capes/pt-br/assuntos/editais-e-resultados-capes) |
+| EMBRAPII - Nossas Unidades | R&D network | Brasil | [Acessar](https://embrapii.org.br/nossas-unidades/) |
+| EURAXESS - Jobs & Opportunities | mixed opportunities | Brasil e internacional | [Acessar](https://euraxess.ec.europa.eu/jobs) |
+| Finep - Chamadas Públicas | research funding | Brasil | [Acessar](https://www.finep.gov.br/chamadas-publicas) |
+| Concurso Público Nacional Unificado (CPNU) | public jobs | Brasil | [Acessar](https://www.gov.br/gestao/pt-br/concursonacional) |
 
 ## To investigate
 
