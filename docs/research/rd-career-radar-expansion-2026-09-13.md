@@ -4,7 +4,7 @@
 
 This research pass expanded the R&D Career Radar across organization sizes and sectors while preserving the inclusion rule: public evidence of meaningful R&D activity, viability for someone living in Curitiba, and a recurring institutional opportunity channel.
 
-Nineteen organizations were promoted during these expansion passes: Renault Group / Renault do Brasil, HORSE Powertrain Brasil, Mondelēz International, Electrolux Group, Novonesis, ERT Bioplastics, LG Electronics, Herbarium, IDR-Paraná, Copel, Sanepar, Lightera, Bosch Curitiba, Valmet, Arteche, SiDi, Siderquímica, Solabia Group / Laborclin, and Instron Brasil / EMIC.
+Twenty-two organizations were promoted during these expansion passes: Renault Group / Renault do Brasil, HORSE Powertrain Brasil, Mondelēz International, Electrolux Group, Novonesis, ERT Bioplastics, LG Electronics, Herbarium, IDR-Paraná, Copel, Sanepar, Lightera, Bosch Curitiba, Valmet, Arteche, SiDi, Siderquímica, Solabia Group / Laborclin, Instron Brasil / EMIC, Biogénesis Bagó, Isogama, and Bioma.
 
 Acceptance decisions use primary sources. Candidates remain in `To investigate` whenever R&D relevance, geographic viability, or the recurring opportunity channel is not sufficiently established.
 
@@ -41,6 +41,12 @@ Acceptance decisions use primary sources. Candidates remain in `To investigate` 
 - **Solabia Group / Laborclin — Accept.** Solabia states that it maintains seven complementary R&D centers and lists its Laborclin site in Curitiba for diagnostic and microbiological-analysis products. The group also maintains a recurring global careers page. [Solabia know-how](https://www.solabia.com/our-know-how/) [Solabia careers](https://www.solabia.com/careers/)
 - **Instron Brasil / EMIC — Accept.** Instron's first-party EMIC material documents investments in research and development, describes a South American team of engineers, technicians and researchers, and explains that the EMIC line is developed and manufactured in São José dos Pinhais. Instron also has a recurring ITW careers portal. [Instron EMIC Series 23](https://www.instron.com/es-ar/-/media/literature-library/products/2018/01/2300-series-brazil-brochure.pdf) [Instron locations](https://www.instron.com/pt-br/our-company/about-us/locations/) [Instron careers](https://careers.itw.com/us/en/instron)
 
+### Pass 5: local biotech, bioinputs, and industrial chemistry
+
+- **Biogénesis Bagó — Accept.** The company announced that its Campo Largo vaccine plant will become a research and development hub and logistics center for Latin America, with production of veterinary vaccines and other biotechnology solutions. The Brazilian site also maintains a recurring `Trabalhe conosco` entry and job portal. [Biogénesis Bagó Campo Largo](https://www.biogenesisbago.com/br/noticia/266/) [Biogénesis Bagó Brazil](https://www.biogenesisbago.com/br/)
+- **Isogama — Accept.** Isogama explicitly describes itself as an industry consolidated in Pesquisa & Desenvolvimento, lists its Paraná unit in São José dos Pinhais, and maintains a recurring `Trabalhe Conosco` form for future opportunities. [Isogama compromisso](https://isogama.com/nosso-compromisso/) [Isogama carreiras](https://isogama.com/trabalhe-conosco/)
+- **Bioma — Accept.** Bioma's institutional page says its microbiological and fertilizer solutions are based on research, continuous development and innovation, with its operation in Fazenda Rio Grande. Its official JobConvo portal is recurring and currently includes an `Assistente de Laboratório P&D` opening in Fazenda Rio Grande. [Bioma institucional](https://bioma.ind.br/institucional/) [Bioma careers](https://app.jobconvo.com/pt-br/careers/bioma/ffac8404-2e08-4d51-9ed7-4b1b58e1eb7f/)
+
 ## Gaps and caveats
 
 - **CPQD:** strong R&D evidence and recurring careers, but current public evidence still does not establish remote-Brazil eligibility strongly enough for someone living in Curitiba. [CPQD](https://www.cpqd.com.br/sobre-o-cpqd/)
@@ -52,6 +58,8 @@ Acceptance decisions use primary sources. Candidates remain in `To investigate` 
 - **BEAUTYCOLOR Company:** Pinhais presence and a recurring careers channel are established, but first-party P&D evidence remains insufficient.
 - **Pumatronix:** the company explicitly describes long-running R&D and its own technology laboratory in Curitiba, but no stable recurring careers/jobs channel was verified. [Pumatronix](https://pumatronix.com/quem-somos/)
 - **Perkons:** Pinhais headquarters and technology development are established, but explicit institutional R&D framing remains weaker than the accepted threshold.
+- **ATEEI:** Campo Largo presence and explicit product research/development services are established, but a stable recurring institutional careers channel still needs verification. [ATEEI](https://ateei.com.br/)
+- **De Cosméticos:** São José dos Pinhais presence and a long-running formula research/development operation are established, but a stable recurring careers channel was not verified. [De Cosméticos](https://decosmeticos.com.br/)
 
 ## Sources
 
