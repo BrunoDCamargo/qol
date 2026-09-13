@@ -58,9 +58,15 @@ These are the primary targets. They combine local viability with sustained resea
 
 The complete local registry, including universities, research institutes and additional industrial organizations, remains in [`organizations.yaml`](organizations.yaml).
 
-## Priority 2: remote Brazil with internal R&D
+## Priority 2: Paraná opportunities practical from Curitiba
 
-These organizations maintain their own research or R&D activity and have current evidence that work can be performed from Brazil.
+This lane covers organizations outside Curitiba/RMC only when the work arrangement is realistically compatible with continuing to live in Curitiba. Geographic proximity alone is not enough.
+
+No additional targets are promoted in this lane yet. It is a search priority for future research passes.
+
+## Priority 3: Brazilian organizations with remote R&D careers
+
+These organizations are based in Brazil, maintain their own research or R&D activity and have current evidence that work can be performed remotely from Brazil.
 
 | Organization | Base | Area | Opportunities |
 |---|---|---|---|
@@ -71,9 +77,16 @@ These organizations maintain their own research or R&D activity and have current
 | Instituto Atlântico | Fortaleza, CE | ICT / R&D | [Trabalhe Conosco](https://www.atlantico.com.br/trabalhe-conosco/) |
 | Kunumi | Belo Horizonte, MG | AI research | [Vagas](https://job-boards.greenhouse.io/kunumi) |
 | Blip | Belo Horizonte, MG | applied AI research | [Vagas](https://job-boards.greenhouse.io/blip-global) |
+
+## Priority 4: international organizations with remote-Brazil R&D careers
+
+International organizations enter this lane only when they maintain a real internal R&D environment and currently offer sustained remote work to professionals located in Brazil.
+
+| Organization | Base | Area | Opportunities |
+|---|---|---|---|
 | AE Studio | Los Angeles, CA, USA | applied AI / AI safety research | [Vagas](https://job-boards.greenhouse.io/aestudio) |
 
-## Priority 3: research-intensive service organizations
+## Secondary track: research-intensive service organizations
 
 These can support strong research careers, but the work depends more on clinical programs, client projects, quantitative strategies or service contracts. They remain useful secondary targets.
 
@@ -104,8 +117,9 @@ These sources help discover opportunities but do not receive the same priority a
 | IEL Paraná - Talento Inovação | Paraná | [Acessar](https://www.ielpr.org.br/talento-inovacao/bolsista/) |
 | FUNTEF-PR - Trabalhe Conosco e Bolsas | Paraná / UTFPR | [Acessar](https://funtefpr.org.br/trabalhe-conosco/) |
 | FUNPAR - Editais de Seleção de Pessoal | Paraná / UFPR | [Acessar](https://trabalheconosco.funpar.ufpr.br/) |
+| Turing - Research and AI Assignments | Brasil / internacional remoto | [Acessar](https://www.turing.com/jobs) |
 
-`Turing` remains preserved in the evidence registry because its Frontier Research activity is real, but its current research opportunities use a contractor/freelancer assignment model. For career prioritization, treat it as an opportunity provider rather than a core employer target.
+Turing remains preserved in the evidence registry because its Frontier Research activity is real, but current Brazil-accessible research work is commonly offered as contractor/freelancer assignments. It is therefore treated as an opportunity provider rather than a core employer target.
 
 ## To investigate
 
@@ -128,5 +142,7 @@ Research new candidates in this order:
 3. Brazilian organizations with current remote R&D careers;
 4. international organizations with current remote-Brazil research employment;
 5. discovery platforms and general opportunity sources.
+
+Research-intensive service organizations remain a secondary track throughout this sequence.
 
 Do not promote a candidate because of one vacancy. Preserve evidence in `docs/research/`, then promote only when the organization satisfies the focus defined in [`FOCUS.md`](FOCUS.md).
