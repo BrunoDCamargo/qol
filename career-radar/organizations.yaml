@@ -508,3 +508,97 @@
     - appliances
     - product-development
   last_checked: 2026-09-13
+
+- id: herbarium
+  name: Herbarium
+  organization_type: company
+  location:
+    city: Colombo
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://herbarium.com.br/parceria-para-inovacao/
+    note: A indústria farmacêutica mantém área Regulatória e de PD&I especializada e o Programa Herbarium de Inovação, com pesquisa aplicada e parcerias com ICTs para desenvolvimento de produtos em fitoterapia.
+  careers_url: https://herbarium.com.br/trabalheconosco/
+  tags:
+    - pharma
+    - phytotherapy
+    - biotech
+  last_checked: 2026-09-13
+
+- id: idr-parana
+  name: Instituto de Desenvolvimento Rural do Paraná (IDR-Paraná)
+  organization_type: research-institute
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.idrparana.pr.gov.br/Pagina/Pesquisa-Desenvolvimento-e-Inovacao-no-IDR-Parana
+    note: O instituto mantém estrutura institucional de pesquisa, desenvolvimento e inovação aplicada ao desenvolvimento rural e um Polo Regional de Pesquisa em Curitiba.
+  jobs_url: https://www.idrparana.pr.gov.br/Pagina/Bolsa-Tecnica
+  tags:
+    - public-sector
+    - agriculture
+    - research-scholarships
+  last_checked: 2026-09-13
+
+- id: copel
+  name: Copel
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.copel.com/site/institucional/programa-de-pesquisa-e-desenvolvimento/
+    note: A Copel mantém Programa de Pesquisa, Desenvolvimento e Inovação regulado pela ANEEL, com desenvolvimento tecnológico em energia e sede em Curitiba.
+  careers_url: https://www.copel.com/site/institucional/carreira/
+  tags:
+    - energy
+    - public-sector
+  last_checked: 2026-09-13
+
+- id: sanepar
+  name: Sanepar
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.sanepar.com.br/pesquisa-desenvolvimento
+    note: A Sanepar trata P&D+i como prática contínua e estratégica e mantém Gerência de Pesquisa e Inovação com profissionais dedicados a pesquisa aplicada e inovação em saneamento.
+  jobs_url: https://www.sanepar.com.br/concursos
+  tags:
+    - sanitation
+    - public-sector
+    - sustainability
+  last_checked: 2026-09-13
+
+- id: lightera
+  name: Lightera
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://lightera.com/pt-br/inovacao/
+    note: A Lightera mantém mais de 100 profissionais dedicados a P&D em tecnologias ópticas e sua história institucional registra laboratório de pesquisa em Curitiba, onde mantém planta e escritório.
+  careers_url: https://lightera.com/pt-br/pessoas-e-carreiras/
+  tags:
+    - telecommunications
+    - optical-communications
+    - hardware
+  last_checked: 2026-09-13
