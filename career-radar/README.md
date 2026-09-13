@@ -61,6 +61,7 @@ Structured sources of truth:
 | Nutrimental | company / food technology | onsite | [Pesquisa e desenvolvimento](https://nutrimental.com.br/sobre-nos/nossa-essencia/) | [Trabalhe Conosco](https://nutrimental.com.br/jobs/) |
 | NeoOrtho Medartis Group | company / medical devices | onsite | [Engenharia P&D](https://neoortho.gupy.io/) | [Carreiras](https://neoortho.gupy.io/) |
 | SEGULA Technologies Brasil | company / engineering | onsite | [Centro de Engenharia de Curitiba](https://brasil.segulatechnologies.com/pt/news/o-grupo-de-engenharia-segula-technologies-brasil-vai-recrutar-mais-de-600-profissionais-em-2026/) | [Carreiras](https://careers.segulatechnologies.com/pt_BR/annonces) |
+| Fugro | company / geodata & geoscience | onsite / hybrid | [R&D Centres](https://www.fugro.com/expertise/other-expertise/centres-of-expertise) | [Vagas no Brasil](https://www.fugro.com/careers/jobs?locations.countries=Brazil) |
 
 ## Remote in Brazil
 
@@ -75,6 +76,7 @@ Structured sources of truth:
 | MMS Holdings | Canton, MI, USA | CRO / data science | remote Brazil | [Carreiras](https://mmsholdings.com/careers/) |
 | IQVIA | São Paulo, SP | clinical research / data | remote Brazil | [Carreiras](https://jobs.iqvia.com/en/jobs) |
 | Thermo Fisher Scientific / PPD | São Paulo, SP | clinical research / life sciences | remote Brazil | [Carreiras](https://jobs.thermofisher.com/global/en/brazil-jobs) |
+| Precision for Medicine | Bethesda, MD, USA | CRO / translational research | remote Brazil | [Carreiras](https://careers.precisiongroupcompanies.com/career-search/) |
 
 ## General opportunity sources
 
@@ -106,6 +108,7 @@ Candidates stay here until R&D relevance, viability from Curitiba, and a recurri
 - Perkons: Pinhais headquarters, technology development and a recurring contact/careers route are confirmed, but explicit institutional R&D framing is still weaker than the accepted threshold.
 - ATEEI: Campo Largo presence and explicit product research/development services are established, but a stable recurring institutional careers channel still needs verification.
 - De Cosméticos: São José dos Pinhais presence and a long-running formula research/development operation are established, but a stable recurring careers channel was not verified.
-- Precision for Medicine: strong CRO and clinical-development activity is confirmed, but current first-party evidence for remote-Brazil eligibility still needs to be explicit enough for promotion.
 - Kunumi: strong AI research and a recurring careers page are confirmed, but current first-party evidence for Curitiba or remote-Brazil viability was not established in this pass.
 - Vector Trading: quantitative research and an active research role are confirmed, but current first-party evidence for remote-Brazil viability was not established in this pass.
+- EDETEK: clinical R&D, an R&D Cloud and a recurring careers page are confirmed, but current first-party evidence for remote-Brazil eligibility was not established.
+- Turing: frontier-AI research and a paid research-contributor initiative are confirmed, but the HiringCafe Research Engineer result may represent its talent marketplace or a client assignment; further classification as employer versus opportunity source is needed.
