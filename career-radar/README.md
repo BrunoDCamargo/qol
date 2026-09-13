@@ -24,6 +24,9 @@ Structured sources of truth:
 | CNH | company | onsite | [Centro de P&D em Curitiba](https://media.cnh.com/latin-america-portuguese/cnh/cnh-industrial-eleita-novamente-uma-das-10-empresas-mais-inovadoras-do-brasil/s/aed5e57c-b0cb-4880-9e0b-4227010a3e57) | [Carreiras](https://join.cnh.com/) |
 | Instituto de Pesquisa Pelé Pequeno Príncipe | research institute / third sector | onsite | [Pesquisa em saúde](https://pelepequenoprincipe.org.br/institucional/quem-somos/) | [Trabalhe Conosco](https://pelepequenoprincipe.org.br/institucional/trabalhe-conosco/) |
 | Hospital Erasto Gaertner / CEPEP | nonprofit / third sector | onsite | [Pesquisa clínica e projetos](https://cepep.erastogaertner.com.br/) | [Trabalhe Conosco](https://erastogaertner.com.br/trabalheconosco) |
+| Hilab | healthtech | onsite | [Hilab Research](https://hilab.com.br/pesquisa-cientifica/) | [Carreiras](https://hilab.com.br/carreiras/) |
+| ST-One | startup / deeptech | onsite / hybrid | [Pesquisa e Desenvolvimento](https://www.st-one.io/a-st-one/sobre-nos/) | [Carreiras](https://www.st-one.io/a-st-one/carreiras/) |
+| Centro Internacional de Tecnologia de Software (CITS) | ICT | onsite | [Pesquisa e Desenvolvimento](https://www.cits.br/pesquisa-e-desenvolvimento/) | [Trabalhe Conosco](https://www.cits.br/trabalhe-conosco/) |
 
 ## Remote in Brazil
 
@@ -44,6 +47,7 @@ Structured sources of truth:
 | Finep - Chamadas Públicas | research funding | Brasil | [Acessar](https://www.finep.gov.br/chamadas-publicas) |
 | Concurso Público Nacional Unificado (CPNU) | public jobs | Brasil | [Acessar](https://www.gov.br/gestao/pt-br/concursonacional) |
 | Fundação Araucária - Programas Abertos | research funding | Paraná | [Acessar](https://www.fappr.pr.gov.br/Programas-Abertos) |
+| Vale do Pinhão / Agência Curitiba - Programas | startup ecosystem / mixed opportunities | Curitiba e RMC | [Acessar](https://agenciacuritiba.com.br/programas/) |
 
 ## To investigate
 
@@ -52,3 +56,4 @@ Candidates stay here until R&D relevance, viability from Curitiba, and a recurri
 - Bosch Curitiba: the organization has R&D careers and a Curitiba site, but current public evidence tying R&D work specifically to Curitiba is still weak.
 - Renault Geely do Brasil: São José dos Pinhais is confirmed, but a recurring public source explicitly connecting the local complex to R&D roles still needs verification.
 - CPQD: current careers are strongly R&D-oriented, but the currently visible opportunities are hybrid in Campinas; remote-Brazil eligibility needs fresh evidence.
+- Human Robotics: Curitiba presence and a recurring careers channel are confirmed, but the institutional site does not yet state R&D/PD&I activity explicitly enough for the accepted catalog.
