@@ -218,3 +218,37 @@
     note: O instituto se apresenta como referência nacional em pesquisa, desenvolvimento e inovação em tecnologia.
   careers_url: https://eldorado.org.br/carreiras/
   last_checked: 2026-09-13
+
+- id: ipp-pele-pequeno-principe
+  name: Instituto de Pesquisa Pelé Pequeno Príncipe
+  organization_type: research-institute
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://pelepequenoprincipe.org.br/institucional/quem-somos/
+    note: Instituto dedicado à pesquisa científica em saúde, com laboratórios e projetos em áreas como genética, oncologia, microbiologia e doenças raras.
+  careers_url: https://pelepequenoprincipe.org.br/institucional/trabalhe-conosco/
+  tags:
+    - third-sector
+  last_checked: 2026-09-13
+
+- id: erasto-gaertner-cepep
+  name: Hospital Erasto Gaertner / CEPEP
+  organization_type: nonprofit
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://cepep.erastogaertner.com.br/
+    note: O CEPEP conduz pesquisa clínica e projetos de desenvolvimento científico e inovação assistencial no complexo Erasto Gaertner.
+  careers_url: https://erastogaertner.com.br/trabalheconosco
+  tags:
+    - third-sector
+  last_checked: 2026-09-13
