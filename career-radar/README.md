@@ -60,6 +60,7 @@ Structured sources of truth:
 | Dauch Corporation / AAM | company / automotive | onsite | [Research & Development](https://www.aam.com/how-we-do-it/research-development) | [Carreiras](https://careers.aam.com/) |
 | Nutrimental | company / food technology | onsite | [Pesquisa e desenvolvimento](https://nutrimental.com.br/sobre-nos/nossa-essencia/) | [Trabalhe Conosco](https://nutrimental.com.br/jobs/) |
 | NeoOrtho Medartis Group | company / medical devices | onsite | [Engenharia P&D](https://neoortho.gupy.io/) | [Carreiras](https://neoortho.gupy.io/) |
+| SEGULA Technologies Brasil | company / engineering | onsite | [Centro de Engenharia de Curitiba](https://brasil.segulatechnologies.com/pt/news/o-grupo-de-engenharia-segula-technologies-brasil-vai-recrutar-mais-de-600-profissionais-em-2026/) | [Carreiras](https://careers.segulatechnologies.com/pt_BR/annonces) |
 
 ## Remote in Brazil
 
@@ -69,6 +70,11 @@ Structured sources of truth:
 | CESAR | Recife, PE | nonprofit / EMBRAPII | remote Brazil | [Vagas](https://www.cesar.org.br/trabalhe-com-a-gente) |
 | Instituto de Pesquisas ELDORADO | Campinas, SP | ICT | remote Brazil | [Carreiras](https://eldorado.org.br/carreiras/) |
 | SiDi | Campinas, SP | ICT | remote Brazil | [Carreiras](https://www.sidi.org.br/pt-br/carreiras) |
+| Parexel | Raleigh, NC, USA | CRO / clinical research | remote Brazil | [Carreiras](https://jobs.parexel.com/en/search_jobs) |
+| Syneos Health | Morrisville, NC, USA | clinical development / CRO | remote Brazil | [Carreiras](https://www.syneoshealth.com/clinical-corporate-careers/search/jobs) |
+| MMS Holdings | Canton, MI, USA | CRO / data science | remote Brazil | [Carreiras](https://mmsholdings.com/careers/) |
+| IQVIA | São Paulo, SP | clinical research / data | remote Brazil | [Carreiras](https://jobs.iqvia.com/en/jobs) |
+| Thermo Fisher Scientific / PPD | São Paulo, SP | clinical research / life sciences | remote Brazil | [Carreiras](https://jobs.thermofisher.com/global/en/brazil-jobs) |
 
 ## General opportunity sources
 
@@ -100,3 +106,6 @@ Candidates stay here until R&D relevance, viability from Curitiba, and a recurri
 - Perkons: Pinhais headquarters, technology development and a recurring contact/careers route are confirmed, but explicit institutional R&D framing is still weaker than the accepted threshold.
 - ATEEI: Campo Largo presence and explicit product research/development services are established, but a stable recurring institutional careers channel still needs verification.
 - De Cosméticos: São José dos Pinhais presence and a long-running formula research/development operation are established, but a stable recurring careers channel was not verified.
+- Precision for Medicine: strong CRO and clinical-development activity is confirmed, but current first-party evidence for remote-Brazil eligibility still needs to be explicit enough for promotion.
+- Kunumi: strong AI research and a recurring careers page are confirmed, but current first-party evidence for Curitiba or remote-Brazil viability was not established in this pass.
+- Vector Trading: quantitative research and an active research role are confirmed, but current first-party evidence for remote-Brazil viability was not established in this pass.
