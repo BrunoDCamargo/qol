@@ -1393,3 +1393,64 @@
     - data-science
     - research
   last_checked: 2026-09-13
+
+- id: beone-medicines
+  name: BeOne Medicines
+  organization_type: company
+  location:
+    city: San Carlos
+    state: CA
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://beonemedicines.com/science/research-and-development/
+    note: Biotech oncológica com P&D interno de grande escala, quase 5.000 cientistas, clínicos e inovadores, programa global de pesquisa clínica operado internamente e pipeline próprio de terapias; mantém múltiplas posições atuais full-time explicitamente Brazil Remote em clinical development, safety e áreas científicas.
+  careers_url: https://beonemedicines.com/careers/
+  tags:
+    - biotech
+    - oncology
+    - clinical-research
+    - drug-development
+    - research
+  last_checked: 2026-09-13
+
+- id: adaption
+  name: Adaption
+  organization_type: company
+  location:
+    city: San Francisco
+    state: CA
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://adaptionlabs.ai/research
+    note: Empresa de pesquisa em IA adaptativa com produção científica própria e mais de 150 publicações acumuladas pela equipe; o portal atual oferece posições full-time remotas de Research Scientist e Research Engineer com Brazil explicitamente entre os países elegíveis.
+  careers_url: https://adaptionlabs.ai/careers
+  tags:
+    - artificial-intelligence
+    - machine-learning
+    - frontier-ai
+    - research
+  last_checked: 2026-09-13
+
+- id: roboflow
+  name: Roboflow
+  organization_type: company
+  location:
+    city: San Francisco
+    state: CA
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://research.roboflow.com/
+    note: Empresa de computer vision com equipe interna de pesquisa que desenvolve métodos e algoritmos originais, publica em conferências como ICLR, NeurIPS e CVPR e transfere pesquisa para produção; mantém equipe distribuída, hub no Brasil e vaga atual full-time remota de Research Scientist.
+  careers_url: https://roboflow.com/careers
+  tags:
+    - artificial-intelligence
+    - computer-vision
+    - machine-learning
+    - research
+  last_checked: 2026-09-13
