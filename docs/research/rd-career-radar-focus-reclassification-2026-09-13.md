@@ -8,12 +8,15 @@ The evidence registry remains broad, but the decision view now distinguishes dir
 
 ## Scope decision
 
-The priority order is now:
+The search and presentation order is now:
 
 1. Curitiba and RMC organizations with their own R&D, research, engineering-development, product-development or scientific structures;
-2. organizations with sustained internal R&D and current remote-Brazil career paths;
-3. research-intensive service organizations such as CROs and quantitative-research firms;
-4. contractor marketplaces, assignment platforms, funding portals and other recurring opportunity sources.
+2. Paraná organizations outside the RMC only when the work arrangement is realistically compatible with continuing to live in Curitiba;
+3. Brazilian organizations with sustained internal R&D and current remote-Brazil career paths;
+4. international organizations with a real internal R&D environment and current remote-Brazil employment;
+5. discovery platforms, contractor marketplaces, funding portals and other recurring opportunity sources.
+
+Research-intensive service organizations such as CROs and quantitative-research firms remain a secondary track rather than competing directly with employers and ICTs that maintain their own R&D programs.
 
 This is a project-scoping decision rather than an empirical claim. The durable rule is recorded in `career-radar/FOCUS.md`.
 
@@ -31,7 +34,7 @@ However, current research opportunities available to candidates in Brazil are ex
 - `AI Benchmark Engineer — Knowledge / Research`, available in Brazil with `Engagement type: Contractor assignment/freelancer`. [AI Benchmark Engineer — Knowledge / Research](https://work.turing.com/r/8FqO7Lxyme)
 - `Research Quality Specialist - Computational Biology`, available in Brazil as a contractor/freelancer engagement. [Computational Biology](https://work.turing.com/r/xpJ4m8DFBx)
 
-Turing's own jobs page also describes the platform as matching professionals with remote work at global companies. [Turing Jobs](https://www.turing.com/jobs)
+Turing's own jobs page describes its platform as matching professionals with remote work at global companies. [Turing Jobs](https://www.turing.com/jobs)
 
 ## Decision
 
@@ -50,7 +53,7 @@ CROs and similar service organizations remain legitimate career targets when res
 ## Repository changes
 
 - Added `career-radar/FOCUS.md` as the durable scope and inclusion rule.
-- Reworked `career-radar/README.md` into a priority-based decision view.
+- Reworked `career-radar/README.md` into a geographic and career-priority decision view.
 - Preserved the broader verified evidence registry in `career-radar/organizations.yaml`.
 - Added `Turing - Research and AI Assignments` to `career-radar/sources.yaml`.
 - Kept unresolved candidates under `To investigate` rather than lowering the evidence threshold.
