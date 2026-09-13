@@ -39,3 +39,10 @@
   url: https://www.gov.br/gestao/pt-br/concursonacional
   scope: Brasil
   last_checked: 2026-09-13
+
+- id: fundacao-araucaria-programas
+  name: Fundação Araucária - Programas Abertos
+  source_type: research-funding
+  url: https://www.fappr.pr.gov.br/Programas-Abertos
+  scope: Paraná
+  last_checked: 2026-09-13
