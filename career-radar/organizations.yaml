@@ -1062,3 +1062,44 @@
     - life-sciences
     - research
   last_checked: 2026-09-13
+
+- id: precision-for-medicine
+  name: Precision for Medicine
+  organization_type: company
+  location:
+    city: Bethesda
+    state: MD
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://www.precisionformedicine.com/clinical-trial-services/cro-services
+    note: CRO global especializada em desenvolvimento clínico, pesquisa translacional, biomarcadores, oncologia, doenças raras e terapias avançadas, cobrindo estudos de primeira administração em humanos até fases tardias.
+  careers_url: https://careers.precisiongroupcompanies.com/career-search/
+  tags:
+    - clinical-research
+    - cro
+    - life-sciences
+    - translational-research
+  last_checked: 2026-09-13
+
+- id: fugro-pinhais
+  name: Fugro
+  organization_type: company
+  location:
+    city: Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+    - hybrid
+  rd_evidence:
+    url: https://www.fugro.com/expertise/other-expertise/centres-of-expertise
+    note: A Fugro mantém mais de 150 projetos de P&D focados em aquisição de dados, software, cloud, big data, robótica e sistemas remotos/autônomos, além de programas conjuntos de pesquisa com universidades e institutos.
+  careers_url: https://www.fugro.com/careers/jobs?locations.countries=Brazil
+  tags:
+    - geodata
+    - geoscience
+    - engineering
+    - research
+  last_checked: 2026-09-13
