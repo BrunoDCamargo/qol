@@ -23,6 +23,8 @@
 | [IMP-018](../implementation-options/IMP-018.md) | HEPA-compatible HVAC filtration upgrade | purchase | [QOL-047](../items/QOL-047.md) |
 | [IMP-019](../implementation-options/IMP-019.md) | Meal-kit subscription | subscription | [QOL-025](../items/QOL-025.md) |
 | [IMP-020](../implementation-options/IMP-020.md) | Grocery delivery subscription | subscription | [QOL-023](../items/QOL-023.md) |
+| [IMP-021](../implementation-options/IMP-021.md) | Free guided meditation app | free | [QOL-061](../items/QOL-061.md) |
+| [IMP-022](../implementation-options/IMP-022.md) | Free noise and ambient-sound generator app | free | [QOL-008](../items/QOL-008.md) |
 
 ## Deprecated Implementation Options
 No Deprecated Implementation Options.
