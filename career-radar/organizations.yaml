@@ -792,3 +792,79 @@
     - agtech
     - bioinputs
   last_checked: 2026-09-13
+
+- id: brose-curitiba
+  name: Brose Curitiba
+  organization_type: company
+  location:
+    city: São José dos Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.brose.com/de-en/company/
+    note: A Brose desenvolve sistemas mecatrônicos para a indústria automotiva e descreve pesquisa e desenvolvimento de produto como parte central de suas atividades; mantém operação e vagas recorrentes em São José dos Pinhais.
+  careers_url: https://www.brose.com/us-en/careers/jobs-at-brose/
+  tags:
+    - automotive
+    - mechatronics
+    - product-development
+  last_checked: 2026-09-13
+
+- id: nhs
+  name: NHS Sistemas de Energia
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://nhs.com.br/a-nhs/
+    note: A fabricante curitibana de nobreaks, inversores e soluções de energia declara possuir equipe própria de pesquisa e desenvolvimento para criação e evolução de produtos e tecnologias.
+  careers_url: https://nhs.com.br/trabalhe-conosco/
+  tags:
+    - energy
+    - electronics
+    - hardware
+  last_checked: 2026-09-13
+
+- id: hospital-inc
+  name: Hospital INC - Instituto de Neurologia de Curitiba
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://site.inc-neuro.com.br/pt/programas-desenvolvidos
+    note: O Hospital INC mantém programas de pesquisa e investigação clínica em neurologia e neurocirurgia e um Centro de Pesquisa Clínica em Curitiba com participação em dezenas de estudos.
+  careers_url: https://ats.abler.com.br/jobs/hospitalinc
+  tags:
+    - health
+    - clinical-research
+    - neuroscience
+  last_checked: 2026-09-13
+
+- id: kuhn-brasil
+  name: KUHN Brasil
+  organization_type: company
+  location:
+    city: São José dos Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.kuhnbrasil.com.br/sobre-kuhn/junte-se-familia-kuhn/uma-variedade-de-oportunidades-na-kuhn
+    note: O grupo mantém onze centros de P&D, incluindo no Brasil, investe aproximadamente 50 milhões de euros anuais em pesquisa e desenvolvimento e atua em engenharia, eletrônica, protótipos, testes e IoT; mantém unidade em São José dos Pinhais.
+  careers_url: https://www.kuhnbrasil.com.br/trabalhe-na-kuhn
+  tags:
+    - agricultural-machinery
+    - engineering
+    - automation
+  last_checked: 2026-09-13
