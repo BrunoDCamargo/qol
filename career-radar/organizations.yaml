@@ -944,3 +944,121 @@
     - orthopaedics
     - engineering
   last_checked: 2026-09-13
+
+- id: segula-technologies-brasil
+  name: SEGULA Technologies Brasil
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://brasil.segulatechnologies.com/pt/news/o-grupo-de-engenharia-segula-technologies-brasil-vai-recrutar-mais-de-600-profissionais-em-2026/
+    note: O Centro Global de Excelência em Veículos Agrícolas de Curitiba é dedicado a projeto, desenvolvimento e industrialização de máquinas agrícolas de nova geração; a empresa também atua em desenvolvimento de produto, eletrônica embarcada, automação e tecnologia avançada.
+  careers_url: https://careers.segulatechnologies.com/pt_BR/annonces
+  tags:
+    - engineering
+    - automotive
+    - agricultural-machinery
+    - product-development
+  last_checked: 2026-09-13
+
+- id: parexel
+  name: Parexel
+  organization_type: company
+  location:
+    city: Raleigh
+    state: NC
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://jobs.parexel.com/en/clinical-research-associates-jobs
+    note: CRO global dedicada a desenvolvimento clínico e pesquisa clínica, com atuação em clinical trials, biometrics, medical sciences, regulatory e áreas relacionadas ao desenvolvimento de terapias.
+  careers_url: https://jobs.parexel.com/en/search_jobs
+  tags:
+    - clinical-research
+    - cro
+    - life-sciences
+  last_checked: 2026-09-13
+
+- id: syneos-health
+  name: Syneos Health
+  organization_type: company
+  location:
+    city: Morrisville
+    state: NC
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://www.syneoshealth.com/clinical-corporate-careers/pages/clinical-development
+    note: Organização global de desenvolvimento clínico que conduz pesquisa clínica de Fase I-IV, monitoramento, gestão de estudos e serviços de desenvolvimento de terapias.
+  careers_url: https://www.syneoshealth.com/clinical-corporate-careers/search/jobs
+  tags:
+    - clinical-research
+    - cro
+    - life-sciences
+  last_checked: 2026-09-13
+
+- id: mms-holdings
+  name: MMS Holdings
+  organization_type: company
+  location:
+    city: Canton
+    state: MI
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://mmsholdings.com/about/
+    note: CRO global orientada a dados e ciência, com atuação em desenvolvimento de medicamentos, desenho e análise de estudos, biometria, data science, medical writing e assuntos regulatórios.
+  careers_url: https://mmsholdings.com/careers/
+  tags:
+    - clinical-research
+    - cro
+    - data-science
+    - life-sciences
+  last_checked: 2026-09-13
+
+- id: iqvia
+  name: IQVIA
+  organization_type: company
+  location:
+    city: São Paulo
+    state: SP
+    country: Brasil
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://jobs.iqvia.com/en/clinical-research
+    note: A empresa atua em pesquisa clínica e desenvolvimento de terapias, com funções de clinical science, clinical operations, monitoring, biometrics, data e tecnologia aplicadas ao ciclo de desenvolvimento clínico.
+  careers_url: https://jobs.iqvia.com/en/jobs
+  tags:
+    - clinical-research
+    - cro
+    - life-sciences
+    - data-science
+  last_checked: 2026-09-13
+
+- id: thermo-fisher-ppd
+  name: Thermo Fisher Scientific / PPD
+  organization_type: company
+  location:
+    city: São Paulo
+    state: SP
+    country: Brasil
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://jobs.thermofisher.com/global/en/clinical-research
+    note: O negócio PPD da Thermo Fisher atua em pesquisa clínica e desenvolvimento de medicamentos, enquanto a companhia mantém uma estrutura global de P&D com milhares de cientistas e engenheiros em ciências da vida, diagnósticos, instrumentação e software.
+  careers_url: https://jobs.thermofisher.com/global/en/brazil-jobs
+  tags:
+    - clinical-research
+    - cro
+    - life-sciences
+    - research
+  last_checked: 2026-09-13
