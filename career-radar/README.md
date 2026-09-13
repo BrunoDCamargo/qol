@@ -52,6 +52,10 @@ Structured sources of truth:
 | Biogénesis Bagó | company / biotech & animal health | onsite | [Hub de P&D em Campo Largo](https://www.biogenesisbago.com/br/noticia/266/) | [Trabalhe Conosco](https://www.biogenesisbago.com/br/) |
 | Isogama | company / chemicals | onsite | [Pesquisa & Desenvolvimento](https://isogama.com/nosso-compromisso/) | [Trabalhe Conosco](https://isogama.com/trabalhe-conosco/) |
 | Bioma | company / biotech & agtech | onsite | [Pesquisa e desenvolvimento](https://bioma.ind.br/institucional/) | [Trabalhe Conosco](https://app.jobconvo.com/pt-br/careers/bioma/ffac8404-2e08-4d51-9ed7-4b1b58e1eb7f/) |
+| Brose Curitiba | company / mechatronics | onsite | [Pesquisa e desenvolvimento](https://www.brose.com/de-en/company/) | [Carreiras](https://www.brose.com/us-en/careers/jobs-at-brose/) |
+| NHS Sistemas de Energia | company / electronics | onsite | [Equipe própria de P&D](https://nhs.com.br/a-nhs/) | [Trabalhe Conosco](https://nhs.com.br/trabalhe-conosco/) |
+| Hospital INC - Instituto de Neurologia de Curitiba | clinical research / health | onsite | [Programas de Pesquisa e Investigação](https://site.inc-neuro.com.br/pt/programas-desenvolvidos) | [Trabalhe Conosco](https://ats.abler.com.br/jobs/hospitalinc) |
+| KUHN Brasil | company / agricultural machinery | onsite | [Atividades de P&D](https://www.kuhnbrasil.com.br/sobre-kuhn/junte-se-familia-kuhn/uma-variedade-de-oportunidades-na-kuhn) | [Trabalhe na KUHN](https://www.kuhnbrasil.com.br/trabalhe-na-kuhn) |
 
 ## Remote in Brazil
 
