@@ -1,4 +1,4 @@
-# Verified expansion batch. See docs/research/rd-career-radar-comprehensive-expansion-2026-09-14.md
+# Verified expansion batch. See docs/research/rd-career-radar-comprehensive-expansion-2026-09-14.md and docs/research/rd-career-radar-comprehensive-followup-2026-09-14.md
 # Primary and secondary-track entries passed the applicable evidence gate in career-radar/FOCUS.md.
 
 - id: siemens-curitiba
@@ -41,6 +41,48 @@
     - advanced-glass
     - product-development
     - research-development
+  last_checked: 2026-09-14
+
+- id: protium-dynamics
+  name: Protium Dynamics
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - hybrid
+  rd_evidence:
+    url: https://protiumdynamics.com/pesquisa-desenvolvimento-e-inovacao/
+    note: Empresa de base tecnológica dedicada a hidrogênio e descarbonização industrial, com equipe especializada em pesquisa, desenvolvimento e engenharia e múltiplas seleções atuais de pesquisadores doutores em Curitiba para projetos experimentais, dados, IA e monitoramento industrial.
+  careers_url: https://carreiras.iel.org.br/PR/vaga/bolsista/27850/pesquisador-doutorado-protium-dynamics-doutores-inovando-no-setor-empresaria-iel-pr
+  tags:
+    - hydrogen
+    - energy-transition
+    - industrial-decarbonization
+    - data-science
+    - applied-research
+  last_checked: 2026-09-14
+
+- id: toroid-do-brasil
+  name: Toroid do Brasil
+  organization_type: company
+  location:
+    city: São José dos Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://carreiras.iel.org.br/PR/vaga/bolsista/28050/pesquisador-doutor-toroid-do-brasil-doutores-inovando-no-setor-empresarial-iel-pr
+    note: Mantém programa atual de inovação em processos e desenvolvimento de novos produtos para transformadores toroidais e de média tensão, com pesquisador doutor dedicado a prototipagem, validação e modernização tecnológica; a empresa também mantém rota institucional de carreiras.
+  careers_url: https://toroid.com.br/trabalhe-conosco/
+  tags:
+    - electrical-engineering
+    - transformers
+    - power-electronics
+    - prototyping
+    - product-development
   last_checked: 2026-09-14
 
 - id: yotta-labs
