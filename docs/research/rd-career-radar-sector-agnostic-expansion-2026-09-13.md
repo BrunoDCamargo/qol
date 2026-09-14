@@ -85,6 +85,18 @@ dsm-firmenich maintains a recurring institutional careers portal and global R&D/
 
 **Pending:** a current Brazil-remote role or recurring route that directly belongs to R&D/scientific development.
 
+### Hexagon
+
+Hexagon's careers site identifies Research and Development as an organization-wide career area for engineers, researchers and product specialists. Its Agriculture division has current Brazil-based R&D leadership and develops agricultural autonomy and monitoring technologies, but this pass did not establish a current Curitiba/RMC or remote-Brazil R&D career route. [Hexagon careers](https://careers.hexagon.com/) [Hexagon Agriculture R&D example](https://hexagon.com/company/newsroom/press-releases/2023/hexagons-agriculture-division-launches-app-to-monitor-production-in-real-time)
+
+**Pending:** current first-party evidence of a viable R&D work arrangement while living in Curitiba.
+
+### Embraer
+
+Embraer's current PEE program is a corporate engineering-development pathway delivered with ITA and explicitly targets product and process development. The program is partially remote, but its structure does not by itself establish a sustained remote-Brazil R&D employment path. [Embraer PEE](https://embraer.com/corporate-careers/emengenharia/pt/)
+
+**Pending:** a current recurring R&D career that can be pursued while remaining in Curitiba.
+
 ## Reviewed but not currently viable
 
 ### Saint-Gobain
@@ -95,6 +107,10 @@ Saint-Gobain has a current first-party `Especialista de Pesquisa e Desenvolvimen
 
 Gurobi's current board has a formal R&D team and a `Senior MIP Developer` role labeled remote, but the current R&D opening is restricted to the United States. Brazil-remote openings visible on the same first-party board are commercial/technical-account roles rather than R&D. [Gurobi jobs](https://jobs.lever.co/GurobiOptimization) [Senior MIP Developer](https://jobs.lever.co/GurobiOptimization/834dc0a3-f414-4c6c-980d-b9082231dcdc)
 
+### Furukawa Electric LatAm optical-cable operation
+
+Furukawa Electric LatAm has a long-standing Curitiba production presence and states that it invests continuously in research and development. However, the group's optical-fiber cable operations were integrated into the Lightera brand in 2025. Lightera is already represented in the Career Radar, so adding Furukawa again for the same optical-cable operation would create a duplicate rather than broaden coverage. [Furukawa technologies](https://www.furukawalatam.com/pt-br/tecnologia-e-tendencias) [Lightera integration announcement](https://support.furukawalatam.com/pt-br/conexao-furukawa-detalhes/apresentando-lightera)
+
 ## Search-quality implication
 
-This pass deliberately crossed unrelated domains: food-processing equipment, smart-grid technology, energy services, energy research, health technology, climate/agriculture, chemicals/materials and mathematical optimization. That diversity is useful as a check against search bias, but it is not a quota. Future passes should continue changing vocabulary, sectors and organization types rather than repeatedly querying the categories already dominant in the catalog.
+This pass deliberately crossed unrelated domains: food-processing equipment, smart-grid technology, energy services, energy research, health technology, climate/agriculture, chemicals/materials, aerospace/engineering, agricultural autonomy and mathematical optimization. That diversity is useful as a check against search bias, but it is not a quota. Future passes should continue changing vocabulary, sectors and organization types rather than repeatedly querying the categories already dominant in the catalog.
