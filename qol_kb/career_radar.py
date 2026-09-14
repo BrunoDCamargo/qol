@@ -25,6 +25,7 @@ SOURCE_TYPES = frozenset(
         "academic-opportunities",
         "rd-network",
         "mixed-opportunities",
+        "contract-research-opportunities",
         "other",
     }
 )
