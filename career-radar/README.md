@@ -10,7 +10,8 @@ Structured evidence registries:
 
 - [`organizations.yaml`](organizations.yaml): consolidated verified organizations and evidence;
 - [`organizations-expansion-2026-09-13-2.yaml`](organizations-expansion-2026-09-13-2.yaml): verified expansion batch awaiting consolidation into the main registry;
-- [`organizations-expansion-2026-09-13-3.yaml`](organizations-expansion-2026-09-13-3.yaml): latest verified expansion batch awaiting consolidation into the main registry;
+- [`organizations-expansion-2026-09-13-3.yaml`](organizations-expansion-2026-09-13-3.yaml): verified expansion batch awaiting consolidation into the main registry;
+- [`organizations-expansion-2026-09-13-4.yaml`](organizations-expansion-2026-09-13-4.yaml): latest verified expansion batch awaiting consolidation into the main registry;
 - [`sources.yaml`](sources.yaml): recurring opportunity and discovery sources.
 
 The YAML registries are broader than this README. This page is the decision-oriented view and groups targets by career relevance.
@@ -86,6 +87,10 @@ Local Curitiba/RMC work and remote work available from Brazil have **equal prior
 | Fibracem | optical communications / fiber / product engineering | onsite | [Carreiras](https://www.fibracem.com/trabalhe-conosco) |
 | Ambipar / Codiflex | packaging / materials / engineering development | onsite | [Carreiras](https://codiflex.com.br/trabalhe-conosco/) |
 | Lunex Tecnologia | electronics / LED / lighting / automation | onsite | [Carreiras](https://www.lunex.com.br/carreira.php) |
+| Instituto de Biologia Molecular do Paraná (IBMP) | biotech / diagnostics / applied R&D | onsite | [Oportunidades](https://www.ibmp.org.br/oportunidades/) |
+| Organnact | animal health / nutrition / product R&D | onsite | [Carreiras](https://organnact.abler.com.br/) |
+| Vegoor Tecnologia Aplicada | electrical sector / laboratory / PD&I | onsite | [Trabalhe Conosco](https://www.vegoor.com.br/contato) |
+| Caterpillar | heavy equipment / industrial technology / engineering development | onsite | [Carreiras](https://careers.caterpillar.com/) |
 
 The complete local registry, including universities, research institutes and additional industrial organizations, remains in the structured evidence registries above.
 
@@ -148,7 +153,7 @@ No additional targets are promoted in this lane yet. It remains a search lane fo
 
 ## Secondary track: research-intensive service organizations
 
-These can support strong research careers, but the work depends more on clinical programs, client projects, quantitative strategies or service contracts. They remain useful secondary targets.
+These can support strong research careers, but the work depends more on clinical programs, client projects, quantitative strategies, research services or contracts. They remain useful secondary targets.
 
 | Organization | Area | Work mode | Opportunities |
 |---|---|---|---|
@@ -162,6 +167,9 @@ These can support strong research careers, but the work depends more on clinical
 | ICON plc | CRO / clinical research | remote Brazil | [Vagas no Brasil](https://careers.iconplc.com/jobs-in-brazil) |
 | Vector Trading | quantitative research | remote Brazil | [Vagas](https://vector-trading.breezy.hr/) |
 | Halliburton | energy technology / scientific computing / digital twin | remote Brazil | [Vagas no Brasil](https://jobs.halliburton.com/go/Latin-America/8412200/?location=BR) |
+| ResourceWise | commodity / pulp-paper research and market intelligence | remote Brazil | [Carreiras](https://ats.rippling.com/resourcewise/jobs) |
+| IOActive | cybersecurity / security research / reverse engineering | remote Brazil | [Carreiras](https://ats.rippling.com/ioactive-tc/jobs) |
+| Campspot | software / AI / formal R&D department | remote Brazil, contract-heavy | [Carreiras](https://ats.rippling.com/campspot/jobs) |
 
 ## Opportunity sources
 
@@ -218,6 +226,17 @@ Candidates stay here until R&D relevance, viability from Curitiba and a recurrin
 - **Sardine:** remote-first agentic-risk technology is established, but the current Brazil-remote role verified is account/solutions-oriented rather than engineering, data science or applied research.
 - **Alternative Payments:** AI-powered payments/AR technology and Brazil-remote technical work are visible, but the current Brazil role verified is support-oriented rather than a recurring product-engineering path.
 - **Vidal Life:** strong current product-development and innovation evidence exists in Colombo, and P&D hiring surfaced during discovery, but a stable first-party employment route still needs verification.
+- **EDB Polióis Vegetais:** strong Curitiba research-center and long-running R&D evidence are established, but a stable recurring first-party careers route is still missing.
+- **Petromix:** proprietary laboratory-developed polyurethane technology in the Curitiba region is established, but a recurring first-party careers route was not verified.
+- **Latinex Brands:** current P&D work in São José dos Pinhais surfaced during discovery, but durable first-party R&D/careers evidence remains insufficient.
+- **Aeroflex:** custom chemical-product development in Curitiba is established, but explicit institutional research or engineering-development evidence is still below the promotion threshold.
+- **Schattdecor:** recurring careers and technical product development in São José dos Pinhais are established, but explicit local R&D evidence remains insufficient.
+- **Peróxidos do Brasil / Solvay:** the Curitiba operation has strong innovation/technology evidence, but current Brazil R&I openings are centered in Paulínia rather than Curitiba.
+- **INDT:** large PD&I organization is established, but the current official board does not provide enough evidence of a remote-Brazil R&D path viable from Curitiba.
+- **Sidia:** strong PD&I is established, but current remote-Brazil eligibility was not verified from the active institutional career route.
+- **Yotta Labs:** Brazil-eligible remote research surfaced during the research cycle, but current recurring-board freshness was not strong enough for promotion.
+- **Gurobi Optimization:** formal R&D is strong, but current R&D openings verified are not Brazil-eligible.
+- **Corteva:** substantial global R&D is strong, but the relevant Brazil field-science opening identified in this cycle is no longer accepting applications.
 
 ## Maintenance rule
 
