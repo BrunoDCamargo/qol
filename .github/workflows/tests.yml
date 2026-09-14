@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - career-radar/consolidate-expansions
   pull_request:
   workflow_dispatch:
 
