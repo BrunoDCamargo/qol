@@ -23,7 +23,8 @@ Edit knowledge only at its authoritative source:
 - `implementation-options/` for `IMP-*` Implementation Options;
 - `categories.yaml` for Category definitions;
 - `topic-views.yaml` for editorial Topic View membership;
-- prose outside the generated `## Map` block in `topics/` for editorial explanation.
+- prose outside the generated `## Map` block in `topics/` for editorial explanation;
+- `docs/selection-guides/` for non-canonical product or provider selection guidance linked to an Implementation Option.
 
 Files under `generated/` and the `## Map` blocks inside Topic Views are derived output. Do not maintain canonical metadata there.
 
@@ -42,6 +43,8 @@ Keep claims no broader than their References support. Prefer primary research, c
 Canonical records are `Active` or `Deprecated`. Preserve Deprecated identities so historical references remain resolvable. When a replacement exists, use the lifecycle fields permitted by the relevant schema and ensure the replacement resolves to the appropriate Active record.
 
 Active QoL Items may use only Active Categories and Active References. Active Implementation Options must implement Active QoL Items. Item relationships must target existing distinct QoL Items.
+
+Implementation Selection Guides are not canonical identities and do not use the Active/Deprecated lifecycle in the first implementation.
 
 ## Adding or revising a QoL Item
 
@@ -65,11 +68,29 @@ An Implementation Option is a concrete reusable way to enact one or more existin
 
 Use a stable `IMP-*` identity, link the Active QoL Items it implements, choose the permitted acquisition mode, and describe a reusable class of solution rather than an unsupported vendor endorsement.
 
+## Adding or revising an Implementation Selection Guide
+
+Use a Selection Guide when concrete products or providers inside an `IMP-*` class differ enough that selection criteria affect real-world usefulness, safety, maintenance burden, cost, or reliability.
+
+1. Link the guide to one existing Active Implementation Option.
+2. Keep the parent `IMP-*` record vendor-neutral and reusable.
+3. Start with authoritative standards, regulators, certification programs, or first-party technical sources for criteria they define.
+4. Use transparent independent product-testing methods to supplement those sources with comparative performance, usability, and reliability information.
+5. Keep product-selection evidence separate from `QOL-*` causal evidence.
+6. State context modifiers and disqualifying conditions before secondary feature preferences.
+7. Separate stable criteria from market-specific recommendations.
+8. Date and region-label any market snapshot that names products, providers, or prices.
+9. Record the guide's last-review date and revisit it when the parent `IMP-*`, testing method, safety guidance, or market changes materially.
+
+Do not create a universal score across unrelated Implementation Options. Avoid using isolated customer reviews as if they were controlled evidence or representative reliability data.
+
 ## Topic Views
 
 `topic-views.yaml` owns Topic View membership. Topic Markdown owns editorial prose. The generator owns each complete `## Map` block. Links to individual `QOL-*` and `REF-*` records must resolve directly to canonical files; retired monolithic registry paths are not supported.
 
 After changing canonical records, topic membership, or Topic View prose, regenerate views before committing.
+
+Selection Guide edits do not require generated-view changes unless a canonical record or Topic View also changed.
 
 ## Release gate
 
@@ -85,4 +106,4 @@ python -m unittest discover -s tests
 
 Career Radar validation is structural and offline. Contributors verify link freshness and any `remote-brazil` eligibility against institutional sources during curation.
 
-The repository is releasable only when canonical validation succeeds, every cross-reference and lifecycle invariant resolves, generated output has no drift, and the full test suite passes. Structural automation does not replace human review of scientific claims.
+The repository is releasable only when canonical validation succeeds, every cross-reference and lifecycle invariant resolves, generated output has no drift, and the full test suite passes. Structural automation does not replace human review of scientific claims or Selection Guide methodology.
