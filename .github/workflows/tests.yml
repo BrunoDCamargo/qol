@@ -20,7 +20,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Consolidate Career Radar registries
-        if: github.ref_name == 'career-radar/consolidate-expansions' && github.event.head_commit.message == 'ci: consolidate career radar registries'
+        if: "github.ref_name == 'career-radar/consolidate-expansions' && github.event.head_commit.message == 'ci: consolidate career radar registries'"
         run: |
           python - <<'PY'
           from pathlib import Path
