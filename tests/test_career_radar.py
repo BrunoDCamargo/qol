@@ -196,6 +196,23 @@ class CareerRadarTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "onsite or hybrid"):
             validate_career_radar(root)
 
+    def test_accepts_remote_brazil_organization_without_city_or_state(self):
+        root = self._write_radar(
+            """
+- id: global-remote
+  name: Global Remote Research
+  organization_type: company
+  location:
+    country: Global
+  viable_from_curitiba: [remote-brazil]
+  rd_evidence: {url: https://example.org/rd, note: R&D activity.}
+  careers_url: https://example.org/careers
+  last_checked: 2026-09-14
+""",
+            "[]\n",
+        )
+        validate_career_radar(root)
+
     def test_accepts_rmc_city_for_hybrid_work(self):
         root = self._write_radar(
             """
