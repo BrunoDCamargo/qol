@@ -4,12 +4,8 @@ on:
   push:
     branches:
       - main
-      - career-radar/consolidate-expansions
   pull_request:
   workflow_dispatch:
-
-permissions:
-  contents: write
 
 jobs:
   release-gate:
@@ -18,57 +14,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Restore final release-gate workflow
-        if: "github.ref_name == 'career-radar/consolidate-expansions' && github.event.head_commit.message == 'ci: verify and restore release gate'"
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-
-          Path(".github/workflows/tests.yml").write_text("""name: Release gate
-
-          on:
-            push:
-              branches:
-                - main
-            pull_request:
-            workflow_dispatch:
-
-          jobs:
-            release-gate:
-              name: Canonical repository release gate
-              runs-on: ubuntu-latest
-              steps:
-                - name: Checkout
-                  uses: actions/checkout@v4
-
-                - name: Set up Python
-                  uses: actions/setup-python@v5
-                  with:
-                    python-version: \"3.12\"
-                    cache: pip
-
-                - name: Install dependencies
-                  run: pip install -r requirements.txt
-
-                - name: Validate canonical records and cross-references
-                  run: python -c \"from qol_kb.records import validate_repository; validate_repository('.')\"
-
-                - name: Validate R&D career radar
-                  run: python -c \"from qol_kb.career_radar import validate_career_radar; validate_career_radar('.')\"
-
-                - name: Verify deterministic generated output
-                  run: python -m qol_kb.views --check
-
-                - name: Run full structural suite
-                  run: python -m unittest discover -s tests
-          """, encoding="utf-8")
-          PY
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add .github/workflows/tests.yml
-          git commit -m "ci: restore release gate after verification [skip ci]"
-          git push origin HEAD:career-radar/consolidate-expansions
 
       - name: Set up Python
         uses: actions/setup-python@v5
