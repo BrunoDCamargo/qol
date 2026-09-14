@@ -9,10 +9,6 @@ Read the scope and decision rules in [`FOCUS.md`](FOCUS.md).
 Structured evidence registries:
 
 - [`organizations.yaml`](organizations.yaml): consolidated verified organizations and evidence;
-- [`organizations-expansion-2026-09-13-2.yaml`](organizations-expansion-2026-09-13-2.yaml): verified expansion batch awaiting consolidation into the main registry;
-- [`organizations-expansion-2026-09-13-3.yaml`](organizations-expansion-2026-09-13-3.yaml): verified expansion batch awaiting consolidation into the main registry;
-- [`organizations-expansion-2026-09-13-4.yaml`](organizations-expansion-2026-09-13-4.yaml): verified expansion batch awaiting consolidation into the main registry;
-- [`organizations-expansion-2026-09-14.yaml`](organizations-expansion-2026-09-14.yaml): latest verified expansion batch awaiting consolidation into the main registry;
 - [`sources.yaml`](sources.yaml): recurring opportunity and discovery sources.
 
 The YAML registries are broader than this README. This page is the decision-oriented view and groups targets by career relevance.
