@@ -195,8 +195,11 @@ def _validate_source(record: dict[str, Any], index: int) -> None:
 
 def validate_career_radar(root: str | Path = ".") -> None:
     root_path = Path(root)
-    organizations = _load_list(root_path / "career-radar" / "organizations.yaml")
-    sources = _load_list(root_path / "career-radar" / "sources.yaml")
+    radar_path = root_path / "career-radar"
+    organizations = _load_list(radar_path / "organizations.yaml")
+    for expansion_path in sorted(radar_path.glob("organizations-expansion-*.yaml")):
+        organizations.extend(_load_list(expansion_path))
+    sources = _load_list(radar_path / "sources.yaml")
 
     _check_unique_ids(organizations, "organization")
     _check_unique_ids(sources, "source")
