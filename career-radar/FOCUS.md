@@ -75,9 +75,9 @@ CROs and clinical-development organizations qualify when research is their core 
 
 ## Repository roles
 
-- [`organizations.yaml`](organizations.yaml) stores verified organizations and their evidence. It is an evidence registry, not a ranking.
+- [`organizations.yaml`](organizations.yaml) is the consolidated verified-organization registry. During large research passes, additive verified expansion files named `organizations-expansion-*.yaml` may hold newly verified entries until they are consolidated into the main registry.
 - [`sources.yaml`](sources.yaml) stores recurring opportunity and discovery sources.
-- [`README.md`](README.md) is the decision-oriented view and presents organizations by career relevance.
+- [`README.md`](README.md) is the decision-oriented view and presents organizations by career relevance, including current verified expansion batches.
 - `docs/research/` preserves the evidence and reasoning behind additions, exclusions and reclassifications.
 
-Research can preserve a lower-priority entity in `organizations.yaml` even when the README does not surface it as a primary career target. The README controls the practical career view; the YAML preserves the verified research record.
+Research can preserve a lower-priority entity in the structured evidence registries even when the README does not surface it as a primary career target. The README controls the practical career view; the YAML files preserve the verified research record.
