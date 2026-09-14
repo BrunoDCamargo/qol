@@ -25,6 +25,18 @@ Remote eligibility must have current evidence. Historical remote policies alone 
 
 For international employers, verify that the recurring career path actually accepts professionals located in Brazil. Contract structure and time-zone overlap are relevant notes, but an international headquarters does not lower priority by itself when the role is a sustained R&D career available from Brazil.
 
+## Search breadth: sector-agnostic by default
+
+The discovery process must be broad and **must not preselect industries or scientific domains**. The radar is about R&D careers, not about a preferred list of sectors.
+
+Do not prioritize an area merely because it already appears often in the catalog, matches previous examples, or resembles the user's current professional background. Search across the economy and research ecosystem, including unfamiliar sectors when they satisfy the same evidence standard.
+
+Examples of areas that may be encountered include agriculture, aerospace, automotive, biotechnology, chemicals, construction, consumer products, cosmetics, electronics, energy, food, geoscience, health, industrial equipment, materials, mining, pharmaceuticals, robotics, sanitation, software, telecommunications and others. This list is illustrative, not a search filter or quota.
+
+Use sector, technology and scientific-domain labels only **after discovery**, as metadata for organization and navigation. A candidate's sector does not increase or decrease its priority by itself.
+
+During repeated research passes, deliberately vary search language, institution types and economic sectors to reduce blind spots. Coverage diversity is a search-quality check, not a requirement to add a fixed number of organizations from each category.
+
 ## Additional local possibilities
 
 Organizations elsewhere in Paraná can qualify when the work arrangement is realistically compatible with continuing to live in Curitiba. This can include occasional-presence hybrid work, field or project work with a Curitiba base, or other arrangements supported by current evidence.
