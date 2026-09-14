@@ -2,7 +2,7 @@
 
 ## Summary
 
-A new local/RMC research pass identified five organizations that meet the current Career Radar inclusion rule: meaningful R&D or engineering-development activity, practical viability while living in Curitiba, and a recurring employment channel.
+A new local/RMC research pass identified seven organizations that meet the current Career Radar inclusion rule: meaningful R&D or engineering-development activity, practical viability while living in Curitiba, and a recurring employment channel.
 
 Promoted in this batch:
 
@@ -11,8 +11,10 @@ Promoted in this batch:
 - Microcapsules Tech
 - BrasilSat Harald
 - Leclair Cosméticos
+- Isogama
+- GRECA Asfaltos
 
-The pass also surfaced Apolo Lab, Latinex Brands, Vidal Life, Charlotte Pães and Rede HDS. They were not promoted in this batch because the available evidence did not yet establish the full combination of durable R&D activity and a recurring career path strongly enough under the current focus rules.
+The pass also surfaced Apolo Lab, Latinex Brands, Vidal Life, Charlotte Pães, Rede HDS, Trombini and TOTVS Curitiba. They were not promoted in this batch because the available evidence did not yet establish the full combination of durable local R&D activity and a recurring career path strongly enough under the current focus rules.
 
 ## Findings
 
@@ -56,6 +58,22 @@ Verified fact: the company maintains an official `Trabalhe Conosco` channel with
 
 Disposition: promote as a local cosmetics/formulation R&D target.
 
+### Isogama
+
+Verified fact: Isogama's official innovation page states that the company has a Research and Development structure equipped for new-product creation, analyses, customization and chemical-product development. Its Paraná unit is in São José dos Pinhais.
+
+Verified fact: Isogama maintains an official `Trabalhe Conosco` page with a standing curriculum form for future opportunities.
+
+Disposition: promote as a local chemicals/materials R&D target.
+
+### GRECA Asfaltos
+
+Verified fact: GRECA's official site describes a Centro de Pesquisa, Desenvolvimento & Inovação that develops asphalt technologies and performs laboratory testing and applied technical research. The group cites its asphalt-rubber technology as an example of work developed through this structure.
+
+Verified fact: GRECA's matrix is in Araucária, which is part of the Curitiba metropolitan region, and it maintains a recurring recruitment portal with positions in Araucária and Colombo.
+
+Disposition: promote as a local materials/civil-engineering R&D target.
+
 ### Candidates not promoted in this pass
 
 Apolo Lab has strong evidence of genuine P&D in energy, biogas, biomethane and industrial processes, including ANEEL R&D projects. However, a stable employment or fellowship channel was not located during this pass.
@@ -67,6 +85,10 @@ Vidal Life has a current P&D role and an official site that emphasizes product d
 Charlotte Pães has a stable `Trabalhe Conosco` contact and a current P&D role, but the available company-level evidence is still closer to product development and process innovation than to the stronger R&D standard used for promotion here.
 
 Rede HDS has a current assistant-level Pesquisa e Desenvolvimento vacancy in Curitiba, but the described work is primarily product registration, drawing checks and support for new item development. That evidence is not yet strong enough to establish a sustained R&D career environment.
+
+Trombini maintains Curitiba operations and a stable careers portal, but the company's own site places its explicit product-development unit in Farroupilha, RS rather than Curitiba. It was not promoted as a Curitiba-based R&D target.
+
+TOTVS Curitiba is a local franchise unit of a company with substantial corporate R&D investment, but the evidence reviewed does not establish that the Curitiba franchise itself provides a local R&D career environment.
 
 ## Gaps and caveats
 
@@ -93,10 +115,18 @@ This pass focused on Curitiba and the RMC. It does not reduce the priority of re
 - BrasilSat careers: https://brasilsat.abler.com.br/
 - Leclair careers: https://www.grupoleclair.com.br/contact-8
 - Leclair employer-authored formulation-P&D posting: https://pt.linkedin.com/posts/leclair-cosmeticos_vagas-pdi-pesquisaedesenvolvimento-activity-7450147733954338816-INX0
+- Isogama R&D: https://isogama.com/inovacao-e-tecnologia/
+- Isogama careers: https://isogama.com/trabalhe-conosco/
+- GRECA research and innovation: https://www.grupogreca.com.br/greca-asfaltos/pesquisa-e-inovacao/
+- GRECA units: https://www.grupogreca.com.br/unidades/
+- GRECA careers: https://grecaasfaltos.pandape.infojobs.com.br/
 - Apolo Lab: https://apololab.com.br/
 - Apolo Lab / Apolo Energia R&D description: https://apoloenergia.com.br/apolo-lab/
 - Vidal Life: https://vidallife.com.br/vidal-life/
 - Charlotte Pães: https://www.charlottepaes.com.br/
+- Trombini careers: https://trombini.com.br/carreiras/
+- Trombini units: https://trombini.com.br/contato/
+- TOTVS Curitiba: https://curitiba.totvs.com/
 
 ### Secondary discovery evidence
 
