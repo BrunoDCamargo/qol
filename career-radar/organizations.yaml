@@ -1103,3 +1103,849 @@
     - engineering
     - research
   last_checked: 2026-09-13
+
+- id: neodent
+  name: Neodent
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://careers.straumann.com/global/en
+    note: A Neodent integra o Straumann Group, que pesquisa, desenvolve e fabrica soluções odontológicas; a operação brasileira mantém pesquisa científica, evidência clínica e programas de incentivo à pesquisa em Curitiba.
+  careers_url: https://careers.straumann.com/global/en
+  tags:
+    - medical-devices
+    - dentistry
+    - clinical-research
+  last_checked: 2026-09-13
+
+- id: beautycolor-company
+  name: BEAUTYCOLOR Company
+  organization_type: company
+  location:
+    city: Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://beautycolorcompany.vagas.solides.com.br/vaga/890893
+    note: A operação de Pinhais mantém atividades explícitas de Pesquisa e Desenvolvimento em cosméticos, com vaga institucional atual de estágio em P&D e estrutura própria de laboratório e pesquisa.
+  careers_url: https://beautycolorcompany.vagas.solides.com.br/
+  tags:
+    - cosmetics
+    - chemicals
+    - product-development
+  last_checked: 2026-09-13
+
+- id: perkons
+  name: Perkons
+  organization_type: company
+  location:
+    city: Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.perkons.com/estudos-e-pesquisas/
+    note: A empresa desenvolve tecnologia própria para trânsito e mobilidade e mantém uma área institucional de estudos e pesquisas aplicada a segurança viária e sistemas inteligentes de transporte.
+  careers_url: https://perkons.portaldetalentos.senior.com.br/about
+  tags:
+    - transportation
+    - intelligent-transportation-systems
+    - engineering
+  last_checked: 2026-09-13
+
+- id: ateei
+  name: ATEEI
+  organization_type: company
+  location:
+    city: Campo Largo
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://ateei.com.br/
+    note: A empresa oferece explicitamente Pesquisa e Desenvolvimento, desenvolvimento de produtos, engenharia, prototipagem e integração de produtos em Campo Largo.
+  careers_url: https://ateei.com.br/trabalhe-conosco
+  tags:
+    - engineering
+    - electronics
+    - product-development
+  last_checked: 2026-09-13
+
+- id: instituto-atlantico
+  name: Instituto Atlântico
+  organization_type: ict
+  location:
+    city: Fortaleza
+    state: CE
+    country: Brasil
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://www.atlantico.com.br/sobre/
+    note: ICT dedicada a pesquisa, desenvolvimento e inovação em tecnologia, com programas formais de P&D e oportunidades recentes divulgadas pela própria organização em modalidade remota.
+  careers_url: https://www.atlantico.com.br/trabalhe-conosco/
+  tags:
+    - software
+    - artificial-intelligence
+    - research
+  last_checked: 2026-09-13
+
+- id: kunumi
+  name: Kunumi
+  organization_type: company
+  location:
+    city: Belo Horizonte
+    state: MG
+    country: Brasil
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://www.kunumi.com/br/carreiras
+    note: A empresa conduz pesquisa de ponta em inteligência artificial e mantém funções atuais de Research Engineer e ciência de dados com esforços explícitos de P&D e trabalho remoto no Brasil.
+  careers_url: https://job-boards.greenhouse.io/kunumi
+  tags:
+    - artificial-intelligence
+    - machine-learning
+    - research
+  last_checked: 2026-09-13
+
+- id: vector-trading
+  name: Vector Trading
+  organization_type: company
+  location:
+    city: São Paulo
+    state: SP
+    country: Brasil
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://vectortrading.com/
+    note: A empresa mantém equipe de pesquisa quantitativa dedicada a dados de mercado, estratégias de negociação, risco e geração de receita, com oportunidades atuais de Quant Researcher em modalidade remota no Brasil.
+  careers_url: https://vector-trading.breezy.hr/
+  tags:
+    - quantitative-research
+    - finance
+    - data-science
+  last_checked: 2026-09-13
+
+- id: edetek
+  name: EDETEK
+  organization_type: company
+  location:
+    city: Princeton
+    state: NJ
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://edetek.com/
+    note: Empresa de tecnologia para pesquisa clínica que desenvolve plataformas e serviços de clinical development, incluindo R&D Cloud, com oportunidades atuais remotas abertas para Brasil e América do Sul.
+  careers_url: https://edetek.com/careers/
+  tags:
+    - clinical-research
+    - life-sciences
+    - software
+  last_checked: 2026-09-13
+
+- id: turing
+  name: Turing
+  organization_type: company
+  location:
+    city: San Francisco
+    state: CA
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://www.turing.com/research
+    note: A empresa trabalha com laboratórios de IA de fronteira em datasets, ambientes de reinforcement learning e benchmarks de pesquisa, e mantém funções de Research Engineer explicitamente remotas em todo o Brasil.
+  careers_url: https://job-boards.greenhouse.io/turing
+  tags:
+    - artificial-intelligence
+    - frontier-ai
+    - research
+  last_checked: 2026-09-13
+
+- id: blip
+  name: Blip
+  organization_type: company
+  location:
+    city: Belo Horizonte
+    state: MG
+    country: Brasil
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://job-boards.greenhouse.io/blip-global/jobs/4324655009
+    note: A Diretoria de Inteligência Artificial mantém pesquisa aplicada em modelos de linguagem, incluindo criação, fine-tuning e destilação de modelos, com funções atuais explicitamente remotas no Brasil.
+  careers_url: https://job-boards.greenhouse.io/blip-global
+  tags:
+    - artificial-intelligence
+    - applied-research
+    - machine-learning
+  last_checked: 2026-09-13
+
+- id: ae-studio
+  name: AE Studio
+  organization_type: company
+  location:
+    city: Los Angeles
+    state: CA
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://job-boards.greenhouse.io/aestudio/jobs/4011417004
+    note: Empresa de IA aplicada que financia e executa pesquisa em AI safety/alignment; mantém vaga atual de Applied AI Data Scientist aberta como Brazil remote e área recorrente de Data Science & Research.
+  careers_url: https://job-boards.greenhouse.io/aestudio
+  tags:
+    - artificial-intelligence
+    - ai-safety
+    - research
+  last_checked: 2026-09-13
+
+- id: icon-plc
+  name: ICON plc
+  organization_type: company
+  location:
+    city: Dublin
+    country: Ireland
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://careers.iconplc.com/jobs-in-brazil
+    note: Organização global de pesquisa clínica e desenvolvimento que mantém no Brasil funções de clinical operations, monitoring e trial management atualmente marcadas como Remote ou Remote or Office.
+  careers_url: https://careers.iconplc.com/jobs-in-brazil
+  tags:
+    - clinical-research
+    - cro
+    - life-sciences
+  last_checked: 2026-09-13
+
+- id: fit-instituto-tecnologia
+  name: FIT Instituto de Tecnologia
+  organization_type: ict
+  location:
+    city: Sorocaba
+    state: SP
+    country: Brasil
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://www.fit-tecnologia.org.br/wp/o-instituto/
+    note: ICT sem fins lucrativos com Pesquisa e Desenvolvimento como área formal de negócio, mais de 500 profissionais e centros de excelência em IA aplicada, conectividade, automação, sistemas e prototipagem; a carreira institucional oferece vagas presenciais, híbridas e remotas e trabalho de onde estiver.
+  careers_url: https://www.fit-tecnologia.org.br/carreiras
+  tags:
+    - software
+    - hardware
+    - automation
+    - artificial-intelligence
+    - research
+  last_checked: 2026-09-13
+
+- id: radix
+  name: Radix
+  organization_type: company
+  location:
+    city: Rio de Janeiro
+    state: RJ
+    country: Brasil
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://radixeng.com.br/a-radix/inovacao
+    note: A empresa mantém time dedicado de Pesquisa, Desenvolvimento e Inovação, linhas de pesquisa e projetos técnico-científicos; o modelo Radix Everywhere é remote first e permite atuação de profissionais distribuídos por todo o Brasil.
+  careers_url: https://radixeng.com.br/pessoas-e-carreiras
+  tags:
+    - engineering
+    - software
+    - industrial-technology
+    - energy
+    - research
+  last_checked: 2026-09-13
+
+- id: bairesdev
+  name: BairesDev
+  organization_type: company
+  location:
+    city: San Francisco
+    state: CA
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://talent.bairesdev.com/pt/vagas/cientista-de-dados-senior-remote
+    note: A empresa mantém equipe interna de Pesquisa e Desenvolvimento com trabalho em análise de dados, machine learning e desenvolvimento de software, além de portal recorrente de vagas 100% remotas; a própria empresa informa presença profissional ampla no Brasil e modelo remote first.
+  careers_url: https://talent.bairesdev.com/
+  tags:
+    - software
+    - artificial-intelligence
+    - machine-learning
+    - data-science
+    - research
+  last_checked: 2026-09-13
+
+- id: beone-medicines
+  name: BeOne Medicines
+  organization_type: company
+  location:
+    city: San Carlos
+    state: CA
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://beonemedicines.com/science/research-and-development/
+    note: Biotech oncológica com P&D interno de grande escala, quase 5.000 cientistas, clínicos e inovadores, programa global de pesquisa clínica operado internamente e pipeline próprio de terapias; mantém múltiplas posições atuais full-time explicitamente Brazil Remote em clinical development, safety e áreas científicas.
+  careers_url: https://beonemedicines.com/careers/
+  tags:
+    - biotech
+    - oncology
+    - clinical-research
+    - drug-development
+    - research
+  last_checked: 2026-09-13
+
+- id: adaption
+  name: Adaption
+  organization_type: company
+  location:
+    city: San Francisco
+    state: CA
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://adaptionlabs.ai/research
+    note: Empresa de pesquisa em IA adaptativa com produção científica própria e mais de 150 publicações acumuladas pela equipe; o portal atual oferece posições full-time remotas de Research Scientist e Research Engineer com Brazil explicitamente entre os países elegíveis.
+  careers_url: https://adaptionlabs.ai/careers
+  tags:
+    - artificial-intelligence
+    - machine-learning
+    - frontier-ai
+    - research
+  last_checked: 2026-09-13
+
+- id: roboflow
+  name: Roboflow
+  organization_type: company
+  location:
+    city: San Francisco
+    state: CA
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://research.roboflow.com/
+    note: Empresa de computer vision com equipe interna de pesquisa que desenvolve métodos e algoritmos originais, publica em conferências como ICLR, NeurIPS e CVPR e transfere pesquisa para produção; mantém equipe distribuída, hub no Brasil e vaga atual full-time remota de Research Scientist.
+  careers_url: https://roboflow.com/careers
+  tags:
+    - artificial-intelligence
+    - computer-vision
+    - machine-learning
+    - research
+  last_checked: 2026-09-13
+
+- id: buhler-curitiba
+  name: Bühler Curitiba
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.buhlergroup.com/global/pt/locations/Brazil-Curitiba.html
+    note: A unidade de Curitiba identifica explicitamente especialistas em R&D e engenharia e desenvolve e fabrica equipamentos e soluções para processamento de alimentos e tecnologias de processo; a Bühler mantém carreira formal de P&D com mais de 1.300 especialistas globais.
+  careers_url: https://jobs.buhlergroup.com/
+  tags:
+    - industrial-equipment
+    - food-processing
+    - mechanical-engineering
+    - automation
+    - process-technology
+  last_checked: 2026-09-13
+
+- id: landisgyr-curitiba
+  name: Landis+Gyr
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - hybrid
+  rd_evidence:
+    url: https://www.landisgyr.com/us/en/home/investors/annual-reports/2025
+    note: A companhia mantém P&D como investimento central em gestão inteligente de energia; em Curitiba há desenvolvimento atual de software para medição inteligente, Smart Grid e tecnologias emergentes de energia em regime híbrido.
+  careers_url: https://careers.landisgyr.com/
+  tags:
+    - energy
+    - smart-grid
+    - smart-metering
+    - software
+    - embedded-systems
+  last_checked: 2026-09-13
+
+- id: halliburton
+  name: Halliburton
+  organization_type: company
+  location:
+    city: Houston
+    state: TX
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://www.halliburton.com/en/production/artificial-lift/research-and-development
+    note: A empresa mantém laboratórios e equipes explícitas de R&D em tecnologia para energia; o portal atual de carreiras no Brasil inclui funções remotas como Scientific Developer, Digital Twin e sistemas industriais digitais.
+  careers_url: https://jobs.halliburton.com/go/Latin-America/8412200/?location=BR
+  tags:
+    - energy
+    - oilfield-services
+    - scientific-computing
+    - digital-twin
+    - engineering
+  last_checked: 2026-09-13
+
+- id: nilko-industrias
+  name: Nilko Indústrias de Precisão
+  organization_type: company
+  location:
+    city: Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://nilko.com.br/industriasdeprecisao/engenharia-e-qualidade/
+    note: A unidade de engenharia de produtos em Pinhais cobre criação, prototipagem, testes, homologações e validação técnica, com laboratório próprio e parcerias com universidades e institutos de pesquisa.
+  careers_url: https://nilko.com.br/industriasdeprecisao/trabalhe-conosco/
+  tags:
+    - industrial-equipment
+    - product-development
+    - mechanical-engineering
+    - prototyping
+    - manufacturing
+  last_checked: 2026-09-13
+
+- id: vaccinar
+  name: Vaccinar
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://vaccinar.com.br/pesquisa-e-desenvolvimento-base-para-solucoes-de-alta-qualidade/
+    note: Mantém programa estruturado de P&D em nutrição animal, laboratório em Pinhais e centros experimentais, com linhas de pesquisa, validação de produtos e parcerias com instituições de ensino e pesquisa.
+  careers_url: https://vaccinar.com.br/trabalhe-conosco/
+  tags:
+    - animal-nutrition
+    - agriculture
+    - animal-health
+    - applied-research
+  last_checked: 2026-09-13
+
+- id: mitel-curitiba
+  name: Mitel
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+    - remote-brazil
+  rd_evidence:
+    url: https://mitel.wd3.myworkdayjobs.com/en-US/mitelcareers/job/R-D-Internship--student-_R012692
+    note: A Mitel mantém organização formal de R&D e possui oportunidade atual explicitamente de R&D/software em Curitiba, além de funções remotas vinculadas a Curitiba.
+  careers_url: https://mitel.wd3.myworkdayjobs.com/mitelcareers
+  tags:
+    - telecommunications
+    - unified-communications
+    - software
+    - product-development
+    - research-development
+  last_checked: 2026-09-13
+
+- id: limagrain-field-seeds
+  name: Limagrain Field Seeds
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://jobs.limagrain.com/LG/job/Head-product-development-BR%26PY/2246-pt_BR/
+    note: A divisão de sementes mantém pesquisa e melhoramento vegetal em escala global e uma função permanente de liderança de Product Development BR&PY sediada em Curitiba, conectando desenvolvimento, pesquisa, marketing e vendas.
+  careers_url: https://jobs.limagrain.com/search/
+  tags:
+    - agriculture
+    - seeds
+    - plant-breeding
+    - agronomy
+    - product-development
+  last_checked: 2026-09-13
+
+- id: pharmaesthetics-do-brasil
+  name: Pharmaesthetics do Brasil
+  organization_type: company
+  location:
+    city: Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://app.talentbrand.com.br/jobs/pharmaesthetics-do-brasil-analista-de-pesquisa-desenvolvimento-e-inovacao-256c
+    note: A unidade de Pinhais mantém função explícita de Pesquisa, Desenvolvimento e Inovação para formulação, validação e documentação técnica de medicamentos, dermocosméticos e dispositivos médicos; o portal mantém banco de talentos recorrente.
+  careers_url: https://people.talentbrand.com.br/c/pharmaesthetics
+  tags:
+    - pharma
+    - medical-devices
+    - cosmetics
+    - formulation
+    - product-development
+  last_checked: 2026-09-13
+
+- id: sandc-electric-curitiba
+  name: S&C Electric Company
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.sandc.com.br/en/careers/faq/
+    note: A S&C mantém Product Innovation, engenharia de desenvolvimento, testes e investigação de novos conceitos e materiais como trilhas de carreira e lista Curitiba entre suas instalações globais.
+  careers_url: https://www.sandc.com.br/pt/empregos/
+  tags:
+    - energy
+    - electrical-engineering
+    - smart-grid
+    - industrial-technology
+    - product-development
+  last_checked: 2026-09-13
+
+- id: grupo-bio-holding
+  name: Grupo Bio Holding
+  organization_type: company
+  location:
+    city: Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://integracsc.gupy.io/jobs/12321031?jobBoardSource=gupy_public_page
+    note: O Grupo Bio mantém em Pinhais uma função atual de Especialista de Pesquisa e Desenvolvimento via Integra CSC, conduzindo desenvolvimento, incorporação e melhoria de produtos; o grupo atua em diagnóstico, pesquisa, biotech e infraestrutura científica.
+  careers_url: https://integracsc.gupy.io/
+  tags:
+    - diagnostics
+    - life-sciences
+    - biotechnology
+    - medical-devices
+    - product-development
+  last_checked: 2026-09-13
+
+- id: grupo-vilella
+  name: Grupo Vilella
+  organization_type: company
+  location:
+    city: São José dos Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://grupovilela.vagas.solides.com.br/vaga/787714
+    note: O grupo de saúde animal mantém área própria de P&D multidisciplinar para desenvolvimento de fármacos veterinários e parques fabris no Paraná; seu portal institucional de recrutamento mantém banco de talentos em São José dos Pinhais.
+  careers_url: https://grupovilela.vagas.solides.com.br/
+  tags:
+    - animal-health
+    - veterinary-pharma
+    - pharmaceuticals
+    - product-development
+  last_checked: 2026-09-13
+
+- id: madeiramadeira-cit
+  name: MadeiraMadeira
+  organization_type: company
+  location:
+    city: São José dos Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - hybrid
+  rd_evidence:
+    url: https://www.madeiramadeira.com.br/landing/madeira-originals
+    note: O Centro de Inovação e Tecnologia reúne pesquisa, desenvolvimento, design, prototipagem, testes e validação dos produtos Madeira Originals, com oportunidades atuais híbridas de desenvolvimento de produto em São José dos Pinhais.
+  careers_url: https://careers-madeiramadeira.icims.com/
+  tags:
+    - furniture
+    - product-development
+    - design
+    - prototyping
+    - manufacturing
+  last_checked: 2026-09-13
+
+- id: biza-ght
+  name: Biza / Grupo Hidrau Torque
+  organization_type: company
+  location:
+    city: Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://biza.com.br/sobre-nos/
+    note: A unidade fabril Biza desenvolve cerca de 150 novos itens por mês e mantém engenharia de produto para peças de tratores e equipamentos pesados, incluindo desenho, engenharia reversa, estudos técnicos e desenvolvimento sob demanda.
+  careers_url: https://biza.gupy.io/
+  tags:
+    - heavy-equipment
+    - mechanical-engineering
+    - product-development
+    - manufacturing
+  last_checked: 2026-09-13
+
+- id: ppg-pinhais
+  name: PPG
+  organization_type: company
+  location:
+    city: Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://careers.ppg.com/br/pt/job/PIIPIIUSJR265743EXTERNALPTBR/Qu%C3%ADmico-Sr
+    note: A PPG mantém P&D e área técnica como família formal de carreira e publicou recentemente função de Químico Sr. nessa trilha em Pinhais, onde opera unidade industrial; a companhia mantém programas recorrentes de product R&D.
+  careers_url: https://careers.ppg.com/br/pt/home
+  tags:
+    - coatings
+    - chemicals
+    - materials
+    - product-research
+    - formulation
+  last_checked: 2026-09-13
+
+- id: universidade-positivo
+  name: Universidade Positivo
+  organization_type: university
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.up.edu.br/pesquisa/
+    note: A Universidade Positivo mantém política institucional de pesquisa e inovação, grupos de pesquisa, iniciação científica e tecnológica e projetos aplicados voltados a novos conhecimentos, produtos e processos.
+  careers_url: https://up.gupy.io/
+  tags:
+    - academic-research
+    - applied-research
+    - higher-education
+    - innovation
+  last_checked: 2026-09-13
+
+- id: articul8-ai
+  name: Articul8 AI
+  organization_type: company
+  location:
+    city: Santa Clara
+    state: CA
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://jobs.ashbyhq.com/articul8/ee448a40-531d-4eac-abff-4358d9b08a02/
+    note: A empresa mantém equipe formal de Applied Research e posições atuais full-time Brazil/Remote para pesquisa aplicada em GenAI, desenvolvimento de modelos, avaliação, treinamento e transferência de pesquisa para produto.
+  careers_url: https://jobs.ashbyhq.com/articul8
+  tags:
+    - artificial-intelligence
+    - generative-ai
+    - applied-research
+    - machine-learning
+  last_checked: 2026-09-13
+
+- id: csg
+  name: CSG
+  organization_type: company
+  location:
+    city: Englewood
+    state: CO
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://csgi.wd5.myworkdayjobs.com/csgcareers/job/brazil-remote/software-development-engineer_31600
+    note: A organização Ascendon R&D mantém equipes especializadas de P&D para evolução da plataforma cloud BSS e possui função atual full-time explicitamente Brazil Remote em desenvolvimento de produto.
+  careers_url: https://csgi.wd5.myworkdayjobs.com/csgcareers
+  tags:
+    - telecommunications
+    - cloud
+    - software
+    - product-development
+  last_checked: 2026-09-13
+
+- id: kevel
+  name: Kevel
+  organization_type: company
+  location:
+    city: Durham
+    state: NC
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://ats.rippling.com/kevel-careers/jobs/7a21a7ba-869b-4185-823b-b6a0db172a4b
+    note: A Kevel mantém R&D como área formal e possui função atual de Principal Engineer explicitamente Remote (Brazil), trabalhando no desenvolvimento da infraestrutura de produtos de adtech e retail-media.
+  careers_url: https://ats.rippling.com/kevel-careers/jobs
+  tags:
+    - adtech
+    - retail-media
+    - software
+    - product-development
+  last_checked: 2026-09-13
+
+- id: quartile
+  name: Quartile
+  organization_type: company
+  location:
+    city: New York
+    state: NY
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://ats.rippling.com/careers-quartile/jobs
+    note: A Quartile mantém uma área formal de R&D com múltiplas posições atuais Remote (Brazil), incluindo engenharia de dados, machine learning e validação de sistemas de IA.
+  careers_url: https://ats.rippling.com/careers-quartile/jobs
+  tags:
+    - retail-media
+    - adtech
+    - machine-learning
+    - data-engineering
+    - research-development
+  last_checked: 2026-09-13
+
+- id: trm-labs
+  name: TRM Labs
+  organization_type: company
+  location:
+    city: San Francisco
+    state: CA
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://jobs.ashbyhq.com/trm-labs/f33cc8f5-5d7f-452a-8d24-cc6a9ebc03d9
+    note: A empresa mantém R&D Engineering e Data Science para blockchain intelligence, IA e machine learning, com posições atuais full-time remotas no Brasil.
+  careers_url: https://jobs.ashbyhq.com/trm-labs
+  tags:
+    - blockchain-intelligence
+    - data-science
+    - machine-learning
+    - financial-crime
+  last_checked: 2026-09-13
+
+- id: avra
+  name: Avra
+  organization_type: company
+  location:
+    city: São Paulo
+    state: SP
+    country: Brasil
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://avra.ai/careers/0ccb2c8e-438d-4e97-bee0-c1ae390a02ac
+    note: AI frontier lab focado em relational foundation models, com função atual full-time e remota de Research Scientist em São Paulo/Brasil para pesquisa aplicada em graph machine learning e modelos fundacionais.
+  careers_url: https://avra.ai/careers
+  tags:
+    - artificial-intelligence
+    - graph-machine-learning
+    - foundation-models
+    - applied-research
+  last_checked: 2026-09-13
+
+- id: pathlock
+  name: Pathlock
+  organization_type: company
+  location:
+    city: Denver
+    state: CO
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://ats.rippling.com/pathlock/jobs/cc1513fa-2bd0-4557-a60c-0409acaaee2a
+    note: A Pathlock mantém R&D como área formal de carreira e possui função atual de Site Reliability Engineer explicitamente Remote (Brazil), vinculada à evolução e confiabilidade de sua plataforma de segurança empresarial.
+  careers_url: https://ats.rippling.com/pathlock/jobs
+  tags:
+    - cybersecurity
+    - enterprise-software
+    - cloud
+    - product-development
+  last_checked: 2026-09-13
+
+- id: savvy-wealth
+  name: Savvy Wealth
+  organization_type: company
+  location:
+    city: New York
+    state: NY
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://jobs.ashbyhq.com/savvy/c3589bc5-04c0-470d-a50d-2d38d4828710
+    note: A empresa mantém R&D como departamento formal do desenvolvimento de sua plataforma de wealth management e possui função atual full-time Senior Software Engineer explicitamente Remote Brazil.
+  careers_url: https://www.savvywealth.com/careers
+  tags:
+    - fintech
+    - wealthtech
+    - software
+    - artificial-intelligence
+    - product-development
+  last_checked: 2026-09-13
+
+- id: deel
+  name: Deel
+  organization_type: company
+  location:
+    city: San Francisco
+    state: CA
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://jobs.ashbyhq.com/deel/77fb1721-57e3-40f0-8c2f-3de715e30503/
+    note: A Deel mantém R&D Engineering como departamento formal e possui funções atuais full-time remotas para Brasil/LATAM em engenharia de produto, IA e segurança de plataforma.
+  careers_url: https://www.deel.com/careers/
+  tags:
+    - hr-tech
+    - payroll
+    - software
+    - artificial-intelligence
+    - product-development
+  last_checked: 2026-09-13

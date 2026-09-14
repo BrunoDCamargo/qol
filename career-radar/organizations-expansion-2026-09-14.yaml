@@ -1,0 +1,146 @@
+# Verified expansion batch. See docs/research/rd-career-radar-comprehensive-expansion-2026-09-14.md and docs/research/rd-career-radar-comprehensive-followup-2026-09-14.md
+# Primary and secondary-track entries passed the applicable evidence gate in career-radar/FOCUS.md.
+
+- id: siemens-curitiba
+  name: Siemens
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://press.siemens.com/br/pt/comunicadodeimprensa/siemens-e-destaque-com-hub-de-inovacao-global-em-curitiba
+    note: A Siemens mantém em Curitiba hubs globais de P&D em tecnologias prediais e software para redes elétricas, com projetos globais de hardware, software e smart infrastructure e rota recorrente de carreira em Research & Development.
+  careers_url: https://jobs.siemens.com/
+  tags:
+    - industrial-technology
+    - smart-infrastructure
+    - building-automation
+    - grid-software
+    - research-development
+  last_checked: 2026-09-14
+
+- id: agp-sglass
+  name: AGP sGlass
+  organization_type: company
+  location:
+    city: São José dos Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://agpglass.com/bra/sobre-sglass/
+    note: A planta de São José dos Pinhais desenvolve soluções de vidros especiais e blindagem transparente; a AGP informa investimento superior a 10% das vendas líquidas em P&D, possui laboratório balístico e mantém Pesquisa & Desenvolvimento como equipe formal de carreira.
+  careers_url: https://agpglass.com/equipes/
+  tags:
+    - materials
+    - automotive
+    - advanced-glass
+    - product-development
+    - research-development
+  last_checked: 2026-09-14
+
+- id: protium-dynamics
+  name: Protium Dynamics
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - hybrid
+  rd_evidence:
+    url: https://protiumdynamics.com/pesquisa-desenvolvimento-e-inovacao/
+    note: Empresa de base tecnológica dedicada a hidrogênio e descarbonização industrial, com equipe especializada em pesquisa, desenvolvimento e engenharia e múltiplas seleções atuais de pesquisadores doutores em Curitiba para projetos experimentais, dados, IA e monitoramento industrial.
+  careers_url: https://carreiras.iel.org.br/PR/vaga/bolsista/27850/pesquisador-doutorado-protium-dynamics-doutores-inovando-no-setor-empresaria-iel-pr
+  tags:
+    - hydrogen
+    - energy-transition
+    - industrial-decarbonization
+    - data-science
+    - applied-research
+  last_checked: 2026-09-14
+
+- id: toroid-do-brasil
+  name: Toroid do Brasil
+  organization_type: company
+  location:
+    city: São José dos Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://carreiras.iel.org.br/PR/vaga/bolsista/28050/pesquisador-doutor-toroid-do-brasil-doutores-inovando-no-setor-empresarial-iel-pr
+    note: Mantém programa atual de inovação em processos e desenvolvimento de novos produtos para transformadores toroidais e de média tensão, com pesquisador doutor dedicado a prototipagem, validação e modernização tecnológica; a empresa também mantém rota institucional de carreiras.
+  careers_url: https://toroid.com.br/trabalhe-conosco/
+  tags:
+    - electrical-engineering
+    - transformers
+    - power-electronics
+    - prototyping
+    - product-development
+  last_checked: 2026-09-14
+
+- id: yotta-labs
+  name: Yotta Labs
+  organization_type: company
+  location:
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://jobs.ashbyhq.com/yotta/b5202314-91e1-4940-b8a1-9be0e02d1db5/
+    note: Mantém função full-time de Research Engineer em sistemas distribuídos de IA e infraestrutura de GPU, explicitamente remota e aberta a profissionais no Brasil.
+  careers_url: https://jobs.ashbyhq.com/yotta
+  tags:
+    - artificial-intelligence
+    - distributed-systems
+    - gpu-computing
+    - research-engineering
+    - infrastructure
+  last_checked: 2026-09-14
+
+- id: elevenlabs
+  name: ElevenLabs
+  organization_type: company
+  location:
+    country: United Kingdom
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://jobs.ashbyhq.com/elevenlabs/3d650946-5ac2-4729-9ae4-129c43fcd0b5/
+    note: Empresa de pesquisa e produtos de IA com funções full-time de Research Engineer executáveis globalmente de forma remota, trabalhando em modelos de voz, treinamento, avaliação e pesquisa em machine learning; o portal também mantém contratação remota ativa no Brasil.
+  careers_url: https://jobs.ashbyhq.com/elevenlabs
+  tags:
+    - artificial-intelligence
+    - speech
+    - machine-learning
+    - research
+    - foundation-models
+  last_checked: 2026-09-14
+
+- id: gme-brasil
+  name: GME Brasil / EFORT
+  organization_type: company
+  location:
+    city: São José dos Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.gmebrasil.com.br/institucional/
+    note: Engenharia de processos e automação industrial com equipe local que atua em pesquisa, gestão da inovação, robótica, desenvolvimento de sistemas e software; integra o Grupo EFORT, que mantém centro de P&D em robótica e manufatura inteligente.
+  careers_url: https://novosite.gmebrasil.com.br/contato/
+  tags:
+    - industrial-automation
+    - robotics
+    - engineering
+    - manufacturing
+    - research-development
+  track: secondary-research-intensive-services
+  last_checked: 2026-09-14
