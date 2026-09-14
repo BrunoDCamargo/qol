@@ -101,3 +101,43 @@
     - product-development
     - industrial-rd
   last_checked: 2026-09-14
+
+- id: isogama
+  name: Isogama
+  organization_type: company
+  location:
+    city: São José dos Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://isogama.com/inovacao-e-tecnologia/
+    note: Isogama describes itself as an industry consolidated in Research and Development, with a dedicated R&D structure for new products, analyses, customization, and chemical-product development.
+  careers_url: https://isogama.com/trabalhe-conosco/
+  tags:
+    - chemicals
+    - materials
+    - formulation
+    - industrial-rd
+  last_checked: 2026-09-14
+
+- id: greca-asfaltos
+  name: GRECA Asfaltos
+  organization_type: company
+  location:
+    city: Araucária
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.grupogreca.com.br/greca-asfaltos/pesquisa-e-inovacao/
+    note: GRECA operates a Centro de Pesquisa, Desenvolvimento e Inovação for asphalt technologies, laboratory testing, product development, and applied technical research, including technologies such as asphalt-rubber.
+  careers_url: https://grecaasfaltos.pandape.infojobs.com.br/
+  tags:
+    - materials
+    - asphalt
+    - civil-engineering
+    - industrial-rd
+  last_checked: 2026-09-14
