@@ -48,6 +48,52 @@ jobs:
           git commit -m "chore: consolidate career radar registries [skip ci]"
           git push origin HEAD:career-radar/consolidate-expansions
 
+      - name: Update Career Radar documentation
+        if: "github.ref_name == 'career-radar/consolidate-expansions' && github.event.head_commit.message == 'ci: update career radar docs'"
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          readme_path = Path("career-radar/README.md")
+          readme = readme_path.read_text(encoding="utf-8")
+          old_registry = """Structured evidence registries:
+
+          - [`organizations.yaml`](organizations.yaml): consolidated verified organizations and evidence;
+          - [`organizations-expansion-2026-09-13-2.yaml`](organizations-expansion-2026-09-13-2.yaml): verified expansion batch awaiting consolidation into the main registry;
+          - [`organizations-expansion-2026-09-13-3.yaml`](organizations-expansion-2026-09-13-3.yaml): verified expansion batch awaiting consolidation into the main registry;
+          - [`organizations-expansion-2026-09-13-4.yaml`](organizations-expansion-2026-09-13-4.yaml): verified expansion batch awaiting consolidation into the main registry;
+          - [`organizations-expansion-2026-09-14.yaml`](organizations-expansion-2026-09-14.yaml): latest verified expansion batch awaiting consolidation into the main registry;
+          - [`sources.yaml`](sources.yaml): recurring opportunity and discovery sources.
+          """
+          new_registry = """Structured evidence registries:
+
+          - [`organizations.yaml`](organizations.yaml): consolidated verified organizations and evidence;
+          - [`sources.yaml`](sources.yaml): recurring opportunity and discovery sources.
+          """
+          if old_registry not in readme:
+              raise SystemExit("README registry block not found")
+          readme_path.write_text(readme.replace(old_registry, new_registry, 1), encoding="utf-8")
+
+          focus_path = Path("career-radar/FOCUS.md")
+          focus = focus_path.read_text(encoding="utf-8")
+          old_roles = """- [`organizations.yaml`](organizations.yaml) is the consolidated verified-organization registry. During large research passes, additive verified expansion files named `organizations-expansion-*.yaml` may hold newly verified entries until they are consolidated into the main registry.
+          - [`sources.yaml`](sources.yaml) stores recurring opportunity and discovery sources.
+          - [`README.md`](README.md) is the decision-oriented view and presents organizations by career relevance, including current verified expansion batches.
+          """
+          new_roles = """- [`organizations.yaml`](organizations.yaml) is the consolidated verified-organization registry. During large research passes, additive verified expansion files named `organizations-expansion-*.yaml` may hold newly verified entries until they are consolidated into the main registry. The Career Radar validator reads the main registry and all active expansion batches together, so duplicate IDs and structural errors fail the release gate before consolidation.
+          - [`sources.yaml`](sources.yaml) stores recurring opportunity and discovery sources.
+          - [`README.md`](README.md) is the decision-oriented view and presents organizations by career relevance.
+          """
+          if old_roles not in focus:
+              raise SystemExit("FOCUS repository-role block not found")
+          focus_path.write_text(focus.replace(old_roles, new_roles, 1), encoding="utf-8")
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add career-radar/README.md career-radar/FOCUS.md
+          git commit -m "docs: update consolidated career radar registry [skip ci]"
+          git push origin HEAD:career-radar/consolidate-expansions
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
