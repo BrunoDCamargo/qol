@@ -7,6 +7,7 @@ An evidence-oriented knowledge base for reusable propositions, evidence records,
 - [Generated QoL catalog](generated/catalog.md)
 - [Generated reference index](generated/references.md)
 - [Implementation Options](generated/implementation-options.md)
+- [Implementation Selection Guides](docs/selection-guides/README.md)
 - [R&D Career Radar](career-radar/README.md)
 - [Sleep](topics/sleep.md)
 - [Physical activity](topics/physical-activity.md)
@@ -29,7 +30,7 @@ The current project contract is split by responsibility:
 - [Contribution rules](CONTRIBUTING.md): how to add or revise knowledge and pass the release gate.
 - [ADR 0001](docs/adr/0001-structured-canonical-records.md): why structured per-record files replaced monolithic registries.
 
-Canonical knowledge is edited in structured records and registries described by the specification. Generated indexes and generated portions of Topic Views are derived output and must not be edited as independent knowledge sources.
+Canonical knowledge is edited in structured records and registries described by the specification. Generated indexes and generated portions of Topic Views are derived output and must not be edited as independent knowledge sources. Implementation Selection Guides are non-canonical editorial aids for choosing concrete products or providers inside an existing `IMP-*` class.
 
 ## Scope
 
