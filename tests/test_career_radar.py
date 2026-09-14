@@ -68,6 +68,38 @@ class CareerRadarTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "duplicate organization id: duplicate"):
             validate_career_radar(root)
 
+    def test_rejects_duplicate_organization_id_in_expansion_batch(self):
+        root = self._write_radar(
+            """
+- id: duplicate
+  name: Main Registry
+  organization_type: company
+  location: {city: Curitiba, state: PR, country: Brasil}
+  viable_from_curitiba: [onsite]
+  rd_evidence: {url: https://example.org/rd, note: R&D activity.}
+  careers_url: https://example.org/careers
+  last_checked: 2026-09-14
+""",
+            "[]\n",
+        )
+        radar = root / "career-radar"
+        (radar / "organizations-expansion-test.yaml").write_text(
+            """
+- id: duplicate
+  name: Expansion Registry
+  organization_type: company
+  location: {city: Curitiba, state: PR, country: Brasil}
+  viable_from_curitiba: [onsite]
+  rd_evidence: {url: https://example.org/rd2, note: More R&D activity.}
+  careers_url: https://example.org/careers2
+  last_checked: 2026-09-14
+""",
+            encoding="utf-8",
+        )
+
+        with self.assertRaisesRegex(ValueError, "duplicate organization id: duplicate"):
+            validate_career_radar(root)
+
     def test_rejects_invalid_organization_type(self):
         root = self._write_radar(
             """
