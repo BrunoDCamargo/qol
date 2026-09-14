@@ -11,7 +11,8 @@ Structured evidence registries:
 - [`organizations.yaml`](organizations.yaml): consolidated verified organizations and evidence;
 - [`organizations-expansion-2026-09-13-2.yaml`](organizations-expansion-2026-09-13-2.yaml): verified expansion batch awaiting consolidation into the main registry;
 - [`organizations-expansion-2026-09-13-3.yaml`](organizations-expansion-2026-09-13-3.yaml): verified expansion batch awaiting consolidation into the main registry;
-- [`organizations-expansion-2026-09-13-4.yaml`](organizations-expansion-2026-09-13-4.yaml): latest verified expansion batch awaiting consolidation into the main registry;
+- [`organizations-expansion-2026-09-13-4.yaml`](organizations-expansion-2026-09-13-4.yaml): verified expansion batch awaiting consolidation into the main registry;
+- [`organizations-expansion-2026-09-14.yaml`](organizations-expansion-2026-09-14.yaml): latest verified expansion batch awaiting consolidation into the main registry;
 - [`sources.yaml`](sources.yaml): recurring opportunity and discovery sources.
 
 The YAML registries are broader than this README. This page is the decision-oriented view and groups targets by career relevance.
@@ -91,6 +92,10 @@ Local Curitiba/RMC work and remote work available from Brazil have **equal prior
 | Organnact | animal health / nutrition / product R&D | onsite | [Carreiras](https://organnact.abler.com.br/) |
 | Vegoor Tecnologia Aplicada | electrical sector / laboratory / PD&I | onsite | [Trabalhe Conosco](https://www.vegoor.com.br/contato) |
 | Caterpillar | heavy equipment / industrial technology / engineering development | onsite | [Carreiras](https://careers.caterpillar.com/) |
+| Siemens | smart infrastructure / building technology / grid software R&D | onsite | [Carreiras](https://jobs.siemens.com/) |
+| AGP sGlass | advanced glass / materials / automotive R&D | onsite | [Carreiras](https://agpglass.com/equipes/) |
+| Protium Dynamics | hydrogen / energy transition / applied R&D | hybrid | [IEL Paraná](https://carreiras.iel.org.br/PR/vaga/bolsista/27850/pesquisador-doutorado-protium-dynamics-doutores-inovando-no-setor-empresaria-iel-pr) |
+| Toroid do Brasil | transformers / electrical engineering / product R&D | onsite | [Trabalhe Conosco](https://toroid.com.br/trabalhe-conosco/) |
 
 The complete local registry, including universities, research institutes and additional industrial organizations, remains in the structured evidence registries above.
 
@@ -142,6 +147,9 @@ These organizations maintain their own research, R&D or sustained engineering-de
 | Getnet | São Paulo, SP | payments / agentic AI / product development | [Vagas](https://job-boards.greenhouse.io/getnet) |
 | Rocket.Chat | Porto Alegre, RS | open source / secure communications / R&D | [Carreiras](https://www.rocket.chat/jobs) |
 | Scrunch (Sitecore) | distributed / global | AI search / infrastructure / product engineering | [Carreiras](https://scrunch.com/about/) |
+| Yotta Labs | United States | distributed AI systems / GPU research engineering | [Vagas](https://jobs.ashbyhq.com/yotta) |
+| ElevenLabs | United Kingdom / global | speech AI / ML research | [Vagas](https://jobs.ashbyhq.com/elevenlabs) |
+| Turing | San Francisco, CA, USA | frontier AI / research engineering | [Vagas](https://job-boards.greenhouse.io/turing) |
 
 An international headquarters does not reduce priority when the organization has a sustained internal R&D environment and a current recurring career path open to professionals in Brazil.
 
@@ -170,6 +178,7 @@ These can support strong research careers, but the work depends more on clinical
 | ResourceWise | commodity / pulp-paper research and market intelligence | remote Brazil | [Carreiras](https://ats.rippling.com/resourcewise/jobs) |
 | IOActive | cybersecurity / security research / reverse engineering | remote Brazil | [Carreiras](https://ats.rippling.com/ioactive-tc/jobs) |
 | Campspot | software / AI / formal R&D department | remote Brazil, contract-heavy | [Carreiras](https://ats.rippling.com/campspot/jobs) |
+| GME Brasil / EFORT | industrial automation / robotics / engineering R&D | onsite | [Carreiras](https://novosite.gmebrasil.com.br/contato/) |
 
 ## Opportunity sources
 
@@ -188,7 +197,7 @@ These sources help discover opportunities but do not receive the same priority a
 | FUNPAR - Editais de Seleção de Pessoal | Paraná / UFPR | [Acessar](https://trabalheconosco.funpar.ufpr.br/) |
 | Turing - Research and AI Assignments | Brasil / internacional remoto | [Acessar](https://www.turing.com/jobs) |
 
-Turing remains preserved in the evidence registry because its Frontier Research activity is real, but current Brazil-accessible research work is commonly offered as contractor/freelancer assignments. It is therefore treated as an opportunity provider rather than a core employer target.
+Turing remains in `sources.yaml` because it also offers contractor/assignment research work, but it now also has a direct internal `Research Engineer` opening on its employer-controlled careers board that can be performed anywhere in Brazil. It therefore qualifies simultaneously as a primary remote-Brazil R&D career target and as an opportunity source.
 
 ## To investigate
 
@@ -223,7 +232,7 @@ Candidates stay here until R&D relevance, viability from Curitiba and a recurrin
 - **Veeva Systems:** Brazil remote life-sciences technology roles are visible, but eligibility from anywhere in Brazil and direct R&D/product-development fit need stronger confirmation.
 - **Canals:** Brazil-remote software engineering exists, but the sustained R&D/engineering-development environment needs stronger first-party evidence before promotion.
 - **Grafana Labs / Elastic / GitLab / CloudWalk:** relevant research or engineering-development environments remain promising, but current Brazil-eligible recurring evidence was not strong enough in this pass.
-- **Sardine:** remote-first agentic-risk technology is established, but the current Brazil-remote role verified is account/solutions-oriented rather than engineering, data science or applied research.
+- **Sardine:** remote-first product engineering in Brazil is now established, including current full-time software-engineering roles, but explicit recurring R&D/research evidence still needs strengthening before promotion under the stricter gate.
 - **Alternative Payments:** AI-powered payments/AR technology and Brazil-remote technical work are visible, but the current Brazil role verified is support-oriented rather than a recurring product-engineering path.
 - **Vidal Life:** strong current product-development and innovation evidence exists in Colombo, and P&D hiring surfaced during discovery, but a stable first-party employment route still needs verification.
 - **EDB Polióis Vegetais:** strong Curitiba research-center and long-running R&D evidence are established, but a stable recurring first-party careers route is still missing.
@@ -234,9 +243,12 @@ Candidates stay here until R&D relevance, viability from Curitiba and a recurrin
 - **Peróxidos do Brasil / Solvay:** the Curitiba operation has strong innovation/technology evidence, but current Brazil R&I openings are centered in Paulínia rather than Curitiba.
 - **INDT:** large PD&I organization is established, but the current official board does not provide enough evidence of a remote-Brazil R&D path viable from Curitiba.
 - **Sidia:** strong PD&I is established, but current remote-Brazil eligibility was not verified from the active institutional career route.
-- **Yotta Labs:** Brazil-eligible remote research surfaced during the research cycle, but current recurring-board freshness was not strong enough for promotion.
 - **Gurobi Optimization:** formal R&D is strong, but current R&D openings verified are not Brazil-eligible.
 - **Corteva:** substantial global R&D is strong, but the relevant Brazil field-science opening identified in this cycle is no longer accepting applications.
+- **Incognia:** a recent Brazil-based Data Scientist Researcher role clearly fit applied research and remote work, but it is no longer on the current openings board; fresh recurring research-hiring evidence is needed.
+- **Nubank:** current Applied AI Scientist work includes explicit research execution, but the active Brazil roles are tied to listed hubs/cities rather than a clearly verified remote-from-Curitiba arrangement.
+- **BMR Medical:** current medical-device development and an embedded doctoral research project in the RMC are verified, but a stable recurring first-party company careers route into R&D still needs confirmation.
+- **M Techne:** a current doctoral project in Curitiba covers BIM automation, experimentation and technical-scientific validation, but a durable recurring career route beyond the current research program still needs verification.
 
 ## Maintenance rule
 
