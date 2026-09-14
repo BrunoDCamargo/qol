@@ -1454,3 +1454,66 @@
     - machine-learning
     - research
   last_checked: 2026-09-13
+
+- id: buhler-curitiba
+  name: Bühler Curitiba
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.buhlergroup.com/global/pt/locations/Brazil-Curitiba.html
+    note: A unidade de Curitiba identifica explicitamente especialistas em R&D e engenharia e desenvolve e fabrica equipamentos e soluções para processamento de alimentos e tecnologias de processo; a Bühler mantém carreira formal de P&D com mais de 1.300 especialistas globais.
+  careers_url: https://jobs.buhlergroup.com/
+  tags:
+    - industrial-equipment
+    - food-processing
+    - mechanical-engineering
+    - automation
+    - process-technology
+  last_checked: 2026-09-13
+
+- id: landisgyr-curitiba
+  name: Landis+Gyr
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - hybrid
+  rd_evidence:
+    url: https://www.landisgyr.com/us/en/home/investors/annual-reports/2025
+    note: A companhia mantém P&D como investimento central em gestão inteligente de energia; em Curitiba há desenvolvimento atual de software para medição inteligente, Smart Grid e tecnologias emergentes de energia em regime híbrido.
+  careers_url: https://careers.landisgyr.com/
+  tags:
+    - energy
+    - smart-grid
+    - smart-metering
+    - software
+    - embedded-systems
+  last_checked: 2026-09-13
+
+- id: halliburton
+  name: Halliburton
+  organization_type: company
+  location:
+    city: Houston
+    state: TX
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://www.halliburton.com/en/production/artificial-lift/research-and-development
+    note: A empresa mantém laboratórios e equipes explícitas de R&D em tecnologia para energia; o portal atual de carreiras no Brasil inclui funções remotas como Scientific Developer, Digital Twin e sistemas industriais digitais.
+  careers_url: https://jobs.halliburton.com/go/Latin-America/8412200/?location=BR
+  tags:
+    - energy
+    - oilfield-services
+    - scientific-computing
+    - digital-twin
+    - engineering
+  last_checked: 2026-09-13
