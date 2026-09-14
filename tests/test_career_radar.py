@@ -132,6 +132,20 @@ class CareerRadarTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "source_type"):
             validate_career_radar(root)
 
+    def test_accepts_contract_research_opportunity_source(self):
+        root = self._write_radar(
+            "[]\n",
+            """
+- id: contract-research
+  name: Contract Research
+  source_type: contract-research-opportunities
+  url: https://example.org/research
+  scope: Brasil
+  last_checked: 2026-09-14
+""",
+        )
+        validate_career_radar(root)
+
     def test_rejects_invalid_last_checked(self):
         root = self._write_radar(
             "[]\n",
