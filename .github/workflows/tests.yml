@@ -8,6 +8,9 @@ on:
   pull_request:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   release-gate:
     name: Canonical repository release gate
@@ -15,6 +18,35 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Consolidate Career Radar registries
+        if: github.ref_name == 'career-radar/consolidate-expansions' && github.event.head_commit.message == 'ci: consolidate career radar registries'
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          radar = Path("career-radar")
+          main_path = radar / "organizations.yaml"
+          expansions = sorted(radar.glob("organizations-expansion-*.yaml"))
+
+          parts = [main_path.read_text(encoding="utf-8").rstrip()]
+          for path in expansions:
+              lines = path.read_text(encoding="utf-8").splitlines()
+              while lines and (not lines[0].strip() or lines[0].lstrip().startswith("#")):
+                  lines.pop(0)
+              part = "\n".join(lines).strip()
+              if part:
+                  parts.append(part)
+
+          main_path.write_text("\n\n".join(parts) + "\n", encoding="utf-8")
+          for path in expansions:
+              path.unlink()
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A career-radar
+          git commit -m "chore: consolidate career radar registries [skip ci]"
+          git push origin HEAD:career-radar/consolidate-expansions
 
       - name: Set up Python
         uses: actions/setup-python@v5
