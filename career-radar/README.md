@@ -13,6 +13,12 @@ Structured evidence registries:
 
 The YAML registry is broader than this README. This page is the decision-oriented view and groups targets by career relevance.
 
+## Search strategy
+
+Discovery is **sector-agnostic by default**. Do not preselect industries, scientific fields or technology categories before searching. The radar should explore R&D across the economy and research ecosystem, including sectors that are not already well represented here.
+
+Sector and technology labels are metadata applied after an organization is discovered. They are not filters, quotas or priority weights. Repeated research passes should deliberately vary sectors, institution types and search language to reduce blind spots.
+
 ## Primary targets
 
 Local Curitiba/RMC work and remote work available from Brazil have **equal priority**. What matters is the quality and durability of the R&D environment.
@@ -57,6 +63,8 @@ Local Curitiba/RMC work and remote work available from Brazil have **equal prior
 | Neodent | medical devices / dentistry | onsite | [Straumann Group Careers](https://careers.straumann.com/global/en) |
 | BEAUTYCOLOR Company | cosmetics R&D | onsite | [Carreiras](https://beautycolorcompany.vagas.solides.com.br/) |
 | ATEEI | engineering / product development | onsite | [Trabalhe Conosco](https://ateei.com.br/trabalhe-conosco) |
+| Bühler Curitiba | industrial equipment / food processing / process technology | onsite | [Vagas](https://jobs.buhlergroup.com/) |
+| Landis+Gyr | smart grid / energy technology / software | hybrid | [Carreiras](https://careers.landisgyr.com/) |
 
 The complete local registry, including universities, research institutes and additional industrial organizations, remains in [`organizations.yaml`](organizations.yaml).
 
@@ -104,6 +112,7 @@ These can support strong research careers, but the work depends more on clinical
 | EDETEK | clinical research technology | remote Brazil | [Carreiras](https://edetek.com/careers/) |
 | ICON plc | CRO / clinical research | remote Brazil | [Vagas no Brasil](https://careers.iconplc.com/jobs-in-brazil) |
 | Vector Trading | quantitative research | remote Brazil | [Vagas](https://vector-trading.breezy.hr/) |
+| Halliburton | energy technology / scientific computing / digital twin | remote Brazil | [Vagas no Brasil](https://jobs.halliburton.com/go/Latin-America/8412200/?location=BR) |
 
 ## Opportunity sources
 
@@ -137,6 +146,12 @@ Candidates stay here until R&D relevance, viability from Curitiba and a recurrin
 - **Worldwide Clinical Trials:** Brazil CRO activity and a recurring careers route are established, but current remote-Brazil eligibility still needs direct evidence.
 - **Fundação CERTI:** strong PD&I and recurring careers are established, but the current institutional model is described as hybrid/flexible in Florianópolis; Curitiba viability still needs direct evidence.
 - **Instituto Recôncavo de Tecnologia:** strong PD&I and an institutional careers channel are established; current remote-Brazil evidence was found outside the institutional site, so promotion waits for a first-party remote-work confirmation.
+- **GE Vernova:** substantial internal R&D and current Brazil jobs are verified, but the current Brazil-remote openings found in this pass were not clearly R&D roles.
+- **SLB:** extensive global technology and research infrastructure plus current Brazil innovation operations are verified; current remote-Brazil R&D eligibility still needs direct evidence.
+- **Philips:** R&D Innovation activity in Brazil and flexible/home-based work are visible institutionally, but a current recurring remote-Brazil R&D path still needs stronger evidence.
+- **Regrow Ag:** science-intensive and remote-first culture are explicit, but current first-party confirmation that Brazil is an eligible hiring location still needs verification.
+- **Syensqo:** Research & Innovation is a formal career area and Curitiba presence is current, but local or remote-Brazil R&I eligibility has not yet been established.
+- **dsm-firmenich:** global R&D careers and Brazil-remote jobs are established, but the current Brazil-remote roles found were not R&D roles.
 
 ## Maintenance rule
 
@@ -144,6 +159,8 @@ Research new candidates with equal emphasis on:
 
 1. Curitiba/RMC organizations with sustained R&D careers;
 2. organizations anywhere in Brazil or abroad with sustained R&D careers that are currently remote from Brazil.
+
+Search **broadly and without a sector filter**. Across repeated passes, vary industries, scientific domains, institution types and search terminology so that the existing catalog does not bias future discovery. Sector tags are assigned after discovery and do not affect priority.
 
 Then investigate Paraná arrangements that are realistically compatible with Curitiba and maintain research-intensive service organizations as a secondary track.
 
