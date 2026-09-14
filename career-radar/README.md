@@ -9,7 +9,8 @@ Read the scope and decision rules in [`FOCUS.md`](FOCUS.md).
 Structured evidence registries:
 
 - [`organizations.yaml`](organizations.yaml): consolidated verified organizations and evidence;
-- [`organizations-expansion-2026-09-13-2.yaml`](organizations-expansion-2026-09-13-2.yaml): latest verified expansion batch awaiting consolidation into the main registry;
+- [`organizations-expansion-2026-09-13-2.yaml`](organizations-expansion-2026-09-13-2.yaml): verified expansion batch awaiting consolidation into the main registry;
+- [`organizations-expansion-2026-09-13-3.yaml`](organizations-expansion-2026-09-13-3.yaml): latest verified expansion batch awaiting consolidation into the main registry;
 - [`sources.yaml`](sources.yaml): recurring opportunity and discovery sources.
 
 The YAML registries are broader than this README. This page is the decision-oriented view and groups targets by career relevance.
@@ -82,6 +83,9 @@ Local Curitiba/RMC work and remote work available from Brazil have **equal prior
 | Embrart | packaging / materials / product R&D | onsite | [Carreiras](https://www.embrart.com.br/carreiras/) |
 | Fiscaltech | intelligent transportation / software / product development | onsite / hybrid | [Carreiras](https://fiscaltech.gupy.io/) |
 | Colorfix Masterbatches | polymers / chemicals / materials R&D | onsite | [Carreiras](https://colorfix.rhgestor.com.br/home/) |
+| Fibracem | optical communications / fiber / product engineering | onsite | [Carreiras](https://www.fibracem.com/trabalhe-conosco) |
+| Ambipar / Codiflex | packaging / materials / engineering development | onsite | [Carreiras](https://codiflex.com.br/trabalhe-conosco/) |
+| Lunex Tecnologia | electronics / LED / lighting / automation | onsite | [Carreiras](https://www.lunex.com.br/carreira.php) |
 
 The complete local registry, including universities, research institutes and additional industrial organizations, remains in the structured evidence registries above.
 
@@ -123,6 +127,16 @@ These organizations maintain their own research, R&D or sustained engineering-de
 | Teachable | New York, NY, USA | edtech / product engineering / data | [Vagas](https://job-boards.greenhouse.io/teachablecareers) |
 | Swile | Montpellier, France | fintech / HR-tech / payments / innovation engineering | [Vagas](https://jobs.lever.co/swile) |
 | Chainlink Labs | distributed / global | blockchain / distributed systems / product engineering | [Carreiras](https://chain.link/careers) |
+| Pismo (Visa) | São Paulo, SP | fintech / payments / distributed systems | [Carreiras](https://www.pismo.io/pt/careers/) |
+| Jusbrasil | Salvador, BA | legaltech / AI / search / experimentation | [Vagas](https://job-boards.greenhouse.io/jusbrasil) |
+| Wellhub | New York, NY, USA | wellbeing-tech / AI / ML / product development | [Carreiras](https://wellhub.com/careers/) |
+| Coinbase | San Francisco, CA, USA | fintech / blockchain / ML / AI | [Vagas no Brasil](https://www.coinbase.com/careers/positions?location=remote+brazil) |
+| Arena.im | distributed / global | AI agents / RAG / distributed systems | [Vagas](https://job-boards.greenhouse.io/arenaim) |
+| Feegow / Docplanner Group | Curitiba, PR | healthtech / cloud / platform engineering | [Vagas](https://jobs.ashbyhq.com/Feegow) |
+| Superhuman | San Francisco, CA, USA | AI productivity / agents / product engineering | [Carreiras](https://superhuman.com/company/careers) |
+| Getnet | São Paulo, SP | payments / agentic AI / product development | [Vagas](https://job-boards.greenhouse.io/getnet) |
+| Rocket.Chat | Porto Alegre, RS | open source / secure communications / R&D | [Carreiras](https://www.rocket.chat/jobs) |
+| Scrunch (Sitecore) | distributed / global | AI search / infrastructure / product engineering | [Carreiras](https://scrunch.com/about/) |
 
 An international headquarters does not reduce priority when the organization has a sustained internal R&D environment and a current recurring career path open to professionals in Brazil.
 
@@ -201,6 +215,9 @@ Candidates stay here until R&D relevance, viability from Curitiba and a recurrin
 - **Veeva Systems:** Brazil remote life-sciences technology roles are visible, but eligibility from anywhere in Brazil and direct R&D/product-development fit need stronger confirmation.
 - **Canals:** Brazil-remote software engineering exists, but the sustained R&D/engineering-development environment needs stronger first-party evidence before promotion.
 - **Grafana Labs / Elastic / GitLab / CloudWalk:** relevant research or engineering-development environments remain promising, but current Brazil-eligible recurring evidence was not strong enough in this pass.
+- **Sardine:** remote-first agentic-risk technology is established, but the current Brazil-remote role verified is account/solutions-oriented rather than engineering, data science or applied research.
+- **Alternative Payments:** AI-powered payments/AR technology and Brazil-remote technical work are visible, but the current Brazil role verified is support-oriented rather than a recurring product-engineering path.
+- **Vidal Life:** strong current product-development and innovation evidence exists in Colombo, and P&D hiring surfaced during discovery, but a stable first-party employment route still needs verification.
 
 ## Maintenance rule
 
