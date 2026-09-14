@@ -33,6 +33,7 @@ Local Curitiba/RMC work and remote work available from Brazil have **equal prior
 | Instituto SENAI de Inovação em Eletroquímica | applied R&D / EMBRAPII | onsite | [Sistema Fiep](https://app.jobconvo.com/pt-br/careers/sistema-fiep/35ad6a0f-51a9-4b5f-b1fe-154124819dfd/) |
 | Embrapa Florestas | agricultural / forestry research | onsite | [Estágios e concursos](https://www.embrapa.br/pt/estagios-e-concursos) |
 | Simepar | environmental science / technology | onsite / hybrid | [Processos seletivos](https://www.simepar.br/simepar/timeline/noticias) |
+| Universidade Positivo | academic / applied research | onsite | [Carreiras](https://up.gupy.io/) |
 | Hilab | diagnostics / biotech / AI | onsite | [Carreiras](https://hilab.com.br/carreiras/) |
 | ST-One | industrial deeptech | onsite / hybrid | [Carreiras](https://www.st-one.io/a-st-one/carreiras/) |
 | Centro Internacional de Tecnologia de Software (CITS) | ICT / software / embedded systems | onsite | [Trabalhe Conosco](https://www.cits.br/trabalhe-conosco/) |
@@ -65,6 +66,17 @@ Local Curitiba/RMC work and remote work available from Brazil have **equal prior
 | ATEEI | engineering / product development | onsite | [Trabalhe Conosco](https://ateei.com.br/trabalhe-conosco) |
 | Bühler Curitiba | industrial equipment / food processing / process technology | onsite | [Vagas](https://jobs.buhlergroup.com/) |
 | Landis+Gyr | smart grid / energy technology / software | hybrid | [Carreiras](https://careers.landisgyr.com/) |
+| Nilko Indústrias de Precisão | industrial / product engineering / prototyping | onsite | [Trabalhe Conosco](https://nilko.com.br/industriasdeprecisao/trabalhe-conosco/) |
+| Vaccinar | animal nutrition / applied R&D | onsite | [Trabalhe Conosco](https://vaccinar.com.br/trabalhe-conosco/) |
+| Mitel | telecommunications / software R&D | onsite / remote | [Carreiras](https://mitel.wd3.myworkdayjobs.com/mitelcareers) |
+| Limagrain Field Seeds | seeds / agronomy / plant breeding | onsite | [Vagas](https://jobs.limagrain.com/search/) |
+| Pharmaesthetics do Brasil | pharma / cosmetics / medical-device PDI | onsite | [Carreiras](https://people.talentbrand.com.br/c/pharmaesthetics) |
+| S&C Electric Company | power systems / product innovation | onsite | [Empregos](https://www.sandc.com.br/pt/empregos/) |
+| Grupo Bio Holding | diagnostics / biotech / product R&D | onsite | [Carreiras](https://integracsc.gupy.io/) |
+| Grupo Vilella | animal health / veterinary pharma | onsite | [Carreiras](https://grupovilela.vagas.solides.com.br/) |
+| MadeiraMadeira / CIT | furniture / product development / prototyping | hybrid | [Carreiras](https://careers-madeiramadeira.icims.com/) |
+| Biza / Grupo Hidrau Torque | heavy equipment / product engineering | onsite | [Carreiras](https://biza.gupy.io/) |
+| PPG | coatings / chemicals / materials R&D | onsite | [Carreiras](https://careers.ppg.com/br/pt/home) |
 
 The complete local registry, including universities, research institutes and additional industrial organizations, remains in [`organizations.yaml`](organizations.yaml).
 
@@ -88,6 +100,15 @@ These organizations maintain their own research or R&D activity and have current
 | BeOne Medicines | global | oncology biotech / internal R&D / clinical development | [Carreiras](https://beonemedicines.com/careers/) |
 | Adaption | international | frontier AI research / adaptive ML | [Carreiras](https://adaptionlabs.ai/careers) |
 | Roboflow | international / Brazil hub | computer vision / ML research | [Carreiras](https://roboflow.com/careers) |
+| Articul8 AI | Santa Clara, CA, USA | GenAI / applied research | [Vagas](https://jobs.ashbyhq.com/articul8) |
+| CSG | Englewood, CO, USA | telecom / cloud product R&D | [Carreiras](https://csgi.wd5.myworkdayjobs.com/csgcareers) |
+| Kevel | Durham, NC, USA | adtech / retail-media product R&D | [Carreiras](https://ats.rippling.com/kevel-careers/jobs) |
+| Quartile | New York, NY, USA | retail media / ML / data R&D | [Carreiras](https://ats.rippling.com/careers-quartile/jobs) |
+| TRM Labs | San Francisco, CA, USA | blockchain intelligence / data science / ML | [Vagas](https://jobs.ashbyhq.com/trm-labs) |
+| Avra | São Paulo, SP | foundation models / graph ML research | [Carreiras](https://avra.ai/careers) |
+| Pathlock | Denver, CO, USA | cybersecurity / enterprise-software R&D | [Carreiras](https://ats.rippling.com/pathlock/jobs) |
+| Savvy Wealth | New York, NY, USA | fintech / wealthtech product R&D | [Carreiras](https://www.savvywealth.com/careers) |
+| Deel | San Francisco, CA, USA | HR-tech / payroll / product R&D | [Carreiras](https://www.deel.com/careers/) |
 
 An international headquarters does not reduce priority when the organization has a sustained internal R&D environment and a current recurring career path open to professionals in Brazil.
 
@@ -146,12 +167,20 @@ Candidates stay here until R&D relevance, viability from Curitiba and a recurrin
 - **Worldwide Clinical Trials:** Brazil CRO activity and a recurring careers route are established, but current remote-Brazil eligibility still needs direct evidence.
 - **Fundação CERTI:** strong PD&I and recurring careers are established, but the current institutional model is described as hybrid/flexible in Florianópolis; Curitiba viability still needs direct evidence.
 - **Instituto Recôncavo de Tecnologia:** strong PD&I and an institutional careers channel are established; current remote-Brazil evidence was found outside the institutional site, so promotion waits for a first-party remote-work confirmation.
-- **GE Vernova:** substantial internal R&D and current Brazil jobs are verified, but the current Brazil-remote openings found in this pass were not clearly R&D roles.
+- **GE Vernova:** substantial internal R&D and current Brazil jobs are verified, but current Brazil-remote openings found were not clearly R&D roles.
 - **SLB:** extensive global technology and research infrastructure plus current Brazil innovation operations are verified; current remote-Brazil R&D eligibility still needs direct evidence.
 - **Philips:** R&D Innovation activity in Brazil and flexible/home-based work are visible institutionally, but a current recurring remote-Brazil R&D path still needs stronger evidence.
 - **Regrow Ag:** science-intensive and remote-first culture are explicit, but current first-party confirmation that Brazil is an eligible hiring location still needs verification.
 - **Syensqo:** Research & Innovation is a formal career area and Curitiba presence is current, but local or remote-Brazil R&I eligibility has not yet been established.
-- **dsm-firmenich:** global R&D careers and Brazil-remote jobs are established, but the current Brazil-remote roles found were not R&D roles.
+- **dsm-firmenich:** global R&D careers and Brazil-remote jobs are established, but current Brazil-remote roles found were not R&D roles.
+- **Tech-E Innovation:** substantial local PD&I evidence exists in Fazenda Rio Grande, but a stable first-party employment/careers route is still missing.
+- **Higa Brasil:** local R&D activity appears strong, but durable first-party R&D and careers evidence still needs verification beyond company-authored social material.
+- **Alcede Ferramentas:** the company states that it invests continuously in R&D in Curitiba, but no stable recurring careers channel was verified.
+- **TOTVS Curitiba/Pinhais:** corporate R&D investment is strong, but participation of the local operation in R&D rather than commercial/support work remains unverified.
+- **DB Diagnósticos:** large diagnostics operation and recurring careers are established, but a durable first-party internal R&D function matching the radar gate has not yet been verified.
+- **Platform Science:** product/R&D activity and Brazil engineering hiring are current, but Brazil roles found were not clearly part of the recurring R&D organization.
+- **Parse Biosciences:** scientific careers are recurring and a recent Brazil-remote bioinformatics role was observed, but the direct posting is no longer live; current remote eligibility needs fresh evidence.
+- **WP LAB:** institutional research and innovation activity is visible, but a recurring first-party career path into R&D is not yet strong enough.
 
 ## Maintenance rule
 
