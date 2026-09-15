@@ -1,16 +1,18 @@
 # Repository Specification
 
-This document defines the normative repository contract. Domain terms are defined in `CONTEXT.md`; schemas provide machine-checkable field constraints.
+This document defines the normative repository contract. Domain terms are defined in the applicable context glossary; `CONTEXT-MAP.md` routes bounded contexts, and schemas provide machine-checkable field constraints for canonical knowledge-base records.
 
 ## Canonical identities
 
-The canonical record families are:
+The canonical record families of the QoL Knowledge Base are:
 
 - `QOL-*`: one QoL Item proposition;
 - `REF-*`: one citably distinct Reference or materially relevant source version;
 - `IMP-*`: one concrete reusable Implementation Option.
 
 Identities are stable and must not be reassigned to different concepts.
+
+Personal profile records do not receive `QOL-*`, `REF-*`, or `IMP-*` identities.
 
 ## QoL Items
 
@@ -66,19 +68,53 @@ Topic links to individual QoL Items and References resolve directly to canonical
 
 `generated/catalog.md`, `generated/references.md`, and `generated/implementation-options.md` are deterministic derived views. They are not editable knowledge sources. A generated view must be reproducible byte-for-byte from the same validated canonical inputs.
 
+Personal profile files under `personal/` are not inputs to generated knowledge-base indexes.
+
+## Personal QoL Profile
+
+The repository may contain a private Personal QoL Profile under `personal/` because this repository is privately owned and intentionally serves both a general knowledge context and a personal application context.
+
+The personal context may store:
+
+- personal audit responses and observations;
+- individualized targets and priority rankings;
+- accepted trade-offs and preferences;
+- private health, medication, relationship, work, financial, or lifestyle context when deliberately retained;
+- references from personal records to `QOL-*` items or Coverage Framework facets.
+
+The personal context must not:
+
+- create or redefine `QOL-*`, `REF-*`, or `IMP-*` identities;
+- contribute Support or Constraint Claims;
+- determine Evidence Strength or Support Mode;
+- modify Category semantics or lifecycle state;
+- feed canonical generated indexes;
+- turn an individual's experience into general scientific evidence.
+
+Personal statuses such as `meets`, `partial`, `does_not_meet`, `not_applicable`, and `unknown` are application-layer observations only. They do not alter canonical item semantics.
+
+Sensitive personal information committed to Git may remain in repository history after ordinary deletion. Persisting such information is therefore an explicit repository-owner decision rather than an automatic behavior.
+
 ## Lifecycle
 
-Canonical records use Active and Deprecated lifecycle states. Deprecation preserves the old identity rather than deleting it or reusing it for another concept. Replacement links must resolve according to the applicable schema and repository invariants.
+Canonical knowledge-base records use Active and Deprecated lifecycle states. Deprecation preserves the old identity rather than deleting it or reusing it for another concept. Replacement links must resolve according to the applicable schema and repository invariants.
 
 Every `QOL-*` and `REF-*` identity emitted by current generated or Topic View output must resolve to its canonical record under this lifecycle model.
 
+Personal profile records are dated snapshots or evolving application records and do not participate in canonical Active/Deprecated lifecycle semantics unless a future personal-profile schema explicitly introduces its own lifecycle.
+
 ## Repository scope
 
-The repository stores general knowledge and reusable implementation classes. It must not store personal audit answers, individualized rankings, private health or medication histories, employment histories, purchase histories, or conclusions about a specific person's diagnosis, treatment, or quality of life.
+The repository has two bounded contexts defined by `CONTEXT-MAP.md`:
+
+1. **QoL Knowledge Base** — general, reusable, evidence-backed propositions and implementation knowledge.
+2. **Personal QoL Profile** — private application of that knowledge to the repository owner's life.
+
+The boundary is one-way: the personal profile may reference and apply general knowledge, but canonical knowledge must never be derived from personal observations.
 
 ## Release requirements
 
-A releasable revision must satisfy all of the following:
+A releasable revision of the QoL Knowledge Base must satisfy all of the following:
 
 1. every canonical file validates against its schema and semantic invariants;
 2. all category, evidence, replacement, Implementation Option, and Item Relationship links resolve with valid lifecycle states;
@@ -86,4 +122,6 @@ A releasable revision must satisfy all of the following:
 4. deterministic generated output matches the committed output with no drift;
 5. the complete structural test suite passes.
 
-These checks establish structural correctness. They do not substitute for human review of scientific claims, evidence interpretation, Selection Guide methodology, or editorial quality.
+Personal profile files are outside the canonical `RepositorySnapshot` and current structural schema gate. They require human review for internal consistency and privacy but must not cause canonical generation to consume personal data.
+
+These checks establish structural correctness. They do not substitute for human review of scientific claims, evidence interpretation, Selection Guide methodology, personal-profile interpretation, or editorial quality.
