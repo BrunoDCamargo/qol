@@ -2,10 +2,9 @@
 
 ## Summary
 
-This research pass identified eight additions that satisfy the current Career Radar rule strongly enough to preserve in a verified expansion batch:
+This research pass identified seven new additions that satisfy the current Career Radar rule strongly enough to preserve in a verified expansion batch:
 
 - Intecso Soluções e Inovações em Agronegócio
-- Mondelēz International / Mondelēz Brasil
 - M. Dias Branco / Latinex Brands
 - FORVIA Faurecia
 - Vidya Technology
@@ -13,7 +12,9 @@ This research pass identified eight additions that satisfy the current Career Ra
 - Tether Data
 - CloudWalk
 
-Six are Curitiba/RMC targets and two are current remote-Brazil targets. Mondelēz and Vidya are among the strongest local additions because their own material ties sustained R&D directly to Curitiba. Tether Data is the clearest remote addition because its current careers site lists multiple AI Research Engineer roles as 100% remote worldwide and explicitly includes São Paulo, Brazil among eligible locations. CloudWalk combines an established internal AI R&D organization with current fully remote machine-learning hiring.
+Five are Curitiba/RMC targets and two are current remote-Brazil targets. Tether Data is the clearest remote addition because its current careers site lists multiple AI Research Engineer roles as 100% remote worldwide and explicitly includes São Paulo, Brazil among eligible locations. CloudWalk combines an established internal AI R&D organization with current fully remote machine-learning hiring.
+
+Mondelēz International / Mondelēz Brasil was also revalidated in this pass, but `mondelez-curitiba` already exists in the consolidated `organizations.yaml`, so it is not duplicated in this expansion batch.
 
 Latinex is retained with a caveat: the local São José dos Pinhais P&D role is currently evidenced through a secondary listing, while the parent company's research environment and recurring careers path are first-party.
 
@@ -33,7 +34,7 @@ Verified fact: Mondelēz's official Brazil careers page states that one of the c
 
 Verified fact: Mondelēz maintains a global R&D career function and recurring careers/search infrastructure.
 
-Disposition: promote as a high-confidence local food/product R&D target.
+Disposition: revalidated as a high-confidence local food/product R&D target, but no new expansion entry is added because `mondelez-curitiba` is already present in the consolidated registry.
 
 ### M. Dias Branco / Latinex Brands
 
