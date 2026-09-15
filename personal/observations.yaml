@@ -1,0 +1,166 @@
+snapshot_date: 2026-09-15
+source: interactive_qol_audit
+status_values:
+  - meets
+  - partial
+  - does_not_meet
+  - not_applicable
+  - unknown
+
+observations:
+  QOL-001:
+    status: meets
+    note: "Typical sleep duration is about 8-9 hours/night."
+
+  QOL-005:
+    status: partial
+    note: "Usually gets about 30-60 minutes of outdoor/strong natural light exposure."
+
+  QOL-009:
+    status: partial
+    note: "Heat disrupts sleep on some nights."
+
+  QOL-013:
+    status: meets
+    note: "Most nonessential notifications are silenced; important interruptions remain enabled."
+
+  QOL-017:
+    status: partial
+    note: "Focus is fragmented by self-initiated switching and some work-required context switching. YouTube background use sometimes captures attention during work/study."
+
+  QOL-021:
+    status: partial
+    note: "Willing to spend selectively to buy back unwanted domestic time, but cost remains a real constraint."
+
+  QOL-022:
+    status: does_not_meet
+    note: "Cleaning remains a recurring time burden; periodic cleaning help is a chosen target."
+
+  QOL-025:
+    status: partial
+    note: "Already uses delivery at times; wants to use prepared/delivered meals selectively to save time while preserving diet quality."
+
+  QOL-033:
+    status: partial
+    note: "Walks about 30 minutes/day in two 15-minute bouts, around 4 days/week (~120 minutes/week), and wants a modest increase."
+
+  QOL-036:
+    status: does_not_meet
+    note: "No regular resistance training currently. Chosen modality is strength training at home."
+
+  QOL-037:
+    status: partial
+    note: "Many seated hours; gets up frequently but sometimes remains seated for 1-2 hours continuously."
+
+  QOL-052:
+    status: meets
+    note: "Diet is described as mostly based on minimally processed foods, with frequent fruit/vegetable/legume intake."
+
+  QOL-053:
+    status: meets
+    note: "When tired or not wanting to cook, food delivery is used while generally preserving intended food quality."
+
+  QOL-055:
+    status: meets
+    note: "Reports drinking plenty of water during the day; no hydration insufficiency gap identified."
+
+  QOL-059:
+    status: unknown
+    applicable: true
+    note: "Diagnosed generalized anxiety disorder; in therapy for about 2 years. Current psychological treatment modality was not characterized enough to judge this specific proposition."
+    sensitive_health_context:
+      diagnosis: "Generalized anxiety disorder (TAG/GAD)"
+      medications_reported:
+        - "Escitalopram 20 mg"
+        - "Pregabalin 75 mg"
+
+  QOL-060:
+    status: partial
+    applicable: true
+    note: "Rumination/repetitive thinking ranges from occasional to frequent enough to consume attention or recovery."
+
+  QOL-062:
+    status: partial
+    note: "Values recurring contact; wants more intentional weekday time with girlfriend and somewhat more contact with friends."
+
+  QOL-063:
+    status: partial
+    note: "Desired social pattern includes reliable recurring contact rather than only occasional large events."
+
+  QOL-069:
+    status: meets
+    note: "Typical schedule is roughly 22:30-23:00 to 07:00-07:30 and appears reasonably regular."
+
+  QOL-073:
+    status: meets
+    applicable: true
+    note: "Bruxism/clenching was evaluated; dental splint/night guard is in use and symptoms are improving."
+
+  QOL-076:
+    status: not_applicable
+    note: "Low-back pain is currently rare and was not reported as functionally limiting."
+
+  QOL-077:
+    status: not_applicable
+    note: "Occasional low-interest states are usually explained by tiredness or lack of time; persistent loss of interest/pleasure was not established."
+
+  QOL-079:
+    status: partial
+    applicable: true
+    note: "Sexual-health domain is relevant but currently a low personal priority and was not explored in depth."
+
+  QOL-080:
+    status: meets
+    note: "Current work exposure was estimated at about 40 hours/week; study/self-development outside work about 5 hours/week."
+
+  QOL-081:
+    status: not_applicable
+    note: "Usually detaches from work well or only occasionally carries it mentally into off-hours; no major recovery impairment established."
+
+  QOL-087:
+    status: not_applicable
+    note: "Financial security is described as reasonable; improving margin is desired but financial insecurity was not described as a major current stressor."
+
+  QOL-094:
+    status: not_applicable
+    note: "Usually wakes for another reason and then urinates; urinary need does not appear to be the primary waking trigger."
+
+  QOL-095:
+    status: partial
+    applicable: true
+    note: "Chronic gastrointestinal symptoms have been present for years, including gas/bloating, alternating loose stools and constipation, and reflux/heartburn. Prior investigation was partial; symptoms can interfere with activities."
+    red_flags_reported_absent:
+      - blood_in_stool
+      - unexplained_weight_loss
+      - persistent_severe_pain
+      - fever
+      - recurrent_vomiting
+
+  QOL-100:
+    status: meets
+    note: "Recurring commitments consuming meaningful time were identified: cleaning, cooking, grocery shopping, and home maintenance."
+
+coverage_observations:
+  whoqol_positive_feelings:
+    status: partial
+    note: "Leisure is generally enjoyable, but sometimes mixed with thoughts of obligations/procrastination."
+
+  whoqol_self_esteem:
+    status: partial
+    note: "Self-esteem / relationship with self currently has moderate QoL impact and needs deeper assessment."
+
+  whoqol_meaning_purpose:
+    status: partial
+    note: "Has a direction in life but questions parts of it."
+
+  whoqol_health_care_access:
+    status: meets
+    note: "Access to doctors, dentists, exams, or health care is generally easy/acceptable with some friction."
+
+  whoqol_recreation_leisure:
+    status: partial
+    note: "Gaming/leisure is valued and usually enjoyable, but time scarcity and obligation-related thoughts sometimes reduce its quality."
+
+  whoqol_information_skills:
+    status: meets
+    note: "Learning opportunities are available; time is the limiting factor."
