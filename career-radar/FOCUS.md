@@ -75,9 +75,9 @@ CROs and clinical-development organizations qualify when research is their core 
 
 ## Repository roles
 
-- [`organizations.yaml`](organizations.yaml) is the consolidated verified-organization registry. During large research passes, additive verified expansion files named `organizations-expansion-*.yaml` may hold newly verified entries until they are consolidated into the main registry.
+- [`organizations.yaml`](organizations.yaml) is the consolidated verified-organization registry. During large research passes, additive verified expansion files named `organizations-expansion-*.yaml` may hold newly verified entries until they are consolidated into the main registry. The Career Radar validator reads the main registry and all active expansion batches together, so duplicate IDs and structural errors fail the release gate before consolidation.
 - [`sources.yaml`](sources.yaml) stores recurring opportunity and discovery sources.
-- [`README.md`](README.md) is the decision-oriented view and presents organizations by career relevance, including current verified expansion batches.
+- [`README.md`](README.md) is the decision-oriented view and presents organizations by career relevance.
 - `docs/research/` preserves the evidence and reasoning behind additions, exclusions and reclassifications.
 
 Research can preserve a lower-priority entity in the structured evidence registries even when the README does not surface it as a primary career target. The README controls the practical career view; the YAML files preserve the verified research record.

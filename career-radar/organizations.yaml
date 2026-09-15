@@ -1949,3 +1949,840 @@
     - artificial-intelligence
     - product-development
   last_checked: 2026-09-13
+
+- id: andritz-curitiba
+  name: ANDRITZ
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://careers.andritz.com/andritz/job/Curitiba-Engenheiro-Produto-II-Para/1358825357/
+    note: Mantém engenharia de produto em Curitiba com função permanente voltada a projetos técnicos complexos, análises, desenvolvimento de melhorias, novas práticas e tecnologias para soluções industriais.
+  careers_url: https://careers.andritz.com/
+  tags:
+    - industrial-technology
+    - pulp-and-paper
+    - mechanical-engineering
+    - process-engineering
+    - product-development
+  last_checked: 2026-09-13
+
+- id: embrart
+  name: Embrart
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.embrart.com.br/embalagem/
+    note: A unidade de Curitiba mantém equipe qualificada de P&D e laboratório próprio de pesquisa e desenvolvimento para projetos personalizados de embalagens e otimização de soluções logísticas e industriais.
+  careers_url: https://www.embrart.com.br/carreiras/
+  tags:
+    - packaging
+    - materials
+    - paper
+    - product-development
+    - industrial-engineering
+  last_checked: 2026-09-13
+
+- id: fiscaltech
+  name: Fiscaltech
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+    - hybrid
+  rd_evidence:
+    url: https://www.fiscaltech.com.br/
+    note: Empresa curitibana especializada no desenvolvimento contínuo de sistemas inteligentes de mobilidade, fiscalização e pesagem, com vagas recorrentes de software, produto, automação e engenharia em Curitiba.
+  careers_url: https://fiscaltech.gupy.io/
+  tags:
+    - transportation
+    - intelligent-transportation-systems
+    - software
+    - product-development
+    - automation
+  last_checked: 2026-09-13
+
+- id: colorfix-masterbatches
+  name: Colorfix Masterbatches
+  organization_type: company
+  location:
+    city: Colombo
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.colorfix.com.br/empresa/
+    note: A matriz em Colombo declara fortes investimentos em pesquisa e desenvolvimento de novos produtos e tecnologias de fabricação, com equipe técnica de engenheiros e químicos dedicada ao desenvolvimento de materiais e processos.
+  careers_url: https://colorfix.rhgestor.com.br/home/
+  tags:
+    - chemicals
+    - polymers
+    - materials
+    - masterbatches
+    - industrial-chemistry
+  last_checked: 2026-09-13
+
+- id: red-hat
+  name: Red Hat
+  organization_type: company
+  location:
+    city: Raleigh
+    state: NC
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://research.redhat.com/research/
+    note: Mantém programa formal de pesquisa em IA/ML, cloud e sistemas distribuídos, hardware e sistemas operacionais, segurança, privacidade, criptografia, testes e operações; a carreira institucional inclui Brasil e trabalho remoto em engenharia open source.
+  careers_url: https://www.redhat.com/pt-br/jobs
+  tags:
+    - open-source
+    - linux
+    - cloud
+    - distributed-systems
+    - research
+  last_checked: 2026-09-13
+
+- id: canonical
+  name: Canonical
+  organization_type: company
+  location:
+    city: London
+    country: United Kingdom
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://canonical.com/careers/all
+    note: Empresa de engenharia open source responsável pelo Ubuntu e tecnologias de cloud, kernel, segurança, MLOps, containers e sistemas embarcados, com grande volume de posições de engenharia explicitamente Home based - Worldwide.
+  careers_url: https://canonical.com/careers
+  tags:
+    - open-source
+    - linux
+    - cloud
+    - embedded-systems
+    - software
+  last_checked: 2026-09-13
+
+- id: wikimedia-foundation
+  name: Wikimedia Foundation
+  organization_type: nonprofit
+  location:
+    city: San Francisco
+    state: CA
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://wikimediafoundation.org/research/
+    note: Fundação mantém pesquisa institucional e desenvolvimento de tecnologia open source para Wikipedia e projetos Wikimedia; é remote-first, inclui Brasil entre os países atuais de contratação e possui vagas recorrentes de engenharia e tecnologia.
+  careers_url: https://wikimediafoundation.org/jobs/
+  tags:
+    - open-source
+    - knowledge-infrastructure
+    - research
+    - software
+    - data
+  last_checked: 2026-09-13
+
+- id: automattic
+  name: Automattic
+  organization_type: company
+  location:
+    city: Distributed
+    country: Global
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://automattic.com/work-with-us/job/experienced-software-engineer/
+    note: Empresa open source totalmente distribuída que desenvolve e evolui produtos como WordPress.com, WooCommerce, Tumblr e outras plataformas; mantém carreira global recorrente de engenharia e permite trabalho de qualquer lugar do mundo.
+  careers_url: https://automattic.com/work-with-us/
+  tags:
+    - open-source
+    - software
+    - publishing
+    - commerce
+    - product-development
+  last_checked: 2026-09-13
+
+- id: grupo-quintoandar
+  name: Grupo QuintoAndar
+  organization_type: company
+  location:
+    city: São Paulo
+    state: SP
+    country: Brasil
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://job-boards.greenhouse.io/quintoandar/jobs/4117067009
+    note: Mantém organização de tecnologia e inovação com engenharia de produtos e plataformas em escala; o time de tecnologia opera em modelo remote-first e permite morar em qualquer lugar do Brasil.
+  careers_url: https://job-boards.greenhouse.io/quintoandar
+  tags:
+    - proptech
+    - software
+    - data
+    - product-development
+    - platform-engineering
+  last_checked: 2026-09-13
+
+- id: platform-science
+  name: Platform Science
+  organization_type: company
+  location:
+    city: San Diego
+    state: CA
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://job-boards.greenhouse.io/platformscience?offices%5B%5D=4071457003
+    note: A empresa mantém uma organização formal Platform Science / R&D com posições atuais de engenharia no Brasil, além de engenharia e produto LATAM para plataforma IoT e tecnologia de transporte conectado.
+  careers_url: https://www.platformscience.com/jobs
+  tags:
+    - transportation
+    - iot
+    - cloud
+    - software
+    - research-development
+  last_checked: 2026-09-13
+
+- id: teachable
+  name: Teachable
+  organization_type: company
+  location:
+    city: New York
+    state: NY
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://job-boards.greenhouse.io/teachablecareers/jobs/4917817101
+    note: Plataforma de educação digital com organização recorrente de engenharia e dados; mantém posições CLT explicitamente Remote - Brazil e cultura remote-first para desenvolvimento e evolução de produto.
+  careers_url: https://job-boards.greenhouse.io/teachablecareers
+  tags:
+    - edtech
+    - software
+    - product-development
+    - data-engineering
+  last_checked: 2026-09-13
+
+- id: swile
+  name: Swile
+  organization_type: company
+  location:
+    city: Montpellier
+    country: France
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://jobs.lever.co/swile/c7c29d73-95fe-4680-93fd-4c2c19b1d6e9
+    note: Mantém departamento Innovation / Engineering e múltiplas posições permanentes Remote Brasil em engenharia de software, pagamentos, plataforma e confiabilidade para produtos de fintech, benefícios e HR-tech.
+  careers_url: https://jobs.lever.co/swile
+  tags:
+    - fintech
+    - hr-tech
+    - payments
+    - software
+    - product-development
+  last_checked: 2026-09-13
+
+- id: chainlink-labs
+  name: Chainlink Labs
+  organization_type: company
+  location:
+    city: Distributed
+    country: Global
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://jobs.ashbyhq.com/chainlink-labs/24f9329a-5c7e-41cd-9d2f-2d2f908eeea5
+    note: Desenvolve infraestrutura de oráculos, interoperabilidade, privacidade e sistemas distribuídos para aplicações blockchain; mantém posições full-time de engenharia explicitamente remotas e abertas para profissionais no Brasil.
+  careers_url: https://chain.link/careers
+  tags:
+    - blockchain
+    - distributed-systems
+    - cryptography
+    - software
+    - product-development
+  last_checked: 2026-09-13
+
+- id: fibracem
+  name: Fibracem
+  organization_type: company
+  location:
+    city: Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.fibracem.com/fibracem-referencia-nacional-no-segmento-de-comunicacao-optica-desde-1993/
+    note: A fabricante de soluções para redes ópticas mantém engenharia voltada a pesquisa, melhoria contínua, criação de novos produtos e projetos especiais; a operação e carreira institucional permanecem ativas em Pinhais.
+  careers_url: https://www.fibracem.com/trabalhe-conosco
+  tags:
+    - telecommunications
+    - optical-communications
+    - fiber-optics
+    - engineering
+    - product-development
+  last_checked: 2026-09-13
+
+- id: ambipar-codiflex
+  name: Ambipar / Codiflex
+  organization_type: company
+  location:
+    city: São José dos Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://codiflex.com.br/trabalhe-conosco/
+    note: Mantém engenharia de produto para desenvolvimento e aprimoramento de soluções de embalagem, produtos especiais e soluções customizadas, com análise técnica e testes na operação dos clientes; possui vaga recorrente de Engenheiro de Produto e banco de talentos.
+  careers_url: https://codiflex.com.br/trabalhe-conosco/
+  tags:
+    - packaging
+    - materials
+    - industrial-engineering
+    - product-development
+    - testing
+  last_checked: 2026-09-13
+
+- id: lunex-tecnologia
+  name: Lunex Tecnologia
+  organization_type: company
+  location:
+    city: Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.lunex.com.br/a-lunex.php
+    note: Indústria de tecnologia LED com desenvolvimento técnico interno do projeto à produção; projeta, testa e fabrica soluções próprias de iluminação, eletrônica, controle e automação em Pinhais.
+  careers_url: https://www.lunex.com.br/carreira.php
+  tags:
+    - electronics
+    - led
+    - lighting
+    - automation
+    - product-development
+  last_checked: 2026-09-13
+
+- id: pismo
+  name: Pismo (Visa)
+  organization_type: company
+  location:
+    city: São Paulo
+    state: SP
+    country: Brasil
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/BR---Remote---Brazil/SW-Engineer--Authorizations_REF083333W
+    note: Techfin de infraestrutura bancária e pagamentos com plataforma cloud-native própria, engenharia distribuída e múltiplas funções atuais full-time explicitamente BR - Remote - Brazil em software, arquitetura de plataforma e serviços financeiros críticos.
+  careers_url: https://www.pismo.io/pt/careers/
+  tags:
+    - fintech
+    - payments
+    - core-banking
+    - cloud
+    - distributed-systems
+    - product-development
+  last_checked: 2026-09-13
+
+- id: jusbrasil
+  name: Jusbrasil
+  organization_type: company
+  location:
+    city: Salvador
+    state: BA
+    country: Brasil
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://job-boards.greenhouse.io/jusbrasil/jobs/6110585004
+    note: Empresa brasileira de legaltech com grande organização de engenharia e produto, IA própria, sistemas de busca e avaliação, experimentação e testes A/B; o modelo institucional é remoto e permite escolher onde viver no Brasil.
+  careers_url: https://job-boards.greenhouse.io/jusbrasil
+  tags:
+    - legaltech
+    - artificial-intelligence
+    - search
+    - data
+    - software
+    - experimentation
+  last_checked: 2026-09-13
+
+- id: wellhub
+  name: Wellhub
+  organization_type: company
+  location:
+    city: New York
+    state: NY
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://job-boards.greenhouse.io/gympass/jobs/8590439002
+    note: A organização de Product Development mantém múltiplas funções atuais Brazil Remote em IA, MLOps, plataforma, segurança e produto; vagas de IA cobrem experimentação, infraestrutura de ML e evolução de produtos inteligentes em escala.
+  careers_url: https://wellhub.com/careers/
+  tags:
+    - wellbeing-tech
+    - artificial-intelligence
+    - machine-learning
+    - platform-engineering
+    - product-development
+  last_checked: 2026-09-13
+
+- id: coinbase
+  name: Coinbase
+  organization_type: company
+  location:
+    city: San Francisco
+    state: CA
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://www.coinbase.com/careers/positions/8031260
+    note: Mantém funções atuais Remote - Brazil em machine learning e software; a equipe de CX Intelligence desenvolve sistemas multiagente, RAG, fine-tuning, avaliação automatizada e serviços de IA em produção.
+  careers_url: https://www.coinbase.com/careers/positions?location=remote+brazil
+  tags:
+    - fintech
+    - crypto
+    - blockchain
+    - artificial-intelligence
+    - machine-learning
+    - software
+  last_checked: 2026-09-13
+
+- id: arena-im
+  name: Arena.im
+  organization_type: company
+  location:
+    city: Distributed
+    country: Global
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://job-boards.greenhouse.io/arenaim/jobs/4526114005
+    note: Startup de IA com múltiplas vagas atuais Brazil Remote em engenharia; a função de backend desenvolve AI Agents, pipelines RAG, fine-tuning, crawling e arquiteturas distribuídas de alta escala para produtos usados globalmente.
+  careers_url: https://job-boards.greenhouse.io/arenaim
+  tags:
+    - artificial-intelligence
+    - agentic-ai
+    - retrieval-augmented-generation
+    - distributed-systems
+    - software
+    - product-development
+  last_checked: 2026-09-13
+
+- id: feegow-docplanner
+  name: Feegow / Docplanner Group
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://jobs.ashbyhq.com/Feegow/c9bf60af-c3ed-42da-b93b-1c3322179d8b
+    note: Healthtech com engenharia de produto e plataforma; a função atual de Staff Engineer lidera modernização, inovação, arquitetura e evolução de produto e é 100% remota dentro do Brasil, com escritório opcional em Curitiba.
+  careers_url: https://jobs.ashbyhq.com/Feegow
+  tags:
+    - healthtech
+    - software
+    - cloud
+    - platform-engineering
+    - product-development
+  last_checked: 2026-09-13
+
+- id: superhuman
+  name: Superhuman
+  organization_type: company
+  location:
+    city: San Francisco
+    state: CA
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://jobs.ashbyhq.com/superhuman%20platform%20inc/adc2f864-e427-4be5-a1b7-e69d29c6b365
+    note: Plataforma de produtividade com IA e agentes que mantém função atual full-time explicitamente Remote - Brazil em engenharia de produto, trabalhando em sistemas de e-mail, IA e fluxos agentic; possui rota institucional recorrente de carreiras.
+  careers_url: https://superhuman.com/company/careers
+  tags:
+    - artificial-intelligence
+    - productivity
+    - agentic-ai
+    - software
+    - product-development
+  last_checked: 2026-09-13
+
+- id: getnet
+  name: Getnet
+  organization_type: company
+  location:
+    city: São Paulo
+    state: SP
+    country: Brasil
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://job-boards.greenhouse.io/getnet/jobs/4944825101
+    note: Fintech de pagamentos com tecnologia proprietária e um portfólio atual de dezenas de vagas; mantém função de AI Engineer Specialist em Agentic Commerce explicitamente Brazil - Remote para desenvolvimento de novas soluções de IA aplicadas a pagamentos.
+  careers_url: https://job-boards.greenhouse.io/getnet
+  tags:
+    - fintech
+    - payments
+    - artificial-intelligence
+    - agentic-ai
+    - product-development
+  last_checked: 2026-09-13
+
+- id: rocket-chat
+  name: Rocket.Chat
+  organization_type: company
+  location:
+    city: Porto Alegre
+    state: RS
+    country: Brasil
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://www.rocket.chat/contact
+    note: Empresa open source totalmente remota; identifica oficialmente seu escritório de Porto Alegre como R&D e mantém uma plataforma de comunicações segura e extensível desenvolvida por uma comunidade global, com rota institucional recorrente de carreiras.
+  careers_url: https://www.rocket.chat/jobs
+  tags:
+    - open-source
+    - communications
+    - security
+    - software
+    - research-development
+  last_checked: 2026-09-13
+
+- id: scrunch
+  name: Scrunch (Sitecore)
+  organization_type: company
+  location:
+    city: Distributed
+    country: Global
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://jobs.ashbyhq.com/scrunch/9464bd17-47de-48d2-bd49-0a74dd41832e/
+    note: Plataforma de AI search e agent experience que continua operando como produto autônomo após aquisição pela Sitecore; mantém função atual full-time Remote Brazil em Engineering & Product e acelera seu roadmap próprio de produto.
+  careers_url: https://scrunch.com/about/
+  tags:
+    - artificial-intelligence
+    - ai-search
+    - software
+    - infrastructure
+    - product-development
+  last_checked: 2026-09-13
+
+- id: ibmp
+  name: Instituto de Biologia Molecular do Paraná (IBMP)
+  organization_type: ict
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.ibmp.org.br/o_ibmp/
+    note: ICT curitibana com infraestrutura laboratorial e equipes de Desenvolvimento Tecnológico e Inovação em Saúde, atuando em pesquisa aplicada, desenvolvimento tecnológico, inovação e produção de soluções biotecnológicas e diagnósticas.
+  careers_url: https://www.ibmp.org.br/oportunidades/
+  tags:
+    - biotechnology
+    - diagnostics
+    - health
+    - applied-research
+    - technological-development
+  last_checked: 2026-09-13
+
+- id: organnact
+  name: Organnact
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://organnact.abler.com.br/
+    note: Empresa de saúde e nutrição animal com rota recorrente de recrutamento e vaga atual CLT de Assistente de P&D Técnico em Curitiba, evidenciando função interna recorrente de desenvolvimento de produtos.
+  careers_url: https://organnact.abler.com.br/
+  tags:
+    - animal-health
+    - animal-nutrition
+    - product-development
+    - research-development
+  last_checked: 2026-09-13
+
+- id: vegoor
+  name: Vegoor Tecnologia Aplicada
+  organization_type: company
+  location:
+    city: Colombo
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.vegoor.com.br/pesquisa-desenvolvimento-e-inovacao
+    note: Mantém função institucional explícita de Pesquisa, Desenvolvimento e Inovação para o setor elétrico, liderada por diretoria de pesquisa, com especialistas, laboratório, produção científica e desenvolvimento tecnológico.
+  careers_url: https://www.vegoor.com.br/contato
+  tags:
+    - energy
+    - electrical-engineering
+    - materials
+    - laboratory
+    - research-development-innovation
+  last_checked: 2026-09-13
+
+- id: caterpillar-campo-largo
+  name: Caterpillar
+  organization_type: company
+  location:
+    city: Campo Largo
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://careers.caterpillar.com/pt/estudantes-e-graduados/programas-de-desenvolvimento-profissional/
+    note: A companhia mantém trilha formal de Product Development cobrindo R&D, design, validação, simulação, introdução de novos produtos e melhoria contínua; a operação de Campo Largo mantém trabalho recorrente de engenharia e desenvolvimento de processos e tecnologias industriais.
+  careers_url: https://careers.caterpillar.com/
+  tags:
+    - heavy-equipment
+    - mechanical-engineering
+    - product-development
+    - process-development
+    - industrial-technology
+  last_checked: 2026-09-13
+
+- id: resourcewise
+  name: ResourceWise
+  organization_type: company
+  location:
+    city: Charlotte
+    state: NC
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://ats.rippling.com/resourcewise/jobs/20d0b13c-5896-4b16-8a54-373e08cffa19
+    note: Organização de inteligência de mercado e dados que mantém função atual de Researcher explicitamente Remote Brazil para pesquisa sobre celulose e papel, aquisição e manutenção de dados industriais e produção de análise recorrente.
+  careers_url: https://ats.rippling.com/resourcewise/jobs
+  tags:
+    - market-research
+    - forest-products
+    - pulp-paper
+    - data
+    - research-services
+  track: secondary-research-intensive-services
+  last_checked: 2026-09-13
+
+- id: ioactive
+  name: IOActive
+  organization_type: company
+  location:
+    city: Seattle
+    state: WA
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://www.ioactive.com/resources/research/
+    note: Empresa de segurança ofensiva com programa institucional de pesquisa e laboratórios próprios; mantém funções atuais full-time Remote Brazil em reverse engineering e segurança com acesso direto a equipes e pesquisa técnica.
+  careers_url: https://ats.rippling.com/ioactive-tc/jobs
+  tags:
+    - cybersecurity
+    - security-research
+    - reverse-engineering
+    - hardware-security
+    - research-services
+  track: secondary-research-intensive-services
+  last_checked: 2026-09-13
+
+- id: campspot
+  name: Campspot
+  organization_type: company
+  location:
+    city: Grand Rapids
+    state: MI
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://ats.rippling.com/campspot/jobs
+    note: O portal institucional mantém um departamento formal de Research & Development e oportunidades atuais para profissionais no Brasil em software, DevOps e IA; os caminhos Brasil verificados são majoritariamente contratos.
+  careers_url: https://ats.rippling.com/campspot/jobs
+  tags:
+    - travel-tech
+    - software
+    - artificial-intelligence
+    - devops
+    - research-development
+  track: secondary-contract-heavy
+  last_checked: 2026-09-13
+
+- id: siemens-curitiba
+  name: Siemens
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://press.siemens.com/br/pt/comunicadodeimprensa/siemens-e-destaque-com-hub-de-inovacao-global-em-curitiba
+    note: A Siemens mantém em Curitiba hubs globais de P&D em tecnologias prediais e software para redes elétricas, com projetos globais de hardware, software e smart infrastructure e rota recorrente de carreira em Research & Development.
+  careers_url: https://jobs.siemens.com/
+  tags:
+    - industrial-technology
+    - smart-infrastructure
+    - building-automation
+    - grid-software
+    - research-development
+  last_checked: 2026-09-14
+
+- id: agp-sglass
+  name: AGP sGlass
+  organization_type: company
+  location:
+    city: São José dos Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://agpglass.com/bra/sobre-sglass/
+    note: A planta de São José dos Pinhais desenvolve soluções de vidros especiais e blindagem transparente; a AGP informa investimento superior a 10% das vendas líquidas em P&D, possui laboratório balístico e mantém Pesquisa & Desenvolvimento como equipe formal de carreira.
+  careers_url: https://agpglass.com/equipes/
+  tags:
+    - materials
+    - automotive
+    - advanced-glass
+    - product-development
+    - research-development
+  last_checked: 2026-09-14
+
+- id: protium-dynamics
+  name: Protium Dynamics
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - hybrid
+  rd_evidence:
+    url: https://protiumdynamics.com/pesquisa-desenvolvimento-e-inovacao/
+    note: Empresa de base tecnológica dedicada a hidrogênio e descarbonização industrial, com equipe especializada em pesquisa, desenvolvimento e engenharia e múltiplas seleções atuais de pesquisadores doutores em Curitiba para projetos experimentais, dados, IA e monitoramento industrial.
+  careers_url: https://carreiras.iel.org.br/PR/vaga/bolsista/27850/pesquisador-doutorado-protium-dynamics-doutores-inovando-no-setor-empresaria-iel-pr
+  tags:
+    - hydrogen
+    - energy-transition
+    - industrial-decarbonization
+    - data-science
+    - applied-research
+  last_checked: 2026-09-14
+
+- id: toroid-do-brasil
+  name: Toroid do Brasil
+  organization_type: company
+  location:
+    city: São José dos Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://carreiras.iel.org.br/PR/vaga/bolsista/28050/pesquisador-doutor-toroid-do-brasil-doutores-inovando-no-setor-empresarial-iel-pr
+    note: Mantém programa atual de inovação em processos e desenvolvimento de novos produtos para transformadores toroidais e de média tensão, com pesquisador doutor dedicado a prototipagem, validação e modernização tecnológica; a empresa também mantém rota institucional de carreiras.
+  careers_url: https://toroid.com.br/trabalhe-conosco/
+  tags:
+    - electrical-engineering
+    - transformers
+    - power-electronics
+    - prototyping
+    - product-development
+  last_checked: 2026-09-14
+
+- id: yotta-labs
+  name: Yotta Labs
+  organization_type: company
+  location:
+    country: United States
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://jobs.ashbyhq.com/yotta/b5202314-91e1-4940-b8a1-9be0e02d1db5/
+    note: Mantém função full-time de Research Engineer em sistemas distribuídos de IA e infraestrutura de GPU, explicitamente remota e aberta a profissionais no Brasil.
+  careers_url: https://jobs.ashbyhq.com/yotta
+  tags:
+    - artificial-intelligence
+    - distributed-systems
+    - gpu-computing
+    - research-engineering
+    - infrastructure
+  last_checked: 2026-09-14
+
+- id: elevenlabs
+  name: ElevenLabs
+  organization_type: company
+  location:
+    country: United Kingdom
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://jobs.ashbyhq.com/elevenlabs/3d650946-5ac2-4729-9ae4-129c43fcd0b5/
+    note: Empresa de pesquisa e produtos de IA com funções full-time de Research Engineer executáveis globalmente de forma remota, trabalhando em modelos de voz, treinamento, avaliação e pesquisa em machine learning; o portal também mantém contratação remota ativa no Brasil.
+  careers_url: https://jobs.ashbyhq.com/elevenlabs
+  tags:
+    - artificial-intelligence
+    - speech
+    - machine-learning
+    - research
+    - foundation-models
+  last_checked: 2026-09-14
+
+- id: gme-brasil
+  name: GME Brasil / EFORT
+  organization_type: company
+  location:
+    city: São José dos Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.gmebrasil.com.br/institucional/
+    note: Engenharia de processos e automação industrial com equipe local que atua em pesquisa, gestão da inovação, robótica, desenvolvimento de sistemas e software; integra o Grupo EFORT, que mantém centro de P&D em robótica e manufatura inteligente.
+  careers_url: https://novosite.gmebrasil.com.br/contato/
+  tags:
+    - industrial-automation
+    - robotics
+    - engineering
+    - manufacturing
+    - research-development
+  track: secondary-research-intensive-services
+  last_checked: 2026-09-14

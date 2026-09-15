@@ -1,0 +1,103 @@
+# Verified Career Radar expansion batch researched on 2026-09-14.
+
+- id: lumicenter
+  name: Grupo Lumicenter Lighting
+  organization_type: company
+  location:
+    city: São José dos Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://lumicenter.com/empresa
+    note: The company documents a dedicated Research and Development team, photometric laboratories, electronics development, and continuous creation and improvement of lighting products.
+  careers_url: https://lumicenter.empregare.com/pt-br/vagas
+  tags:
+    - lighting
+    - electronics
+    - product-development
+    - industrial-rd
+  last_checked: 2026-09-14
+
+- id: microcapsules-tech
+  name: Microcapsules Tech
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.microcapsulestech.com.br/
+    note: The company develops micro- and nanoencapsulation technology for microorganisms, metabolites, RNAi, botanical extracts, and other biological inputs, with repeated P&D hiring for laboratory and scale-up work.
+  careers_url: https://www.linkedin.com/company/microcapsulestech/jobs/
+  tags:
+    - biotech
+    - agtech
+    - bioinputs
+    - microencapsulation
+    - applied-rd
+  last_checked: 2026-09-14
+
+- id: brasilsat
+  name: BrasilSat Harald
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.brasilsat.com.br/quem-somos/
+    note: BrasilSat states that it maintains a Research and Development group with laboratories, test fields, simulation capability, and technology investments supporting telecommunications, energy, and agribusiness products.
+  careers_url: https://brasilsat.abler.com.br/
+  tags:
+    - telecommunications
+    - engineering
+    - energy
+    - agribusiness
+    - industrial-rd
+  last_checked: 2026-09-14
+
+- id: leclair-cosmeticos
+  name: Leclair Cosméticos
+  organization_type: company
+  location:
+    city: São José dos Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://pt.linkedin.com/posts/leclair-cosmeticos_vagas-pdi-pesquisaedesenvolvimento-activity-7450147733954338816-INX0
+    note: Leclair has recruited directly for formulation P&D covering formulation development and optimization, pilot testing, scale-up, stability studies, technical documentation, and technology transfer.
+  careers_url: https://www.grupoleclair.com.br/contact-8
+  tags:
+    - cosmetics
+    - formulation
+    - product-development
+    - industrial-rd
+  last_checked: 2026-09-14
+
+- id: greca-asfaltos
+  name: GRECA Asfaltos
+  organization_type: company
+  location:
+    city: Araucária
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.grupogreca.com.br/greca-asfaltos/pesquisa-e-inovacao/
+    note: GRECA operates a Centro de Pesquisa, Desenvolvimento e Inovação for asphalt technologies, laboratory testing, product development, and applied technical research, including technologies such as asphalt-rubber.
+  careers_url: https://grecaasfaltos.pandape.infojobs.com.br/
+  tags:
+    - materials
+    - asphalt
+    - civil-engineering
+    - industrial-rd
+  last_checked: 2026-09-14

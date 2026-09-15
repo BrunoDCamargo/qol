@@ -68,6 +68,38 @@ class CareerRadarTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "duplicate organization id: duplicate"):
             validate_career_radar(root)
 
+    def test_rejects_duplicate_organization_id_in_expansion_batch(self):
+        root = self._write_radar(
+            """
+- id: duplicate
+  name: Main Registry
+  organization_type: company
+  location: {city: Curitiba, state: PR, country: Brasil}
+  viable_from_curitiba: [onsite]
+  rd_evidence: {url: https://example.org/rd, note: R&D activity.}
+  careers_url: https://example.org/careers
+  last_checked: 2026-09-14
+""",
+            "[]\n",
+        )
+        radar = root / "career-radar"
+        (radar / "organizations-expansion-test.yaml").write_text(
+            """
+- id: duplicate
+  name: Expansion Registry
+  organization_type: company
+  location: {city: Curitiba, state: PR, country: Brasil}
+  viable_from_curitiba: [onsite]
+  rd_evidence: {url: https://example.org/rd2, note: More R&D activity.}
+  careers_url: https://example.org/careers2
+  last_checked: 2026-09-14
+""",
+            encoding="utf-8",
+        )
+
+        with self.assertRaisesRegex(ValueError, "duplicate organization id: duplicate"):
+            validate_career_radar(root)
+
     def test_rejects_invalid_organization_type(self):
         root = self._write_radar(
             """
@@ -132,6 +164,20 @@ class CareerRadarTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "source_type"):
             validate_career_radar(root)
 
+    def test_accepts_contract_research_opportunity_source(self):
+        root = self._write_radar(
+            "[]\n",
+            """
+- id: contract-research
+  name: Contract Research
+  source_type: contract-research-opportunities
+  url: https://example.org/research
+  scope: Brasil
+  last_checked: 2026-09-14
+""",
+        )
+        validate_career_radar(root)
+
     def test_rejects_invalid_last_checked(self):
         root = self._write_radar(
             "[]\n",
@@ -195,6 +241,23 @@ class CareerRadarTests(unittest.TestCase):
         )
         with self.assertRaisesRegex(ValueError, "onsite or hybrid"):
             validate_career_radar(root)
+
+    def test_accepts_remote_brazil_organization_without_city_or_state(self):
+        root = self._write_radar(
+            """
+- id: global-remote
+  name: Global Remote Research
+  organization_type: company
+  location:
+    country: Global
+  viable_from_curitiba: [remote-brazil]
+  rd_evidence: {url: https://example.org/rd, note: R&D activity.}
+  careers_url: https://example.org/careers
+  last_checked: 2026-09-14
+""",
+            "[]\n",
+        )
+        validate_career_radar(root)
 
     def test_accepts_rmc_city_for_hybrid_work(self):
         root = self._write_radar(

@@ -25,6 +25,7 @@ SOURCE_TYPES = frozenset(
         "academic-opportunities",
         "rd-network",
         "mixed-opportunities",
+        "contract-research-opportunities",
         "other",
     }
 )
@@ -135,8 +136,6 @@ def _validate_organization(record: dict[str, Any], index: int) -> None:
     location = record.get("location")
     if not isinstance(location, dict):
         raise ValueError(f"{label}.location: mapping is required")
-    city = _text(location, "city", f"{label}.location")
-    state = _text(location, "state", f"{label}.location")
     _text(location, "country", f"{label}.location")
 
     modes = record.get("viable_from_curitiba")
@@ -145,10 +144,22 @@ def _validate_organization(record: dict[str, Any], index: int) -> None:
     if any(mode not in WORK_MODES for mode in modes):
         raise ValueError(f"{label}.viable_from_curitiba: invalid work mode")
 
+    local_mode = any(mode in {"onsite", "hybrid"} for mode in modes)
+    if local_mode:
+        city = _text(location, "city", f"{label}.location")
+        state = _text(location, "state", f"{label}.location")
+    else:
+        city = location.get("city", "")
+        state = location.get("state", "")
+        if not isinstance(city, str) or not isinstance(state, str):
+            raise ValueError(f"{label}.location: city and state must be strings when provided")
+        city = city.strip()
+        state = state.strip()
+
     in_rmc = state.casefold() == "pr" and city.casefold() in RMC_CITIES
     if not in_rmc and "remote-brazil" not in modes:
         raise ValueError(f"{label}.viable_from_curitiba: remote-brazil is required outside RMC")
-    if not in_rmc and any(mode in {"onsite", "hybrid"} for mode in modes):
+    if not in_rmc and local_mode:
         raise ValueError(f"{label}.viable_from_curitiba: onsite or hybrid is only valid in RMC")
 
     rd_evidence = record.get("rd_evidence")
@@ -184,8 +195,11 @@ def _validate_source(record: dict[str, Any], index: int) -> None:
 
 def validate_career_radar(root: str | Path = ".") -> None:
     root_path = Path(root)
-    organizations = _load_list(root_path / "career-radar" / "organizations.yaml")
-    sources = _load_list(root_path / "career-radar" / "sources.yaml")
+    radar_path = root_path / "career-radar"
+    organizations = _load_list(radar_path / "organizations.yaml")
+    for expansion_path in sorted(radar_path.glob("organizations-expansion-*.yaml")):
+        organizations.extend(_load_list(expansion_path))
+    sources = _load_list(radar_path / "sources.yaml")
 
     _check_unique_ids(organizations, "organization")
     _check_unique_ids(sources, "source")
