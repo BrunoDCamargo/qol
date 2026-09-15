@@ -1,6 +1,6 @@
 # QoL Knowledge Base methodology
 
-This document records methodological rules that sit above individual `QOL-*` evidence reviews.
+This document records methodological rules that sit above individual `QOL-*` evidence reviews and describes how the private Personal QoL Profile may apply the knowledge base without changing its evidence.
 
 ## Coverage frameworks
 
@@ -76,25 +76,73 @@ Before assigning a new `QOL-*` identity:
 5. add Support and Constraint Claims no broader than the reviewed evidence;
 6. use existing Categories where they fit, and create a new Category only when retrieval semantics truly require one.
 
-## Personal audits
+## Personal application methodology
 
-Personal profiles may use the catalog and Coverage Frameworks to guide questioning, but personal answers are outside repository scope.
+The private `personal/` bounded context applies the knowledge base to the repository owner's life. It is intentionally separate from the canonical evidence model.
 
-Do not store in this repository:
+A personal audit should preserve at least these distinctions when relevant:
 
-- personal audit responses;
-- individualized priority rankings;
-- diagnoses or private health histories;
-- medication histories;
-- employment or purchase histories;
-- individualized treatment conclusions.
+- **Personal Observation** — current factual state;
+- **subjective satisfaction** — how the current state feels to the person;
+- **Personal Position** — importance, desirability, willingness, or preference;
+- **Personal Target** — chosen next state and longer-term direction;
+- **Personal Priority** — personal sequencing of changes;
+- **Accepted Trade-off** — deliberate nonoptimization because another value or constraint takes precedence.
 
-A personal audit may reference stable `QOL-*` identities externally, but the canonical knowledge base remains general and reusable.
+Do not collapse these into one score. A person can satisfy an evidence-backed behavior and still be dissatisfied, or knowingly choose not to optimize one dimension because another valued outcome matters more.
+
+### Applying `QOL-*` items personally
+
+Personal records may reference `QOL-*` identities and use application-layer statuses such as:
+
+- `meets`;
+- `partial`;
+- `does_not_meet`;
+- `not_applicable`;
+- `unknown`.
+
+These statuses describe the person's current relationship to the item. They do not alter the canonical item, Evidence Strength, Support Mode, or applicability semantics.
+
+Conditional items should normally be opened by trigger questions rather than assumed applicable. When an item is not applicable, the profile should record that instead of treating it as a failure.
+
+### Evidence priority versus personal priority
+
+Keep at least two concepts distinct:
+
+- **evidence/clinical relevance** — how strongly a proposition is supported or how important a condition may be from a health perspective;
+- **personal priority** — what the person wants to address first.
+
+A lower personal priority does not invalidate evidence relevance. Conversely, high personal importance does not strengthen scientific evidence.
+
+### Coverage frameworks in personal audits
+
+Coverage Frameworks may guide broad questioning so that the personal profile does not silently omit major QoL domains. WHOQOL facets can therefore be recorded as coverage observations even when no current `QOL-*` exists.
+
+A WHOQOL facet is not automatically a personal problem. The purpose of the coverage pass is to ask whether the domain matters, not to assume a deficit.
+
+## Sensitive personal context
+
+Because this repository is private and personally owned, the `personal/` context may deliberately retain private health, medication, relationship, work, financial, or lifestyle information when it materially improves interpretation of applicability, targets, or trade-offs.
+
+Guardrails:
+
+- keep sensitive information under `personal/`;
+- do not convert personal observations into Evidence Claims or general recommendations;
+- do not infer treatment adequacy, diagnosis changes, or medication changes from the profile;
+- remember that Git history may retain sensitive content after ordinary deletion;
+- record only information the repository owner has deliberately chosen to persist.
 
 ## Scoring guardrail
 
 Do not infer a validated WHOQOL score from unrelated interview questions or from an informal personal profile. A validated instrument score requires administration and scoring according to the applicable instrument methodology.
 
-## Current research record
+The personal profile may use labels such as `meets`, `partial`, or subjective satisfaction categories for internal organization, but these are not WHOQOL scores and are not universal cross-domain metrics.
 
-See `docs/research/whoqol-coverage-audit-2026-09-15.md` for the first WHOQOL-based coverage audit and research questions exposed by it.
+## Current research and profile records
+
+- `docs/research/whoqol-coverage-audit-2026-09-15.md` — first WHOQOL-based knowledge-base coverage audit and research questions exposed by it.
+- `personal/PROFILE.md` — current human-readable personal profile snapshot.
+- `personal/observations.yaml` — structured current observations.
+- `personal/targets.yaml` — chosen next states and longer-term directions.
+- `personal/priorities.yaml` — explicit rankings and important unranked domains.
+- `personal/tradeoffs.yaml` — constraints, preferences, and accepted trade-offs.
