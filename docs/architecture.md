@@ -1,8 +1,17 @@
 # Architecture
 
-## Source-of-truth boundary
+## Bounded contexts
 
-The repository has one editable source for each kind of canonical knowledge:
+`CONTEXT-MAP.md` defines two repository contexts:
+
+1. **QoL Knowledge Base** — canonical general evidence and reusable implementation knowledge.
+2. **Personal QoL Profile** — private application-layer observations, targets, priorities, trade-offs, and sensitive context for the repository owner.
+
+The relationship is intentionally one-way: the personal profile may reference `QOL-*` items and Coverage Framework facets, but canonical knowledge is never derived from personal data.
+
+## Knowledge-base source-of-truth boundary
+
+The QoL Knowledge Base has one editable source for each kind of canonical knowledge:
 
 - `items/QOL-*.md` stores QoL Item records;
 - `references/REF-*.md` stores Reference records;
@@ -14,13 +23,43 @@ Topic Markdown contains editorial prose, but its complete `## Map` block is deri
 
 Implementation Selection Guides are editorial documents outside the canonical source-of-truth boundary. They reference canonical `IMP-*` records but are not loaded into repository state.
 
+## Personal profile boundary
+
+Files under `personal/` are a separate application context. They may contain:
+
+- Personal Observations;
+- Personal Positions;
+- Personal Targets;
+- Personal Priorities;
+- Accepted Trade-offs;
+- Sensitive Health Context;
+- references to canonical `QOL-*` identities or Coverage Framework facets.
+
+They are not canonical evidence sources and must not be loaded into `RepositorySnapshot`, generated catalog state, Evidence Claims, Evidence Strength, Category definitions, or lifecycle resolution.
+
+The expected flow is:
+
+```text
+canonical QoL knowledge + coverage frameworks
+                 |
+                 v
+        personal interpretation
+                 |
+       +---------+----------+
+       |         |          |
+       v         v          v
+ observations  targets   priorities/trade-offs
+```
+
+There is no reverse evidence flow from the personal profile into the canonical knowledge base.
+
 ## Validation and snapshot
 
 `qol_kb.records` loads schema-validated canonical sources into one immutable `RepositorySnapshot`. Loading enforces identity, lifecycle, category, evidence-reference, replacement, relationship, and Implementation Option integrity before a snapshot is returned.
 
 The validator rejects unresolved or invalid cross-record links. This means generation never needs to compensate for malformed canonical state.
 
-Selection Guides are intentionally excluded from `RepositorySnapshot` in the first implementation. Their content remains human-reviewed editorial guidance until the project has enough examples to justify a schema or validator.
+Selection Guides and the Personal QoL Profile are intentionally excluded from `RepositorySnapshot` in the current implementation. Their content remains human-reviewed editorial/application guidance until enough stable examples justify dedicated schemas or validators.
 
 ## Generated views
 
@@ -44,7 +83,7 @@ canonical records + categories.yaml
 
 The full QoL catalog, Reference index, and Implementation Option index are generated under `generated/`. Topic membership comes from `topic-views.yaml`; canonical row metadata comes from the snapshot; editorial prose remains in `topics/*.md`.
 
-Generated Markdown is never parsed back into canonical state.
+Generated Markdown is never parsed back into canonical state. Personal profile files are also never parsed into canonical state.
 
 ## Topic View boundary
 
@@ -77,14 +116,14 @@ Stable evaluation criteria belong in the guide. Volatile product names, prices, 
 
 Canonical identities remain addressable when Deprecated. Active records may only depend on lifecycle-compatible records defined by the specification and schemas. Replacement links and typed Item Relationships must resolve before generation succeeds.
 
-Selection Guides do not participate in canonical lifecycle state in the first implementation. If a parent Implementation Option is Deprecated, its linked guide requires human review and should not be treated as current implementation advice without revision.
+Selection Guides and personal profile files do not participate in canonical lifecycle state in the current implementation. If a parent Implementation Option is Deprecated, its linked guide requires human review and should not be treated as current implementation advice without revision. If a referenced `QOL-*` changes lifecycle, personal profile interpretation also requires human review.
 
 ## Release boundary
 
-The release gate has three structural responsibilities:
+The canonical release gate has three structural responsibilities:
 
-1. load and validate the complete canonical repository, including cross-record integrity;
+1. load and validate the complete canonical knowledge base, including cross-record integrity;
 2. verify deterministic generated output has no drift;
 3. run the full structural test suite.
 
-Scientific interpretation and Selection Guide methodology remain human review responsibilities outside the structural gate.
+Scientific interpretation, Selection Guide methodology, and Personal QoL Profile interpretation remain human review responsibilities outside the structural gate. Personal files must remain excluded from canonical generation and validation inputs.
