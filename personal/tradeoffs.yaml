@@ -1,0 +1,43 @@
+snapshot_date: 2026-09-15
+
+accepted_tradeoffs: []
+
+constraints_and_preferences:
+  buying_time:
+    preference: "Willing to pay selectively to reduce unwanted domestic work, especially cleaning and cooking."
+    constraint: "Cost matters; outsourcing should not materially undermine financial security or other priorities."
+    intended_use_of_saved_time:
+      - strength_training
+      - relationship_time
+      - gaming_and_leisure
+      - obligation_free_rest
+
+  digital_media:
+    preference: "Keep YouTube, Reddit, and ChatGPT as useful or enjoyable tools rather than pursue broad abstinence."
+    constraint: "Avoid allowing background media or self-initiated checking to compete with demanding focus work."
+    note: "YouTube is often background media and appears to consume the most time; reduction in total use is not currently the goal."
+
+  cats_and_sleep:
+    preference: "Reduce nighttime meowing-related sleep disruption if practical."
+    constraint: "The newly adopted cat is still adapting; changes should not compromise adjustment or welfare."
+    classification: "constrained improvement, not yet an Accepted Trade-off"
+
+  exercise_progression:
+    preference: "Start small enough to be sustainable."
+    constraint: "Do not treat the long-term evidence-backed strength target as a pass/fail threshold for the first step."
+
+  social_contact:
+    preference: "Increase valued relationship/friend contact."
+    constraint: "Avoid turning social frequency into unwanted obligation or a universal quota."
+
+  leisure:
+    preference: "Protect gaming and leisure as legitimate valued uses of time."
+    constraint: "The goal is not to convert every recovered hour into productivity or self-improvement."
+
+  work_and_growth:
+    preference: "Continue learning and technical development."
+    constraint: "Learning opportunities are not the main shortage; discretionary time is."
+
+  personal_vs_evidence_priority:
+    rule: "Keep personal sequencing distinct from clinical urgency, Evidence Strength, and general recommendation strength."
+    note: "A personally lower-ranked health item can remain evidence-relevant without overriding the person's chosen order."
