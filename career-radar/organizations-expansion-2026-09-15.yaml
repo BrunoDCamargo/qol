@@ -1,0 +1,62 @@
+# Verified Career Radar expansion batch researched on 2026-09-15.
+
+- id: intecso
+  name: Intecso Soluções e Inovações em Agronegócio
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://intecso.com.br/
+    note: The Curitiba laboratory develops analytical technologies and methods across chemistry, molecular biology, phytosanitary diagnostics and food/agricultural testing, with current hiring for analytical development and bioinformatics roles.
+  careers_url: https://www.linkedin.com/company/intecso/jobs/
+  tags:
+    - agtech
+    - laboratory
+    - analytical-development
+    - bioinformatics
+    - applied-rd
+  last_checked: 2026-09-15
+
+- id: mondelez-curitiba
+  name: Mondelēz International / Mondelēz Brasil
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://www.mondelezinternational.com/brazil/
+    note: Mondelēz operates one of its global Technology Centers in Curitiba and explicitly offers local careers in Research, Development, Quality and Innovation focused on products, ingredients and processes.
+  careers_url: https://www.mondelezinternational.com/careers/
+  tags:
+    - food
+    - consumer-products
+    - product-development
+    - industrial-rd
+  last_checked: 2026-09-15
+
+- id: latinex-brands
+  name: M. Dias Branco / Latinex Brands
+  organization_type: company
+  location:
+    city: São José dos Pinhais
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://br.indeed.com/viewjob?jk=0e10f2bf8aef87b4
+    note: A current Latinex R&D role in São José dos Pinhais covers new-product, process and packaging development, laboratory and industrial testing, innovation and technical documentation; Latinex is a M. Dias Branco operation in the municipality.
+  careers_url: https://mdiasbranco.gupy.io/
+  tags:
+    - food
+    - consumer-products
+    - product-development
+    - industrial-rd
+  last_checked: 2026-09-15
