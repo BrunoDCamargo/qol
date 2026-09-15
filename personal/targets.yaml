@@ -1,0 +1,98 @@
+snapshot_date: 2026-09-15
+
+targets:
+  strength_training:
+    related_qol:
+      - QOL-036
+    next_state: "Establish home strength training at least 1x/week without fixing session duration initially."
+    long_term_direction: "Progress toward resistance training at least 2x/week when sustainable."
+    rationale: "Highest explicitly ranked personal change priority; preferred modality is home strength training."
+
+  walking:
+    related_qol:
+      - QOL-033
+      - QOL-035
+    next_state: "Increase walking modestly from the current ~120 minutes/week without treating current activity as worthless."
+    long_term_direction: "Maintain regular walking as a stable part of the week."
+
+  sedentary_time:
+    related_qol:
+      - QOL-037
+    next_state: "Reduce occasional 1-2 hour uninterrupted sitting periods when practical."
+    long_term_direction: "Keep frequent movement breaks without making sitting reduction a top priority."
+
+  domestic_time:
+    related_qol:
+      - QOL-021
+      - QOL-022
+      - QOL-025
+      - QOL-100
+    next_state: "Trial periodic cleaning help plus prepared/delivered meals on selected days."
+    long_term_direction: "Use selective spending to reduce recurring unwanted domestic work when the time saved is genuinely redirected to valued activities."
+
+  gastrointestinal:
+    related_qol:
+      - QOL-095
+    next_state: "Observe symptom pattern/triggers more systematically and continue or complete professional investigation."
+    long_term_direction: "Reduce gastrointestinal interference with comfort and activities using diagnosis-specific management if/when established."
+    guardrail: "Do not assume IBS, food intolerance, or another diagnosis from nonspecific symptoms alone."
+
+  mental_health:
+    related_qol:
+      - QOL-059
+      - QOL-060
+    next_state: "Deepen assessment of current anxiety/rumination burden and how much it still affects attention, recovery, leisure, and life satisfaction despite ongoing care."
+    long_term_direction: "Maintain effective professional care while reducing clinically meaningful anxiety/rumination burden and improving day-to-day psychological well-being."
+    guardrail: "This profile does not recommend medication changes or judge treatment adequacy."
+
+  partner_time:
+    related_qol:
+      - QOL-062
+      - QOL-063
+    next_state: "Add approximately one intentional weekday evening together, in addition to weekend time."
+    long_term_direction: "Protect recurring high-quality relationship time without turning it into a rigid frequency metric."
+
+  friends:
+    related_qol:
+      - QOL-062
+      - QOL-063
+    next_state: "Aim for roughly one in-person friend contact per month if it feels valuable."
+    long_term_direction: "Maintain recurring contact with valued friends without creating unwanted social obligations."
+
+  free_evenings:
+    related_qol:
+      - QOL-021
+      - QOL-100
+    next_state: "Preserve 3 evenings/week without meaningful work, mandatory study, or substantial domestic chores."
+    long_term_direction: "Keep enough discretionary time for exercise, relationships, gaming/leisure, and obligation-free rest."
+
+  digital_attention:
+    related_qol:
+      - QOL-017
+      - QOL-020
+      - QOL-032
+    next_state: "Keep YouTube, Reddit, and ChatGPT available, but reduce their use as competing stimuli during demanding focus work."
+    long_term_direction: "Use digital media intentionally rather than pursue a generic detox or arbitrary screen-time reduction."
+
+  sleep_environment:
+    related_qol:
+      - QOL-009
+      - QOL-007
+    next_state: "Reduce heat-related sleep disruption and, if practical, nighttime disruption from the newly adopted cat while allowing adaptation to the household routine."
+    long_term_direction: "Maintain a comfortable sleep environment without pursuing universal temperature/noise ideals."
+
+  bruxism:
+    related_qol:
+      - QOL-073
+    next_state: "Continue existing dental management and monitor improvement."
+    long_term_direction: "Keep symptoms/dental damage controlled; reassess professionally if symptoms worsen."
+
+  self_esteem:
+    coverage_framework: WHOQOL
+    next_state: "Characterize what aspects of self-esteem or self-perception are affecting quality of life before choosing an intervention."
+    long_term_direction: "To be defined after focused research and personal assessment."
+
+  leisure:
+    coverage_framework: WHOQOL
+    next_state: "Protect leisure time that can be enjoyed without automatically converting it into work/study time."
+    long_term_direction: "Maintain gaming and other leisure as legitimate valued parts of life, while reducing obligation/procrastination conflict around them."
