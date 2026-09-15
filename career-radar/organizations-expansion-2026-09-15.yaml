@@ -125,3 +125,43 @@
     - industrial-automation
     - applied-rd
   last_checked: 2026-09-15
+
+- id: tether-data
+  name: Tether Data
+  organization_type: company
+  location:
+    country: Global
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://careers.tether.io/data
+    note: Tether Data maintains an internal AI research environment focused on frontier AI and peer-to-peer technology, with multiple current AI Research Engineer roles spanning LLM pre-training, multimodal learning, reinforcement learning and agentic post-training.
+  careers_url: https://careers.tether.io/
+  tags:
+    - artificial-intelligence
+    - machine-learning
+    - llm
+    - multimodal-ai
+    - research
+  last_checked: 2026-09-15
+
+- id: cloudwalk
+  name: CloudWalk
+  organization_type: company
+  location:
+    city: São Paulo
+    state: SP
+    country: Brasil
+  viable_from_curitiba:
+    - remote-brazil
+  rd_evidence:
+    url: https://www.cloudwalk.io/ai
+    note: CloudWalk maintains an internal AI R&D organization and research programs, and currently recruits fully remote machine-learning engineers in Brazil to design, train and deploy production ML models and intelligent systems.
+  careers_url: https://www.cloudwalk.io/about
+  tags:
+    - fintech
+    - artificial-intelligence
+    - machine-learning
+    - research
+    - product-development
+  last_checked: 2026-09-15
