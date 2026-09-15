@@ -1,0 +1,68 @@
+snapshot_date: 2026-09-15
+
+explicit_rankings:
+  change_priorities_q76:
+    scope: "Ranking among the four options explicitly offered in the audit."
+    ranking:
+      - rank: 1
+        key: strength_training
+        label: "Start strength training at home"
+        related_qol:
+          - QOL-036
+      - rank: 2
+        key: domestic_time
+        label: "Recover time from cleaning/cooking"
+        related_qol:
+          - QOL-021
+          - QOL-022
+          - QOL-025
+      - rank: 3
+        key: gastrointestinal
+        label: "Continue/complete work on chronic gastrointestinal symptoms"
+        related_qol:
+          - QOL-095
+      - rank: 4
+        key: bruxism
+        label: "Continue bruxism/dental management"
+        related_qol:
+          - QOL-073
+    caution: "Mental health was not one of the four options in this ranking and must not be assigned a numeric position from this result."
+
+  first_improvement_q49:
+    choice: strength_training
+    label: "Start strength training 1x/week before adding extra leisure hours or an extra relationship evening."
+    related_qol:
+      - QOL-036
+
+  top_improvements_q58:
+    selected:
+      - strength_training
+      - domestic_time
+    note: "Only two were selected even though the question requested three; no third priority should be invented."
+
+important_unranked_domains:
+  mental_health:
+    importance: high
+    note: "Anxiety/stress and rumination were later described as having important impact. This domain needs a direct comparison with the ranked priorities before assigning an ordinal rank."
+    related_qol:
+      - QOL-059
+      - QOL-060
+
+  self_esteem:
+    importance: moderate
+    note: "Reported moderate QoL impact; requires deeper WHOQOL-informed assessment before prioritization."
+
+  relationships:
+    importance: high_value
+    note: "Extra free time would be willingly spent with girlfriend; desired next state includes one intentional weekday evening together."
+    related_qol:
+      - QOL-062
+      - QOL-063
+
+  leisure:
+    importance: high_value
+    note: "Gaming/leisure is a valued use of discretionary time, not merely residual time."
+
+  friends:
+    importance: moderate
+    note: "Wants somewhat more friend contact, roughly monthly, but this is not a top change priority."
