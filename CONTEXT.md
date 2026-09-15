@@ -58,6 +58,15 @@ Whether the evidence supports the QoL Item proposition directly or the item appl
 **Reference**:
 A reusable `REF-*` identity for a citably distinct source or materially relevant version of a source. Its identity is not its URL.
 
+## Coverage
+
+**Coverage Framework**:
+An external structured model used to audit whether important quality-of-life domains or facets are represented in the knowledge base. A Coverage Framework may identify research gaps but does not independently establish causal Support Claims or Evidence Strength for a QoL Item.
+_Avoid_: Reference, Category, Topic View
+
+**Coverage Audit**:
+A comparison between a Coverage Framework and the current QoL Items used to identify strong, partial, or absent coverage and prioritize further research. A Coverage Audit is not itself a QoL Item or evidence of intervention effectiveness.
+
 ## Implementation
 
 **Implementation Option**:
@@ -100,7 +109,7 @@ A preserved `REF-*` identity that should no longer be used as current evidential
 An Implementation Option that currently represents a canonical way to enact one or more Active QoL Items.
 
 **Deprecated Implementation Option**:
-A preserved `IMP-*` identity that no longer represents an active canonical implementation. It records why it was deprecated and may point to zero, one, or several replacement Implementation Options.
+A preserved `IMP-*` identity that no longer represents a canonical implementation. It records why it was deprecated and may point to zero, one, or several replacement Implementation Options.
 
 ## Relationships
 
