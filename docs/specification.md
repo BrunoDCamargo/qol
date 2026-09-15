@@ -34,6 +34,18 @@ An Implementation Option is a concrete reusable way to enact one or more QoL Ite
 
 An Active Implementation Option must implement at least one resolvable Active QoL Item. The option does not acquire independent causal evidence merely because the parent QoL Item is evidence-backed. Deprecated options preserve identity and may link to valid Active replacements.
 
+## Implementation Selection Guides
+
+An Implementation Selection Guide is a non-canonical editorial aid for comparing concrete products or providers inside one existing Implementation Option class.
+
+A Selection Guide does not receive a stable identity, does not alter the parent `IMP-*` record, and does not contribute Evidence Claims or Evidence Strength to a `QOL-*` item. Product-testing sources cited by a guide support product-selection judgments only unless they separately satisfy the evidence requirements for a canonical QoL claim.
+
+Selection Guides may describe context modifiers, must-have criteria, performance criteria, safety or disqualifying conditions, usability, reliability, maintenance, recurring costs, privacy, connectivity, and other category-specific trade-offs.
+
+Stable selection criteria must remain distinct from volatile market data. Named products, providers, prices, stock, firmware, and similar market details may appear in optional dated and region-specific market snapshots. These snapshots are editorial content rather than canonical identities.
+
+The repository does not define a universal score across unrelated Implementation Options. Any future numeric scoring must be category-specific, method-versioned, and reproducible.
+
 ## Categories
 
 Categories are canonical retrieval tags, not exclusive ownership containers. Active QoL Items may use only Active registered Categories. Category lifecycle changes do not change QoL Item identities.
@@ -74,4 +86,4 @@ A releasable revision must satisfy all of the following:
 4. deterministic generated output matches the committed output with no drift;
 5. the complete structural test suite passes.
 
-These checks establish structural correctness. They do not substitute for human review of scientific claims, evidence interpretation, or editorial quality.
+These checks establish structural correctness. They do not substitute for human review of scientific claims, evidence interpretation, Selection Guide methodology, or editorial quality.

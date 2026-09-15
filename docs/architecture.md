@@ -12,11 +12,15 @@ The repository has one editable source for each kind of canonical knowledge:
 
 Topic Markdown contains editorial prose, but its complete `## Map` block is derived. Files under `generated/` are also derived. The retired root `catalog.md` and `references.md` registries are not part of the architecture.
 
+Implementation Selection Guides are editorial documents outside the canonical source-of-truth boundary. They reference canonical `IMP-*` records but are not loaded into repository state.
+
 ## Validation and snapshot
 
 `qol_kb.records` loads schema-validated canonical sources into one immutable `RepositorySnapshot`. Loading enforces identity, lifecycle, category, evidence-reference, replacement, relationship, and Implementation Option integrity before a snapshot is returned.
 
 The validator rejects unresolved or invalid cross-record links. This means generation never needs to compensate for malformed canonical state.
+
+Selection Guides are intentionally excluded from `RepositorySnapshot` in the first implementation. Their content remains human-reviewed editorial guidance until the project has enough examples to justify a schema or validator.
 
 ## Generated views
 
@@ -48,9 +52,32 @@ A Topic View is a presentation, not a knowledge registry. Contributors choose wh
 
 Links to individual QoL Items and References resolve to the canonical record files. Retired monolithic registry links are rejected rather than silently normalized.
 
+## Selection Guide boundary
+
+A Selection Guide answers a narrower implementation question than an `IMP-*` record: how to compare concrete candidates inside that implementation class.
+
+```text
+QOL-* evidence proposition
+          |
+          v
+IMP-* reusable implementation class
+          |
+          v
+Selection Guide editorial criteria
+          |
+          v
+optional dated market snapshot
+```
+
+The boundary is one-way. Selection Guides may use canonical records as context, but product ratings, prices, market picks, and review-site scores are never parsed back into `QOL-*`, `REF-*`, or `IMP-*` state.
+
+Stable evaluation criteria belong in the guide. Volatile product names, prices, stock, firmware, and provider details belong only in dated market snapshots when a snapshot is useful.
+
 ## Lifecycle and identity resolution
 
 Canonical identities remain addressable when Deprecated. Active records may only depend on lifecycle-compatible records defined by the specification and schemas. Replacement links and typed Item Relationships must resolve before generation succeeds.
+
+Selection Guides do not participate in canonical lifecycle state in the first implementation. If a parent Implementation Option is Deprecated, its linked guide requires human review and should not be treated as current implementation advice without revision.
 
 ## Release boundary
 
@@ -60,4 +87,4 @@ The release gate has three structural responsibilities:
 2. verify deterministic generated output has no drift;
 3. run the full structural test suite.
 
-Scientific interpretation remains a human review responsibility outside the structural gate.
+Scientific interpretation and Selection Guide methodology remain human review responsibilities outside the structural gate.
