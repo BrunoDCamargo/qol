@@ -60,3 +60,68 @@
     - product-development
     - industrial-rd
   last_checked: 2026-09-15
+
+- id: forvia-faurecia-quatro-barras
+  name: FORVIA Faurecia
+  organization_type: company
+  location:
+    city: Quatro Barras
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - hybrid
+  rd_evidence:
+    url: https://www.forvia.com/en/careers/work-forvia
+    note: FORVIA maintains dedicated R&D teams developing automotive products, materials and technologies; its official global-presence directory lists the Quatro Barras site, and a current IEL Paraná doctoral research project places advanced AI, IoT and manufacturing R&D at that site in hybrid mode.
+  careers_url: https://www.forvia.com/en/careers
+  tags:
+    - automotive
+    - manufacturing
+    - artificial-intelligence
+    - industrial-automation
+    - industrial-rd
+  last_checked: 2026-09-15
+
+- id: vidya-technology
+  name: Vidya Technology
+  organization_type: company
+  location:
+    city: Curitiba
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+    - hybrid
+  rd_evidence:
+    url: https://vidyatec.com/
+    note: The Curitiba deeptech documents more than a decade of R&D programs with Petrobras, CENPES, ANP, Tecnova and SENAI across AI, digital twins, corrosion monitoring, spatial computing, hardware and industrial software.
+  careers_url: https://atracaodetalentos.totvs.app/vidya/extended
+  tags:
+    - deeptech
+    - artificial-intelligence
+    - spatial-computing
+    - digital-twin
+    - industrial-software
+    - hardware
+  last_checked: 2026-09-15
+
+- id: bmr-medical
+  name: BMR Medical
+  organization_type: company
+  location:
+    city: Campina Grande do Sul
+    state: PR
+    country: Brasil
+  viable_from_curitiba:
+    - onsite
+  rd_evidence:
+    url: https://carreiras.iel.org.br/PR/vaga/bolsista/31352/pesquisador-doutorado-bmr-medical-adequacao-fabril-doutores-inovando-iel-pr
+    note: BMR Medical develops and manufactures medical devices and is currently running multiple doctoral innovation projects with IEL Paraná covering intelligent automation, production and logistics optimization, pharmaceutical-process implementation and regulated health-product development at its RMC plant.
+  careers_url: https://bmrmedical.com.br/empresa/carreira/
+  tags:
+    - medical-devices
+    - healthtech
+    - manufacturing
+    - industrial-automation
+    - applied-rd
+  last_checked: 2026-09-15
